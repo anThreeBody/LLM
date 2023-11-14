@@ -1,2 +1,2 @@
 OpenAI：
-Langchain：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
+Langchain：
