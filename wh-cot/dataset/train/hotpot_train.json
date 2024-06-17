@@ -1,0 +1,882 @@
+[
+    {
+        "cluster_id": 0,
+        "train_samples": [
+            {
+                "index": 89,
+                "question": "Minor league baseball games that were played between the rivalling teams of the Sooners and the Cowboys were played at the stadium formerly known as what?",
+                "pred_ans": "",
+                "gold_ans": "Drillers Stadium",
+                "cluster_dist": 0.8979820609092712
+            },
+            {
+                "index": 415,
+                "question": "Steve Denton and Albert Costa are both tennis players, which one began playing at the age if five?",
+                "pred_ans": "",
+                "gold_ans": "Costa",
+                "cluster_dist": 0.7909982204437256
+            },
+            {
+                "index": 262,
+                "question": "Dan Hurley is the brother of which head coach of Arizona State's men's basketball team?",
+                "pred_ans": "",
+                "gold_ans": "Robert Matthew Hurley",
+                "cluster_dist": 0.8763439655303955
+            },
+            {
+                "index": 301,
+                "question": "Who has won more olympic medals: Angelique Kerber or Am\u00e9lie Mauresmo?",
+                "pred_ans": "",
+                "gold_ans": "Am\u00e9lie Simone Mauresmo",
+                "cluster_dist": 0.9256118535995483
+            },
+            {
+                "index": 207,
+                "question": "In which city is a football club that uses Gabriel Barbosa?",
+                "pred_ans": "",
+                "gold_ans": "Milan",
+                "cluster_dist": 0.9003892540931702
+            },
+            {
+                "index": 100,
+                "question": "Who is a Brazilian mixed martial artist in the UFC who Namsaknoi Yudthagarngamtorn coached?",
+                "pred_ans": "",
+                "gold_ans": "Rafael Souza dos Anjos",
+                "cluster_dist": 0.8507882952690125
+            },
+            {
+                "index": 124,
+                "question": "What competition held in Kathmandu, Nepal did Julian Bolling compete in 1984?",
+                "pred_ans": "",
+                "gold_ans": "1984 South Asian Games",
+                "cluster_dist": 0.9794609546661377
+            },
+            {
+                "index": 146,
+                "question": "Which award David Hersey had got for Equus a play by Peter Shaffer ?",
+                "pred_ans": "",
+                "gold_ans": "Outstanding Lighting Design",
+                "cluster_dist": 0.9321271181106567
+            },
+            {
+                "index": 557,
+                "question": "In what country did Gildo Siopaes win a bronze medal for bobsledding in the 1964 Winter Olympics?",
+                "pred_ans": "",
+                "gold_ans": "Austria",
+                "cluster_dist": 0.8910284638404846
+            },
+            {
+                "index": 127,
+                "question": "What NIFL Premier Intermediate League team did Sean Connor play for?",
+                "pred_ans": "",
+                "gold_ans": "Distillery",
+                "cluster_dist": 0.7894340753555298
+            },
+            {
+                "index": 196,
+                "question": "Brian Olsen was the lst WEC heavyweight champion before the promotion company founded in what month purchased the organization?",
+                "pred_ans": "",
+                "gold_ans": "January 2001",
+                "cluster_dist": 0.8935781121253967
+            },
+            {
+                "index": 40,
+                "question": "Jalen Jones plays basketball for an NBA team that plays their home games in what arena?",
+                "pred_ans": "",
+                "gold_ans": "Smoothie King Center",
+                "cluster_dist": 0.7960267066955566
+            },
+            {
+                "index": 72,
+                "question": "Which player, who also played for the New Jersey Nets and the Golden State Warriors, finished third in the league with 231 three-point field goals during the 1995-96 Atlanta Hawks season?",
+                "pred_ans": "",
+                "gold_ans": "Mookie Blaylock",
+                "cluster_dist": 0.8010269999504089
+            },
+            {
+                "index": 530,
+                "question": "Which FC Barcelona signee was a contender for the Rookie of the Year Award when he played for the Timberwolves?",
+                "pred_ans": "",
+                "gold_ans": "Ricard Rubio i Vives",
+                "cluster_dist": 0.815843403339386
+            },
+            {
+                "index": 125,
+                "question": "The Nike Mercurial Vapor is endorsed by a Stoke City football player who also plays for what national team?",
+                "pred_ans": "",
+                "gold_ans": "the Switzerland national team",
+                "cluster_dist": 0.8795952796936035
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "train_samples": [
+            {
+                "index": 404,
+                "question": "Among the cast for \"Suicide Squad\", who has also appeared in \"Flags of Our Fathers\"?",
+                "pred_ans": "",
+                "gold_ans": "Scott Eastwood",
+                "cluster_dist": 0.8915507793426514
+            },
+            {
+                "index": 139,
+                "question": "What actor replaced the Welch actor born in 1978 who played Robin Hood in the first season of \"Once upon a Time\"?",
+                "pred_ans": "",
+                "gold_ans": "Sean Maguire",
+                "cluster_dist": 0.8814187049865723
+            },
+            {
+                "index": 192,
+                "question": "Armie Hammer stars as Oliver in a film directed by who ?",
+                "pred_ans": "",
+                "gold_ans": "Luca Guadagnino",
+                "cluster_dist": 0.8691092729568481
+            },
+            {
+                "index": 243,
+                "question": "Who did the actor who played a bellhop in Dead Heat on a Merry-Go-Round play in Star Wars?",
+                "pred_ans": "",
+                "gold_ans": "Han Solo",
+                "cluster_dist": 0.8333354592323303
+            },
+            {
+                "index": 102,
+                "question": "Are the films Gasland from 2010 and Pumping Iron from 1977 both documentaries?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8453150391578674
+            },
+            {
+                "index": 245,
+                "question": "Which American actor portray Steve Urkel in \"Family Matters\"",
+                "pred_ans": "",
+                "gold_ans": "Jaleel Ahmad White",
+                "cluster_dist": 0.9296914339065552
+            },
+            {
+                "index": 81,
+                "question": "Olivia DeJonge starred in an American horror film directed by Shyamalan called what",
+                "pred_ans": "",
+                "gold_ans": "The Visit",
+                "cluster_dist": 0.9170292615890503
+            },
+            {
+                "index": 362,
+                "question": "When was the earliest film of High School and The Thorn in the Heart shot?",
+                "pred_ans": "",
+                "gold_ans": "1968",
+                "cluster_dist": 0.8492999076843262
+            },
+            {
+                "index": 399,
+                "question": "Kam Heskin plays Paige Morgan in a 2004 film directed by who?",
+                "pred_ans": "",
+                "gold_ans": "Martha Coolidge",
+                "cluster_dist": 0.8827979564666748
+            },
+            {
+                "index": 2,
+                "question": "Which actor does American Beauty and American Beauty have in common?",
+                "pred_ans": "",
+                "gold_ans": "Kevin Spacey",
+                "cluster_dist": 0.8525569438934326
+            },
+            {
+                "index": 449,
+                "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+                "pred_ans": "",
+                "gold_ans": "Ann",
+                "cluster_dist": 0.8440986275672913
+            },
+            {
+                "index": 257,
+                "question": "What American broadcasting company broadcasted the comedy show hosted by Emma Willmann?",
+                "pred_ans": "",
+                "gold_ans": "Sirius XM Holdings",
+                "cluster_dist": 0.9040922522544861
+            },
+            {
+                "index": 67,
+                "question": "Any Questions for Ben? was directed by which Australian producer and actor?",
+                "pred_ans": "",
+                "gold_ans": "Robert Ian \"Rob\" Sitch",
+                "cluster_dist": 0.8315407633781433
+            },
+            {
+                "index": 371,
+                "question": "What ABC television series was inspired by a 2011 film and cast Dominic Cooper as young Howard Stark?",
+                "pred_ans": "",
+                "gold_ans": "Agent Carter",
+                "cluster_dist": 0.8786671757698059
+            },
+            {
+                "index": 120,
+                "question": "The 249th episode of \"The Simpsons\" was aired on what date?",
+                "pred_ans": "",
+                "gold_ans": "November 1, 2000",
+                "cluster_dist": 0.9906712174415588
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "train_samples": [
+            {
+                "index": 149,
+                "question": "Do Lush and P.O.D. both consist of four band members?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7862957715988159
+            },
+            {
+                "index": 370,
+                "question": "Which record label released Van Morrison's \"I've Been Working\" on the album \"His Band and the Street Choir\"?",
+                "pred_ans": "",
+                "gold_ans": "Warner Bros",
+                "cluster_dist": 0.8285379409790039
+            },
+            {
+                "index": 77,
+                "question": "Who wrote the lyrics for Linda Eder's Broadway debut?",
+                "pred_ans": "",
+                "gold_ans": "Wildhorn, Bricusse and Cuden",
+                "cluster_dist": 0.8971152305603027
+            },
+            {
+                "index": 45,
+                "question": "Who has released more solo albums, Nick Carter or Brady Seals?",
+                "pred_ans": "",
+                "gold_ans": "Brady Seals",
+                "cluster_dist": 0.8270391225814819
+            },
+            {
+                "index": 41,
+                "question": "The On Tour Forever album gave Blues Traveler the opportunity to display what musical trademark?",
+                "pred_ans": "",
+                "gold_ans": "extensive use of segues",
+                "cluster_dist": 0.7959087491035461
+            },
+            {
+                "index": 226,
+                "question": "What song was number 4 on the charts when a song from FutureSex/LoveSounds was number 1?",
+                "pred_ans": "",
+                "gold_ans": "Rudebox",
+                "cluster_dist": 0.7949480414390564
+            },
+            {
+                "index": 68,
+                "question": "What American indie rock group first had Jesse Sandoval as the drummer and now has Jon Sortland on drums?",
+                "pred_ans": "",
+                "gold_ans": "The Shins",
+                "cluster_dist": 0.7500684261322021
+            },
+            {
+                "index": 263,
+                "question": "Rosi Golan's songs were featured in commercials for a brand of Artsana, that's been working for over 50 years, and is present in how many countries?",
+                "pred_ans": "",
+                "gold_ans": "more than 120 countries",
+                "cluster_dist": 0.8877191543579102
+            },
+            {
+                "index": 293,
+                "question": "Do the bands 3OH!3 and Moonbabies have the same number of members?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8748926520347595
+            },
+            {
+                "index": 204,
+                "question": "John ruskin named his album due to a removal of what?",
+                "pred_ans": "",
+                "gold_ans": "marker pen",
+                "cluster_dist": 0.8498374819755554
+            },
+            {
+                "index": 342,
+                "question": "In which song was written by singer-songwriter Taylor Swift and shares the optimistic lyrical message to a song called \"Yodel It!\"?",
+                "pred_ans": "",
+                "gold_ans": "Shake It Off",
+                "cluster_dist": 0.9444329142570496
+            },
+            {
+                "index": 499,
+                "question": "What band was the man who compiled the tracks for The Early Years a part of when they were inducted into the Rock and Roll Hall of Fame?",
+                "pred_ans": "",
+                "gold_ans": "Deep Purple",
+                "cluster_dist": 0.751213550567627
+            },
+            {
+                "index": 11,
+                "question": "Who released the song \"With or Without You\" first, Jai McDowall or U2?",
+                "pred_ans": "",
+                "gold_ans": "U2",
+                "cluster_dist": 0.8145467042922974
+            },
+            {
+                "index": 335,
+                "question": "Liz Rose has co-written songs with which artist including \"White Horse\" and \"You Belong with Me\"?",
+                "pred_ans": "",
+                "gold_ans": "Taylor Swift",
+                "cluster_dist": 0.8376052975654602
+            },
+            {
+                "index": 97,
+                "question": "Live Wire Radio will possibly be considered as a replacement for a variety show created in what year?",
+                "pred_ans": "",
+                "gold_ans": "1974",
+                "cluster_dist": 0.9823489785194397
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "train_samples": [
+            {
+                "index": 82,
+                "question": "Who conducted the negotiations  with the owners and the longest serving commandant of Auschwitz concentration and extermination camp?",
+                "pred_ans": "",
+                "gold_ans": "Rudolf H\u00f6ss",
+                "cluster_dist": 0.861842155456543
+            },
+            {
+                "index": 61,
+                "question": "Who was the great grandfather of Franklin Seaver Pratt's wife?",
+                "pred_ans": "",
+                "gold_ans": "Kalokuokamaile",
+                "cluster_dist": 0.8590559363365173
+            },
+            {
+                "index": 455,
+                "question": "Which was secretary to President Richard Nixon: Rose Mary Woods or H. R. Haldeman?",
+                "pred_ans": "",
+                "gold_ans": "Rose Mary Woods",
+                "cluster_dist": 0.8740738034248352
+            },
+            {
+                "index": 350,
+                "question": "Who lived longer Ellen Glasgow or N. Scott Momaday ?",
+                "pred_ans": "",
+                "gold_ans": "N. Scott Momaday",
+                "cluster_dist": 0.8869163990020752
+            },
+            {
+                "index": 438,
+                "question": "The Lewis and Clark Memorial Column is dedicated to Meriwether Lewis, best known for his role as the leader of which Lewis and Clark Expedition?",
+                "pred_ans": "",
+                "gold_ans": "Corps of Discovery",
+                "cluster_dist": 0.92058265209198
+            },
+            {
+                "index": 123,
+                "question": "When was the advisor of Alpher\u2013Bethe\u2013Gamow paper died?",
+                "pred_ans": "",
+                "gold_ans": "August 19, 1968",
+                "cluster_dist": 0.9297512173652649
+            },
+            {
+                "index": 381,
+                "question": "How many periods in office were held by the British Prime Minister who led the \"Who? Who?\" ministry?",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.9222844839096069
+            },
+            {
+                "index": 119,
+                "question": "What company did Rex Maughan aquire?",
+                "pred_ans": "",
+                "gold_ans": "Aloe Vera of America",
+                "cluster_dist": 0.8735583424568176
+            },
+            {
+                "index": 93,
+                "question": "Which French aristocrat and military officer who fought in the American Revolutionary War visited this historic home located at Enfield, Halifax County, North Carolina, known as The Cellar?",
+                "pred_ans": "",
+                "gold_ans": "Marquis de Lafayette",
+                "cluster_dist": 0.9094061255455017
+            },
+            {
+                "index": 389,
+                "question": "In which election did Norm Coleman won to become the last republican elected as of 2017?",
+                "pred_ans": "",
+                "gold_ans": "2002",
+                "cluster_dist": 0.9554980397224426
+            },
+            {
+                "index": 52,
+                "question": "Do both Korematsu v. United States and Chaplinsky v. New Hampshire cases regard the rights of U. S. citizens?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9237695932388306
+            },
+            {
+                "index": 380,
+                "question": "Socialist conferences were held with what countries that opposed the Central Powers in the First World War?",
+                "pred_ans": "",
+                "gold_ans": "The Allies of World War I",
+                "cluster_dist": 0.9580771923065186
+            },
+            {
+                "index": 444,
+                "question": "What Congressional district featured Republican nomiee Willie Vaden in 2004, 2006, and 2008?",
+                "pred_ans": "",
+                "gold_ans": "Texas's 27th congressional district",
+                "cluster_dist": 0.9007784128189087
+            },
+            {
+                "index": 215,
+                "question": "Where did the hijacked plane rammed by Heather Penney crash? ",
+                "pred_ans": "",
+                "gold_ans": "Pennsylvania",
+                "cluster_dist": 0.9277164936065674
+            },
+            {
+                "index": 55,
+                "question": "The Distribution of Industry act was passed by a man who was prime minister when? ",
+                "pred_ans": "",
+                "gold_ans": "1945 to 1951",
+                "cluster_dist": 0.9386924505233765
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "train_samples": [
+            {
+                "index": 117,
+                "question": "Spawn, a fictional character who Mustafa Shakir has expressed interest in playing, was created by?",
+                "pred_ans": "",
+                "gold_ans": "Todd McFarlane",
+                "cluster_dist": 0.9148617386817932
+            },
+            {
+                "index": 95,
+                "question": "Which member of The New Russian School was both a doctor and a chemist besides being a composer?",
+                "pred_ans": "",
+                "gold_ans": "Alexander Porfiryevich Borodin",
+                "cluster_dist": 0.8492668867111206
+            },
+            {
+                "index": 451,
+                "question": "The Grieg crater is named for a Norwegian composer who composed during what era?",
+                "pred_ans": "",
+                "gold_ans": "Romantic",
+                "cluster_dist": 0.9295701384544373
+            },
+            {
+                "index": 179,
+                "question": "Were Ulrich Walter and L\u00e9opold Eyharts both from Germany?",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8631461262702942
+            },
+            {
+                "index": 265,
+                "question": "Which comic book was also written by the writer of Crossed?",
+                "pred_ans": "",
+                "gold_ans": "the Vertigo series \"Preacher\"",
+                "cluster_dist": 0.9833486080169678
+            },
+            {
+                "index": 17,
+                "question": "Armageddon in Retrospect was written by the author who was best known for what 1969 satire novel?",
+                "pred_ans": "",
+                "gold_ans": "Slaughterhouse-Five",
+                "cluster_dist": 0.972762942314148
+            },
+            {
+                "index": 373,
+                "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8784503936767578
+            },
+            {
+                "index": 354,
+                "question": "What is the nationality of the dancer who partnered Tom Chambers in the sixth season of Strictly Come Dancing ?",
+                "pred_ans": "",
+                "gold_ans": "Danish",
+                "cluster_dist": 0.9280813932418823
+            },
+            {
+                "index": 138,
+                "question": "The alcoholic drink that shares a name with Quintessentially Unreal's 1996 album is commonly reffered to in historical literature as what?",
+                "pred_ans": "",
+                "gold_ans": "the green fairy",
+                "cluster_dist": 0.9197477102279663
+            },
+            {
+                "index": 246,
+                "question": "Who was born first, Liam Cunningham or Michael Fassbender?",
+                "pred_ans": "",
+                "gold_ans": "Liam Cunningham",
+                "cluster_dist": 0.8700005412101746
+            },
+            {
+                "index": 514,
+                "question": "The terminology of algebraic geometry changed drastically with the introduction of the general methods, initiated by a mathematician of what nationality?",
+                "pred_ans": "",
+                "gold_ans": "German",
+                "cluster_dist": 0.9961837530136108
+            },
+            {
+                "index": 280,
+                "question": "What region of Italy was Giorgio Pini born in?",
+                "pred_ans": "",
+                "gold_ans": "Emilia-Romagna Region",
+                "cluster_dist": 0.91253262758255
+            },
+            {
+                "index": 289,
+                "question": "How did Emilie du Chatelet, Voltaire's love, contribute to the basic laws of physics?",
+                "pred_ans": "",
+                "gold_ans": "commentary on Isaac Newton's book \"Principia\"",
+                "cluster_dist": 0.9031533002853394
+            },
+            {
+                "index": 550,
+                "question": "Akademik Lomonosov was named after a Russian polymath, scientist, and writer, who discovered the atmosphere of what planet?",
+                "pred_ans": "",
+                "gold_ans": "Venus",
+                "cluster_dist": 0.9283266663551331
+            },
+            {
+                "index": 180,
+                "question": "Who has a wider scope of profession, Christopher Guest or  Roman Karmen?",
+                "pred_ans": "",
+                "gold_ans": "Christopher Haden-Guest",
+                "cluster_dist": 0.8876582980155945
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "train_samples": [
+            {
+                "index": 305,
+                "question": "What Minnesota county is the University of Minnesota in?",
+                "pred_ans": "",
+                "gold_ans": "Hennepin County",
+                "cluster_dist": 0.9520226120948792
+            },
+            {
+                "index": 383,
+                "question": "What river does Waterloo Bridge and London Eye have in common?",
+                "pred_ans": "",
+                "gold_ans": "Thames",
+                "cluster_dist": 0.8795268535614014
+            },
+            {
+                "index": 242,
+                "question": "What festival is held every June in Bartlesville, Oklahoma?",
+                "pred_ans": "",
+                "gold_ans": "OK Mozart",
+                "cluster_dist": 0.925624668598175
+            },
+            {
+                "index": 37,
+                "question": "What was the capital of India when the Taj Mahal was commissioned?",
+                "pred_ans": "",
+                "gold_ans": "Agra",
+                "cluster_dist": 0.9211236834526062
+            },
+            {
+                "index": 54,
+                "question": "What country is the theme park served by the Huis Ten Bosch train service themed on?",
+                "pred_ans": "",
+                "gold_ans": "Netherlands",
+                "cluster_dist": 0.8803023099899292
+            },
+            {
+                "index": 331,
+                "question": "How many miles west of Phoenix, Arizona is the base where the 63d Fighter Squadron is assigned?",
+                "pred_ans": "",
+                "gold_ans": "15",
+                "cluster_dist": 0.8684515953063965
+            },
+            {
+                "index": 422,
+                "question": "Q1: Which mountain is located in China, Kirat Chuli or Kangpenqing?",
+                "pred_ans": "",
+                "gold_ans": "Kangpenqing (also Gang Benchhen) is a mountain in the Baiku Himalayas of Tibet, China.",
+                "cluster_dist": 0.9106160998344421
+            },
+            {
+                "index": 163,
+                "question": "St Dionis Backchurch was rebuilt after a major conflagration that consumed how many parish churches?",
+                "pred_ans": "",
+                "gold_ans": "87",
+                "cluster_dist": 0.9533190727233887
+            },
+            {
+                "index": 347,
+                "question": "Sachem Central School District encompasses the CDPs that include the hamlet in which New York county?",
+                "pred_ans": "",
+                "gold_ans": "Suffolk",
+                "cluster_dist": 0.9632751941680908
+            },
+            {
+                "index": 147,
+                "question": "What mine was operated by Royal Oak Mines at at earlier date, Kemess Mine or Colomac Mine?",
+                "pred_ans": "",
+                "gold_ans": "The Colomac Mine",
+                "cluster_dist": 0.9249687790870667
+            },
+            {
+                "index": 48,
+                "question": "The Atik Valide Mosque and Valens Aqueduct are found in what country?",
+                "pred_ans": "",
+                "gold_ans": "Turkey",
+                "cluster_dist": 0.9334881901741028
+            },
+            {
+                "index": 429,
+                "question": "How many rooms does the Tropicana Hotel have where the 7th annual Adult Video News awards ceremony were held in 1980?",
+                "pred_ans": "",
+                "gold_ans": "1,467 rooms",
+                "cluster_dist": 0.9400066137313843
+            },
+            {
+                "index": 279,
+                "question": "The Memphis Hustle are based in a suburb of a city with a population of what in 2010?",
+                "pred_ans": "",
+                "gold_ans": "48,982",
+                "cluster_dist": 0.8963536620140076
+            },
+            {
+                "index": 432,
+                "question": "\"The Empire Builder\"'s Columbia River Subdivision was part of which line?",
+                "pred_ans": "",
+                "gold_ans": "Great Northern Railway",
+                "cluster_dist": 0.9512357115745544
+            },
+            {
+                "index": 319,
+                "question": "What is 25 miles south of Groom Lake?",
+                "pred_ans": "",
+                "gold_ans": "Rachel, Nevada",
+                "cluster_dist": 0.8174040913581848
+            }
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "train_samples": [
+            {
+                "index": 330,
+                "question": "What is a common feature of both the Iron Rattler's inversion and a barrel roll?",
+                "pred_ans": "",
+                "gold_ans": "combination of a loop and a roll",
+                "cluster_dist": 0.9974123239517212
+            },
+            {
+                "index": 194,
+                "question": "Mariana Kovacevic used horse placenta treatment to heal the captian of what team?",
+                "pred_ans": "",
+                "gold_ans": "Ghanaian national team",
+                "cluster_dist": 0.9220563769340515
+            },
+            {
+                "index": 323,
+                "question": "What edible, juicy fruit is grown on a deciduous tree called 'pesco' in Italian?",
+                "pred_ans": "",
+                "gold_ans": "peach",
+                "cluster_dist": 0.9067684412002563
+            },
+            {
+                "index": 134,
+                "question": "In Ancient Egyptian religion how would a citizen be weighted to decide if they where worthy of damnation and would face the torment in the lake of fire ?",
+                "pred_ans": "",
+                "gold_ans": "against the feather of truth",
+                "cluster_dist": 0.9990410804748535
+            },
+            {
+                "index": 374,
+                "question": "Hina is derived from a dye prepared in what areas?",
+                "pred_ans": "",
+                "gold_ans": "South Asia and the Middle East",
+                "cluster_dist": 0.9586278796195984
+            },
+            {
+                "index": 292,
+                "question": " The name \"Mountbatten-Windsor\" applies to male-line descendants of the Queen without royal styles and titles which is a Eurpean dynasty resulting in what family?",
+                "pred_ans": "",
+                "gold_ans": "Mountbatten family",
+                "cluster_dist": 0.9354918003082275
+            },
+            {
+                "index": 401,
+                "question": "What substance is always in a trap to prevent the passage of anything from either direction,  even sewer gases? ",
+                "pred_ans": "",
+                "gold_ans": "water",
+                "cluster_dist": 1.0244641304016113
+            },
+            {
+                "index": 99,
+                "question": "What type of art does The Consul and Arlecchino have in common?",
+                "pred_ans": "",
+                "gold_ans": "music",
+                "cluster_dist": 0.8623928427696228
+            },
+            {
+                "index": 367,
+                "question": "Are Tetrastigma and Spruce both types of plants?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8741695284843445
+            },
+            {
+                "index": 18,
+                "question": "What class of instrument does Apatim Majumdar play?",
+                "pred_ans": "",
+                "gold_ans": "strings",
+                "cluster_dist": 0.9006568789482117
+            },
+            {
+                "index": 56,
+                "question": "What Cantonese slang term can mean both \"ghost man\" and to refer to Westerners?",
+                "pred_ans": "",
+                "gold_ans": "Gweilo",
+                "cluster_dist": 0.990203857421875
+            },
+            {
+                "index": 27,
+                "question": "During what war were the Russia-United Kingdom relations in a state of rivalry after the abdication of Emperor Nicholas II? ",
+                "pred_ans": "",
+                "gold_ans": "the Cold War (1947\u201391)",
+                "cluster_dist": 0.9802378416061401
+            },
+            {
+                "index": 101,
+                "question": "Which has more species, Lysiloma or Hydrocotyle umbellata?",
+                "pred_ans": "",
+                "gold_ans": "Lysiloma",
+                "cluster_dist": 0.8614543080329895
+            },
+            {
+                "index": 4,
+                "question": "Between Greyia and Calibanus, which genus contains more species?",
+                "pred_ans": "",
+                "gold_ans": "Greyia",
+                "cluster_dist": 0.8493955731391907
+            },
+            {
+                "index": 338,
+                "question": "The Battle of Cambrai took place during a series of offensives that ended on what date?",
+                "pred_ans": "",
+                "gold_ans": "11 November 1918",
+                "cluster_dist": 0.9229285717010498
+            }
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "train_samples": [
+            {
+                "index": 464,
+                "question": "which university was founded first Duke University or Tufts University?",
+                "pred_ans": "",
+                "gold_ans": "Duke University",
+                "cluster_dist": 0.8884546756744385
+            },
+            {
+                "index": 87,
+                "question": "The town of Sinclair, West Virginia, is named after the founder of the local oil drilling company. What is on Sinclair Oil's famous logo?",
+                "pred_ans": "",
+                "gold_ans": "dinosaur",
+                "cluster_dist": 0.8833793997764587
+            },
+            {
+                "index": 173,
+                "question": "What is the brand who makes canned meats that had its own cook off in Austin until 2007?",
+                "pred_ans": "",
+                "gold_ans": "Hormel Foods Corporation",
+                "cluster_dist": 0.878387987613678
+            },
+            {
+                "index": 418,
+                "question": "What corporation does the company that publishes the monthly magazine that focuses almost exclusively on the Western United States and featured photograph by Julius Shulman of a home designed by Rodney Walker belong to?",
+                "pred_ans": "",
+                "gold_ans": "Southern Progress Corporation",
+                "cluster_dist": 0.812207818031311
+            },
+            {
+                "index": 392,
+                "question": "Who programmed a cartridge-based development system made by a company noted for authoring Atari's BASIC?",
+                "pred_ans": "",
+                "gold_ans": "Kathleen O'Brien",
+                "cluster_dist": 0.9165429472923279
+            },
+            {
+                "index": 249,
+                "question": "Are both \"Cooking Light\" and \"Vibe\" magazines?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9668763279914856
+            },
+            {
+                "index": 318,
+                "question": "Are Northwestern University and Middlebury College both private schools?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9131092429161072
+            },
+            {
+                "index": 430,
+                "question": "What company produced both The Little Mermaid and The Strongest Man in the World?",
+                "pred_ans": "",
+                "gold_ans": "Walt Disney",
+                "cluster_dist": 0.9117781519889832
+            },
+            {
+                "index": 83,
+                "question": "What genre is the novel from which the fast-food restaurant specializing in seafood derives its name?",
+                "pred_ans": "",
+                "gold_ans": "an adventure novel",
+                "cluster_dist": 0.9705173969268799
+            },
+            {
+                "index": 424,
+                "question": "Los Angeles Historic-Cultural Monument (No. 139) hosted an event by what organization on Oct 12, 1991?",
+                "pred_ans": "",
+                "gold_ans": "IFBB professional bodybuilding",
+                "cluster_dist": 0.9671949744224548
+            },
+            {
+                "index": 406,
+                "question": " Hamilton Evans \"Tony\" James is the COO and director of the largest alternative investment firm in what?",
+                "pred_ans": "",
+                "gold_ans": "the world",
+                "cluster_dist": 0.8852688074111938
+            },
+            {
+                "index": 121,
+                "question": "Which was built first Woolworth Building or 1 New York Plaza?",
+                "pred_ans": "",
+                "gold_ans": "Woolworth Building",
+                "cluster_dist": 0.9265164136886597
+            },
+            {
+                "index": 110,
+                "question": "UFO Magazine covers what subject named for Charles Hoy Fort?",
+                "pred_ans": "",
+                "gold_ans": "Fortean",
+                "cluster_dist": 0.95673006772995
+            },
+            {
+                "index": 368,
+                "question": "what air force based named in honor of Carl Benjamin \"Ben\" Eielson is located 26 miles southeast of Fairbanks, Alaska?",
+                "pred_ans": "",
+                "gold_ans": "Eielson Air Force Base",
+                "cluster_dist": 0.9206331372261047
+            },
+            {
+                "index": 450,
+                "question": "Were both magazines Diva and Cleo founded in the same country?",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8672524094581604
+            }
+        ]
+    }
+]

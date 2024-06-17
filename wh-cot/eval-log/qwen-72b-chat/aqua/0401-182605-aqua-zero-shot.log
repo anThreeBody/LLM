@@ -1,0 +1,1651 @@
+*****************************
+2024-04-01 18:26:05
+Namespace(model='qwen-72b-chat', task='aqua', test_data_size=120, demo_num=3, method='zero-shot', temperature=0.1, top_p=0.6)
+*****************************
+*****************************
+Input:
+Question:On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is: Answer Choices: (A) 10 (B) 11 (C) 12 (D) 13 (E) 14
+Answer: Among A through E, the answer is
+Output:
+(C) 12
+Output_clean:C
+answer:A
+correct:0
+已完成：1
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.) Answer Choices: (A) 4 (B) 7 (C) 10 (D) 14 (E) 21
+Answer: Among A through E, the answer is
+Output:
+The greatest common divisor of 28 and 98 is 14, which means that we can make a maximum of 14 bouquets with no flowers left over. Therefore, the answer is D.
+Output_clean:D
+answer:D
+correct:1
+已完成：2
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:If one third of 3/4 of a number is 21. Then, find the number? Answer Choices: (A) 84 (B) 66 (C) 28 (D) 19 (E) 11
+Answer: Among A through E, the answer is
+Output:
+A. 84
+Output_clean:A
+answer:A
+correct:1
+已完成：3
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held? Answer Choices: (A) 10!/3 (B) 10!/6 (C) 10!/2 (D) 10!/4 (E) 10!/5
+Answer: Among A through E, the answer is
+Output:
+(C) 10!/2
+Output_clean:C
+answer:B
+correct:0
+已完成：4
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:M = abc is a three digit number and N = cba, if M > N and M - N + 396c = 990. Then how many values of M are more than 300. Answer Choices: (A) 20 (B) 30 (C) 40 (D) 200 (E) None
+Answer: Among A through E, the answer is
+Output:
+E. None.
+Output_clean:E
+answer:A
+correct:0
+已完成：5
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:The sum of the digits of a three digit number is 17, and the sum of the squares of its digits is 109. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number. Answer Choices: (A) 368 (B) 377 (C) 288 (D) 997 (E) 112
+Answer: Among A through E, the answer is
+Output:
+B
+Output_clean:B
+answer:A
+correct:0
+已完成：6
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:If Q, a positive integer, has 5 factors, which of the following must be true about Q?
+Answer: Among A through E, the answer is
+Output:
+
+
+I'm sorry, but you have not provided any options (A through E) for me to choose from. Please provide the options so that I can give you the correct answer.
+Output_clean:A
+answer:B
+correct:0
+已完成：7
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:Joe's age, Joe's sister's age and Joe’s fathers age sums up to 100. When Joe is as old as his father, Joe's sister will be twice as old as now. When Joe is as old as his father then his father is twice as old as when his sister was as old as her father. Find the age of Joe's father? Answer Choices: (A) 45 (B) 48 (C) 50 (D) 55 (E) 58
+Answer: Among A through E, the answer is
+Output:
+C. 50
+Output_clean:C
+answer:C
+correct:1
+已完成：8
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are : Answer Choices: (A) 18 (B) 20 (C) 25 (D) 26 (E) 27
+Answer: Among A through E, the answer is
+Output:
+(C) 25
+Output_clean:C
+answer:C
+correct:1
+已完成：9
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:If 6x - y = 24 and y = 3x, what is the value of x? Answer Choices: (A) 8 (B) 9 (C) 10 (D) 11 (E) 12
+Answer: Among A through E, the answer is
+Output:
+E. 12
+Output_clean:E
+answer:A
+correct:0
+已完成：10
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:The greatest common factor of two positive integers is 11. The least common multiple of these two integers is 7700. If one of the integers is 350, what is the other? Answer Choices: (A) 242 (B) 308 (C) 352 (D) 412 (E) 456
+Answer: Among A through E, the answer is
+Output:
+B. Let's reason about the multi-choice question.
+The key relation here is that for any two integers x and y, their product equals the product of their GCF and their LCM: xy = GCF(x,y)*LCM(x,y). Thus, if we let x=350 and y be the integer we're looking for, then 350*y = 11*7700, from which it follows that y=242.
+
+Therefore, the answer is (B).
+Output_clean:B
+answer:A
+correct:0
+已完成：11
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:How many ways A boy can reach the top of stairs which contain 10 steps, when he can take either one or two steps every time? Answer Choices: (A) 88 (B) 89 (C) 90 (D) 91 (E) 92
+Answer: Among A through E, the answer is
+Output:
+A. 88
+Output_clean:A
+answer:B
+correct:0
+已完成：12
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:What is the largest integral value of 'k' for which the quadratic equation x2 - 5x + k = 0 will have two real and distinct roots? Answer Choices: (A) 9 (B) 7 (C) 3 (D) 8 (E) 12
+Answer: Among A through E, the answer is
+Output:
+The correct answer is (D). To have two real and distinct roots, the discriminant b^2 - 4ac must be greater than zero. In this case, we have a = 1, b = -5, and c = k. So, we need (-5)^2 - 4(1)(k) > 0, or 25 - 4k > 0. Solving for k, we get that k < 25/4, which is approximately 6.25. The largest integer less than 6.25 is 6, so the answer is (D).
+Output_clean:D
+answer:C
+correct:0
+已完成：13
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups? Answer Choices: (A) 90 (B) 105 (C) 126 (D) 252 (E) 525
+Answer: Among A through E, the answer is
+Output:
+C.
+Output_clean:C
+answer:D
+correct:0
+已完成：14
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Assistants are needed to prepare for preparation. Each helper can make either 2 large cakes or 35 small cakes/hr. The kitchen is available for 3 hours and 20 large cakes & 700 small cakes are needed. How many helpers are required? Answer Choices: (A) 8 (B) 10 (C) 12 (D) 15 (E) 19
+Answer: Among A through E, the answer is
+Output:
+C. 12
+Output_clean:C
+answer:B
+correct:0
+已完成：15
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. The smaller number is? Answer Choices: (A) 21 (B) 33 (C) 35 (D) 42 (E) 58
+Answer: Among A through E, the answer is
+Output:
+The correct answer is B.
+Output_clean:B
+answer:B
+correct:1
+已完成：16
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.
+Answer: Among A through E, the answer is
+Output:
+E. The number is 23456. When a 1 is placed after it, the number becomes 234561, which is three times larger than 123456, which is the number obtained by placing a 1 before it.
+Output_clean:E
+answer:A
+correct:0
+已完成：17
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:A two digit number exceeds the sum of the digits of that number by 18. If the digit at the unit's place is double the digit in the ten's place, what is the number? Answer Choices: (A) 12 (B) 24 (C) 42 (D) 48 (E) 49
+Answer: Among A through E, the answer is
+Output:
+C.
+Output_clean:C
+answer:B
+correct:0
+已完成：18
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3? Answer Choices: (A) 277 (B) 288 (C) 200 (D) 277 (E) 168
+Answer: Among A through E, the answer is
+Output:
+B.
+Output_clean:B
+answer:E
+correct:0
+已完成：19
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:In how many ways can a teacher in a kindergarten school arrange a group of 3 children (Susan, Tim and Zen) on 3 identical chairs in a straight line so that Susan is on the left of Tim? Answer Choices: (A) 7 (B) 3 (C) 2 (D) 1 (E) 6
+Answer: Among A through E, the answer is
+Output:
+(C) 2
+Output_clean:C
+answer:B
+correct:0
+已完成：20
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ? Answer Choices: (A) 3267 (B) 2678 (C) 2797 (D) 2300 (E) 2781
+Answer: Among A through E, the answer is
+Output:
+The number of eligible voters is 5000 * 0.8 = 4000. The margin of victory is 4000 * 0.15 = 600 votes. The winner therefore got 600/2 + 2000 = 2300 votes.
+
+The answer is (D).
+Output_clean:D
+answer:D
+correct:1
+已完成：21
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Silu and Meenu were walking on the road.
+Answer: Among A through E, the answer is
+Output:
+I'm sorry, but I cannot provide an answer without additional context or options (A through E) to choose from. Please provide more information or a specific question.
+Output_clean:A
+answer:D
+correct:0
+已完成：22
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Find out which of the following values is the multiple of X, if it is divisible by 9 and 12? Answer Choices: (A) 36 (B) 15 (C) 17 (D) 5 (E) 7
+Answer: Among A through E, the answer is
+Output:
+A, only 36 is a multiple of both 9 and 12.
+Output_clean:A
+answer:A
+correct:1
+已完成：23
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:What is the sum of three consecutive integers whose product can be expressed as 727+728+729. Answer Choices: (A) 37 (B) 38 (C) 36 (D) 30 (E) 39
+Answer: Among A through E, the answer is
+Output:
+B
+Output_clean:B
+answer:E
+correct:0
+已完成：24
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students. Answer Choices: (A) 8880 (B) 8870 (C) 8890 (D) 7890 (E) 6780
+Answer: Among A through E, the answer is
+Output:
+We refer to Wikipedia articles on elementary mathematics for help. Let's solve this problem step by step. To maximize the total number of students, we want to have as many students studying each subject as possible. To minimize the total number of students, we want to have as few students studying each subject as possible. We know that the fraction of students studying each subject cannot exceed 1/10, so there must be at least 100 students in the class. Thus, the maximum number of students is 100 + 100 + 125 = 325, and the minimum number of students is 100 + 100 + 125 = 325. Therefore, the difference between the maximum and minimum number of students is 325 - 325 = 0.
+
+Therefore, the answer is (A).
+Output_clean:A
+answer:A
+correct:1
+已完成：25
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ? Answer Choices: (A) 4 (B) 5 (C) 7 (D) 6 (E) 8
+Answer: Among A through E, the answer is
+Output:
+D. 6
+Output_clean:D
+answer:B
+correct:0
+已完成：26
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:If Raj was one-third as old as Rahim 5 years back and Raj is 17 years old now, How old is Rahim now? Answer Choices: (A) 37 (B) 41 (C) 40 (D) 42 (E) 43
+Answer: Among A through E, the answer is
+Output:
+C.
+Output_clean:C
+answer:B
+correct:0
+已完成：27
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000? Answer Choices: (A) 5/7 (B) 3/5 (C) 4/7 (D) 2/5 (E) 2/7
+Answer: Among A through E, the answer is
+Output:
+C. 4/7
+Output_clean:C
+answer:D
+correct:0
+已完成：28
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers? Answer Choices: (A) 47 (B) 91 (C) 41 (D) 67 (E) 44
+Answer: Among A through E, the answer is
+Output:
+(C) 41. 
+
+To solve this problem, we need to find five consecutive two-digit odd numbers whose sum is divisible by 10 and is also a perfect square. Let's start by listing the first few odd numbers greater than or equal to 10:
+
+11, 13, 15, 17, 19
+
+We can see that these numbers are already in ascending order and are all odd. Therefore, if we add 2 to each number, we will get the next set of five consecutive odd numbers:
+
+13, 15, 17, 19, 21
+
+If we continue this pattern, we can see that the next set of five consecutive odd numbers would be:
+
+15, 17, 19, 21, 23
+
+And so on.
+
+Now, let's check which of these sets satisfies the condition that their sum is a perfect square when divided by 10. We can use modulo arithmetic to help us with this task. Since we want the sum to be divisible by 10, we know that the last digit of the sum must be either 0 or 5. 
+
+Let's consider the set {13, 15, 17, 19, 21}. The sum of these numbers is:
+
+13 + 15 + 17 + 19 + 21 = 85
+
+The sum is not divisible by 10, so we can eliminate this set.
+
+Next, let's consider the set {15, 17, 19, 21, 23}. The sum of these numbers is:
+
+15 + 17 + 19 + 21 + 23 = 95
+
+Again, the sum is not divisible by 10, so we can eliminate this set as well.
+
+Continuing this process, we can check that none of the other sets satisfy the condition that their sum is a perfect square when divided by 10.
+
+However, if we go back to the original set of five consecutive odd numbers greater than or equal to 10, we can see that they do satisfy the condition. Their sum is:
+
+11 + 13 + 15 + 17 + 19 = 75
+
+When we divide 75 by 10, we get 7.5, which is not a perfect square. However, if we multiply it by 2, we get 15, which is a perfect square. Therefore, the correct answer is (C) 41, since 41 is one of the original five consecutive odd numbers greater than or equal to 10.
+Output_clean:C
+answer:C
+correct:1
+已完成：29
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:If 6 yrs are subtracted from the present age of Ajay and the remainder is divided by 18, then the present age of Rahul is obtained. If Rahul is 2 yrs younger to Denis whose age is 5 yrs, then what is Ajay's present age? Answer Choices: (A) 40 (B) 60 (C) 70 (D) 80 (E) 90
+Answer: Among A through E, the answer is
+Output:
+only choice B. Therefore, the answer must be (B).
+Output_clean:B
+answer:B
+correct:1
+已完成：30
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:If 10 is subtracted from 2/3 of a number the result is equal to sum of 40 and 1/3 of the number. Find the number Answer Choices: (A) 100 (B) 160 (C) 150 (D) 210 (E) 220
+Answer: Among A through E, the answer is
+Output:
+Let's solve the multi-choice problem step by step.
+Let the number be x. Then,
+(2/3)x - 10 = 40 + (1/3)x
+(2/3)x - (1/3)x = 50
+x = 150
+The answer is C.
+Output_clean:C
+answer:C
+correct:1
+已完成：31
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:John would make the 3-letter codes with diffenrent 5 vowels and 20 consonants with the condition that the middle letter must be vowel and the first letter and the third letter must be different from each other and are both consonant. How many different codes can be made? Answer Choices: (A) 1,980 (B) 2,020 (C) 2,100 (D) 2,200 (E) 1,900
+Answer: Among A through E, the answer is
+Output:
+A.
+Output_clean:A
+answer:E
+correct:0
+已完成：32
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Find 25/12*5 Answer Choices: (A) 2.5498 (B) 0.4167 (C) 3.3987 (D) 8.5497 (E) 5.6312
+Answer: Among A through E, the answer is
+Output:
+E. 5.6312
+Output_clean:E
+answer:B
+correct:0
+已完成：33
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:A number is as much greater than 36 as is less than 86. Find the Number. Answer Choices: (A) 60 (B) 56 (C) 51 (D) 61 (E) 41
+Answer: Among A through E, the answer is
+Output:
+D. 61
+Output_clean:D
+answer:D
+correct:1
+已完成：34
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:What is the units digit of 9^3-7? Answer Choices: (A) 1 (B) 3 (C) 5 (D) 2 (E) 4
+Answer: Among A through E, the answer is
+Output:
+D. 2
+Output_clean:D
+answer:D
+correct:1
+已完成：35
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Decipher the following multiplication table:
+Answer: Among A through E, the answer is
+Output:
+I'm sorry, but you haven't provided any multiplication table for me to decipher. Please provide the necessary information so I can assist you better.
+Output_clean:
+answer:D
+correct:0
+已完成：36
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:A bookshelf contains 45 books, 30 of which are hardcover and 20 of which are fiction. What is the maximum number of books that are both hardcover and fiction? Answer Choices: (A) 10 (B) 15 (C) 18 (D) 20 (E) 30
+Answer: Among A through E, the answer is
+Output:
+D. 20.
+Output_clean:D
+answer:D
+correct:1
+已完成：37
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years Answer Choices: (A) 18 (B) 25 (C) 15 (D) 20 (E) 21
+Answer: Among A through E, the answer is
+Output:
+D. 20
+Output_clean:D
+answer:D
+correct:1
+已完成：38
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:My wall contains 8 red colour ties, 13 violet colour ties,10 blue colour ties, 5 pink colour ties, 4 green colour ties. If electricity is gone and I want at least two ties of same colour then how many ties I should take out from my rack? Answer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+Answer: Among A through E, the answer is
+Output:
+ Choice D, 5 ties.
+Output_clean:C
+answer:E
+correct:0
+已完成：39
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost? Answer Choices: (A) 70 (B) 30 (C) 3 (D) 7 (E) 5
+Answer: Among A through E, the answer is
+Output:
+(B).
+Output_clean:B
+answer:C
+correct:0
+已完成：40
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Add: +45 and -30 Answer Choices: (A) -30 (B) +30 (C) 0 (D) 15 (E) -15
+Answer: Among A through E, the answer is
+Output:
+D. 15
+Output_clean:D
+answer:D
+correct:1
+已完成：41
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session? Answer Choices: (A) 27 (B) 81 (C) 90 (D) 99 (E) 110
+Answer: Among A through E, the answer is
+Output:
+The maximum number of students who could have neither attended the prom night nor the debating session is 99. Therefore, the correct answer is D.
+Output_clean:D
+answer:E
+correct:0
+已完成：42
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:For bringing each copper coin from the bottom of a river, a coin-diver gets 20 cents, and for each brass coin she gets 25 cents. If after one dive, she got $3.40. What is the minimum number of copper coins that she brought? Answer Choices: (A) 4 (B) 3 (C) 2 (D) 1 (E) 0
+Answer: Among A through E, the answer is
+Output:
+We can start with answer choice D, which is 1.
+If the coin diver only retrieved 1 copper coin, then she would have earned at most 20 cents from it. To reach a total of $3.40, she must have retrieved additional brass coins. Let's say she retrieved x brass coins. The total amount of money she would have earned from the brass coins is 25x cents.
+Therefore, we have the equation 20 + 25x = 340.
+Solving for x, we get x = 12.
+So, if the coin diver retrieved 1 copper coin and 12 brass coins, she would have earned a total of $3.40.
+Since this satisfies the condition given in the question, the answer is D, which is 1.
+Output_clean:D
+answer:C
+correct:0
+已完成：43
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending? Answer Choices: (A) 6 (B) 8 (C) 10 (D) 12 (E) 14
+Answer: Among A through E, the answer is
+Output:
+D. 12
+Output_clean:D
+answer:C
+correct:0
+已完成：44
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain? Answer Choices: (A) 6.5 (B) 7.5 (C) 7 (D) 6 (E) None of the above
+Answer: Among A through E, the answer is
+Output:
+B. 7.5
+Output_clean:B
+answer:B
+correct:1
+已完成：45
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ? Answer Choices: (A) 0 (B) 2.25 (C) 300 (D) 400 (E) None of these
+Answer: Among A through E, the answer is
+Output:
+E. None of these.
+Output_clean:E
+answer:C
+correct:0
+已完成：46
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:In a bag of red and green sweets, the ratio of red sweets to green sweets is 3:4. If the bag contains 120 green sweets, how many red sweets are there? Answer Choices: (A) 90 (B) 80 (C) 95 (D) 100 (E) 85
+Answer: Among A through E, the answer is
+Output:
+A. 90
+Output_clean:A
+answer:A
+correct:1
+已完成：47
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:There is well of depth 30m and frog is at bottom of the well. He jumps 3m up one day and falls back 2m down the same day. How many days will it take for the frog to come out of the well? Answer Choices: (A) 25 days (B) 26 days (C) 27 days (D) 28 days (E) 29 days
+Answer: Among A through E, the answer is
+Output:
+(C) 27 days.
+Output_clean:C
+answer:D
+correct:0
+已完成：48
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y. Answer Choices: (A) 144km (B) 72 km (C) 126km (D) 84 km (E) 48km
+Answer: Among A through E, the answer is
+Output:
+(C) 126km
+Output_clean:C
+answer:E
+correct:0
+已完成：49
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain? Answer Choices: (A) y/ (1200xy)  (B) 20xy/w (C) 5xy/ (12w)  (D) w/ (3xy)  (E) 3y/ (wx)
+Answer: Among A through E, the answer is
+Output:
+(C) 5xy/ (12w)
+Output_clean:C
+answer:C
+correct:1
+已完成：50
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep? Answer Choices: (A) 126km (B) 144km (C) 127km (D) 228km (E) 128km
+Answer: Among A through E, the answer is
+Output:
+D. 228km.
+Output_clean:D
+answer:B
+correct:0
+已完成：51
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day. Answer Choices: (A) 93 men (B) 94 men (C) 95 men (D) 96 men (E) 97 men
+Answer: Among A through E, the answer is
+Output:
+D. 96 men.
+Output_clean:D
+answer:D
+correct:1
+已完成：52
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:Two balls A and B rotate along a circular track. Ball A makes 2 full rotations in 26 minutes. Ball B makes 5 full rotation in 35 minutes. If they start rotating now from the same point, when will they be at the same starting point again? Answer Choices: (A) 1 hour and 31 minutes (B) 2 hour and 31 minutes (C) 3 hour and 31 minutes (D) 4 hour and 31 minutes (E) 5 hour and 31 minutes
+Answer: Among A through E, the answer is
+Output:
+A. 1 hour and 31 minutes
+Output_clean:A
+answer:A
+correct:1
+已完成：53
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is Answer Choices: (A) 4 1/3 km/h (B) 7 2/3 km/h (C) 9 ½ km/h (D) 8 km/h (E) 81 km/h
+Answer: Among A through E, the answer is
+Output:
+D. 8 km/h
+Output_clean:D
+answer:A
+correct:0
+已完成：54
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Two ants are moving from their farms towards each other. Ant A is moving at a speed of 9 cm per hour and ant B is moving at a speed of 6 cm per hour. If the farms are 75 cm away from each other, what will be the distance (in cm) that ant A travels until meeting ant B? Answer Choices: (A) 45 (B) 48 (C) 51 (D) 54 (E) 57
+Answer: Among A through E, the answer is
+Output:
+(D) 54
+Output_clean:D
+answer:A
+correct:0
+已完成：55
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Three bells ring at intervals of 36 seconds, 40 seconds and 48 seconds, respectively. They start ringing together at a particular time. When they will ring together again? Answer Choices: (A) After 6 minutes (B) After 12 minutes (C) After 18 minutes (D) After 24 minutes (E) none
+Answer: Among A through E, the answer is
+Output:
+(C) After 18 minutes
+Output_clean:C
+answer:B
+correct:0
+已完成：56
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Roy was suffering from severe headaches. He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes.
+Answer: Among A through E, the answer is
+Output:
+I'm sorry, but I cannot provide an answer without knowing the options (A through E) that are being referred to. Please provide me with the options so that I can assist you better.
+Output_clean:A
+answer:E
+correct:0
+已完成：57
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Kevin drove from A to B at a constant speed of 70 mph. Once he reached B, he turned right around with pause, and returned to A at a constant speed of 90 mph. Exactly 3 hours before the end of his trip, he was still approaching B, only 70 miles away from it. What is the distance between A and B? Answer Choices: (A) 180 (B) 90 (C) 270 (D) 360 (E) None of the above
+Answer: Among A through E, the answer is
+Output:
+E. None of the above.
+Output_clean:E
+answer:A
+correct:0
+已完成：58
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet? Answer Choices: (A)  1 (B)  1.25 (C)  1.50 (D)  1.75 (E)  2
+Answer: Among A through E, the answer is
+Output:
+(C) 1.50
+Output_clean:C
+answer:E
+correct:0
+已完成：59
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field? Answer Choices: (A) 384 (B) 562 (C) 458 (D) 156 (E) 452
+Answer: Among A through E, the answer is
+Output:
+C. 458
+Output_clean:C
+answer:A
+correct:0
+已完成：60
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ? Answer Choices: (A) 22 minutes (B) 30 minutes (C) 15 minutes (D) 24 minutes (E) 35 minutes
+Answer: Among A through E, the answer is
+Output:
+(C) 15 minutes
+Output_clean:C
+answer:D
+correct:0
+已完成：61
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob? Answer Choices: (A) 15 (B) 16 (C) 17 (D) 18 (E) 19
+Answer: Among A through E, the answer is
+Output:
+B. To find out how many toys Jacob made, we need to know how many toys Alex made. Let's assume that Alex made x toys and Jacob made y toys. We know that x + y = 35, so y = 35 - x. We also know that it takes Alex 7 hours to make a toy and Jacob 9 hours to make a toy, so the total number of hours they worked is 7x + 9y. Since they worked for almost the same number of hours, we can say that 7x + 9y is approximately equal to the total number of hours they could have worked if they had each made 35 toys, which is 245. Therefore, we have the equation 7x + 9(35 - x) ≈ 245. Solving this equation gives us x ≈ 20, so Jacob made y = 35 - x = 15 toys. Therefore, the answer is B.
+Output_clean:B
+answer:A
+correct:0
+已完成：62
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45° to 60°. After how much more time will this car reach the base of the tower? Answer Choices: (A) 5 (√3 + 1)  (B) 6 (√3 + √2)  (C) 7 (√3 – 1)  (D) 8 (√3 – 2)  (E) None of these
+Answer: Among A through E, the answer is
+Output:
+E. None of these.
+Output_clean:E
+answer:A
+correct:0
+已完成：63
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Mr.Sam takes 17 hours to go by train to a certain city and return by car. He loses 4 hours if he goes both ways by train. How long would he have taken if he had traveled by car in both ways? Answer Choices: (A) 22 hrs (B) 18 hrs (C) 16 hrs (D) 20 hrs (E) 13 hrs
+Answer: Among A through E, the answer is
+Output:
+(C) 16 hrs
+Output_clean:C
+answer:E
+correct:0
+已完成：64
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle? Answer Choices: (A) 50 m (B) 75 m (C) 100 m (D) 125 m (E) 150 m
+Answer: Among A through E, the answer is
+Output:
+D. 125 m.
+Output_clean:D
+answer:C
+correct:0
+已完成：65
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again? Answer Choices: (A) 272 minutes (B) 304 minutes (C) 190 minutes (D) 70 minutes (E) 35 minutes
+Answer: Among A through E, the answer is
+Output:
+E. 35 minutes
+Output_clean:E
+answer:A
+correct:0
+已完成：66
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes? Answer Choices: (A) 750pi (B) 1500pi (C) 1875pi (D) 3000pi (E) 7500pi
+Answer: Among A through E, the answer is
+Output:
+(C) 1875pi
+Output_clean:C
+answer:D
+correct:0
+已完成：67
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day? Answer Choices: (A) $83 (B) $92 (C) $90 (D) $97 (E) $104
+Answer: Among A through E, the answer is
+Output:
+B
+Output_clean:B
+answer:D
+correct:0
+已完成：68
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos? Answer Choices: (A) 24 minutes (B) 32 minutes (C) 36 minutes (D) 64 minutes (E) 72 minutes
+Answer: Among A through E, the answer is
+Output:
+C. 36 minutes
+Output_clean:C
+answer:C
+correct:1
+已完成：69
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Question:Ram and Krishna start from A and B, respectively, at the same time and travel towards each other at constant speeds of 20m/s and 40m/s, respectively, along the same route. Ram meets Krishna at point C on the road after 10 seconds. Find the total distance between A to B. Answer Choices: (A) 700 meters (B) 1000 meters (C) 700 kilometers (D) 555 meters (E) 600 meters
+Answer: Among A through E, the answer is
+Output:
+(B) 1000 meters.
+Output_clean:B
+answer:E
+correct:0
+已完成：70
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Question:In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train? Answer Choices: (A) 0.9 (B) 0.8 (C) 0.6 (D) 0.65 (E) 1.5
+Answer: Among A through E, the answer is
+Output:
+(E) 1.5
+Output_clean:E
+answer:B
+correct:0
+已完成：71
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Question:A company contracts to paint 3 houses. Mr.Brown can paint a house in 6 days while Mr.Black would take 8 days and Mr.Blue 12 days. After 8 days Mr.Brown goes on vacation and Mr. Black begins to work for a period of 6 days. How many days will it take Mr.Blue to complete the contract? Answer Choices: (A) 7 (B) 8 (C) 10 (D) 11 (E) 12
+Answer: Among A through E, the answer is
+Output:
+D. 11
+Output_clean:D
+answer:D
+correct:1
+已完成：72
+总正确数 : 23
+*****************************
+*****************************
+Input:
+Question:A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 10 sq.ft. per day, then approximately what time will be taken by the cow to graze the whole field? Answer Choices: (A) 51 days (B) 61 days (C) 71 days (D) 81 days (E) 91 days
+Answer: Among A through E, the answer is
+Output:
+E. 91 days.
+Output_clean:E
+answer:B
+correct:0
+已完成：73
+总正确数 : 23
+*****************************
+*****************************
+Input:
+Question:Train ‘A’ leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train ‘B’ leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other? Answer Choices: (A) 12 am on the next day (B) 5 am on the next day (C) 5 pm on the next day (D) 2 pm on the next day (E) None of these
+Answer: Among A through E, the answer is
+Output:
+(D) 2 pm on the next day
+Output_clean:D
+answer:A
+correct:0
+已完成：74
+总正确数 : 23
+*****************************
+*****************************
+Input:
+Question:An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut’s weight on Earth? Answer Choices: (A) 50% (B) 60% (C) 70% (D) 86% (E) 90%
+Answer: Among A through E, the answer is
+Output:
+D. 86%.
+Output_clean:D
+answer:D
+correct:1
+已完成：75
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell? Answer Choices: (A) 12 (B) 16 (C) 24 (D) 30 (E) 40
+Answer: Among A through E, the answer is
+Output:
+D. 30
+Output_clean:D
+answer:C
+correct:0
+已完成：76
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:The price of a product is reduced by 30% . By what percentage should it be increased to make it 100% Answer Choices: (A) 41.86% (B) 42.86% (C) 43.86% (D) 44.86% (E) 45.86%
+Answer: Among A through E, the answer is
+Output:
+The correct answer is (A). To solve this problem, you can set up an equation using percentages. Let x be the original price of the product. After a 30% reduction, the new price is 0.7x. To find the percentage increase needed to make the price 100% of the original price, you can use the following equation: (new price / original price) = (1 + percentage increase / 100). Plugging in the values from the problem, you get: (0.7x / x) = (1 + percentage increase / 100). Solving for percentage increase, you get: percentage increase = ((1 - 0.7) * 100) = 30%. Therefore, the price must be increased by 30% to make it 100% of the original price. The closest answer choice among A through E is (A), which is 41.86%.
+Output_clean:A
+answer:B
+correct:0
+已完成：77
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:What is 60% of 30% of 1400 grams? Answer Choices: (A) 450 gms (B) 100 gms (C) 252 gms (D) 240 gms (E) None of these
+Answer: Among A through E, the answer is
+Output:
+(C) 252 gms
+Output_clean:C
+answer:C
+correct:1
+已完成：78
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies? Answer Choices: (A) 1.3 (B) 1.5 (C) 2.1 (D) 2.5 (E) 3.1
+Answer: Among A through E, the answer is
+Output:
+(C) 2.1
+Output_clean:C
+answer:B
+correct:0
+已完成：79
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy? Answer Choices: (A) 10,8 (B) 9,8 (C) 7,8 (D) 5,6 (E) 11,12
+Answer: Among A through E, the answer is
+Output:
+Choice A. 10,8
+Output_clean:C
+answer:A
+correct:0
+已完成：80
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:If a subscription for 15 issues of a magazine costs $42.00 and represents a saving of 25 percent of the cover prices, what is the cover price per issue? Answer Choices: (A) $7.73 (B) $6.73 (C) $5.73 (D) $4.73 (E) $3.73
+Answer: Among A through E, the answer is
+Output:
+C. $5.73
+Output_clean:C
+answer:E
+correct:0
+已完成：81
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article? Answer Choices: (A) 270 (B) 300 (C) 280 (D) 320 (E) 315
+Answer: Among A through E, the answer is
+Output:
+(C) 280
+Output_clean:C
+answer:B
+correct:0
+已完成：82
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000? Answer Choices: (A) 81900 (B) 85995 (C) 85800 (D) 90000 (E) None of these
+Answer: Among A through E, the answer is
+Output:
+To find the population of the city after 2 years with an annual increase of 5%, we need to calculate the population at the end of each year and add the percentage increase to find the new population.
+Year 1:
+Population = 78000
+Increase = 78000 * 5% = 3900
+New Population = 78000 + 3900 = 81900
+
+Year 2:
+Population = 81900
+Increase = 81900 * 5% = 4095
+New Population = 81900 + 4095 = 85995
+
+Therefore, among choices A through E, the answer is (B).
+Output_clean:B
+answer:B
+correct:1
+已完成：83
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer? Answer Choices: (A) 10% (B) 25% (C) 28% (D) 30% (E) 36%
+Answer: Among A through E, the answer is
+Output:
+C. 28%.
+Output_clean:C
+answer:E
+correct:0
+已完成：84
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500? Answer Choices: (A) $50000 (B) $40000 (C) $30000 (D) $20000 (E) None of these
+Answer: Among A through E, the answer is
+Output:
+E. None of these.
+
+To find the monthly sales required for the shop assistant's salary to reach $1500, we can set up an equation:
+
+$1500 = $500 + 0.05 * Sales
+
+Subtracting $500 from both sides gives:
+
+$1000 = 0.05 * Sales
+
+Dividing both sides by 0.05 gives:
+
+Sales = $20,000
+
+Therefore, the monthly sales should be $20,000 in order for the shop assistant's salary to reach $1500. This option is not among the given choices, hence the correct answer is E. None of these.
+Output_clean:E
+answer:D
+correct:0
+已完成：85
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000? Answer Choices: (A) 15 (B) 24 (C) 25 (D) 40 (E) 52
+Answer: Among A through E, the answer is
+Output:
+C.
+Output_clean:C
+answer:D
+correct:0
+已完成：86
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen? Answer Choices: (A) Rs. 6 (B) Rs. 7.2 (C) Rs. 5.6 (D) Rs. 8 (E) None of these
+Answer: Among A through E, the answer is
+Output:
+ Choice D. Rs. 8.
+
+To find the manufactured cost of each pen, we need to use the following information:
+
+* The company promises to deliver 7200 pens to its wholesaler.
+* On average, 10% of the produced pens are defective and rejected before packing.
+* The company estimates the overall profit on all the manufactured pens to be 25%.
+
+Let's assume that the manufactured cost of each pen is x rupees. Then, the total revenue from selling 7200 pens to the wholesaler would be 7200 \* 10 = 72,000 rupees.
+However, since 10% of the pens are defective and rejected, the actual number of pens sold to the wholesaler is only 90% of the promised quantity, i.e., 7200 \* 0.9 = 6480 pens.
+The company makes a profit of 25% on the manufactured cost of each pen. Therefore, the revenue from selling 6480 pens to the wholesaler should be equal to the manufactured cost of 6480 pens plus 25% of the manufactured cost of 6480 pens:
+72,000 = 6480x + 0.25 \* 6480x
+Simplifying this equation gives us:
+72,000 = 8100x
+x = 7200 / 8100 = 0.9
+Therefore, the manufactured cost of each pen is 7200 / 7200 = 1 rupee per pen. However, since the company sells each pen for 10 rupees, the profit made on each pen is 10 - 1 = 9 rupees.
+Thus, the correct answer is Choice D. Rs. 8.
+Output_clean:C
+answer:B
+correct:0
+已完成：87
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:The average weight of 10 oarsmen in a boat is increased by 1.8 kg when one of the crew, who weighs 53 kg is replaced by a new man. Find the weight of the new man. Answer Choices: (A) 71 (B) 62 (C) 43 (D) 67 (E) 40
+Answer: Among A through E, the answer is
+Output:
+D. 67.
+Output_clean:D
+answer:A
+correct:0
+已完成：88
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:In a sale, a discount of 20% was available on all the articles. If Vinit purchased an article for Rs.4578 in the sale. What was the actual selling price of the article? Answer Choices: (A) s.5050 (B) s.5723 (C) s.5040 (D) s.4950 (E) s.4870
+Answer: Among A through E, the answer is
+Output:
+Choice D.
+Output_clean:C
+answer:B
+correct:0
+已完成：89
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:If 75 percent of the employees of a certain company take a winter vacation, 40 percent take a winter and a summer vacation, and 20 percent take neither a winter nor a summer vacation, what Q percent of the employees take a summer vacation but not a winter vacation? Answer Choices: (A) 5% (B) 15% (C) 25% (D) 35% (E) 45%
+Answer: Among A through E, the answer is
+Output:
+only D.
+Output_clean:D
+answer:A
+correct:0
+已完成：90
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original? Answer Choices: (A) 21% (B) 20% (C) 25% (D) 33% (E) 18%
+Answer: Among A through E, the answer is
+Output:
+(C) 25%.
+Output_clean:C
+answer:C
+correct:1
+已完成：91
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Question:10kg of a mixture contains 30% sand and 70% clay. In order to make the mixture contain equal quantities of clay and sand how much of the mixture is to be removed and replaced with pure sand? Answer Choices: (A) 10/7 (B) 20/7 (C) 30/7 (D) 40/7 (E) 50/7
+Answer: Among A through E, the answer is
+Output:
+(C) 30/7
+Output_clean:C
+answer:B
+correct:0
+已完成：92
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Question:An organization decided to raise Rs. 6 lakh by collecting equal contribution from each of its employees. If each of them had contributed Rs. 60 extra, the contribution would have been Rs. 6.24 lakh. How many employees are there in that organization? Answer Choices: (A) 300 (B) 200 (C) 400 (D) 100 (E) 500
+Answer: Among A through E, the answer is
+Output:
+ Choice C.
+Output_clean:C
+answer:C
+correct:1
+已完成：93
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck? Answer Choices: (A) 40.8 (B) 41.6 (C) 42.2 (D) 43.5 (E) 44.8
+Answer: Among A through E, the answer is
+Output:
+The correct answer must be greater than 12.2 tons and 2.6 tons more than 12.2 tons, which means it must be greater than 14.8 tons. Only choice D satisfies this condition.
+
+Therefore, the answer is (D).
+Output_clean:D
+answer:A
+correct:0
+已完成：94
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:At my favorite fruit stand, an orange costs 18 dollars, a pineapple costs 27 dollars, and a grape costs 15 dollars. Using the same logic, can you tell how much a mango costs? Answer Choices: (A) 22 dollars (B) 15 dollars (C) 20 dollars (D) 18 dollars (E) 10 dollars
+Answer: Among A through E, the answer is
+Output:
+There is not enough information given to determine the cost of a mango. The prices of oranges, pineapples, and grapes do not provide any clues about the price of a mango. Therefore, the correct answer is not among the choices given.
+Output_clean:
+answer:B
+correct:0
+已完成：95
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:X and Y are two alloys which were made by mixing zinc and copper in the ratio 6:9 and 7:11, respectively. If 40 grams of alloy X and 60 grams of alloy Y are melted and mixed to form alloy Z, what is the ratio of zinc and copper in the alloy Z ? Answer Choices: (A) 69:91 (B) 59:91 (C) 59:90 (D) 59:91 (E) 69:101
+Answer: Among A through E, the answer is
+Output:
+D.
+Output_clean:D
+answer:B
+correct:0
+已完成：96
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:M men agree to purchase a gift for Rs. D. If 3 men drop out how much more will each have to contribute towards the purchase of the gift? Answer Choices: (A) D/ (M-3)  (B) MD/3 (C) M/ (D-3)  (D) 3D/ (M2-3M)  (E) None of these
+Answer: Among A through E, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：97
+总正确数 : 29
+*****************************
+*****************************
+Input:
+Question:In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)? Answer Choices: (A) 300 (B) 500 (C) 5000 (D) 6000 (E) 7500
+Answer: Among A through E, the answer is
+Output:
+E. 7500.
+Output_clean:E
+answer:E
+correct:1
+已完成：98
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Question:Mark told John "If you give me half your money I will have Rs.75. John said, "if you give me one third of your money, I will have Rs.75/-. How much money did John have ? Answer Choices: (A) 22 (B) 60 (C) 28 (D) 26 (E) 18
+Answer: Among A through E, the answer is
+Output:
+ Choice B.
+Output_clean:C
+answer:B
+correct:0
+已完成：99
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Question:In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed? Answer Choices: (A) 1% (B) 2% (C) 5% (D) 9% (E) 10%
+Answer: Among A through E, the answer is
+Output:
+D. 9%.
+Output_clean:D
+answer:D
+correct:1
+已完成：100
+总正确数 : 31
+*****************************
+*****************************
+Input:
+Question:A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased? Answer Choices: (A) 9 Trousers (B) 8 Trousers (C) 10 Trousers (D) 7 Trousers (E) 11 Trousers
+Answer: Among A through E, the answer is
+Output:
+A. 9 Trousers
+Output_clean:A
+answer:A
+correct:1
+已完成：101
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:A merchant receives an invoice for a motor boat for $20 000 with terms 4/30, n/100. What is the highest simple interest rate at which he can afford to borrow money in order to take advantage of the discount? Answer Choices: (A) 247.67 (B) 237.67 (C) 227.67 (D) 215.67 (E) None of these
+Answer: Among A through E, the answer is
+Output:
+(C) 227.67
+Output_clean:C
+answer:A
+correct:0
+已完成：102
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family? Answer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+Answer: Among A through E, the answer is
+Output:
+(C) 4.
+Output_clean:C
+answer:B
+correct:0
+已完成：103
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:Boomtown urban planners expect the city’s population to increase by 10% per year over the next two years. If that projection were to come true, the population two years from now would be exactly double the population of one year ago. Which of the following is closest to the percent population increase in Boomtown over the last year? Answer Choices: (A) 20% (B) 40% (C) 50% (D) 65% (E) 75%
+Answer: Among A through E, the answer is
+Output:
+C. 50%.
+Output_clean:C
+answer:D
+correct:0
+已完成：104
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:In an exam, a candidate secured 504 marks of the maximum mark of M. If the maximum mark M is converted into 800 marks, he would have secured 420 marks. What is the value of M? Answer Choices: (A) 278 (B) 2890 (C) 270 (D) 2702 (E) 960
+Answer: Among A through E, the answer is
+Output:
+(C).
+Output_clean:C
+answer:E
+correct:0
+已完成：105
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:30 is subtracted from a number, it is reduced to its one third. What is the value of 50% of that number? Answer Choices: (A) 22.5 (B) 84 (C) 21 (D) 24 (E) 25
+Answer: Among A through E, the answer is
+Output:
+B
+Output_clean:B
+answer:A
+correct:0
+已完成：106
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:At the of his one-year investment, Charles received $54,080, including interest and principal from a certain investment. If the investment paid an annual interest of 8 percent compounded semi-annually, which of the following is the amount of money that Charles originally invested? Answer Choices: (A) $45,000 (B) $50,000 (C) $54,000 (D) $59,000 (E) $62,000
+Answer: Among A through E, the answer is
+Output:
+B
+Output_clean:B
+answer:B
+correct:1
+已完成：107
+总正确数 : 33
+*****************************
+*****************************
+Input:
+Question:You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300
+Answer: Among A through E, the answer is
+Output:
+There is not enough information given to determine the answer. Please provide more context or a specific question.
+Output_clean:
+answer:E
+correct:0
+已完成：108
+总正确数 : 33
+*****************************
+*****************************
+Input:
+Question:If m > 0, y > 0, and x is m percent of 4y, then, in terms of y, m is what percentage of x? Answer Choices: (A) y/400 (B) 4y (C) 50y (D) 2500/y (E) 5000/y
+Answer: Among A through E, the answer is
+Output:
+D.
+Output_clean:D
+answer:D
+correct:1
+已完成：109
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Question:Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum? Answer Choices: (A) 2% (B) 8% (C) 5% (D) 10% (E) None of these
+Answer: Among A through E, the answer is
+Output:
+(C).
+Output_clean:C
+answer:A
+correct:0
+已完成：110
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Question:One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins? Answer Choices: (A) 8.5 (B) 10.5 (C) 12.5 (D) 14.5 (E) 16.5
+Answer: Among A through E, the answer is
+Output:
+C. 12.5
+Output_clean:C
+answer:C
+correct:1
+已完成：111
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:A father wants to divide Rs. 5100 between his two sons, Mohan and Sohan who are 23 and 24 at present. He divides the amount in such a way that if their shares are invested at compound interest at 4% p.a. they will receive equal amount on attaining the age of 26 years. Find Mohan's share. Answer Choices: (A) 2400 (B) 2500 (C) 2600 (D) 2700 (E) None of these
+Answer: Among A through E, the answer is
+Output:
+We refer to Wikipedia articles on quantitative aptitude for help. Let the share of mohan be x. Then sohan's share = 5100 - x. Now since they get equal amounts after 3 years, we have (x)(1.04)^3 = (5100-x)(1.04)^2. This gives x = 2400.
+
+Therefore, the answer is (A).
+Output_clean:A
+answer:B
+correct:0
+已完成：112
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is? Answer Choices: (A) 10% (B) 12% (C) 6% (D) 8% (E) 4%
+Answer: Among A through E, the answer is
+Output:
+(C) 6%.
+Output_clean:C
+answer:B
+correct:0
+已完成：113
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:If one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5, then what is the value of m? Answer Choices: (A) -23.5 (B) -17.5 (C) -10.5 (D) -16.2 (E) Cannot be determined
+Answer: Among A through E, the answer is
+Output:
+We can find the value of m by substituting the root 1.5 into the quadratic equation and solving for m.
+x^2 + mx + 22 = 0
+(1.5)^2 + 1.5m + 22 = 0
+2.25 + 1.5m + 22 = 0
+1.5m = -24.25
+m = -24.25 / 1.5
+m = -16.2
+Therefore, the correct answer is D.
+Output_clean:D
+answer:D
+correct:1
+已完成：114
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Question:A straight picket fence is composed of x pickets each of which is 1/2 inch wide. If there are 6 inches of space between each pair of pickets, which of the following represents the length of fence in feet? Answer Choices: (A) 13x/2 (B) 13x/2 - 6 (C) 13x/24 (D)  (13x+1) /24 (E)  (13x-12) /24
+Answer: Among A through E, the answer is
+Output:
+(D)
+Output_clean:D
+answer:E
+correct:0
+已完成：115
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Question:On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road? Answer Choices: (A) 800 (B) 720 (C) 960 (D) 1140 (E) 1160
+Answer: Among A through E, the answer is
+Output:
+C. 960.
+Output_clean:C
+answer:A
+correct:0
+已完成：116
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Question:The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now? Answer Choices: (A) 18 (B) 30 (C) 6 (D) 15 (E) 12
+Answer: Among A through E, the answer is
+Output:
+A. 18
+Output_clean:A
+answer:A
+correct:1
+已完成：117
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Question:A rope 20 meters long is cut into two pieces. If the length of one piece of rope is 3 meters shorter than the length of the other, what is the length, in meters, of the longer piece of rope? Answer Choices: (A) 7.5 (B) 8.9 (C) 9.9 (D) 11.5 (E) 11.7
+Answer: Among A through E, the answer is
+Output:
+E. 11.7
+Output_clean:E
+answer:D
+correct:0
+已完成：118
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Question:The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is? Answer Choices: (A) 26 (B) 28 (C) 21 (D) 80 (E) 23
+Answer: Among A through E, the answer is
+Output:
+(C) 21
+Output_clean:C
+answer:D
+correct:0
+已完成：119
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Question:A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted? Answer Choices: (A) 438 (B) 550 (C) 500 (D) 450 (E) 498
+Answer: Among A through E, the answer is
+Output:
+C.
+Output_clean:C
+answer:A
+correct:0
+已完成：120
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Question:A flagstaff 17.5 metre high casts a shadow of length 40.25 metre. The height of building, which casts a shadow of length 28.75 metre under similar conditions will be : Answer Choices: (A) 12 metre (B) 12.5 metre (C) 13.5 metre (D) 14 metre (E) 15 metre
+Answer: Among A through E, the answer is
+Output:
+B
+Output_clean:B
+answer:B
+correct:1
+已完成：121
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Question:When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet. Answer Choices: (A) 1584 (B) 1120 (C) 792 (D) 1320 (E) 1200
+Answer: Among A through E, the answer is
+Output:
+C
+Output_clean:C
+answer:B
+correct:0
+已完成：122
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Question:R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU? Answer Choices: (A) 6 (B) 7 (C) 8 (D) 9 (E) 10
+Answer: Among A through E, the answer is
+Output:
+B.
+Output_clean:B
+answer:A
+correct:0
+已完成：123
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Question:A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece? Answer Choices: (A) 60 m (B) 61 m (C) 62 m (D) 63 m (E) 64 m
+Answer: Among A through E, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：124
+总正确数 : 39
+*****************************
+*****************************
+Input:
+Question:A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet? Answer Choices: (A) 46 (B) 81 (C) 126 (D) 252 (E) None
+Answer: Among A through E, the answer is
+Output:
+B.
+Output_clean:B
+answer:C
+correct:0
+已完成：125
+总正确数 : 39
+*****************************
+*****************************
+Input:
+Question:The capacity of a tank of dimensions (8 m × 6 m × 2.5 m) is Answer Choices: (A) 120 litres (B) 1200 litres (C) 12000 litres (D) 120000 litres (E) None of these
+Answer: Among A through E, the answer is
+Output:
+(D) 120000 litres
+Output_clean:D
+answer:D
+correct:1
+已完成：126
+总正确数 : 40
+*****************************
+*****************************
+Input:
+Question:A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter. Answer Choices: (A) 18cm (B) 22cm (C) 20cm (D) 30cm (E) 28cm
+Answer: Among A through E, the answer is
+Output:
+(C) 20cm
+Output_clean:C
+answer:B
+correct:0
+已完成：127
+总正确数 : 40
+*****************************
+*****************************
+Input:
+Question:The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is? Answer Choices: (A) 2: π (B) 7:2 (C) 8:2 (D) 6: π (E) 8:3
+Answer: Among A through E, the answer is
+Output:
+E. 8:3
+Output_clean:E
+answer:D
+correct:0
+已完成：128
+总正确数 : 40
+*****************************
+EM: 0.00, F1: 0.00
+correct_num : 40
+total_num : 128
+accuracy : 31.25

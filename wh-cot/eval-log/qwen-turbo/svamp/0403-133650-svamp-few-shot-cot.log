@@ -1,0 +1,3128 @@
+*****************************
+2024-04-03 13:36:50
+Namespace(model='qwen-turbo', task='svamp', test_data_size=120, demo_num=4, method='few-shot-cot', temperature=0.1, top_p=0.6)
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:29 campers went rowing and 66 campers went hiking in the morning. 26 campers went rowing in the afternoon. How many more campers went rowing in the morning than in the afternoon?
+Answer:
+Output:
+( 29.0 - 26.0 ) The answer is 3.0.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：1
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:53 campers went rowing in the morning 48 campers went rowing in the afternoon and 49 campers went rowing in the evening. How many more campers went rowing in the morning than in the evening?
+Answer:
+Output:
+( 53.0 - 49.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：2
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:2 birds were sitting on the fence. 5 more birds and 4 more storks came to join them. How many more birds than storks are sitting on the fence?
+Answer:
+Output:
+( ( 2.0 + 5.0 ) - 4.0 ) The answer is 3.0.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：3
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There were 73 parents, 724 pupils and 744 teachers in the program. How many people were present in the program?
+Answer:
+Output:
+( 73.0 + 724.0 + 744.0 ) The answer is 1541.0.
+Output_clean:1541.0
+answer:1541.0
+EM:0 , F1:0
+correct:1
+已完成：4
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The school is planning a field trip. The school has 87 classrooms. There are 58 students in the school with each classroom having the same number of students. If there are 2 seats on each school bus. How many buses are needed to take the trip?
+Answer:
+Output:
+( 87.0 * 58.0 ) / ( 2.0 * 1 ) The answer is 2589.0.
+Output_clean:2589.0
+answer:29.0
+EM:0 , F1:0
+correct:0
+已完成：5
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:22 children were riding on the bus. At the bus stop 40 children got on the bus while some got off the bus. Then there were 2 children altogether on the bus. How many children got off the bus at the bus stop?
+Answer:
+Output:
+( 22.0 + 40.0 - 2.0 ) The answer is 52.0.
+Output_clean:52.0
+answer:60.0
+EM:0 , F1:0
+correct:0
+已完成：6
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:At the stop 8 more people got on the train. Initially there were 11 people on the train. How many people are there on the train now?
+Answer:
+Output:
+( 11.0 + 8.0 ) The answer is 19.0.
+Output_clean:19.0
+answer:19.0
+EM:0 , F1:0
+correct:1
+已完成：7
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Some campers went rowing in the morning while 7 campers went rowing in the afternoon. If a total of 60 campers went rowing that day How many campers went rowing in the morning?
+Answer:
+Output:
+( 60.0 - 7.0 ) The answer is 53.0.
+Output_clean:53.0
+answer:53.0
+EM:0 , F1:0
+correct:1
+已完成：8
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:In a school there are 902 girls and 811 boys. 44 more girls joined the school. How many girls are there in the school now?
+Answer:
+Output:
+( 902.0 + 44.0 ) The answer is 946.0.
+Output_clean:946.0
+answer:946.0
+EM:0 , F1:0
+correct:1
+已完成：9
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:6 birds and 3 storks were sitting on the fence. 2 more storks came to join them. How many more birds than storks are sitting on the fence?
+Answer:
+Output:
+( 6.0 + 2.0 - 3.0 ) The answer is 5.0.
+Output_clean:5.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：10
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:3 birds were sitting on the fence. 2 more birds and 6 more storks came to join them. How many more storks than birds are sitting on the fence?
+Answer:
+Output:
+( 6.0 - 3.0 ) The answer is 3.0.
+Output_clean:3.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：11
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The school has 304 grades and each grade has 75 students How many students were there in total?
+Answer:
+Output:
+( 304.0 * 75.0 ) The answer is 22800.0.
+Output_clean:22800.0
+answer:22800.0
+EM:0 , F1:0
+correct:1
+已完成：12
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The Ferris wheel in paradise park has 4 seats. If 20 people can ride the wheel at the same time How many people can each seat hold?
+Answer:
+Output:
+( 20.0 / 4.0 ) The answer is 5.0.
+Output_clean:5.0
+answer:5.0
+EM:0 , F1:0
+correct:1
+已完成：13
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:6 storks and 2 birds were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?
+Answer:
+Output:
+( 6.0 - 2.0 - 3.0 ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：14
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:In a school there are 635 girls and the rest are boys. If there are 510 more boys than girls How many boys are there in that school?
+Answer:
+Output:
+( 635.0 + 510.0 ) The answer is 1145.0.
+Output_clean:1145.0
+answer:1145.0
+EM:0 , F1:0
+correct:1
+已完成：15
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+Answer:
+Output:
+( 294.0 * 146.0 ) The answer is 42924.0.
+Output_clean:42924.0
+answer:35624.0
+EM:0 , F1:0
+correct:0
+已完成：16
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Danny collects bottle caps. He threw away 60 of the old ones at the park while he found 58 bottle caps new ones. Now he has 67 bottle caps in his collection. How many bottle caps did danny have at first?
+Answer:
+Output:
+( 67.0 + 60.0 - 58.0 ) The answer is 79.0.
+Output_clean:79.0
+answer:69.0
+EM:0 , F1:0
+correct:0
+已完成：17
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:A grocery store had 30 bottles of regular soda, 8 bottles of diet soda and 41 apples. How many bottles did they have total?
+Answer:
+Output:
+( 30.0 + 8.0 ) The answer is 38.0.
+Output_clean:38.0
+answer:38.0
+EM:0 , F1:0
+correct:1
+已完成：18
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:He then went to see the oranges being harvested. He found out that they harvest 76 sacks per day and discard 64 of them. How many oranges do they harvest per day if each sack contains 50 oranges?
+Answer:
+Output:
+( ( 76.0 - 64.0 ) * 50.0 ) The answer is 500.0.
+Output_clean:500.0
+answer:600.0
+EM:0 , F1:0
+correct:0
+已完成：19
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:A grocery store had 81 bottles of regular soda, 60 bottles of diet soda and 60 bottles of lite soda. How many more bottles of regular soda did they have than diet soda?
+Answer:
+Output:
+( 81.0 - 60.0 ) The answer is 21.0.
+Output_clean:21.0
+answer:21.0
+EM:0 , F1:0
+correct:1
+已完成：20
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Tiffany was collecting cans for recycling. On monday she had some bags of cans. The next day she found 4 more bags worth of cans. If she had a total of 8 bags altogether How many bags did she have on monday?
+Answer:
+Output:
+( 8.0 - 4.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：21
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Lewis earns $ 2 every week during the harvest. If he earns a total of $ 178 How many weeks did the harvest last?
+Answer:
+Output:
+( 178.0 / 2.0 ) The answer is 89.0.
+Output_clean:89.0
+answer:89.0
+EM:0 , F1:0
+correct:1
+已完成：22
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Lewis earns $ 491 every week during the 1181 weeks of harvest. If he has to pay $ 216 rent every week How much money will have at the end of the harvest season?
+Answer:
+Output:
+( 491.0 * 1181.0 ) - ( 216.0 * 1181.0 ) The answer is 431173.0.
+Output_clean:431173.0
+answer:324775.0
+EM:0 , F1:0
+correct:0
+已完成：23
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?
+Answer:
+Output:
+( 12.0 - 7.0 ) The answer is 5.0.
+Output_clean:5.0
+answer:5.0
+EM:0 , F1:0
+correct:1
+已完成：24
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Zachary did 19 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 13 push-ups less than david. How many push-ups did David do?
+Answer:
+Output:
+( 19.0 + 39.0 ) The answer is 58.0.
+Output_clean:58.0
+answer:58.0
+EM:0 , F1:0
+correct:1
+已完成：25
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Because of the decision Sofia asked the students to suggest specific types of food from a total of 66 choices. If 450 students suggested adding mashed potatoes 38 suggested adding bacon to the menu and the rest did not participate How many students participated in the suggestion of new food items?
+Answer:
+Output:
+( 450.0 + 38.0 ) The answer is 488.0.
+Output_clean:488.0
+answer:488.0
+EM:0 , F1:0
+correct:1
+已完成：26
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?
+Answer:
+Output:
+( 65.0 - 9.0 ) - ( 5.0 - 31.0 ) The answer is 37.0.
+Output_clean:37.0
+answer:60.0
+EM:0 , F1:0
+correct:0
+已完成：27
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:He then went to see the oranges being harvested. He found out that they harvest 28 sacks of ripe oranges and 52 sacks of unripe oranges per day. How many sacks of oranges will they have after 26 days of harvest?
+Answer:
+Output:
+( ( 28.0 + 52.0 ) * 26.0 ) The answer is 2080.0.
+Output_clean:2080.0
+answer:2080.0
+EM:0 , F1:0
+correct:1
+已完成：28
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The Razorback t-shirt shop makes $ 23 dollars off each t-shirt sold. During the Arkansas and Texas tech game they made $ 230 by selling t-shirts. How many t-shirts did they sell?
+Answer:
+Output:
+( 230.0 / 23.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：29
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?
+Answer:
+Output:
+( 290.0 / 2.0 ) The answer is 145.0.
+Output_clean:145.0
+answer:145.0
+EM:0 , F1:0
+correct:1
+已完成：30
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:They decided to hold the party in their backyard. They have 4 sets of tables and each set has 3 chairs. If a total of 14 people will attend the party How many more chairs will they have to buy?
+Answer:
+Output:
+( 4.0 * 3.0 ) - 14.0 The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：31
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Bryan took a look at his books and magazines. If he has 27 books and 80 magazines in each of his 23 bookshelves How many books does he have in total?
+Answer:
+Output:
+( 27.0 * 23.0 ) The answer is 621.0.
+Output_clean:621.0
+answer:621.0
+EM:0 , F1:0
+correct:1
+已完成：32
+总正确数 : 23
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Julia played tag with 8 kids on monday, 11 kids on tuesday and 9 kids on wednesday. How many more kids did she play with on tuesday than on wednesday?
+Answer:
+Output:
+( 11.0 - 9.0 ) The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：33
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Melissa scored a total of 91 points in 13 games scoring the same for each game. How many points did she score in each game?
+Answer:
+Output:
+( 91.0 / 13.0 ) The answer is 7.0.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：34
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:After a typhoon, 2 trees in Haley's backyard died. If she had grown 12 trees initially How many trees does she have left?
+Answer:
+Output:
+( 12.0 - 2.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：35
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Allan brought 2 balloons and Jake brought 3 balloons to the park. How many more balloons did Jake have than Allan in the park?
+Answer:
+Output:
+( 3.0 - 2.0 ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：36
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Bryan took a look at his books as well. If he has a total of 42 books and each bookshelf contains 2 books How many bookshelves does he have?
+Answer:
+Output:
+( 42.0 / 2.0 ) The answer is 21.0.
+Output_clean:21.0
+answer:21.0
+EM:0 , F1:0
+correct:1
+已完成：37
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Carol was sending out birthday invitations to 12 friends. She bought 3 packs each one having the same number of invitations. How many invitations are in each pack?
+Answer:
+Output:
+( 12.0 / 3.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：38
+总正确数 : 29
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase. How many orchids did she cut?
+Answer:
+Output:
+( 21.0 - 2.0 ) The answer is 19.0.
+Output_clean:19.0
+answer:19.0
+EM:0 , F1:0
+correct:1
+已完成：39
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:For the walls of the house he would use 12 large planks of wood and 10 small planks. If large planks together need 15 pieces of nails to be secured and small planks together need 5 nails. How many nails does John need for the house wall?
+Answer:
+Output:
+( ( 12.0 * 15.0 ) + ( 10.0 * 5.0 ) ) The answer is 210.0.
+Output_clean:210.0
+answer:20.0
+EM:0 , F1:0
+correct:0
+已完成：40
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jerry had 3 books and 4 action figures on a shelf in his room. Later he added 2 more action figures to the shelf. How many more action figures than books were on his shelf?
+Answer:
+Output:
+( 4.0 + 2.0 ) - 3.0 The answer is 3.0.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：41
+总正确数 : 31
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There are 17 different movies and 11 different books in the ' crazy silly school ' series. If you read 13 of the books and watched 63 of the movies How many more movies than books are there in the ' crazy silly school ' series?
+Answer:
+Output:
+( 17.0 - 13.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:6.0
+EM:0 , F1:0
+correct:0
+已完成：42
+总正确数 : 31
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now How many action figures did he remove from the shelf?
+Answer:
+Output:
+( 3.0 + 4.0 ) - 6.0 The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：43
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There are 20 houses in a block. If a mailman has to give 32 pieces of junk mail to each house in each block How many pieces of junk mail should he give each block?
+Answer:
+Output:
+( 32.0 * 20.0 ) The answer is 640.0.
+Output_clean:640.0
+answer:640.0
+EM:0 , F1:0
+correct:1
+已完成：44
+总正确数 : 33
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Allan brought 3 balloons and Jake brought 5 balloons to the park. Allan then bought 2 more balloons at the park. How many balloons did Allan and Jake have in the park?
+Answer:
+Output:
+( 3.0 + 5.0 + 2.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：45
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:At the arcade Dave had won 13 tickets. If he used 8 to buy some toys and 18 more to buy some clothes How many more tickets did Dave use to buy clothes than he did to buy toys?
+Answer:
+Output:
+( 18.0 - 8.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：46
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Dan has $ 4. He bought 99 candy bar for $ 3 each one costing the same amount of money. How much money is left?
+Answer:
+Output:
+( 4.0 - ( 99.0 * 3.0 ) ) The answer is -283.0.
+Output_clean:-283.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：47
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Lucy went to the grocery store. She bought 23 packs of cookie and some packs of cake. In total she had 27 packs of grocery How many packs of cake did she buy in all?
+Answer:
+Output:
+( 27.0 - 23.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：48
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Lucy went to the grocery store. She bought 2 packs of cookie and 12 packs of cake. In the end she had 56 amount of change remaining. How many packs of groceries did she buy in all?
+Answer:
+Output:
+( ( 2.0 + 12.0 ) + 56.0 ) The answer is 70.0.
+Output_clean:70.0
+answer:14.0
+EM:0 , F1:0
+correct:0
+已完成：49
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Paco had 40 cookies. He ate 5 cookies and gave 13 of them to his friend. How many cookies did paco have left?
+Answer:
+Output:
+( 40.0 - 5.0 - 13.0 ) The answer is 22.0.
+Output_clean:22.0
+answer:22.0
+EM:0 , F1:0
+correct:1
+已完成：50
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 2 more dollars. If she spent 6 dollars. How much more money did she receive from her dad than she did from her mom?
+Answer:
+Output:
+( 5.0 - 2.0 ) - 6.0 The answer is -3.0.
+Output_clean:-3.0
+answer:3.0
+EM:0 , F1:0
+correct:0
+已完成：51
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:A waiter had 11 customers. After some left he still had 3 customers. How many more customers left than those that stayed behind?
+Answer:
+Output:
+( 11.0 - 3.0 ) The answer is 8.0.
+Output_clean:8.0
+answer:5.0
+EM:0 , F1:0
+correct:0
+已完成：52
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Paco had 40 cookies. He ate 2 of them. Then he bought 37 more cookies How many cookies did Paco have left?
+Answer:
+Output:
+( 40.0 - 2.0 ) + 37.0 The answer is 75.0.
+Output_clean:75.0
+answer:75.0
+EM:0 , F1:0
+correct:1
+已完成：53
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Bobby ate 23 pieces of candy. If he initially had 30 pieces of candy How many pieces of candy does he still have left?
+Answer:
+Output:
+( 30.0 - 23.0 ) The answer is 7.0.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：54
+总正确数 : 39
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Paul had 51 books and 106 pens. After selling some books and pens in a garage sale he had 82 books and 14 pens left. How many pens did he sell in the garage sale?
+Answer:
+Output:
+( 106.0 - 14.0 ) The answer is 92.0.
+Output_clean:92.0
+answer:92.0
+EM:0 , F1:0
+correct:1
+已完成：55
+总正确数 : 40
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Edward had $ 13. He spent some money. Now he has $ 3. How much money did Edward spend?
+Answer:
+Output:
+( 13.0 - 3.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：56
+总正确数 : 41
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Matthew had 29 crackers and 30 cakes. If Matthew gave equal numbers of crackers and cakes to his 2 friends How many cakes did each person eat?
+Answer:
+Output:
+( 30.0 / 3.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:15.0
+EM:0 , F1:0
+correct:0
+已完成：57
+总正确数 : 41
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:You had 26 bags with equal number of cookies. If you had 15 candies and 52 cookies in total How many cookies does each bag have?
+Answer:
+Output:
+( 52.0 / 26.0 ) The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：58
+总正确数 : 42
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Brenda's mother made cookies for guests. If she prepared 38 cookies and each of them had 19 cookies How many guests did she prepare cookies for?
+Answer:
+Output:
+( 38.0 * 19.0 ) The answer is 722.0.
+Output_clean:722.0
+answer:2.0
+EM:0 , F1:0
+correct:0
+已完成：59
+总正确数 : 42
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Paul got a box of 589 crayons for his birthday. During the school year he gave 571 crayons to his friends while he lost 161 crayons. How many more crayons did he give to his friends than those he lost?
+Answer:
+Output:
+( 571.0 - 161.0 ) The answer is 410.0.
+Output_clean:410.0
+answer:410.0
+EM:0 , F1:0
+correct:1
+已完成：60
+总正确数 : 43
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Rachel's tree had 4 apples initially. She picked some apples and now there are 2 apples left on the tree. How many apples did rachel pick?
+Answer:
+Output:
+( 4.0 - 2.0 ) The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：61
+总正确数 : 44
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?
+Answer:
+Output:
+( 9.0 - 3.0 ) The answer is 6.0.
+Output_clean:6.0
+answer:6.0
+EM:0 , F1:0
+correct:1
+已完成：62
+总正确数 : 45
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Steven has 12 peaches. Jake has 4 fewer peaches than Steven who has 67 more peaches than Jill. How many peaches does Jake have?
+Answer:
+Output:
+( 12.0 - 4.0 ) + 67.0 The answer is 75.0.
+Output_clean:75.0
+answer:8.0
+EM:0 , F1:0
+correct:0
+已完成：63
+总正确数 : 45
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jake has 9 fewer peaches than Steven and 18 more peaches than Jill. Steven has 16 peaches. How many more peaches does Steven have than Jill?
+Answer:
+Output:
+( 16.0 - ( 16.0 - 9.0 ) ) The answer is 9.0.
+Output_clean:9.0
+answer:27.0
+EM:0 , F1:0
+correct:0
+已完成：64
+总正确数 : 45
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?
+Answer:
+Output:
+( 19.0 - 13.0 ) The answer is 6.0.
+Output_clean:6.0
+answer:6.0
+EM:0 , F1:0
+correct:1
+已完成：65
+总正确数 : 46
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There are 11 baskets of peaches. Each basket has 10 red peaches and 18 green peaches. How many peaches are in the baskets altogether?
+Answer:
+Output:
+( ( 10.0 + 18.0 ) * 11.0 ) The answer is 286.0.
+Output_clean:286.0
+answer:308.0
+EM:0 , F1:0
+correct:0
+已完成：66
+总正确数 : 46
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:He has 9 apples more than Adam and Jackie together do. Adam and Jackie have 7 apples between them. How many apples does He have?
+Answer:
+Output:
+( 7.0 + 9.0 ) The answer is 16.0.
+Output_clean:16.0
+answer:16.0
+EM:0 , F1:0
+correct:1
+已完成：67
+总正确数 : 47
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?
+Answer:
+Output:
+( 7.0 + 3.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：68
+总正确数 : 48
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:There are some baskets of peaches. Each basket has 4 red peaches and 3 green peaches. If there are a total of 7 peaches in all baskets How many baskets of peaches are there?
+Answer:
+Output:
+( 7.0 / ( 4.0 + 3.0 ) ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：69
+总正确数 : 49
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Rachel picked 2 ripe apples from her tree. Now the tree has 7 apples still on it. If 6 of those are ripe and the rest are unripe How many ripe apples did the tree have to begin with?
+Answer:
+Output:
+( 2.0 + 6.0 ) The answer is 8.0.
+Output_clean:8.0
+answer:8.0
+EM:0 , F1:0
+correct:1
+已完成：70
+总正确数 : 50
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jackie has 10 apples. Adam has 8 apples. How many more apples does Jackie have than Adam?
+Answer:
+Output:
+( 10.0 - 8.0 ) The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：71
+总正确数 : 51
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Adam has 5 more apples than Jackie. Jackie has 89 oranges and 11 apples. How many apples does Adam have?
+Answer:
+Output:
+( 11.0 + 5.0 ) The answer is 16.0.
+Output_clean:16.0
+answer:16.0
+EM:0 , F1:0
+correct:1
+已完成：72
+总正确数 : 52
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jake has 13 fewer peaches and 3 more apples than Steven. Steven has 9 peaches and 8 apples. How many apples does Jake have?
+Answer:
+Output:
+( 9.0 + 8.0 ) + 3.0 The answer is 20.0.
+Output_clean:20.0
+answer:11.0
+EM:0 , F1:0
+correct:0
+已完成：73
+总正确数 : 52
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?
+Answer:
+Output:
+( 10.0 - 9.0 ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：74
+总正确数 : 53
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jake has 12 fewer peaches and 79 more apples than Steven. Steven has 19 peaches and 14 apples. How many peaches does Jake have?
+Answer:
+Output:
+( 19.0 + 12.0 ) The answer is 31.0.
+Output_clean:31.0
+answer:7.0
+EM:0 , F1:0
+correct:0
+已完成：75
+总正确数 : 53
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Next on his checklist is wax to stick the feathers together. If he has 557 g of wax and right now he just needs 17 g Total how many grams of wax do the feathers require?
+Answer:
+Output:
+( 557.0 - 17.0 ) The answer is 540.0.
+Output_clean:540.0
+answer:574.0
+EM:0 , F1:0
+correct:0
+已完成：76
+总正确数 : 53
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Robin's hair was 17 inches long. He cut off some inches of her hair. If his hair is now 13 inches long How much of his hair did he cut?
+Answer:
+Output:
+( 17.0 - 13.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：77
+总正确数 : 54
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Marco and his dad went strawberry picking. Together their strawberries weighed 20 pounds. His dad's strawberries weighed 17 pounds. How much did marco's strawberries weigh?
+Answer:
+Output:
+( 20.0 - 17.0 ) The answer is 3.0.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：78
+总正确数 : 55
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jessie weighed 71 kilograms. After she started to go jogging everyday she lost 20 kilograms. How much does she weigh now?
+Answer:
+Output:
+( 71.0 - 20.0 ) The answer is 51.0.
+Output_clean:51.0
+answer:51.0
+EM:0 , F1:0
+correct:1
+已完成：79
+总正确数 : 56
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jesse's room is 7 feet wide. If she needs a carpet of size 14 square feet What is the length of her room?
+Answer:
+Output:
+( 14.0 / 7.0 ) The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：80
+总正确数 : 57
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?
+Answer:
+Output:
+( 39.0 - 19.0 ) - 12.0 The answer is 9.0.
+Output_clean:9.0
+answer:8.0
+EM:0 , F1:0
+correct:0
+已完成：81
+总正确数 : 57
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Robin's hair was 14 inches long. It grew by 8 inches. Then he cut off 20 inches. How long is his hair now?
+Answer:
+Output:
+( 14.0 + 8.0 ) - 20.0 The answer is 2.0.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：82
+总正确数 : 58
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Jesse's room is 19 feet wide and 20 feet long. How much longer is her room than it is wide?
+Answer:
+Output:
+( 20.0 - 19.0 ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：83
+总正确数 : 59
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 10 inches farther than the grasshopper and the mouse jumped 20 inches farther than the frog. How much farther did the mouse jump than the grasshopper?
+Answer:
+Output:
+( ( 19.0 + 10.0 ) + 20.0 ) The answer is 49.0.
+Output_clean:49.0
+answer:30.0
+EM:0 , F1:0
+correct:0
+已完成：84
+总正确数 : 59
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Marco and his dad went strawberry picking. Together their strawberries weighed 4 pounds. Marco's strawberries weighed 19 pounds. How much more did his strawberries weigh than his dad's?
+Answer:
+Output:
+( 19.0 - 4.0 ) The answer is 15.0.
+Output_clean:15.0
+answer:34.0
+EM:0 , F1:0
+correct:0
+已完成：85
+总正确数 : 59
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Marco and his dad went strawberry picking. His strawberries weighed 8 pounds while his dad's strawberries weighed 32 pounds. Together how much did their strawberries weigh?
+Answer:
+Output:
+( 8.0 + 32.0 ) The answer is 40.0.
+Output_clean:40.0
+answer:40.0
+EM:0 , F1:0
+correct:1
+已完成：86
+总正确数 : 60
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Next on his checklist is wax to stick the feathers together. If the feathers require 166 g of wax and right now he has 20 g How many more grams of wax does he need?
+Answer:
+Output:
+( 166.0 - 20.0 ) The answer is 146.0.
+Output_clean:146.0
+answer:146.0
+EM:0 , F1:0
+correct:1
+已完成：87
+总正确数 : 61
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The grasshopper and the frog had a jumping contest. The grasshopper jumped 13 inches. The grasshopper jumped 2 inches farther than the grasshopper. How far did the frog jump?
+Answer:
+Output:
+( 13.0 - 2.0 ) The answer is 11.0.
+Output_clean:11.0
+answer:11.0
+EM:0 , F1:0
+correct:1
+已完成：88
+总正确数 : 62
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds. How much did his dad's strawberries weigh now?
+Answer:
+Output:
+( 36.0 - 12.0 ) - 8.0 The answer is 16.0.
+Output_clean:16.0
+answer:16.0
+EM:0 , F1:0
+correct:1
+已完成：89
+总正确数 : 63
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 21 inches. The grasshopper jumped 25 inches farther than the frog and the mouse jumped 16 inches lesser than the frog. How much farther did the grasshopper jump than the mouse?
+Answer:
+Output:
+( 25.0 + 16.0 ) The answer is 41.0.
+Output_clean:41.0
+answer:41.0
+EM:0 , F1:0
+correct:1
+已完成：90
+总正确数 : 64
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 14 cups of flour and 6 cups of sugar. She already put in 5 cups of flour. How many more cups of flour than cups of sugar does she need to add now?
+Answer:
+Output:
+( 14.0 - 5.0 ) - 6.0 The answer is 3.0.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：91
+总正确数 : 65
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Baker sold 8 cakes. If he had made 40 cakes initially How many more cakes did baker make than those he sold?
+Answer:
+Output:
+( 40.0 - 8.0 ) The answer is 32.0.
+Output_clean:32.0
+answer:32.0
+EM:0 , F1:0
+correct:1
+已完成：92
+总正确数 : 66
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 5 cups of sugar and 14 cups of flour. She already put in 11 cups of flour. How many more cups of sugar than cups of flour does she need to add now?
+Answer:
+Output:
+( 5.0 - 11.0 ) The answer is -6.0.
+Output_clean:-6.0
+answer:2.0
+EM:0 , F1:0
+correct:0
+已完成：93
+总正确数 : 66
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 6 cups of flour 8 cups of sugar and 7 cups of salt. She already put in 5 cups of flour. How many more cups of sugar than cups of salt does she need to add now?
+Answer:
+Output:
+( 8.0 - 7.0 ) - 5.0 The answer is -4.0.
+Output_clean:-4.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：94
+总正确数 : 66
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Baker made 121 cakes. He sold 105 of them and bought 170 new cakes. How many cakes does baker still have?
+Answer:
+Output:
+( 121.0 - 105.0 ) + 170.0 The answer is 186.0.
+Output_clean:186.0
+answer:186.0
+EM:0 , F1:0
+correct:1
+已完成：95
+总正确数 : 67
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 11 cups of sugar and some more cups of flour. She already put in 3 cups of flour. If she still needs to add 6 more cups of flour How many cups of flour did the recipe require?
+Answer:
+Output:
+( 3.0 + 6.0 ) The answer is 9.0.
+Output_clean:9.0
+answer:9.0
+EM:0 , F1:0
+correct:1
+已完成：96
+总正确数 : 68
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Baker made 126 cakes and 48 pastries. If he sold 115 cakes and 81 pastries How many more cakes than pastries did baker make?
+Answer:
+Output:
+( 126.0 - 115.0 ) - ( 48.0 - 81.0 ) The answer is 34.0.
+Output_clean:34.0
+answer:78.0
+EM:0 , F1:0
+correct:0
+已完成：97
+总正确数 : 68
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Baker made 133 cakes. If he sold 51 of them How many more cakes did baker make than those he sold?
+Answer:
+Output:
+( 133.0 - 51.0 ) The answer is 82.0.
+Output_clean:82.0
+answer:82.0
+EM:0 , F1:0
+correct:1
+已完成：98
+总正确数 : 69
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 12 cups of flour 5 cups of sugar and 49 cups of salt. She already put in 11 cups of flour. How many more cups of flour does she need to add?
+Answer:
+Output:
+( 12.0 - 11.0 ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：99
+总正确数 : 70
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Baker made 134 pastries and 11 cakes. If he sold 140 cakes and 92 pastries How many more pastries than cakes did baker make?
+Answer:
+Output:
+( 134.0 - 92.0 ) - ( 11.0 - 140.0 ) The answer is 182.0.
+Output_clean:182.0
+answer:123.0
+EM:0 , F1:0
+correct:0
+已完成：100
+总正确数 : 70
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?
+Answer:
+Output:
+( 13.0 + 8.0 ) The answer is 21.0.
+Output_clean:21.0
+answer:21.0
+EM:0 , F1:0
+correct:1
+已完成：101
+总正确数 : 71
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 5 cups of flour and 14 cups of sugar. She already put in 10 cups of flour and 2 cups of sugar. How many more cups of sugar does she need to add?
+Answer:
+Output:
+( 14.0 - 2.0 ) The answer is 12.0.
+Output_clean:12.0
+answer:12.0
+EM:0 , F1:0
+correct:1
+已完成：102
+总正确数 : 72
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour How many cups of flour did she put in?
+Answer:
+Output:
+( 12.0 - 2.0 ) The answer is 10.0.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：103
+总正确数 : 73
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Baker made 149 cakes and 91 pastries. If he sold 10 cakes and 90 pastries How many cakes would baker still have?
+Answer:
+Output:
+( 149.0 - 10.0 ) The answer is 139.0.
+Output_clean:139.0
+answer:139.0
+EM:0 , F1:0
+correct:1
+已完成：104
+总正确数 : 74
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Mary is baking a cake. The recipe calls for 10 cups of flour 2 cups of sugar and 80 cups of salt. She already put in 7 cups of flour. How many more cups of flour than cups of sugar does she need to add now?
+Answer:
+Output:
+( 10.0 - 7.0 ) - 2.0 The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：105
+总正确数 : 75
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Paul had 42 pens and 143 books. After selling some books and pens in a garage sale he had 113 books and 19 pens left. How many pens did he sell in the garage sale?
+Answer:
+Output:
+( 42.0 + 143.0 - 113.0 - 19.0 ) The answer is 33.0.
+Output_clean:33.0
+answer:23.0
+EM:0 , F1:0
+correct:0
+已完成：106
+总正确数 : 75
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. He read 8 pages per day. If the book had 576 pages How many days did he take to finish the book?
+Answer:
+Output:
+( 576.0 / 8.0 ) The answer is 72.0.
+Output_clean:72.0
+answer:72.0
+EM:0 , F1:0
+correct:1
+已完成：107
+总正确数 : 76
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. He read 22 pages per day and it took him 569 days to finish the book. How many pages are there in the book?
+Answer:
+Output:
+( 22.0 * 569.0 ) The answer is 12558.0.
+Output_clean:12558.0
+answer:12518.0
+EM:0 , F1:0
+correct:0
+已完成：108
+总正确数 : 76
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Every day Ryan spends 5 hours on learning english and 4 hours on learning chinese. If he learns for 6 days How many hours does he spend on learning chinese in all?
+Answer:
+Output:
+( 4.0 * 6.0 ) The answer is 24.0.
+Output_clean:24.0
+answer:24.0
+EM:0 , F1:0
+correct:1
+已完成：109
+总正确数 : 77
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. It took him 16 days to finish the book. If the book had 112 pages How many pages did he read per day?
+Answer:
+Output:
+( 112.0 / 16.0 ) The answer is 7.0.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：110
+总正确数 : 78
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Every day Ryan spends 6 hours on learning english and 2 hours on learning chinese. How many more hours does he spend on learning english than he does on learning chinese?
+Answer:
+Output:
+( 6.0 - 2.0 ) The answer is 4.0.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：111
+总正确数 : 79
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Ryan learns english and chinese for 7 days. Every day he spends 4 hours on learning english and 5 hours on learning chinese. How many hours does he spend on learning english and chinese in all?
+Answer:
+Output:
+( ( 4.0 + 5.0 ) * 7.0 ) The answer is 63.0.
+Output_clean:63.0
+answer:63.0
+EM:0 , F1:0
+correct:1
+已完成：112
+总正确数 : 80
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. The book had 193 pages equally distributed over 15 chapters. It took Frank 660 days to finish the book. How many chapters did he read per day?
+Answer:
+Output:
+( 15.0 / 660.0 ) The answer is 0.022727272727272728.
+Output_clean:0.022727272727272728
+answer:44.0
+EM:0 , F1:0
+correct:0
+已完成：113
+总正确数 : 80
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through some books. Each book had 249 pages and it took Frank 3 days to finish each book. How many pages did he read per day?
+Answer:
+Output:
+( 249.0 * 3.0 ) The answer is 747.0.
+Output_clean:747.0
+answer:83.0
+EM:0 , F1:0
+correct:0
+已完成：114
+总正确数 : 80
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through some books. Each book had 66 pages and it took Frank 12 days to finish each book. If he takes 492 days to finish all books How many books did he read?
+Answer:
+Output:
+( 492.0 / 12.0 ) The answer is 41.0.
+Output_clean:41.0
+answer:41.0
+EM:0 , F1:0
+correct:1
+已完成：115
+总正确数 : 81
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. The book had 612 pages equally distributed over 24 chapters. It took Frank 6 days to finish the book. How many pages did he read per day?
+Answer:
+Output:
+( 612.0 / 24.0 ) The answer is 25.5.
+Output_clean:25.5
+answer:102.0
+EM:0 , F1:0
+correct:0
+已完成：116
+总正确数 : 81
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Every day Ryan spends 3 hours on learning english and some more hours on learning chinese. If he spends a total of 4 hours on learning english and chinese everyday How many hours does he spend on learning chinese?
+Answer:
+Output:
+( 4.0 - 3.0 ) The answer is 1.0.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：117
+总正确数 : 82
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. The book had 555 pages equally distributed over 5 chapters. It took Frank 220 days to finish the book. How many pages are in each chapter?
+Answer:
+Output:
+( 555.0 / 5.0 ) The answer is 111.0.
+Output_clean:111.0
+answer:111.0
+EM:0 , F1:0
+correct:1
+已完成：118
+总正确数 : 83
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?
+Answer:
+Output:
+( 2.0 * 405.0 ) / 664.0 The answer is 1.2.
+Output_clean:1.2
+answer:332.0
+EM:0 , F1:0
+correct:0
+已完成：119
+总正确数 : 83
+*****************************
+*****************************
+Input:
+Answer question in the given examples format.Do not refuse to answer.Do not request further information.
+Question: The Razorback t-shirt shop sells each t-shirt for $ 51 dollars. During the Arkansas and Texas tech game they offered a discount of $ 8 per t-shirt and sold 130 t-shirts. How much money did they make from selling the t-shirts?
+Answer: ( ( 51.0 - 8.0 ) * 130.0 ) The answer is 5590.0.
+
+Question: Zachary did 44 push-ups in gym class today. David did 58 more push-ups than zachary.How many push-ups did Zachary and David do altogether?
+Answer: ( ( 44.0 + 44.0 ) + 58.0 ) The answer is 92.0.
+
+Question: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies.How many salty cookies did Paco have left?
+Answer: ( 26.0 - 9.0 ) The answer is 17.0.
+
+Question: Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book.How many pages did he read per day?
+Answer: ( 450.0 / 30.0 ) The answer is 15.0.
+
+Question:Every day Ryan spends 5 hours on learning chinese and some more hours on learning english. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning english?
+Answer:
+Output:
+( 5.0 + 2.0 ) The answer is 7.0.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：120
+总正确数 : 84
+*****************************
+EM: 0.00, F1: 0.00
+correct_num : 84
+total_num : 120
+accuracy : 70.0

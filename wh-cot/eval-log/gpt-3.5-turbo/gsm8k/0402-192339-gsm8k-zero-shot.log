@@ -1,0 +1,25 @@
+*****************************
+2024-04-02 19:23:39
+Namespace(model='gpt-3.5-turbo', task='gsm8k', test_data_size=120, demo_num=2, method='zero-shot', temperature=0.1, top_p=0.6)
+*****************************
+*****************************
+====================
+ChatCompletion(id='chatcmpl-HKwivBDGR8Q0nlfBwnHqXeRpEq5kM', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Ali would have to pay John a total of $100.\n\nCalculation:\n4 tables at $20 each = 4 * $20 = $80\n2 roof frames at $10 each = 2 * $10 = $20\nTotal cost = $80 + $20 = $100', role='assistant', function_call=None, tool_calls=None))], created=1712057028, model='gpt-3.5-turbo', object='chat.completion', system_fingerprint='fp_5076d8ac12', usage=CompletionUsage(completion_tokens=0, prompt_tokens=0, total_tokens=0))
+====================
+Input:
+Question:John is a carpenter. For his friend Ali, he manufactured 4 wooden tables for $20 each and 2 roof frames for $10 each. How much does Ali have to pay John?
+Answer: The answer (decimal numerals) is
+Output:
+Ali would have to pay John a total of $100.
+
+Calculation:
+4 tables at $20 each = 4 * $20 = $80
+2 roof frames at $10 each = 2 * $10 = $20
+Total cost = $80 + $20 = $100
+Output_clean:80.0
+answer:100.0
+correct:0
+已完成：1
+总正确数 : 0
+*****************************
+*****************************

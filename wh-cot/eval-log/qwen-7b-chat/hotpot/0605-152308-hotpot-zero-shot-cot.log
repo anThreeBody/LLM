@@ -1,0 +1,1902 @@
+*****************************
+2024-06-05 15:23:08
+Namespace(model='qwen-7b-chat', task='hotpot', test_data_size=120, demo_num=3, method='zero-shot-cot', temperature=0.1, top_p=0.6, sample='clusterRandom')
+*****************************
+*****************************
+Input:
+Question:Kalle Mäkinen is nicknamed after a Spanish football that captains what two teams?
+Answer: Let's think step by step.
+Kalle Mäkinen is nicknamed after a Spanish football that captains two teams.
+Therefore, the answer is
+Output:
+Real Madrid and Barcelona.
+Output_clean:Real Madrid and Barcelona
+answer:Real Madrid and the Spain national team
+EM:0.0 , F1:0.6
+correct:0
+已完成：1
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the birth date of the person Richard Callaghan coached to Olympic, World, and national titles?
+Answer: Let's think step by step.
+The person Richard Callaghan coached to Olympic, World, and national titles is not specified in the given examples format.
+Therefore, the answer is
+Output:
+unknown.
+Output_clean:unknown
+answer:June 10, 1982
+EM:0.0 , F1:0
+correct:0
+已完成：2
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What country do both Adnan Akmal and Kamran Akmal represent in cricket?
+Answer: Let's think step by step.
+Adnan Akmal and Kamran Akmal are both cricketers from Pakistan.
+Therefore, the answer is
+Output:
+Pakistan.
+Output_clean:Pakistan
+answer:Pakistani
+EM:0.0 , F1:0
+correct:0
+已完成：3
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Seven years before the opening of the Brewer Fieldhouse in Columbia, Missouri, where was Chester Brewer working as head football coach and head basketball coach?
+Answer: Let's think step by step.
+1. The question asks about Chester Brewer's work location seven years before the opening of the Brewer Fieldhouse in Columbia, Missouri. 
+
+2. To answer the question, we need to find out where Chester Brewer was working as head football coach and head basketball coach seven years before the opening of the Brewer Fieldhouse. 
+
+3. We can assume that Chester Brewer was working at the same university or college during that time period. 
+
+4. We can also assume that Chester Brewer was working in the same position as head football coach and head basketball coach. 
+
+5. Therefore, we can conclude that Chester Brewer was working as head football coach and head basketball coach at the university or college where the Brewer Fieldhouse was later built.
+Therefore, the answer is
+Output:
+Chester Brewer was working as head football coach and head basketball coach at the university or college where the Brewer Fieldhouse was later built.
+Output_clean:Chester Brewer was working as head football coach and head basketball coach at the university or college where the Brewer Fieldhouse was later built
+answer:University Farm
+EM:0.0 , F1:0.08333333333333334
+correct:0
+已完成：4
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:In what city was the second bowl game to air on all the "big four" television networks played?
+Answer: Let's think step by step.
+The second bowl game to air on all the "big four" television networks was played in the city of Miami, Florida.
+Therefore, the answer is
+Output:
+Miami, Florida.
+Output_clean:Miami, Florida
+answer:Miami
+EM:0.0 , F1:0.6666666666666666
+correct:0
+已完成：5
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?
+Answer: Let's think step by step.
+The man that was drafted eighth overall in the 1995 NFL Draft co-hosts a show called "The Rich Eisen Show".
+Therefore, the answer is
+Output:
+The Rich Eisen Show.
+Output_clean:The Rich Eisen Show
+answer:College Football Scoreboard
+EM:0.0 , F1:0
+correct:0
+已完成：6
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What midfielder for West Bromwich Albion is Michael John Standing an agent for?
+Answer: Let's think step by step.
+1. Identify the subject: Michael John Standing is an agent for a West Bromwich Albion midfielder.
+2. Research: Michael John Standing is an agent for the midfielder, Chris Brunt.
+3. Answer: Michael John Standing is an agent for Chris Brunt, a midfielder for West Bromwich Albion.
+Therefore, the answer is
+Output:
+Chris Brunt.
+Output_clean:Chris Brunt
+answer:Gareth Barry
+EM:0.0 , F1:0
+correct:0
+已完成：7
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:In which year was this American figure skater, actress, and sports commentator coached by Richard Callaghan for Olympic games, the U. S. national champion?
+Answer: Let's think step by step.
+1. Identify the American figure skater, actress, and sports commentator who was coached by Richard Callaghan for Olympic games and the U.S. national champion. 
+
+2. The figure skater, actress, and sports commentator in question is Michelle Kwan. 
+
+3. Michelle Kwan was coached by Richard Callaghan for the 1998 Olympic Games and the 1996 U.S. national championships. 
+
+4. Therefore, the answer to the question is 1998.
+Therefore, the answer is
+Output:
+1998.
+Output_clean:1998
+answer:1997
+EM:0.0 , F1:0
+correct:0
+已完成：8
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Which magazine has more issues per month, Club or Pro Football Weekly 
+Answer: Let's think step by step.
+Club has 12 issues per year, while Pro Football Weekly has 12 issues per year. Both magazines have the same number of issues per month.
+Therefore, the answer is
+Output:
+Both magazines have the same number of issues per month, so they are equally likely to have 12 issues per month.
+Output_clean:Both magazines have the same number of issues per month, so they are equally likely to have 12 issues per month
+answer:Pro Football Weekly
+EM:0.0 , F1:0
+correct:0
+已完成：9
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:For which football club, established in 1949, did Mitch Duggan have a loan spell prior to joining Tranmere Rovers?
+Answer: Let's think step by step.
+Mitch Duggan had a loan spell at a football club established in 1949 before joining Tranmere Rovers. The football club in question is the one he played for during his loan spell.
+Therefore, the answer is
+Output:
+The football club Mitch Duggan had a loan spell at, established in 1949, is the one he played for during his loan spell.
+Output_clean:The football club Mitch Duggan had a loan spell at, established in 1949, is the one he played for during his loan spell
+answer:Warrington Town Football Club
+EM:0.0 , F1:0.16666666666666669
+correct:0
+已完成：10
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:From what nation is the football player who was named Man of the Match at the 2001 Intercontinental Cup?
+Answer: Let's think step by step.
+The football player who was named Man of the Match at the 2001 Intercontinental Cup was none other than the legendary Brazilian footballer, Ronaldo.
+Therefore, the answer is
+Output:
+Brazil.
+Output_clean:Brazil
+answer:Ghana
+EM:0.0 , F1:0
+correct:0
+已完成：11
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What years did Jose Gonzalo Rodriguez Gacha and other leaders of fthe Medallin Cartel operate in Boliva, Colombia, Central America, Peru, the United States, Canada, and Europe?
+Answer: Let's think step by step.
+Jose Gonzalo Rodriguez Gacha and other leaders of the Medellin Cartel operated in various countries during the 1980s and 1990s.
+Therefore, the answer is
+Output:
+The Medellin Cartel operated in Bolivia, Colombia, Central America, Peru, the United States, Canada, and Europe during the 1980s and 1990s.
+Output_clean:The Medellin Cartel operated in Bolivia, Colombia, Central America, Peru, the United States, Canada, and Europe during the 1980s and 1990s
+answer:1970s and 1980s
+EM:0.0 , F1:0.1904761904761905
+correct:0
+已完成：12
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Paul Ziert recruited what two time gold medalist in gymnastics?
+Answer: Let's think step by step.
+Paul Ziert recruited two-time gold medalist in gymnastics.
+Therefore, the answer is
+Output:
+The two-time gold medalist in gymnastics that Paul Ziert recruited is not specified in the given question.
+Output_clean:The two-time gold medalist in gymnastics that Paul Ziert recruited is not specified in the given question
+answer:Bart Conner
+EM:0.0 , F1:0
+correct:0
+已完成：13
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Evan Williams played for what professional football club that was originally known as St. Luke's FC?
+Answer: Let's think step by step.
+Evan Williams played for a professional football club that was originally known as St. Luke's FC.
+Therefore, the answer is
+Output:
+St. Luke's FC.
+Output_clean:St. Luke's FC
+answer:Wolverhampton Wanderers Football Club
+EM:0.0 , F1:0
+correct:0
+已完成：14
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Who did the player nicknamed "The Human Highlight Film" play for after he left the Atlanta Hawks?
+Answer: Let's think step by step.
+1. The player nicknamed "The Human Highlight Film" is Dominique Wilkins, who played for the Atlanta Hawks during his career.
+Therefore, the answer is
+Output:
+Dominique Wilkins played for the Atlanta Hawks during his career.
+Output_clean:Dominique Wilkins played for the Atlanta Hawks during his career
+answer:Boston Celtics
+EM:0.0 , F1:0
+correct:0
+已完成：15
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Which English crime writer wrote the 2005 psychological thriller "The Devil's Feather"?
+Answer: Let's think step by step.
+The English crime writer who wrote the 2005 psychological thriller "The Devil's Feather" is Peter Dickinson.
+Therefore, the answer is
+Output:
+Peter Dickinson.
+Output_clean:Peter Dickinson
+answer:Minette Walters
+EM:0.0 , F1:0
+correct:0
+已完成：16
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What star in the film Up at the Villa has earned the title of knighthood?
+Answer: Let's think step by step.
+In the film "Up at the Villa," the character who earned the title of knighthood is Sir Charles Lytton.
+Therefore, the answer is
+Output:
+Sir Charles Lytton.
+Output_clean:Sir Charles Lytton
+answer:Sir Derek George Jacobi
+EM:0.0 , F1:0.28571428571428575
+correct:0
+已完成：17
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Jacques Mathou starred in Delicatessen, the 1991 French movie in the style of which celebrated American animator?
+Answer: Let's think step by step.
+1. Jacques Mathou starred in Delicatessen, a 1991 French movie.
+2. Delicatessen is a movie in the style of which celebrated American animator?
+3. The answer is: The movie Delicatessen is in the style of the celebrated American animator, Walt Disney.
+Therefore, the answer is
+Output:
+Walt Disney.
+Output_clean:Walt Disney
+answer:Terry Gilliam
+EM:0.0 , F1:0
+correct:0
+已完成：18
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What other jobs did the actress Olivia Munn from Mortdecai have?
+Answer: Let's think step by step.
+Olivia Munn is an actress who has appeared in various movies and TV shows. She has also worked as a correspondent for the sports news program "SportsCenter" on ESPN.
+Therefore, the answer is
+Output:
+Olivia Munn has worked as a correspondent for the sports news program "SportsCenter" on ESPN.
+Output_clean:Olivia Munn has worked as a correspondent for the sports news program "SportsCenter" on ESPN
+answer:model
+EM:0.0 , F1:0
+correct:0
+已完成：19
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Stephen Graham starred in a film in 2006, directed by whom?
+Answer: Let's think step by step.
+1. Identify the film: The film in question is "The Secret of the Sands" released in 2006. 
+
+2. Identify the director: The film was directed by John Woo. 
+
+3. Provide the answer: Stephen Graham starred in "The Secret of the Sands" directed by John Woo.
+Therefore, the answer is
+Output:
+John Woo.
+Output_clean:John Woo
+answer:directed by Shane Meadows
+EM:0.0 , F1:0
+correct:0
+已完成：20
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the name of the movie that stars Katrina Bowden and was directed by Sean Anders?
+Answer: Let's think step by step.
+The movie that stars Katrina Bowden and was directed by Sean Anders is called "The Internship".
+Therefore, the answer is
+Output:
+"The Internship".
+Output_clean:"The Internship"
+answer:Sex Drive
+EM:0.0 , F1:0
+correct:0
+已完成：21
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Who voices Homer Simpson's character on the animated television series? 
+Answer: Let's think step by step.
+Homer Simpson's voice on the animated television series is provided by the talented actor and comedian, Dan Castellaneta.
+Therefore, the answer is
+Output:
+Dan Castellaneta.
+Output_clean:Dan Castellaneta
+answer:Daniel Louis Castellaneta
+EM:0.0 , F1:0.4
+correct:0
+已完成：22
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Susan B. Landau's credits include a comedy sports film that was the last to be released during the life of who?
+Answer: Let's think step by step.
+1. Identify the subject of the question: Susan B. Landau's credits include a comedy sports film.
+2. Determine the specific information requested: the last comedy sports film released during the life of a particular individual.
+3. Recall relevant information: The last comedy sports film released during the life of the actor who played the lead role in the film.
+4. Provide the correct answer: The last comedy sports film released during the life of the actor who played the lead role in the film was "The Last Summer of Billy the Kid" (1953), starring James Dean.
+Therefore, the answer is
+Output:
+James Dean.
+Output_clean:James Dean
+answer:John Candy
+EM:0.0 , F1:0
+correct:0
+已完成：23
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What year did the VIacom subsidary, Paramount Pictures make the silent film Through the Glass Window?
+Answer: Let's think step by step.
+The Paramount Pictures subsidiary, Viacom, made the silent film Through the Glass Window in the year 1919.
+Therefore, the answer is
+Output:
+1919.
+Output_clean:1919
+answer:1922
+EM:0.0 , F1:0
+correct:0
+已完成：24
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Ms. Knope Goes to Washington is the fifth season premiere of an American political comedy television sitcom starring Amy Poehler as who?
+Answer: Let's think step by step.
+Ms. Knope Goes to Washington is the fifth season premiere of an American political comedy television sitcom starring Amy Poehler as Leslie Knope.
+Therefore, the answer is
+Output:
+Leslie Knope.
+Output_clean:Leslie Knope
+answer:Leslie Knope
+EM:1.0 , F1:1.0
+correct:1
+已完成：25
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:"I Wed Three Wives" is an episode of a television series that ran on what network?
+Answer: Let's think step by step.
+The television series "I Wed Three Wives" aired on the network ABC.
+Therefore, the answer is
+Output:
+ABC.
+Output_clean:ABC
+answer:ABC
+EM:1.0 , F1:1.0
+correct:1
+已完成：26
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:Who directed the film that Mads Mikkelsen won the award for Best Actor for his performance in at the 58th Bodil Awards?
+Answer: Let's think step by step.
+The film that Mads Mikkelsen won the award for Best Actor for his performance in at the 58th Bodil Awards is "The Hunt" (Hvordan Kommer Du Herfra). The director of the film is Thomas Vinterberg.
+Therefore, the answer is
+Output:
+Thomas Vinterberg.
+Output_clean:Thomas Vinterberg
+answer:Nicolas Winding Refn
+EM:0.0 , F1:0
+correct:0
+已完成：27
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:Which movie was based on a book, The Haunted Mansion orThe Greatest Game Ever Played? 
+Answer: Let's think step by step.
+The movie "The Greatest Game Ever Played" was based on a book.
+Therefore, the answer is
+Output:
+"The Greatest Game Ever Played".
+Output_clean:"The Greatest Game Ever Played"
+answer:The Greatest Game Ever Played
+EM:1.0 , F1:1.0
+correct:1
+已完成：28
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:WHAT WAS THE NAME OF THE BOOK MADE INTO THE 2015 SOUTH KOREAN CRIME THRILLER, THE DEAL, DIRECTED BY SON YONG-HO AND FEATURING SOUTH KOREAN ACTOR PARK SUNG-WOONG (BORN JANUARY 9, 1973) AS A SERIAL KILLER?
+Answer: Let's think step by step.
+The name of the book made into the 2015 South Korean crime thriller, The Deal, is "The Deal" itself. The film is based on the novel of the same name by South Korean author Lee Chang-doo.
+Therefore, the answer is
+Output:
+"The Deal"
+Output_clean:"The Deal"
+answer:"Murder Request"
+EM:0.0 , F1:0
+correct:0
+已完成：29
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:Shaheed Udham Singh is a movie based on what massacre that took place on 13 April, 1919?
+Answer: Let's think step by step.
+Shaheed Udham Singh is a movie based on the Jallianwala Bagh massacre that took place on 13 April, 1919.
+Therefore, the answer is
+Output:
+Jallianwala Bagh massacre.
+Output_clean:Jallianwala Bagh massacre
+answer:Jallianwala Bagh massacre
+EM:1.0 , F1:1.0
+correct:1
+已完成：30
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:The album "Mr. 12 String Guitar" features a singer that hosted a variety show from 1969 to 1972 on what newtork?
+Answer: Let's think step by step.
+1. Identify the singer featured on the album "Mr. 12 String Guitar."
+2. Recall the name of the singer and the network they hosted a variety show on from 1969 to 1972.
+
+The singer featured on the album "Mr. 12 String Guitar" is Donovan, and he hosted a variety show called "The Donovan Show" from 1969 to 1972 on the network ABC.
+Therefore, the answer is
+Output:
+ABC.
+Output_clean:ABC
+answer:CBS
+EM:0.0 , F1:0
+correct:0
+已完成：31
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Follow the Yellow Brick Road Tour is taking place to commemorate the album that was recorded where?
+Answer: Let's think step by step.
+The Follow the Yellow Brick Road Tour is taking place to commemorate the album that was recorded by the band "The Beatles".
+Therefore, the answer is
+Output:
+The Beatles.
+Output_clean:The Beatles
+answer:Château d'Hérouville
+EM:0.0 , F1:0
+correct:0
+已完成：32
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:What song included on the 59th edition of Now That's What I Call Music was written and recorded by an Australian recording artist?
+Answer: Let's think step by step.
+1. The 59th edition of "Now That's What I Call Music" is a compilation album that features various songs from different artists. The Australian recording artist in question is Sia. The song written and recorded by Sia is "Chandelier."
+Therefore, the answer is
+Output:
+The song included on the 59th edition of "Now That's What I Call Music" that was written and recorded by an Australian recording artist is "Chandelier" by Sia.
+Output_clean:The song included on the 59th edition of "Now That's What I Call Music" that was written and recorded by an Australian recording artist is "Chandelier" by Sia
+answer:"Cheap Thrills" by Sia
+EM:0.0 , F1:0.13793103448275865
+correct:0
+已完成：33
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:The Legendary A&M Sessions contain five songs by the singer whose work was conducted with what band?
+Answer: Let's think step by step.
+1. The question asks about the singer and band involved in The Legendary A&M Sessions.
+2. The answer provided is "Let's think step by step."
+3. The answer should be focused on the singer and band involved in the sessions.
+Therefore, the answer is
+Output:
+The Legendary A&M Sessions contain five songs by the singer whose work was conducted with the band The Beatles.
+Output_clean:The Legendary A&M Sessions contain five songs by the singer whose work was conducted with the band The Beatles
+answer:Magic Band
+EM:0.0 , F1:0.11764705882352941
+correct:0
+已完成：34
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Does Jimmy Barnes have more hits, both solo and in a group, than Yang Seung-ho has with his group?
+Answer: Let's think step by step.
+1. Jimmy Barnes is a Scottish musician who has had a successful solo career and has also been a member of several bands. Yang Seung-ho is a South Korean singer who has had a successful solo career and has also been a member of several bands. 
+
+2. To compare their hit songs, we need to look at their respective discographies and analyze the number of songs that have achieved commercial success. 
+
+3. Jimmy Barnes has had over 20 solo hits, including songs like "I Love Rock 'n' Roll" and "Never Too Late". He has also been a member of several bands, including The Unison Project and The Bad Boys, and has contributed to their hit songs. 
+
+4. Yang Seung-ho has had over 10 solo hits, including songs like "I'm Yours" and "Love Me". He has also been a member of several bands, including JYJ and YG Entertainment, and has contributed to their hit songs. 
+
+5. Based on this analysis, it appears that Jimmy Barnes has more hits, both solo and in a group, than Yang Seung-ho has with his group.
+Therefore, the answer is
+Output:
+Yes, Jimmy Barnes has more hits, both solo and in a group, than Yang Seung-ho has with his group.
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：35
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:the work of The Last Poets and Gil Scott Heron inspired music that fits under what larger sub-genre?
+Answer: Let's think step by step.
+The work of The Last Poets and Gil Scott Heron inspired music that fits under the larger sub-genre of "Afro-Punk".
+Therefore, the answer is
+Output:
+Afro-Punk.
+Output_clean:Afro-Punk
+answer:underground hip hop
+EM:0.0 , F1:0
+correct:0
+已完成：36
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:Which band formed earlier, Edward Sharpe and the Magnetic Zeros or Louis XIV?
+Answer: Let's think step by step.
+1. Edward Sharpe and the Magnetic Zeros formed earlier than Louis XIV.
+Therefore, the answer is
+Output:
+Edward Sharpe and the Magnetic Zeros.
+Output_clean:Edward Sharpe and the Magnetic Zeros
+answer:Louis XIV
+EM:0.0 , F1:0
+correct:0
+已完成：37
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:What other female rappers appeared Brittany Nicole Carpentero in the official remix to My Chick Bad?
+Answer: Let's think step by step.
+1. Brittany Nicole Carpenter is featured in the official remix to "My Chick Bad" by Nelly.
+2. The official remix features other female rappers, including Nicki Minaj and Trina.
+3. Nicki Minaj and Trina are the other female rappers who appeared in the official remix to "My Chick Bad".
+Therefore, the answer is
+Output:
+Nicki Minaj and Trina.
+Output_clean:Nicki Minaj and Trina
+answer:Eve, and Trina
+EM:0.0 , F1:0.5714285714285715
+correct:0
+已完成：38
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:Who is affiliated with more countries as a director, Robert Florey and R. G. Springsteen?
+Answer: Let's think step by step.
+Robert Florey is a French director who has worked on films in France, Germany, and the United States. R. G. Springsteen is an American director who has worked on films in the United States.
+Therefore, the answer is
+Output:
+Robert Florey is affiliated with more countries as a director.
+Output_clean:Robert Florey is affiliated with more countries as a director
+answer:Robert Florey
+EM:0.0 , F1:0.3636363636363636
+correct:0
+已完成：39
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:Which record producer from Stockbridge, Georgia is the lead singer of Collective Soul?
+Answer: Let's think step by step.
+The record producer from Stockbridge, Georgia who is the lead singer of Collective Soul is Ed O'Brien.
+Therefore, the answer is
+Output:
+Ed O'Brien.
+Output_clean:Ed O'Brien
+answer:Edgar Eugene Roland, Jr.
+EM:0.0 , F1:0
+correct:0
+已完成：40
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:Are Roger Waters and Tom Johnston both musicians?
+Answer: Let's think step by step.
+Yes, Roger Waters and Tom Johnston are both musicians.
+Therefore, the answer is
+Output:
+Yes, Roger Waters and Tom Johnston are both musicians.
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：41
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Did Vertical Horizon or LCD Soundsystem start their bands first?
+Answer: Let's think step by step.
+Vertical Horizon and LCD Soundsystem are two different bands, so it's not possible to compare their starting dates. Vertical Horizon was formed in 1995, while LCD Soundsystem was formed in 2001.
+Therefore, the answer is
+Output:
+Vertical Horizon started their band first.
+Output_clean:Vertical Horizon started their band first
+answer:Vertical Horizon
+EM:0.0 , F1:0.5
+correct:0
+已完成：42
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:What position in their bands did both Christopher Amott and Johnny Edwards have in common?
+Answer: Let's think step by step.
+Both Christopher Amott and Johnny Edwards were guitarists in their respective bands.
+Therefore, the answer is
+Output:
+Both Christopher Amott and Johnny Edwards were guitarists in their respective bands.
+Output_clean:Both Christopher Amott and Johnny Edwards were guitarists in their respective bands
+answer:vocalist
+EM:0.0 , F1:0
+correct:0
+已完成：43
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Hotride is the fifteenth single released by what music group from Braintree, Essex, that was formed in 1990?
+Answer: Let's think step by step.
+1. Identify the music group from Braintree, Essex, that was formed in 1990.
+2. Find the fifteenth single released by this group.
+3. Provide the name of the music group as the answer to the question.
+Therefore, the answer is
+Output:
+The music group from Braintree, Essex, that was formed in 1990 and released the fifteenth single is called "The Kooks".
+Output_clean:The music group from Braintree, Essex, that was formed in 1990 and released the fifteenth single is called "The Kooks"
+answer:The Prodigy
+EM:0.0 , F1:0
+correct:0
+已完成：44
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question: "One Less Set of Footsteps" is a song written and performed by a singer born in which year ?
+Answer: Let's think step by step.
+One Less Set of Footsteps" is a song written and performed by singer John Denver. John Denver was born on December 22, 1943.
+Therefore, the answer is
+Output:
+1943.
+Output_clean:1943
+answer:1943
+EM:1.0 , F1:1.0
+correct:1
+已完成：45
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:The author of "The New American Story " served three terms as a US Senator from what state?
+Answer: Let's think step by step.
+The author of "The New American Story" is Norman Mailer. He served three terms as a US Senator from New York.
+Therefore, the answer is
+Output:
+New York.
+Output_clean:New York
+answer:New Jersey
+EM:0.0 , F1:0.5
+correct:0
+已完成：46
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:Peter Shand Kydd was related to which early member of the Clermont Club?
+Answer: Let's think step by step.
+1. Identify the key information in the question: Peter Shand Kydd and the Clermont Club.
+2. Recall that the Clermont Club was a private dining club in London.
+3. Research the early members of the Clermont Club to find a connection to Peter Shand Kydd.
+4. Find that Peter Shand Kydd was related to the 1st Earl of Radnor, who was an early member of the Clermont Club.
+5. Provide the answer to the question: Peter Shand Kydd was related to the 1st Earl of Radnor, who was an early member of the Clermont Club.
+Therefore, the answer is
+Output:
+the 1st Earl of Radnor.
+Output_clean:the 1st Earl of Radnor
+answer:John Bingham, 7th Earl of Lucan
+EM:0.0 , F1:0.4
+correct:0
+已完成：47
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:Who was the captain of the only battleship to provide gunfire support during the Vietnam War?
+Answer: Let's think step by step.
+The captain of the only battleship to provide gunfire support during the Vietnam War was Admiral George W. Anderson Jr.
+Therefore, the answer is
+Output:
+Admiral George W. Anderson Jr.
+Output_clean:Admiral George W. Anderson Jr
+answer:Rear Adm. J. Edward Snyder
+EM:0.0 , F1:0
+correct:0
+已完成：48
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:Which legal, autonomous North American tribal government signed its constitution in Oklahoma on September 6, 1839?
+Answer: Let's think step by step.
+The legal, autonomous North American tribal government that signed its constitution in Oklahoma on September 6, 1839, was the Cherokee Nation.
+Therefore, the answer is
+Output:
+The Cherokee Nation.
+Output_clean:The Cherokee Nation
+answer:The Cherokee Nation
+EM:1.0 , F1:1.0
+correct:1
+已完成：49
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:What university employed the psychologist that inspired David McClelland's thinking on power??
+Answer: Let's think step by step.
+The psychologist that inspired David McClelland's thinking on power was Edward L. Thorndike. He was employed at the University of Chicago.
+Therefore, the answer is
+Output:
+University of Chicago.
+Output_clean:University of Chicago
+answer:Harvard University
+EM:0.0 , F1:0.4
+correct:0
+已完成：50
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:As a Nazi hunter, Simon Wiesenthal, was apart of a fued in what time frame?
+Answer: Let's think step by step.
+As a Nazi hunter, Simon Wiesenthal was involved in the fight against Nazi Germany during World War II.
+Therefore, the answer is
+Output:
+World War II.
+Output_clean:World War II
+answer:1970s
+EM:0.0 , F1:0
+correct:0
+已完成：51
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Where does the state legislature in which John Coffin Talbot served convene?
+Answer: Let's think step by step.
+1. John Coffin Talbot served as a member of the state legislature.
+2. The state legislature convenes in a specific location.
+3. The location of the state legislature in which John Coffin Talbot served is the State Capitol.
+Therefore, the answer is
+Output:
+The state legislature in which John Coffin Talbot served convenes in the State Capitol.
+Output_clean:The state legislature in which John Coffin Talbot served convenes in the State Capitol
+answer:the State House in Augusta
+EM:0.0 , F1:0.25
+correct:0
+已完成：52
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:The man tried for the murder of Anthony "White Tony" Johnson is suspected of how many unsolved murders along with his younger brother?
+Answer: Let's think step by step.
+The man suspected of the murder of Anthony "White Tony" Johnson is also suspected of how many unsolved murders along with his younger brother?
+Therefore, the answer is
+Output:
+The man suspected of the murder of Anthony "White Tony" Johnson is also suspected of how many unsolved murders along with his younger brother? Therefore, the answer is 1.
+Output_clean:1
+answer:96
+EM:0.0 , F1:0
+correct:0
+已完成：53
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Vincent Drucci was a member of a rival gang to the mob boss who was known by what nickname?
+Answer: Let's think step by step.
+Vincent Drucci was a member of a rival gang to the mob boss who was known by the nickname "The Godfather".
+Therefore, the answer is
+Output:
+The Godfather.
+Output_clean:The Godfather
+answer:Scarface
+EM:0.0 , F1:0
+correct:0
+已完成：54
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Which author wrote about a woman captured by the Symbionese Liberation Army?
+Answer: Let's think step by step.
+The author who wrote about a woman captured by the Symbionese Liberation Army is Thomas Pynchon.
+Therefore, the answer is
+Output:
+Thomas Pynchon.
+Output_clean:Thomas Pynchon
+answer:Paul Avery
+EM:0.0 , F1:0
+correct:0
+已完成：55
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Under Which Stanmore born prime minister was John Gorton a serving minister? 
+Answer: Let's think step by step.
+Under the Prime Minister born in Stanmore, John Gorton was a serving minister.
+Therefore, the answer is
+Output:
+Robert Menzies.
+Output_clean:Robert Menzies
+answer:Harold Holt
+EM:0.0 , F1:0
+correct:0
+已完成：56
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:The term Moneybomb was coined by Trevor Lyman to describe a massive online donation drive on behalf of a presidential candidate that was the first chairman of what PAC? 
+Answer: Let's think step by step.
+The term "Moneybomb" was coined by Trevor Lyman to describe a massive online donation drive on behalf of a presidential candidate. The first chairman of the PAC that was involved in this Moneybomb was the Republican National Committee (RNC).
+Therefore, the answer is
+Output:
+Republican National Committee (RNC).
+Output_clean:Republican National Committee 
+answer:Citizens for a Sound Economy
+EM:0.0 , F1:0
+correct:0
+已完成：57
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:One of the signatories of the Chicago Statement on Biblical Inerrancy was which Presbyterian pastor, known for taking a more presuppositional approach to apologetics?
+Answer: Let's think step by step.
+The signatory of the Chicago Statement on Biblical Inerrancy who took a more presuppositional approach to apologetics was John Frame.
+Therefore, the answer is
+Output:
+John Frame.
+Output_clean:John Frame
+answer:Francis Schaeffer
+EM:0.0 , F1:0
+correct:0
+已完成：58
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Were Ransom Riggs and John Berry from the same country?
+Answer: Let's think step by step.
+Ransom Riggs and John Berry are characters from the book "Miss Peregrine's Home for Peculiar Children".
+Therefore, the answer is
+Output:
+No, Ransom Riggs and John Berry are not from the same country.
+Output_clean:no
+answer:yes
+EM:0.0 , F1:0
+correct:0
+已完成：59
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Jean Hudson Boyd is known for her controversial sentencing of Ethan Couch. What was his sentence?
+Answer: Let's think step by step.
+Ethan Couch was sentenced to 10 years of probation and 120 hours of community service for killing four people in a drunk driving accident.
+Therefore, the answer is
+Output:
+Ethan Couch was sentenced to 10 years of probation and 120 hours of community service for killing four people in a drunk driving accident.
+Output_clean:Ethan Couch was sentenced to 10 years of probation and 120 hours of community service for killing four people in a drunk driving accident
+answer:ten years of probation
+EM:0.0 , F1:0.22222222222222218
+correct:0
+已完成：60
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Which composer, who was a crucial figure in the transition between the Classical and Romantic eras in Western art music, wrote Piano Sonata No. 16 ?
+Answer: Let's think step by step.
+The composer who wrote Piano Sonata No. 16 is Ludwig van Beethoven. Beethoven was a crucial figure in the transition between the Classical and Romantic eras in Western art music.
+Therefore, the answer is
+Output:
+Ludwig van Beethoven.
+Output_clean:Ludwig van Beethoven
+answer:Ludwig van Beethoven
+EM:1.0 , F1:1.0
+correct:1
+已完成：61
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:Alexander Borodin wrote what piece of music named after the Kiphchaks and Cumans?
+Answer: Let's think step by step.
+Alexander Borodin wrote the piece of music named after the Kipchak and Cumans, which is called "Korolenko."
+Therefore, the answer is
+Output:
+Korolenko.
+Output_clean:Korolenko
+answer:Polovtsian Dances
+EM:0.0 , F1:0
+correct:0
+已完成：62
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:How is the Dutch footballer, Ryan Babel, connected to the song, Wij Zijn Ajax?
+Answer: Let's think step by step.
+Ryan Babel is a Dutch footballer who played for Ajax, a football club based in Amsterdam, Netherlands. The song "Wij Zijn Ajax" is a tribute to the club and its fans, and it features Babel as one of the performers.
+Therefore, the answer is
+Output:
+Ryan Babel is connected to the song "Wij Zijn Ajax" as one of the performers.
+Output_clean:Ryan Babel is connected to the song "Wij Zijn Ajax" as one of the performers
+answer:The song also features rap parts from Darryl, RB Djan and Ryan Babel.
+EM:0.0 , F1:0.24000000000000002
+correct:0
+已完成：63
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:Janne Kyttanen has had work exhibited at which modern art museum in Amsterdam?
+Answer: Let's think step by step.
+Janne Kyttanen has had work exhibited at the Stedelijk Museum in Amsterdam.
+Therefore, the answer is
+Output:
+Stedelijk Museum.
+Output_clean:Stedelijk Museum
+answer:Stedelijk Museum Amsterdam
+EM:0.0 , F1:0.8
+correct:0
+已完成：64
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:Celebrity Fifteen to One has had more than one appearance by an English writer and former Conservative Member of what?
+Answer: Let's think step by step.
+Celebrity Fifteen to One is a British game show that has had appearances by various celebrities. One of the English writers and former Conservative Members of Parliament who appeared on the show is Michael Portillo.
+Therefore, the answer is
+Output:
+Parliament.
+Output_clean:Parliament
+answer:Parliament
+EM:1.0 , F1:1.0
+correct:1
+已完成：65
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:What college did the English conductor, organist and composer widely regarded as Britain's leading conductor of choral works teach at?
+Answer: Let's think step by step.
+The English conductor, organist, and composer who is widely regarded as Britain's leading conductor of choral works is Sir John Rutter. He taught at the Royal College of Music in London.
+Therefore, the answer is
+Output:
+The Royal College of Music in London.
+Output_clean:The Royal College of Music in London
+answer:Royal College of Music
+EM:0.0 , F1:0.8
+correct:0
+已完成：66
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Where was the movement that August Brancart published literature from centerd?
+Answer: Let's think step by step.
+The movement that August Brancart published literature from was centered in France.
+Therefore, the answer is
+Output:
+France.
+Output_clean:France
+answer:Western Europe
+EM:0.0 , F1:0
+correct:0
+已完成：67
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:How many operas are among the artist who composed The Prelude for Clarinet in B-flat major best known works?
+Answer: Let's think step by step.
+1. The artist who composed The Prelude for Clarinet in B-flat major is Carl Maria von Weber. He is best known for his operas.
+Therefore, the answer is
+Output:
+2. Carl Maria von Weber composed two operas.
+Output_clean:2. Carl Maria von Weber composed two operas
+answer:four operas
+EM:0.0 , F1:0.2
+correct:0
+已完成：68
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:What was the name of Kalyanji Virji Shah's brother who won the Filmfare Award for Best Music Director?
+Answer: Let's think step by step.
+Kalyanji Virji Shah's brother who won the Filmfare Award for Best Music Director was R.D. Burman.
+Therefore, the answer is
+Output:
+R.D. Burman.
+Output_clean:R.D. Burman
+answer:Anandji Virji Shah
+EM:0.0 , F1:0
+correct:0
+已完成：69
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:The Birthday of the World: and Other Stories was written by what fantasy and sci-fi author?
+Answer: Let's think step by step.
+The Birthday of the World: and Other Stories was written by Ursula K. Le Guin.
+Therefore, the answer is
+Output:
+Ursula K. Le Guin.
+Output_clean:Ursula K. Le Guin
+answer:Ursula Kroeber Le Guin
+EM:0.0 , F1:0.75
+correct:0
+已完成：70
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:The Worst Journey in the World is a memoir written by which English explorer of Antarctica?
+Answer: Let's think step by step.
+The Worst Journey in the World is a memoir written by the English explorer Sir Ernest Shackleton.
+Therefore, the answer is
+Output:
+Sir Ernest Shackleton.
+Output_clean:Sir Ernest Shackleton
+answer:Apsley George Benet Cherry-Garrard
+EM:0.0 , F1:0
+correct:0
+已完成：71
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Ross Pople worked with which English composer known for his opera "The Midsummer Marriage"?
+Answer: Let's think step by step.
+1. Identify the composer known for his opera "The Midsummer Marriage". The composer is Benjamin Britten. 2. Find out who worked with Benjamin Britten. Ross Pople was a collaborator of Benjamin Britten. 3. Confirm the answer to the question. Ross Pople worked with Benjamin Britten.
+Therefore, the answer is
+Output:
+Benjamin Britten.
+Output_clean:Benjamin Britten
+answer:Michael Tippett
+EM:0.0 , F1:0
+correct:0
+已完成：72
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Both Tim Conlon and Kehinde Wiley have what type of occupation?
+Answer: Let's think step by step.
+Both Tim Conlon and Kehinde Wiley have artistic occupations. Tim Conlon is an artist and Kehinde Wiley is a painter.
+Therefore, the answer is
+Output:
+Artists.
+Output_clean:Artists
+answer:artist
+EM:0.0 , F1:0
+correct:0
+已完成：73
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:This film is an adaption of a Jacques Offenbach's opera that was written by a Hungarian British screenwriter?
+Answer: Let's think step by step.
+1. The film in question is an adaptation of Jacques Offenbach's opera.
+2. The opera was written by a Hungarian-British screenwriter.
+Therefore, the answer is
+Output:
+The film in question is an adaptation of Jacques Offenbach's opera, which was written by a Hungarian-British screenwriter.
+Output_clean:The film in question is an adaptation of Jacques Offenbach's opera, which was written by a Hungarian-British screenwriter
+answer:The Tales of Hoffmann
+EM:0.0 , F1:0.1111111111111111
+correct:0
+已完成：74
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Why I Write was penned by which English novelist and critic?
+Answer: Let's think step by step.
+Why I Write was penned by the English novelist and critic George Orwell.
+Therefore, the answer is
+Output:
+George Orwell.
+Output_clean:George Orwell
+answer:Eric Arthur Blair
+EM:0.0 , F1:0
+correct:0
+已完成：75
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:The city Charles Prince Airport is approximately 16 km northwest of was called Salisbury until what year?
+Answer: Let's think step by step.
+The city Charles Prince Airport is approximately 16 km northwest of Salisbury. Salisbury was renamed to its current name, Christchurch, in the year 1997.
+Therefore, the answer is
+Output:
+1997.
+Output_clean:1997
+answer:1982
+EM:0.0 , F1:0
+correct:0
+已完成：76
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Kent Dairy Round Barn is near the city in what Montana county?
+Answer: Let's think step by step.
+1. Identify the location of Kent Dairy Round Barn.
+2. Determine the Montana county where it is located.
+
+Kent Dairy Round Barn is located in the county of Park County, Montana.
+Therefore, the answer is
+Output:
+Park County.
+Output_clean:Park County
+answer:Carbon
+EM:0.0 , F1:0
+correct:0
+已完成：77
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:When was the town Emma Gramatica given its current name?
+Answer: Let's think step by step.
+The town Emma Gramatica was given its current name in the year 1885.
+Therefore, the answer is
+Output:
+1885.
+Output_clean:1885
+answer:1927
+EM:0.0 , F1:0
+correct:0
+已完成：78
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Rimo I and Passu Sar are both part of which mountain range?
+Answer: Let's think step by step.
+Rimo I and Passu Sar are both part of the Karakoram mountain range.
+Therefore, the answer is
+Output:
+Karakoram.
+Output_clean:Karakoram
+answer:Karakoram mountain range
+EM:0.0 , F1:0.5
+correct:0
+已完成：79
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Parafield, South Australia is very near the airport and what campus of the University of South Australia?
+Answer: Let's think step by step.
+Parafield, South Australia is very near the Parafield Airport. The campus of the University of South Australia that is located nearby is the Parafield campus.
+Therefore, the answer is
+Output:
+Parafield.
+Output_clean:Parafield
+answer:Mawson Lakes
+EM:0.0 , F1:0
+correct:0
+已完成：80
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Grafton and Carroll counties as well as the Pratt Family Camps border what lake in New Hampshire?
+Answer: Let's think step by step.
+1. The question asks about a lake in New Hampshire that borders Grafton and Carroll counties, as well as the Pratt Family Camps. 
+
+2. The lake in question is Squam Lake. 
+
+3. Squam Lake is located in the central part of New Hampshire and borders Grafton and Carroll counties. 
+
+4. The Pratt Family Camps are also located on the shores of Squam Lake. 
+
+5. Therefore, Squam Lake is the lake in question.
+Therefore, the answer is
+Output:
+Squam Lake.
+Output_clean:Squam Lake
+answer:Squam Lake
+EM:1.0 , F1:1.0
+correct:1
+已完成：81
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Which town has a greater population as of the 2010 census, Minden, Nevada or Gardnerville, Nevada?
+Answer: Let's think step by step.
+According to the 2010 census, Gardnerville, Nevada has a population of 17,128, while Minden, Nevada has a population of 1,382. Therefore, Gardnerville, Nevada has a greater population than Minden, Nevada.
+Therefore, the answer is
+Output:
+Gardnerville, Nevada has a greater population than Minden, Nevada.
+Output_clean:Gardnerville, Nevada has a greater population than Minden, Nevada
+answer:Gardnerville
+EM:0.0 , F1:0.2222222222222222
+correct:0
+已完成：82
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:In which province is the city located that is the birthplace of Ed Wubbe?
+Answer: Let's think step by step.
+1. Identify the subject: Ed Wubbe, a person.
+2. Determine the task: Find the province where Ed Wubbe was born.
+3. Research: Ed Wubbe was born in the city of Kortrijk, which is located in the province of West Flanders, Belgium.
+4. Provide the answer: The city of Kortrijk is located in the province of West Flanders, Belgium.
+Therefore, the answer is
+Output:
+West Flanders, Belgium.
+Output_clean:West Flanders, Belgium
+answer:North Holland
+EM:0.0 , F1:0
+correct:0
+已完成：83
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:In which town was the amusement park that is operated by Britannia Jinky Jersey Ltd located where the first  Tomorrow's Parties Festival was held?.
+Answer: Let's think step by step.
+1. The question asks about the location of an amusement park operated by Britannia Jinky Jersey Ltd, where the first Tomorrow's Parties Festival was held. 
+
+2. The answer is: The amusement park is located in the town of St. Helier, which is in the Channel Islands of Jersey. 
+
+3. The Tomorrow's Parties Festival was held at the amusement park in St. Helier. 
+
+4. Therefore, the town where the amusement park is located is St. Helier, and the festival was held at the amusement park in St. Helier.
+Therefore, the answer is
+Output:
+St. Helier.
+Output_clean:St. Helier
+answer:Camber Sands
+EM:0.0 , F1:0
+correct:0
+已完成：84
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Are Random House Tower and 888 7th Avenue both used for real estate?
+Answer: Let's think step by step.
+Random House Tower is a real estate building located at 555 Broadway in New York City. 888 7th Avenue is also a real estate building located at 888 7th Avenue in New York City.
+Therefore, the answer is
+Output:
+Yes, both Random House Tower and 888 7th Avenue are used for real estate.
+Output_clean:yes
+answer:no
+EM:0.0 , F1:0
+correct:0
+已完成：85
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:The Russian route M9 forms a part of what European route that has a length of about 5320 km?
+Answer: Let's think step by step.
+The Russian route M9 is a part of the European route E95, which has a length of approximately 5,320 km.
+Therefore, the answer is
+Output:
+E95.
+Output_clean:E95
+answer:European route E 22
+EM:0.0 , F1:0
+correct:0
+已完成：86
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Which of the cities of Dujiangyan City and Ezhou has the larger population according to their latest census ?
+Answer: Let's think step by step.
+According to the latest census, the city of Ezhou has a larger population than Dujiangyan City.
+Therefore, the answer is
+Output:
+Ezhou.
+Output_clean:Ezhou
+answer:Ezhou
+EM:1.0 , F1:1.0
+correct:1
+已完成：87
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:What is a Southern European island country that was home to an airline pilot who flew the CASA-212-200 Aviocar before retiring in 2008 for health reasons? 
+Answer: Let's think step by step.
+Sure, let's break down the question and answer it step by step.
+
+Question: What is a Southern European island country that was home to an airline pilot who flew the CASA-212-200 Aviocar before retiring in 2008 for health reasons?
+
+Answer: The island country in question is Malta.
+Therefore, the answer is
+Output:
+Malta.
+Output_clean:Malta
+answer:Malta
+EM:1.0 , F1:1.0
+correct:1
+已完成：88
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Keene is an unincorporated community in Wabaunsee County, Kansas, in what federal republic composed of 50 states?
+Answer: Let's think step by step.
+1. The question asks for the federal republic composed of 50 states where Keene is located. The answer is the United States of America (USA).
+Therefore, the answer is
+Output:
+United States of America (USA).
+Output_clean:United States of America 
+answer:The United States of America
+EM:1.0 , F1:1.0
+correct:1
+已完成：89
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Barranca de Yaco is a geographical feature along an ancient road that is approximately how many miles long?
+Answer: Let's think step by step.
+1. Barranca de Yaco is a geographical feature along an ancient road.
+2. The ancient road is approximately how many miles long?
+Therefore, the answer is
+Output:
+The ancient road that Barranca de Yaco is along is approximately 100 miles long.
+Output_clean:The ancient road that Barranca de Yaco is along is approximately 100 miles long
+answer:24800 mi
+EM:0.0 , F1:0
+correct:0
+已完成：90
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:What breed of dog are the Basset Bleu de Gascogne and the Beagle?
+Answer: Let's think step by step.
+The Basset Bleu de Gascogne is a breed of dog. The Beagle is also a breed of dog.
+Therefore, the answer is
+Output:
+The Basset Bleu de Gascogne and the Beagle are both breeds of dogs.
+Output_clean:The Basset Bleu de Gascogne and the Beagle are both breeds of dogs
+answer:The Beagle is a breed of small hound
+EM:0.0 , F1:0.23529411764705885
+correct:0
+已完成：91
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Are both Schweizerischer Niederlaufhund and Portuguese Podengo dog breeds from Portugal?
+Answer: Let's think step by step.
+No, the Schweizerischer Niederlaufhund is a breed of dog from Switzerland, while the Portuguese Podengo is a breed of dog from Portugal.
+Therefore, the answer is
+Output:
+No, they are not both from Portugal.
+Output_clean:no
+answer:no
+EM:1.0 , F1:1.0
+correct:1
+已完成：92
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Who was the vizier of Ebla after one who had served king Ishar Damu for 17 years?
+Answer: Let's think step by step.
+1. The question asks about the vizier of Ebla after a specific individual who had served the king for 17 years. The individual in question is Ishar Damu.
+Therefore, the answer is
+Output:
+The vizier of Ebla after Ishar Damu was not mentioned in the given examples format.
+Output_clean:The vizier of Ebla after Ishar Damu was not mentioned in the given examples format
+answer:Ibrium
+EM:0.0 , F1:0
+correct:0
+已完成：93
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Which dog breed has more derivative breeds from the original, German Spitz or Norfolk Spaniel?
+Answer: Let's think step by step.
+1. The German Spitz is a breed of dog that originated in Germany. It is a medium-sized breed that is known for its long, silky coat and distinctive appearance. The German Spitz is not a derivative breed, meaning that it does not have any other breeds that are derived from it. 
+
+2. The Norfolk Spaniel is a breed of dog that originated in England. It is a small breed that is known for its distinctive appearance and hunting abilities. The Norfolk Spaniel is also not a derivative breed, meaning that it does not have any other breeds that are derived from it. 
+
+3. Therefore, neither the German Spitz nor the Norfolk Spaniel has more derivative breeds from the original than the other. Both breeds are unique and have their own distinct characteristics.
+Therefore, the answer is
+Output:
+Neither the German Spitz nor the Norfolk Spaniel has more derivative breeds from the original than the other. Both breeds are unique and have their own distinct characteristics.
+Output_clean:Neither the German Spitz nor the Norfolk Spaniel has more derivative breeds from the original than the other. Both breeds are unique and have their own distinct characteristics
+answer:German Spitz
+EM:0.0 , F1:0.15384615384615385
+correct:0
+已完成：94
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:What type of engine powered both the Saab 36 and the Avro Vulcan?
+Answer: Let's think step by step.
+The Saab 36 and the Avro Vulcan were powered by different types of engines. The Saab 36 was powered by a turbojet engine, while the Avro Vulcan was powered by a turbojet engine as well.
+Therefore, the answer is
+Output:
+turbojet engines.
+Output_clean:turbojet engines
+answer:British Bristol Olympus turbojet
+EM:0.0 , F1:0.3333333333333333
+correct:0
+已完成：95
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Who is the grandfather to Frederick II and was the Holy Roman Emperor until death?
+Answer: Let's think step by step.
+The grandfather of Frederick II was Emperor Frederick Barbarossa.
+Therefore, the answer is
+Output:
+Emperor Frederick Barbarossa.
+Output_clean:Emperor Frederick Barbarossa
+answer:Frederick I
+EM:0.0 , F1:0.4
+correct:0
+已完成：96
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Hivange is a village in a country that has how many official languages ?
+Answer: Let's think step by step.
+Hivange is a village in a country that has how many official languages?
+Therefore, the answer is
+Output:
+Hivange is a village in a country that has how many official languages?
+Therefore, the answer is 2.
+Output_clean:2
+answer:three official languages
+EM:0.0 , F1:0
+correct:0
+已完成：97
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:What are both Camel Up and Outrage!?
+Answer: Let's think step by step.
+Camel Up and Outrage! are both board games. Camel Up is a game where players take on the role of camel traders, trying to make their way across the desert and reach their destination before their camel dies. Outrage! is a game where players take on the role of a group of friends, trying to solve a mystery and uncover the truth behind a series of crimes.
+Therefore, the answer is
+Output:
+Camel Up and Outrage! are both board games.
+Output_clean:Camel Up and Outrage! are both board games
+answer:board game
+EM:0.0 , F1:0.2
+correct:0
+已完成：98
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:What characteristic meaning it's transferable between species, does monkeypox and cowpox virus both share?
+Answer: Let's think step by step.
+Sure, let's go through the characteristics of monkeypox and cowpox virus one by one and see if they share any common traits.
+Therefore, the answer is
+Output:
+The characteristic that monkeypox and cowpox virus share is that they are both caused by viruses that are transferable between species.
+Output_clean:The characteristic that monkeypox and cowpox virus share is that they are both caused by viruses that are transferable between species
+answer:zoonotic
+EM:0.0 , F1:0
+correct:0
+已完成：99
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Which genus contains more species, Ortegocactus or Eschscholzia?
+Answer: Let's think step by step.
+Ortegocactus and Eschscholzia are two different genera. Ortegocactus is a genus of cacti, while Eschscholzia is a genus of flowering plants. 
+
+To answer the question, we need to compare the number of species in each genus. According to the Plant List database, Ortegocactus contains 11 species, while Eschscholzia contains 10 species. Therefore, Ortegocactus contains more species than Eschscholzia.
+Therefore, the answer is
+Output:
+Ortegocactus.
+Output_clean:Ortegocactus
+answer:Eschscholzia
+EM:0.0 , F1:0
+correct:0
+已完成：100
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Are Ballota and Myosotis both evergreens?
+Answer: Let's think step by step.
+1. Ballota and Myosotis are two different plant species.
+2. Ballota is a genus of flowering plants in the family Boraginaceae, and they are not evergreen.
+3. Myosotis is a genus of flowering plants in the family Boraginaceae, and they are not evergreen.
+4. Therefore, neither Ballota nor Myosotis are evergreen plants.
+Therefore, the answer is
+Output:
+No, Ballota and Myosotis are not evergreen plants.
+Output_clean:no
+answer:no
+EM:1.0 , F1:1.0
+correct:1
+已完成：101
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:In which part of Attica was the battle of Marathon in 490 BC fought?
+Answer: Let's think step by step.
+The battle of Marathon was fought in the Attica region of Greece in 490 BC.
+Therefore, the answer is
+Output:
+Attica.
+Output_clean:Attica
+answer:northeastern
+EM:0.0 , F1:0
+correct:0
+已完成：102
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:The eldest daughter of Princess Louise of Denmark and Norway was the wife of a king whose motto was what?
+Answer: Let's think step by step.
+The eldest daughter of Princess Louise of Denmark and Norway was Princess Marie Louise of Denmark and Norway. She married Archduke Ludwig of Austria, who was the younger brother of Emperor Francis Joseph I of Austria. Ludwig's motto was "Semper Fidelis" which means "Always Faithful" in Latin.
+Therefore, the answer is
+Output:
+"Semper Fidelis".
+Output_clean:"Semper Fidelis"
+answer:God and the just cause
+EM:0.0 , F1:0
+correct:0
+已完成：103
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:What languages did the son of Sacagawea speak?
+Answer: Let's think step by step.
+Sacagawea was the daughter of a Shoshone chief named Toussaint Charbonneau. She was fluent in the Shoshone language and also learned French from her husband, who was a French-Canadian fur trader.
+Therefore, the answer is
+Output:
+Sacagawea spoke the Shoshone language and learned French from her husband.
+Output_clean:Sacagawea spoke the Shoshone language and learned French from her husband
+answer:French and English
+EM:0.0 , F1:0.30769230769230765
+correct:0
+已完成：104
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:Are Ferocactus and Silene both types of plant?
+Answer: Let's think step by step.
+Ferocactus and Silene are both types of plants.
+Therefore, the answer is
+Output:
+Yes.
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：105
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:The chairman of Westfield Corporation has a son who holds a Bachelor's degree in what?
+Answer: Let's think step by step.
+1. The chairman of Westfield Corporation has a son.
+2. The son holds a Bachelor's degree.
+3. What is the subject of the son's Bachelor's degree?
+Therefore, the answer is
+Output:
+The subject of the son's Bachelor's degree is not provided in the given question.
+Output_clean:The subject of the son's Bachelor's degree is not provided in the given question
+answer:Bachelor of Commerce
+EM:0.0 , F1:0.14285714285714288
+correct:0
+已完成：106
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:What type of submarine was the non-nuclear U-32?
+Answer: Let's think step by step.
+The non-nuclear U-32 was a diesel-electric submarine.
+Therefore, the answer is
+Output:
+a diesel-electric submarine.
+Output_clean:a diesel-electric submarine
+answer:German Type 212 class
+EM:0.0 , F1:0
+correct:0
+已完成：107
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:The not-for-profit company which owns a Mark VI monorail was assisted in bond financing by whom?
+Answer: Let's think step by step.
+1. The not-for-profit company owns a Mark VI monorail.
+2. The company was assisted in bond financing.
+3. The bond financing was assisted by a specific entity.
+Therefore, the answer is
+Output:
+The bond financing was assisted by a specific entity.
+Output_clean:The bond financing was assisted by a specific entity
+answer:The State of Nevada
+EM:0.0 , F1:0
+correct:0
+已完成：108
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Was Vanderbilt University or Emory University founded first?
+Answer: Let's think step by step.
+Vanderbilt University was founded first. It was established in 1873. Emory University was founded later, in 1836.
+Therefore, the answer is
+Output:
+Vanderbilt University.
+Output_clean:Vanderbilt University
+answer:Emory University.
+EM:0.0 , F1:0.5
+correct:0
+已完成：109
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Which pizza shop opened first, Toppers Pizza or America's Incredible Pizza Company?
+Answer: Let's think step by step.
+America's Incredible Pizza Company was founded in 1988. Toppers Pizza was founded in 1991.
+Therefore, the answer is
+Output:
+America's Incredible Pizza Company.
+Output_clean:America's Incredible Pizza Company
+answer:Toppers Pizza
+EM:0.0 , F1:0.3333333333333333
+correct:0
+已完成：110
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Which came out first, Dinosaur or McFarland, USA
+Answer: Let's think step by step.
+Dinosaur was released in 2000, while McFarland, USA was released in 2017. Therefore, Dinosaur came out first.
+Therefore, the answer is
+Output:
+Dinosaur.
+Output_clean:Dinosaur
+answer:Dinosaur
+EM:1.0 , F1:1.0
+correct:1
+已完成：111
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:The Toyota FJ Cruiser is built by this Toyota subsidiary which is a leading producer of what type of trucks in Asia?
+Answer: Let's think step by step.
+1. The Toyota FJ Cruiser is built by Toyota Motor Corporation, a leading producer of various types of vehicles, including trucks.
+Therefore, the answer is
+Output:
+Toyota Motor Corporation.
+Output_clean:Toyota Motor Corporation
+answer:medium and heavy-duty diesel trucks
+EM:0.0 , F1:0
+correct:0
+已完成：112
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:What year was a joint venture between RLJ Companies and this film studio founded in 2005, founded?
+Answer: Let's think step by step.
+The joint venture between RLJ Companies and this film studio was founded in 2005.
+Therefore, the answer is
+Output:
+2005.
+Output_clean:2005
+answer:2006
+EM:0.0 , F1:0
+correct:0
+已完成：113
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:YouPorn was surpassed, in 2013, by competitor sites xHamster, Pornhub, LiveJasmin, and this website that is registered to the Polish company WGCZ Holding? 
+Answer: Let's think step by step.
+1. In 2013, YouPorn was surpassed by competitor sites xHamster, Pornhub, LiveJasmin, and a website registered to the Polish company WGCZ Holding.
+Therefore, the answer is
+Output:
+xHamster, Pornhub, LiveJasmin, and a website registered to the Polish company WGCZ Holding.
+Output_clean:xHamster, Pornhub, LiveJasmin, and a website registered to the Polish company WGCZ Holding
+answer:XVideos
+EM:0.0 , F1:0
+correct:0
+已完成：114
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Where is the company that came out with VisionPLUS headquartered?
+Answer: Let's think step by step.
+VisionPLUS is a company that came out with a product called VisionPLUS. The company that developed VisionPLUS is headquartered in a specific location.
+Therefore, the answer is
+Output:
+VisionPLUS is a product developed by a company headquartered in a specific location.
+Output_clean:VisionPLUS is a product developed by a company headquartered in a specific location
+answer:Atlanta, Georgia, United States
+EM:0.0 , F1:0
+correct:0
+已完成：115
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:The Grosvenor Museum takes its name from the family name of a title currently held by whom?
+Answer: Let's think step by step.
+The Grosvenor Museum takes its name from the family name of a title currently held by the 4th Duke of Westminster.
+Therefore, the answer is
+Output:
+the 4th Duke of Westminster.
+Output_clean:the 4th Duke of Westminster
+answer:Prince George of Cambridge
+EM:0.0 , F1:0.25
+correct:0
+已完成：116
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Are TEC-1 and Dubna 48K are based on the same processor?
+Answer: Let's think step by step.
+1. TEC-1 is a computer developed by the British company Elliott Automation Systems in the 1960s. It is based on the Elliott 8030 processor. The Elliott 8030 is a 4-bit microprocessor designed by Elliott Automation Systems. Dubna 48K is a computer developed by the Soviet Union in the 1960s. It is based on the Soviet Union's own microprocessor, the Dubna 48. The Dubna 48 is a 4-bit microprocessor designed by the Soviet Union. Therefore, TEC-1 and Dubna 48K are not based on the same processor.
+Therefore, the answer is
+Output:
+No, TEC-1 and Dubna 48K are not based on the same processor.
+Output_clean:no
+answer:yes
+EM:0.0 , F1:0
+correct:0
+已完成：117
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Did both the Beaulieu Mine and Colomac Mine fall into bankruptcy?
+Answer: Let's think step by step.
+1. The Beaulieu Mine and Colomac Mine were both mining operations in the early 20th century. 
+
+2. The Beaulieu Mine was closed in 1919 due to a combination of factors, including low metal prices and a decline in the demand for copper. 
+
+3. The Colomac Mine was closed in 1920 due to a combination of factors, including low metal prices and a decline in the demand for copper. 
+
+4. Therefore, both the Beaulieu Mine and Colomac Mine fell into bankruptcy.
+Therefore, the answer is
+Output:
+Yes, both the Beaulieu Mine and Colomac Mine fell into bankruptcy.
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：118
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:Which style is the building located on the East Side of Midtown Manhattan that Robert Von Ancken appraised? 
+Answer: Let's think step by step.
+The building located on the East Side of Midtown Manhattan that Robert Von Ancken appraised is the Chrysler Building.
+Therefore, the answer is
+Output:
+Chrysler Building.
+Output_clean:Chrysler Building
+answer:Art Deco-style skyscraper
+EM:0.0 , F1:0
+correct:0
+已完成：119
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:What monthly magazine, published by ASIS International, includes articles on topics of computer security?
+Answer: Let's think step by step.
+1. Identify the monthly magazine that is published by ASIS International and includes articles on computer security. The answer is "Security Magazine".
+Therefore, the answer is
+Output:
+Security Magazine.
+Output_clean:Security Magazine
+answer:Security Management is the monthly magazine of ASIS International
+EM:0.0 , F1:0.4
+correct:0
+已完成：120
+总正确数 : 19
+*****************************
+EM: 15.83, F1: 26.45
+correct_num : 19
+total_num : 120
+accuracy : 15.833333333333332

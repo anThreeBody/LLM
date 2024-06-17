@@ -1,0 +1,1613 @@
+*****************************
+2024-04-04 10:38:28
+Namespace(model='qwen-max-0403', task='hotpot', test_data_size=120, demo_num=0, method='zero-shot', temperature=0.1, top_p=0.6)
+*****************************
+*****************************
+Input:
+Question:Kalle Mäkinen is nicknamed after a Spanish football that captains what two teams?
+Answer: The answer is
+Output:
+Real Madrid and the Portugal national team.
+Output_clean:Real Madrid and the Portugal national team
+answer:Real Madrid and the Spain national team
+EM:0.0 , F1:0.8333333333333334
+correct:0
+已完成：1
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the birth date of the person Richard Callaghan coached to Olympic, World, and national titles?
+Answer: The answer is
+Output:
+The birth date of the person Richard Callaghan coached to Olympic, World, and national titles is February 25, 1974.
+Output_clean:The birth date of the person Richard Callaghan coached to Olympic, World, and national titles is February 25, 1974
+answer:June 10, 1982
+EM:0.0 , F1:0
+correct:0
+已完成：2
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What country do both Adnan Akmal and Kamran Akmal represent in cricket?
+Answer: The answer is
+Output:
+Pakistan
+Output_clean:Pakistan
+answer:Pakistani
+EM:0.0 , F1:0
+correct:0
+已完成：3
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Seven years before the opening of the Brewer Fieldhouse in Columbia, Missouri, where was Chester Brewer working as head football coach and head basketball coach?
+Answer: The answer is
+Output:
+Kansas State Agricultural College
+Output_clean:Kansas State Agricultural College
+answer:University Farm
+EM:0.0 , F1:0
+correct:0
+已完成：4
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:In what city was the second bowl game to air on all the "big four" television networks played?
+Answer: The answer is
+Output:
+Pasadena
+Output_clean:Pasadena
+answer:Miami
+EM:0.0 , F1:0
+correct:0
+已完成：5
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the name of the show that the man that was drafted eighth overall in the 1995 NFL Draft co-hosts?
+Answer: The answer is
+Output:
+"Good Morning America."
+Output_clean:"Good Morning America."
+answer:College Football Scoreboard
+EM:0.0 , F1:0
+correct:0
+已完成：6
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What midfielder for West Bromwich Albion is Michael John Standing an agent for?
+Answer: The answer is
+Output:
+Robert Koren
+Output_clean:Robert Koren
+answer:Gareth Barry
+EM:0.0 , F1:0
+correct:0
+已完成：7
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:In which year was this American figure skater, actress, and sports commentator coached by Richard Callaghan for Olympic games, the U. S. national champion?
+Answer: The answer is
+Output:
+Request id: bf3f8c43-9204-9bbb-9a54-7ea89feefe3d, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: bf3f8c43-9204-9bbb-9a54-7ea89feefe3d, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:1997
+EM:0.0 , F1:0
+correct:0
+已完成：8
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Which magazine has more issues per month, Club or Pro Football Weekly 
+Answer: The answer is
+Output:
+Request id: 606e0791-f137-9ceb-a6b5-0e7241ee54a7, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: 606e0791-f137-9ceb-a6b5-0e7241ee54a7, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:Pro Football Weekly
+EM:0.0 , F1:0
+correct:0
+已完成：9
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:For which football club, established in 1949, did Mitch Duggan have a loan spell prior to joining Tranmere Rovers?
+Answer: The answer is
+Output:
+Stockport County.
+Output_clean:Stockport County
+answer:Warrington Town Football Club
+EM:0.0 , F1:0
+correct:0
+已完成：10
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:From what nation is the football player who was named Man of the Match at the 2001 Intercontinental Cup?
+Answer: The answer is
+Output:
+Argentina
+Output_clean:Argentina
+answer:Ghana
+EM:0.0 , F1:0
+correct:0
+已完成：11
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What years did Jose Gonzalo Rodriguez Gacha and other leaders of fthe Medallin Cartel operate in Boliva, Colombia, Central America, Peru, the United States, Canada, and Europe?
+Answer: The answer is
+Output:
+Jose Gonzalo Rodriguez Gacha and other leaders of the Medellin Cartel operated in Bolivia, Colombia, Central America, Peru, the United States, Canada, and Europe primarily during the 1970s, 1980s, and early 1990s.
+Output_clean:Jose Gonzalo Rodriguez Gacha and other leaders of the Medellin Cartel operated in Bolivia, Colombia, Central America, Peru, the United States, Canada, and Europe primarily during the 1970s, 1980s, and early 1990s
+answer:1970s and 1980s
+EM:0.0 , F1:0.1875
+correct:0
+已完成：12
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Paul Ziert recruited what two time gold medalist in gymnastics?
+Answer: The answer is
+Output:
+Mary Lou Retton
+Output_clean:Mary Lou Retton
+answer:Bart Conner
+EM:0.0 , F1:0
+correct:0
+已完成：13
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Evan Williams played for what professional football club that was originally known as St. Luke's FC?
+Answer: The answer is
+Output:
+Liverpool F.C.
+Output_clean:Liverpool F.C
+answer:Wolverhampton Wanderers Football Club
+EM:0.0 , F1:0
+correct:0
+已完成：14
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Who did the player nicknamed "The Human Highlight Film" play for after he left the Atlanta Hawks?
+Answer: The answer is
+Output:
+Dallas Mavericks
+Output_clean:Dallas Mavericks
+answer:Boston Celtics
+EM:0.0 , F1:0
+correct:0
+已完成：15
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Which English crime writer wrote the 2005 psychological thriller "The Devil's Feather"?
+Answer: The answer is
+Output:
+Val McDermid
+Output_clean:Val McDermid
+answer:Minette Walters
+EM:0.0 , F1:0
+correct:0
+已完成：16
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What star in the film Up at the Villa has earned the title of knighthood?
+Answer: The answer is
+Output:
+Sir Sean Connery.
+Output_clean:Sir Sean Connery
+answer:Sir Derek George Jacobi
+EM:0.0 , F1:0.28571428571428575
+correct:0
+已完成：17
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Jacques Mathou starred in Delicatessen, the 1991 French movie in the style of which celebrated American animator?
+Answer: The answer is
+Output:
+Jacques Mathou starred in Delicatessen, the 1991 French movie in the style of which celebrated American animator? Answer: Tim Burton
+Output_clean:Tim Burton
+answer:Terry Gilliam
+EM:0.0 , F1:0
+correct:0
+已完成：18
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What other jobs did the actress Olivia Munn from Mortdecai have?
+Answer: The answer is
+Output:
+Actress Olivia Munn, known for her role in the film "Mortdecai," has had a diverse career in the entertainment industry. Some of her other notable jobs include:
+
+1. Television Hosting:
+   - Co-host on the G4 network's technology and pop culture show "Attack of the Show!" (2006-2010)
+   - Correspondent on "The Daily Show with Jon Stewart" (2010-2011)
+
+2. Acting Roles in Television Series:
+   - Sloan Sabbith in the HBO political drama series "The Newsroom" (2012-2014)
+   - Various roles in the sketch comedy series "Robot Chicken" (voice acting, 2011-2018)
+   - Angie Cheng in the medical drama series "Three Rivers" (2009-2010)
+   - Maya Warren in the sitcom "Perfect Couples" (2010-2011)
+
+3. Film Appearances:
+   - Psylocke in the superhero film "X-Men: Apocalypse" (2016)
+   - Chess Roberts in the Marvel Cinematic Universe film "Iron Man 2" (2010)
+   - Elizabeth Braddock / Psylocke in the superhero film "The Predator" (2018)
+   - Joanna in the romantic comedy "Love Wedding Repeat" (2020)
+
+4. Voice Work:
+   - Koko in the animated film "The Lego Ninjago Movie" (2017)
+   - Janet Goodson in the video game "Call of Duty: Black Ops II" (2012)
+
+In summary, Olivia Munn's other jobs in the entertainment industry encompass television hosting, various acting roles in both television series and films, as well as voice work in animation and video games.
+Output_clean:In summary, Olivia Munn's other jobs in the entertainment industry encompass television hosting, various acting roles in both television series and films, as well as voice work in animation and video games
+answer:model
+EM:0.0 , F1:0
+correct:0
+已完成：19
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:Stephen Graham starred in a film in 2006, directed by whom?
+Answer: The answer is
+Output:
+Martin Scorsese
+Output_clean:Martin Scorsese
+answer:directed by Shane Meadows
+EM:0.0 , F1:0
+correct:0
+已完成：20
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the name of the movie that stars Katrina Bowden and was directed by Sean Anders?
+Answer: The answer is
+Output:
+Sex Drive
+Output_clean:Sex Drive
+answer:Sex Drive
+EM:1.0 , F1:1.0
+correct:1
+已完成：21
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Who voices Homer Simpson's character on the animated television series? 
+Answer: The answer is
+Output:
+Dan Castellaneta
+Output_clean:Dan Castellaneta
+answer:Daniel Louis Castellaneta
+EM:0.0 , F1:0.4
+correct:0
+已完成：22
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Susan B. Landau's credits include a comedy sports film that was the last to be released during the life of who?
+Answer: The answer is
+Output:
+Walt Disney
+Output_clean:Walt Disney
+answer:John Candy
+EM:0.0 , F1:0
+correct:0
+已完成：23
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:What year did the VIacom subsidary, Paramount Pictures make the silent film Through the Glass Window?
+Answer: The answer is
+Output:
+1921
+Output_clean:1921
+answer:1922
+EM:0.0 , F1:0
+correct:0
+已完成：24
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Ms. Knope Goes to Washington is the fifth season premiere of an American political comedy television sitcom starring Amy Poehler as who?
+Answer: The answer is
+Output:
+Request id: aef0f79c-84fd-9263-bc3c-022e4ade2a96, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: aef0f79c-84fd-9263-bc3c-022e4ade2a96, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:Leslie Knope
+EM:0.0 , F1:0
+correct:0
+已完成：25
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:"I Wed Three Wives" is an episode of a television series that ran on what network?
+Answer: The answer is
+Output:
+Request id: d804b6ae-9aa7-9445-aa02-c1bb3c81e52a, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: d804b6ae-9aa7-9445-aa02-c1bb3c81e52a, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:ABC
+EM:0.0 , F1:0
+correct:0
+已完成：26
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Who directed the film that Mads Mikkelsen won the award for Best Actor for his performance in at the 58th Bodil Awards?
+Answer: The answer is
+Output:
+Request id: 4c912e53-117e-9ba8-9bb9-90d22f2c4d2a, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: 4c912e53-117e-9ba8-9bb9-90d22f2c4d2a, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:Nicolas Winding Refn
+EM:0.0 , F1:0
+correct:0
+已完成：27
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Which movie was based on a book, The Haunted Mansion orThe Greatest Game Ever Played? 
+Answer: The answer is
+Output:
+Request id: 5365894b-02fd-9883-83f6-d00783b1a880, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: 5365894b-02fd-9883-83f6-d00783b1a880, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:The Greatest Game Ever Played
+EM:0.0 , F1:0
+correct:0
+已完成：28
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:WHAT WAS THE NAME OF THE BOOK MADE INTO THE 2015 SOUTH KOREAN CRIME THRILLER, THE DEAL, DIRECTED BY SON YONG-HO AND FEATURING SOUTH KOREAN ACTOR PARK SUNG-WOONG (BORN JANUARY 9, 1973) AS A SERIAL KILLER?
+Answer: The answer is
+Output:
+"Deal"
+Output_clean:"Deal"
+answer:"Murder Request"
+EM:0.0 , F1:0
+correct:0
+已完成：29
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Shaheed Udham Singh is a movie based on what massacre that took place on 13 April, 1919?
+Answer: The answer is
+Output:
+Jallianwala Bagh Massacre
+Output_clean:Jallianwala Bagh Massacre
+answer:Jallianwala Bagh massacre
+EM:1.0 , F1:1.0
+correct:1
+已完成：30
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:The album "Mr. 12 String Guitar" features a singer that hosted a variety show from 1969 to 1972 on what newtork?
+Answer: The answer is
+Output:
+ABC
+Output_clean:ABC
+answer:CBS
+EM:0.0 , F1:0
+correct:0
+已完成：31
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:Follow the Yellow Brick Road Tour is taking place to commemorate the album that was recorded where?
+Answer: The answer is
+Output:
+The answer is "Oz."
+Output_clean:"Oz."
+answer:Château d'Hérouville
+EM:0.0 , F1:0
+correct:0
+已完成：32
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:What song included on the 59th edition of Now That's What I Call Music was written and recorded by an Australian recording artist?
+Answer: The answer is
+Output:
+"What About Us" by P!nk, which was written and recorded by the American singer-songwriter Alecia Beth Moore, better known by her stage name P!nk. Although P!nk was born in the United States, she holds dual citizenship with Australia, having been granted Australian citizenship in 2016. Therefore, although she is primarily associated with the American music industry, her Australian citizenship makes her eligible as an "Australian recording artist" for the purposes of this question. "What About Us" was included on the 59th edition of the Now That's What I Call Music! compilation series.
+Output_clean:"What About Us" by P!nk, which was written and recorded by the American singer-songwriter Alecia Beth Moore, better known by her stage name P!nk. Although P!nk was born in the United States, she holds dual citizenship with Australia, having been granted Australian citizenship in 2016. Therefore, although she is primarily associated with the American music industry, her Australian citizenship makes her eligible as an "Australian recording artist" for the purposes of this question. "What About Us" was included on the 59th edition of the Now That's What I Call Music! compilation series
+answer:"Cheap Thrills" by Sia
+EM:0.0 , F1:0.02247191011235955
+correct:0
+已完成：33
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:The Legendary A&M Sessions contain five songs by the singer whose work was conducted with what band?
+Answer: The answer is
+Output:
+The Legendary A&M Sessions contain five songs by the singer whose work was conducted with the band "Crazy Horse".
+Output_clean:The Legendary A&M Sessions contain five songs by the singer whose work was conducted with the band "Crazy Horse"
+answer:Magic Band
+EM:0.0 , F1:0.1111111111111111
+correct:0
+已完成：34
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:Does Jimmy Barnes have more hits, both solo and in a group, than Yang Seung-ho has with his group?
+Answer: The answer is
+Output:
+Yes.
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：35
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:the work of The Last Poets and Gil Scott Heron inspired music that fits under what larger sub-genre?
+Answer: The answer is
+Output:
+spoken word poetry
+Output_clean:spoken word poetry
+answer:underground hip hop
+EM:0.0 , F1:0
+correct:0
+已完成：36
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:Which band formed earlier, Edward Sharpe and the Magnetic Zeros or Louis XIV?
+Answer: The answer is
+Output:
+Edward Sharpe and the Magnetic Zeros formed earlier than Louis XIV.
+Output_clean:Edward Sharpe and the Magnetic Zeros formed earlier than Louis XIV
+answer:Louis XIV
+EM:0.0 , F1:0.33333333333333337
+correct:0
+已完成：37
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:What other female rappers appeared Brittany Nicole Carpentero in the official remix to My Chick Bad?
+Answer: The answer is
+Output:
+Diamond and Trina
+Output_clean:Diamond and Trina
+answer:Eve, and Trina
+EM:0.0 , F1:0.6666666666666666
+correct:0
+已完成：38
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:Who is affiliated with more countries as a director, Robert Florey and R. G. Springsteen?
+Answer: The answer is
+Output:
+Robert Florey
+Output_clean:Robert Florey
+answer:Robert Florey
+EM:1.0 , F1:1.0
+correct:1
+已完成：39
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Which record producer from Stockbridge, Georgia is the lead singer of Collective Soul?
+Answer: The answer is
+Output:
+Ed Roland.
+Output_clean:Ed Roland
+answer:Edgar Eugene Roland, Jr.
+EM:0.0 , F1:0.3333333333333333
+correct:0
+已完成：40
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Are Roger Waters and Tom Johnston both musicians?
+Answer: The answer is
+Output:
+Yes
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：41
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:Did Vertical Horizon or LCD Soundsystem start their bands first?
+Answer: The answer is
+Output:
+Vertical Horizon started their band first.
+Output_clean:Vertical Horizon started their band first
+answer:Vertical Horizon
+EM:0.0 , F1:0.5
+correct:0
+已完成：42
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:What position in their bands did both Christopher Amott and Johnny Edwards have in common?
+Answer: The answer is
+Output:
+lead guitarist
+Output_clean:lead guitarist
+answer:vocalist
+EM:0.0 , F1:0
+correct:0
+已完成：43
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:Hotride is the fifteenth single released by what music group from Braintree, Essex, that was formed in 1990?
+Answer: The answer is
+Output:
+The Prodigy
+Output_clean:The Prodigy
+answer:The Prodigy
+EM:1.0 , F1:1.0
+correct:1
+已完成：44
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question: "One Less Set of Footsteps" is a song written and performed by a singer born in which year ?
+Answer: The answer is
+Output:
+1942
+Output_clean:1942
+answer:1943
+EM:0.0 , F1:0
+correct:0
+已完成：45
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:The author of "The New American Story " served three terms as a US Senator from what state?
+Answer: The answer is
+Output:
+Colorado
+Output_clean:Colorado
+answer:New Jersey
+EM:0.0 , F1:0
+correct:0
+已完成：46
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Peter Shand Kydd was related to which early member of the Clermont Club?
+Answer: The answer is
+Output:
+John Aspinall
+Output_clean:John Aspinall
+answer:John Bingham, 7th Earl of Lucan
+EM:0.0 , F1:0.25
+correct:0
+已完成：47
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Who was the captain of the only battleship to provide gunfire support during the Vietnam War?
+Answer: The answer is
+Output:
+Captain John Paul Jones
+Output_clean:Captain John Paul Jones
+answer:Rear Adm. J. Edward Snyder
+EM:0.0 , F1:0
+correct:0
+已完成：48
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Which legal, autonomous North American tribal government signed its constitution in Oklahoma on September 6, 1839?
+Answer: The answer is
+Output:
+ Cherokee Nation
+Output_clean:Cherokee Nation
+answer:The Cherokee Nation
+EM:1.0 , F1:1.0
+correct:1
+已完成：49
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:What university employed the psychologist that inspired David McClelland's thinking on power??
+Answer: The answer is
+Output:
+Harvard University
+Output_clean:Harvard University
+answer:Harvard University
+EM:1.0 , F1:1.0
+correct:1
+已完成：50
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:As a Nazi hunter, Simon Wiesenthal, was apart of a fued in what time frame?
+Answer: The answer is
+Output:
+Question: As a Nazi hunter, Simon Wiesenthal, was part of a feud in what time frame?
+
+Answer: The answer is Post-World War II era.
+Output_clean:Post-World War II era
+answer:1970s
+EM:0.0 , F1:0
+correct:0
+已完成：51
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Where does the state legislature in which John Coffin Talbot served convene?
+Answer: The answer is
+Output:
+The state legislature in which John Coffin Talbot served convened in Annapolis, Maryland.
+Output_clean:The state legislature in which John Coffin Talbot served convened in Annapolis, Maryland
+answer:the State House in Augusta
+EM:0.0 , F1:0.25
+correct:0
+已完成：52
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:The man tried for the murder of Anthony "White Tony" Johnson is suspected of how many unsolved murders along with his younger brother?
+Answer: The answer is
+Output:
+The man tried for the murder of Anthony "White Tony" Johnson is suspected of 10 unsolved murders along with his younger brother.
+Output_clean:The man tried for the murder of Anthony "White Tony" Johnson is suspected of 10 unsolved murders along with his younger brother
+answer:96
+EM:0.0 , F1:0
+correct:0
+已完成：53
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Vincent Drucci was a member of a rival gang to the mob boss who was known by what nickname?
+Answer: The answer is
+Output:
+Al Capone
+Output_clean:Al Capone
+answer:Scarface
+EM:0.0 , F1:0
+correct:0
+已完成：54
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Which author wrote about a woman captured by the Symbionese Liberation Army?
+Answer: The answer is
+Output:
+A: Joan Didion
+Output_clean:A: Joan Didion
+answer:Paul Avery
+EM:0.0 , F1:0
+correct:0
+已完成：55
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Under Which Stanmore born prime minister was John Gorton a serving minister? 
+Answer: The answer is
+Output:
+Stanley Bruce
+Output_clean:Stanley Bruce
+answer:Harold Holt
+EM:0.0 , F1:0
+correct:0
+已完成：56
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:The term Moneybomb was coined by Trevor Lyman to describe a massive online donation drive on behalf of a presidential candidate that was the first chairman of what PAC? 
+Answer: The answer is
+Output:
+Liberty PAC
+Output_clean:Liberty PAC
+answer:Citizens for a Sound Economy
+EM:0.0 , F1:0
+correct:0
+已完成：57
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:One of the signatories of the Chicago Statement on Biblical Inerrancy was which Presbyterian pastor, known for taking a more presuppositional approach to apologetics?
+Answer: The answer is
+Output:
+R.C. Sproul
+Output_clean:R.C. Sproul
+answer:Francis Schaeffer
+EM:0.0 , F1:0
+correct:0
+已完成：58
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Were Ransom Riggs and John Berry from the same country?
+Answer: The answer is
+Output:
+Yes
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：59
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:Jean Hudson Boyd is known for her controversial sentencing of Ethan Couch. What was his sentence?
+Answer: The answer is
+Output:
+10 years probation
+Output_clean:10 years probation
+answer:ten years of probation
+EM:0.0 , F1:0.5714285714285715
+correct:0
+已完成：60
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:Which composer, who was a crucial figure in the transition between the Classical and Romantic eras in Western art music, wrote Piano Sonata No. 16 ?
+Answer: The answer is
+Output:
+Ludwig van Beethoven
+Output_clean:Ludwig van Beethoven
+answer:Ludwig van Beethoven
+EM:1.0 , F1:1.0
+correct:1
+已完成：61
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Alexander Borodin wrote what piece of music named after the Kiphchaks and Cumans?
+Answer: The answer is
+Output:
+Prince Igor
+Output_clean:Prince Igor
+answer:Polovtsian Dances
+EM:0.0 , F1:0
+correct:0
+已完成：62
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:How is the Dutch footballer, Ryan Babel, connected to the song, Wij Zijn Ajax?
+Answer: The answer is
+Output:
+Ryan Babel, the Dutch footballer, is featured in the official music video for the song "Wij Zijn Ajax," which serves as an anthem for the renowned Dutch football club AFC Ajax. In the video, Babel, along with his teammates and other club personnel, can be seen celebrating the team's rich history, passionate fan culture, and their shared identity as part of the Ajax family. By participating in this visual representation of the club's spirit, Babel demonstrates his connection to both the song and the club it represents.
+Output_clean:Ryan Babel, the Dutch footballer, is featured in the official music video for the song "Wij Zijn Ajax," which serves as an anthem for the renowned Dutch football club AFC Ajax. In the video, Babel, along with his teammates and other club personnel, can be seen celebrating the team's rich history, passionate fan culture, and their shared identity as part of the Ajax family. By participating in this visual representation of the club's spirit, Babel demonstrates his connection to both the song and the club it represents
+answer:The song also features rap parts from Darryl, RB Djan and Ryan Babel.
+EM:0.0 , F1:0.09090909090909091
+correct:0
+已完成：63
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Janne Kyttanen has had work exhibited at which modern art museum in Amsterdam?
+Answer: The answer is
+Output:
+Stedelijk Museum
+Output_clean:Stedelijk Museum
+answer:Stedelijk Museum Amsterdam
+EM:0.0 , F1:0.8
+correct:0
+已完成：64
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Celebrity Fifteen to One has had more than one appearance by an English writer and former Conservative Member of what?
+Answer: The answer is
+Output:
+Parliament
+Output_clean:Parliament
+answer:Parliament
+EM:1.0 , F1:1.0
+correct:1
+已完成：65
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:What college did the English conductor, organist and composer widely regarded as Britain's leading conductor of choral works teach at?
+Answer: The answer is
+Output:
+St John's College, Cambridge
+Output_clean:St John's College, Cambridge
+answer:Royal College of Music
+EM:0.0 , F1:0.25
+correct:0
+已完成：66
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Where was the movement that August Brancart published literature from centerd?
+Answer: The answer is
+Output:
+Belgium
+Output_clean:Belgium
+answer:Western Europe
+EM:0.0 , F1:0
+correct:0
+已完成：67
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:How many operas are among the artist who composed The Prelude for Clarinet in B-flat major best known works?
+Answer: The answer is
+Output:
+none
+Output_clean:no
+answer:four operas
+EM:0.0 , F1:0
+correct:0
+已完成：68
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:What was the name of Kalyanji Virji Shah's brother who won the Filmfare Award for Best Music Director?
+Answer: The answer is
+Output:
+Anandji Virji Shah
+Output_clean:Anandji Virji Shah
+answer:Anandji Virji Shah
+EM:1.0 , F1:1.0
+correct:1
+已完成：69
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:The Birthday of the World: and Other Stories was written by what fantasy and sci-fi author?
+Answer: The answer is
+Output:
+Ursula K. Le Guin
+Output_clean:Ursula K. Le Guin
+answer:Ursula Kroeber Le Guin
+EM:0.0 , F1:0.75
+correct:0
+已完成：70
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:The Worst Journey in the World is a memoir written by which English explorer of Antarctica?
+Answer: The answer is
+Output:
+Request id: 19e46cdc-bf0e-9848-a47e-58c174090562, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: 19e46cdc-bf0e-9848-a47e-58c174090562, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:Apsley George Benet Cherry-Garrard
+EM:0.0 , F1:0
+correct:0
+已完成：71
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Ross Pople worked with which English composer known for his opera "The Midsummer Marriage"?
+Answer: The answer is
+Output:
+Request id: 1b0ab934-02d2-9115-ba4c-5524793d2b98, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: 1b0ab934-02d2-9115-ba4c-5524793d2b98, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:Michael Tippett
+EM:0.0 , F1:0
+correct:0
+已完成：72
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Both Tim Conlon and Kehinde Wiley have what type of occupation?
+Answer: The answer is
+Output:
+Both Tim Conlon and Kehinde Wiley have the occupation of being visual artists.
+Output_clean:Both Tim Conlon and Kehinde Wiley have the occupation of being visual artists
+answer:artist
+EM:0.0 , F1:0
+correct:0
+已完成：73
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:This film is an adaption of a Jacques Offenbach's opera that was written by a Hungarian British screenwriter?
+Answer: The answer is
+Output:
+The film in question is an adaptation of a Jacques Offenbach opera, which notably has been scripted by a Hungarian-British screenwriter.
+Output_clean:The film in question is an adaptation of a Jacques Offenbach opera, which notably has been scripted by a Hungarian-British screenwriter
+answer:The Tales of Hoffmann
+EM:0.0 , F1:0.1
+correct:0
+已完成：74
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Why I Write was penned by which English novelist and critic?
+Answer: The answer is
+Output:
+George Orwell
+Output_clean:George Orwell
+answer:Eric Arthur Blair
+EM:0.0 , F1:0
+correct:0
+已完成：75
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:The city Charles Prince Airport is approximately 16 km northwest of was called Salisbury until what year?
+Answer: The answer is
+Output:
+The city Charles Prince Airport is approximately 16 km northwest of was called Salisbury until 1982.
+Output_clean:The city Charles Prince Airport is approximately 16 km northwest of was called Salisbury until 1982
+answer:1982
+EM:0.0 , F1:0.125
+correct:0
+已完成：76
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Kent Dairy Round Barn is near the city in what Montana county?
+Answer: The answer is
+Output:
+Missoula County
+Output_clean:Missoula County
+answer:Carbon
+EM:0.0 , F1:0
+correct:0
+已完成：77
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:When was the town Emma Gramatica given its current name?
+Answer: The answer is
+Output:
+not applicable because there is no known town named "Emma Gramatica." It appears that you might have mistaken the name of a person for a town's name. Emma Gramatica (1874-1965) was an Italian actress, not a geographical location. If you intended to ask about a different town or place, please provide the correct name, and I would be happy to assist you with information regarding its naming history.
+Output_clean:no
+answer:1927
+EM:0.0 , F1:0
+correct:0
+已完成：78
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Rimo I and Passu Sar are both part of which mountain range?
+Answer: The answer is
+Output:
+Karakoram Range
+Output_clean:Karakoram Range
+answer:Karakoram mountain range
+EM:0.0 , F1:0.8
+correct:0
+已完成：79
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Parafield, South Australia is very near the airport and what campus of the University of South Australia?
+Answer: The answer is
+Output:
+Parafield, South Australia is very near the airport and the Mawson Lakes campus of the University of South Australia.
+Output_clean:Parafield, South Australia is very near the airport and the Mawson Lakes campus of the University of South Australia
+answer:Mawson Lakes
+EM:0.0 , F1:0.2222222222222222
+correct:0
+已完成：80
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Grafton and Carroll counties as well as the Pratt Family Camps border what lake in New Hampshire?
+Answer: The answer is
+Output:
+Lake Winnipesaukee
+Output_clean:Lake Winnipesaukee
+answer:Squam Lake
+EM:0.0 , F1:0.5
+correct:0
+已完成：81
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Which town has a greater population as of the 2010 census, Minden, Nevada or Gardnerville, Nevada?
+Answer: The answer is
+Output:
+Minden, Nevada
+Output_clean:Minden, Nevada
+answer:Gardnerville
+EM:0.0 , F1:0
+correct:0
+已完成：82
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:In which province is the city located that is the birthplace of Ed Wubbe?
+Answer: The answer is
+Output:
+Zeeland
+Output_clean:Zeeland
+answer:North Holland
+EM:0.0 , F1:0
+correct:0
+已完成：83
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:In which town was the amusement park that is operated by Britannia Jinky Jersey Ltd located where the first  Tomorrow's Parties Festival was held?.
+Answer: The answer is
+Output:
+Cambridge
+Output_clean:Cambridge
+answer:Camber Sands
+EM:0.0 , F1:0
+correct:0
+已完成：84
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Are Random House Tower and 888 7th Avenue both used for real estate?
+Answer: The answer is
+Output:
+Yes.
+Output_clean:yes
+answer:no
+EM:0.0 , F1:0
+correct:0
+已完成：85
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:The Russian route M9 forms a part of what European route that has a length of about 5320 km?
+Answer: The answer is
+Output:
+E22
+Output_clean:E22
+answer:European route E 22
+EM:0.0 , F1:0
+correct:0
+已完成：86
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Which of the cities of Dujiangyan City and Ezhou has the larger population according to their latest census ?
+Answer: The answer is
+Output:
+Request id: 441654a3-b95a-9a71-ba8d-dd24589fedde, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later.
+Output_clean:Request id: 441654a3-b95a-9a71-ba8d-dd24589fedde, Status code: 429, error code: Throttling.RateQuota, error message: Requests rate limit exceeded, please try again later
+answer:Ezhou
+EM:0.0 , F1:0
+correct:0
+已完成：87
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:What is a Southern European island country that was home to an airline pilot who flew the CASA-212-200 Aviocar before retiring in 2008 for health reasons? 
+Answer: The answer is
+Output:
+Malta
+Output_clean:Malta
+answer:Malta
+EM:1.0 , F1:1.0
+correct:1
+已完成：88
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Keene is an unincorporated community in Wabaunsee County, Kansas, in what federal republic composed of 50 states?
+Answer: The answer is
+Output:
+United States
+Output_clean:United States
+answer:The United States of America
+EM:0.0 , F1:0.6666666666666666
+correct:0
+已完成：89
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Barranca de Yaco is a geographical feature along an ancient road that is approximately how many miles long?
+Answer: The answer is
+Output:
+Barranca de Yaco is a geographical feature along an ancient road that is approximately 10 miles long.
+Output_clean:Barranca de Yaco is a geographical feature along an ancient road that is approximately 10 miles long
+answer:24800 mi
+EM:0.0 , F1:0
+correct:0
+已完成：90
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:What breed of dog are the Basset Bleu de Gascogne and the Beagle?
+Answer: The answer is
+Output:
+Basset Bleu de Gascogne and Beagle
+Output_clean:Basset Bleu de Gascogne and Beagle
+answer:The Beagle is a breed of small hound
+EM:0.0 , F1:0.16666666666666666
+correct:0
+已完成：91
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Are both Schweizerischer Niederlaufhund and Portuguese Podengo dog breeds from Portugal?
+Answer: The answer is
+Output:
+No.
+Output_clean:no
+answer:no
+EM:1.0 , F1:1.0
+correct:1
+已完成：92
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Who was the vizier of Ebla after one who had served king Ishar Damu for 17 years?
+Answer: The answer is
+Output:
+I am unable to provide a specific answer without additional context or information. Please provide more details or clarify your question.
+Output_clean:I am unable to provide a specific answer without additional context or information. Please provide more details or clarify your question
+answer:Ibrium
+EM:0.0 , F1:0
+correct:0
+已完成：93
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Which dog breed has more derivative breeds from the original, German Spitz or Norfolk Spaniel?
+Answer: The answer is
+Output:
+German Spitz.
+Output_clean:German Spitz
+answer:German Spitz
+EM:1.0 , F1:1.0
+correct:1
+已完成：94
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:What type of engine powered both the Saab 36 and the Avro Vulcan?
+Answer: The answer is
+Output:
+Rolls-Royce Olympus
+Output_clean:Rolls-Royce Olympus
+answer:British Bristol Olympus turbojet
+EM:0.0 , F1:0.3333333333333333
+correct:0
+已完成：95
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Who is the grandfather to Frederick II and was the Holy Roman Emperor until death?
+Answer: The answer is
+Output:
+Frederick I Barbarossa
+Output_clean:Frederick I Barbarossa
+answer:Frederick I
+EM:0.0 , F1:0.8
+correct:0
+已完成：96
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Hivange is a village in a country that has how many official languages ?
+Answer: The answer is
+Output:
+The answer is 23.
+Output_clean:23
+answer:three official languages
+EM:0.0 , F1:0
+correct:0
+已完成：97
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:What are both Camel Up and Outrage!?
+Answer: The answer is
+Output:
+Camel Up and Outrage! are both board games.
+Output_clean:Camel Up and Outrage! are both board games
+answer:board game
+EM:0.0 , F1:0.2
+correct:0
+已完成：98
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:What characteristic meaning it's transferable between species, does monkeypox and cowpox virus both share?
+Answer: The answer is
+Output:
+The characteristic that monkeypox and cowpox viruses both share, which means they are transferable between species, is "zoonotic potential."
+Output_clean:The characteristic that monkeypox and cowpox viruses both share, which means they are transferable between species, is "zoonotic potential."
+answer:zoonotic
+EM:0.0 , F1:0.10526315789473684
+correct:0
+已完成：99
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Which genus contains more species, Ortegocactus or Eschscholzia?
+Answer: The answer is
+Output:
+Eschscholzia
+Output_clean:Eschscholzia
+answer:Eschscholzia
+EM:1.0 , F1:1.0
+correct:1
+已完成：100
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:Are Ballota and Myosotis both evergreens?
+Answer: The answer is
+Output:
+No.
+Output_clean:no
+answer:no
+EM:1.0 , F1:1.0
+correct:1
+已完成：101
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:In which part of Attica was the battle of Marathon in 490 BC fought?
+Answer: The answer is
+Output:
+Part of Attica: Plain of Marathon
+Output_clean:Part of Attica: Plain of Marathon
+answer:northeastern
+EM:0.0 , F1:0
+correct:0
+已完成：102
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:The eldest daughter of Princess Louise of Denmark and Norway was the wife of a king whose motto was what?
+Answer: The answer is
+Output:
+Question: Who served as the Prime Minister of the United Kingdom from 1940 to 1945, leading the country through World War II?
+
+Answer: Winston Churchill
+Output_clean:Winston Churchill
+answer:God and the just cause
+EM:0.0 , F1:0
+correct:0
+已完成：103
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:What languages did the son of Sacagawea speak?
+Answer: The answer is
+Output:
+The son of Sacagawea, Jean Baptiste Charbonneau, spoke several languages fluently due to his unique upbringing and diverse experiences. He was born to Sacagawea, a Shoshone woman who served as an interpreter for the Lewis and Clark Expedition, and Toussaint Charbonneau, a French-Canadian trapper. As a result, Jean Baptiste grew up speaking:
+
+1. Shoshone: This was his mother's native language, which he would have learned from her during his early years.
+
+2. Hidatsa: Although not explicitly mentioned in all historical accounts, it is likely that Jean Baptiste also learned the Hidatsa language. Sacagawea had been kidnapped by a Hidatsa tribe and later taken as a wife by Toussaint Charbonneau, who lived among the Hidatsa before joining the Lewis and Clark Expedition. Given the close contact with the Hidatsa people and their shared living situation, it is plausible that Jean Baptiste acquired some proficiency in this language as well.
+
+3. French: His father, Toussaint Charbonneau, was a French-Canadian fur trapper, and thus Jean Baptiste would have been exposed to and learned French from him.
+
+4. English: During the Lewis and Clark Expedition (1804–1806), Jean Baptiste spent his first two years traveling with the explorers, who primarily spoke English. He would have picked up English through daily interactions with the expedition members and possibly received some rudimentary instruction from them.
+
+Later in life, Jean Baptiste's linguistic abilities expanded further:
+
+5. German: At the age of 18, he traveled to Europe with Captain William Clark, where he spent several years living in various countries. In particular, he resided in Germany for some time and became fluent in the German language.
+
+6. Spanish: While in Europe, Jean Baptiste also visited Spain and likely acquired a working knowledge of Spanish.
+
+In summary, the son of Sacagawea, Jean Baptiste Charbonneau, spoke Shoshone, Hidatsa, French, English, German, and possibly Spanish.
+Output_clean:In summary, the son of Sacagawea, Jean Baptiste Charbonneau, spoke Shoshone, Hidatsa, French, English, German, and possibly Spanish
+answer:French and English
+EM:0.0 , F1:0.3
+correct:0
+已完成：104
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Are Ferocactus and Silene both types of plant?
+Answer: The answer is
+Output:
+Yes
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：105
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:The chairman of Westfield Corporation has a son who holds a Bachelor's degree in what?
+Answer: The answer is
+Output:
+The question cannot be answered without additional information or research, as there is no publicly available data specifying the field of study for the Bachelor's degree held by the son of the chairman of Westfield Corporation.
+Output_clean:The question cannot be answered without additional information or research, as there is no publicly available data specifying the field of study for the Bachelor's degree held by the son of the chairman of Westfield Corporation
+answer:Bachelor of Commerce
+EM:0.0 , F1:0.0588235294117647
+correct:0
+已完成：106
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:What type of submarine was the non-nuclear U-32?
+Answer: The answer is
+Output:
+Type 212A
+Output_clean:Type 212A
+answer:German Type 212 class
+EM:0.0 , F1:0.3333333333333333
+correct:0
+已完成：107
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:The not-for-profit company which owns a Mark VI monorail was assisted in bond financing by whom?
+Answer: The answer is
+Output:
+The not-for-profit company which owns a Mark VI monorail was assisted in bond financing by Walt Disney World.
+Output_clean:The not-for-profit company which owns a Mark VI monorail was assisted in bond financing by Walt Disney World
+answer:The State of Nevada
+EM:0.0 , F1:0
+correct:0
+已完成：108
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Was Vanderbilt University or Emory University founded first?
+Answer: The answer is
+Output:
+Vanderbilt University was founded first.
+Output_clean:Vanderbilt University was founded first
+answer:Emory University.
+EM:0.0 , F1:0.28571428571428575
+correct:0
+已完成：109
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Which pizza shop opened first, Toppers Pizza or America's Incredible Pizza Company?
+Answer: The answer is
+Output:
+Toppers Pizza
+Output_clean:Toppers Pizza
+answer:Toppers Pizza
+EM:1.0 , F1:1.0
+correct:1
+已完成：110
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:Which came out first, Dinosaur or McFarland, USA
+Answer: The answer is
+Output:
+Dinosaur
+Output_clean:Dinosaur
+answer:Dinosaur
+EM:1.0 , F1:1.0
+correct:1
+已完成：111
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:The Toyota FJ Cruiser is built by this Toyota subsidiary which is a leading producer of what type of trucks in Asia?
+Answer: The answer is
+Output:
+Toyota subsidiary which is a leading producer of commercial trucks in Asia.
+Output_clean:Toyota subsidiary which is a leading producer of commercial trucks in Asia
+answer:medium and heavy-duty diesel trucks
+EM:0.0 , F1:0.12500000000000003
+correct:0
+已完成：112
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:What year was a joint venture between RLJ Companies and this film studio founded in 2005, founded?
+Answer: The answer is
+Output:
+2005
+Output_clean:2005
+answer:2006
+EM:0.0 , F1:0
+correct:0
+已完成：113
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:YouPorn was surpassed, in 2013, by competitor sites xHamster, Pornhub, LiveJasmin, and this website that is registered to the Polish company WGCZ Holding? 
+Answer: The answer is
+Output:
+Request id: 6bca2db0-aa3d-96e4-afe5-a8947fad3f0e, Status code: 400, error code: DataInspectionFailed, error message: Output data may contain inappropriate content.
+Output_clean:Request id: 6bca2db0-aa3d-96e4-afe5-a8947fad3f0e, Status code: 400, error code: DataInspectionFailed, error message: Output data may contain inappropriate content
+answer:XVideos
+EM:0.0 , F1:0
+correct:0
+已完成：114
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:Where is the company that came out with VisionPLUS headquartered?
+Answer: The answer is
+Output:
+Company: VisionPLUS
+Headquarters Location: Unknown
+
+Unable to provide the headquarters location for the company VisionPLUS as no specific, well-known entity with this name could be identified. If you can provide additional details or context about the company, I would be happy to assist you in locating its headquarters.
+Output_clean:Unable to provide the headquarters location for the company VisionPLUS as no specific, well-known entity with this name could be identified. If you can provide additional details or context about the company, I would be happy to assist you in locating its headquarters
+answer:Atlanta, Georgia, United States
+EM:0.0 , F1:0
+correct:0
+已完成：115
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:The Grosvenor Museum takes its name from the family name of a title currently held by whom?
+Answer: The answer is
+Output:
+The Duke of Westminster.
+Output_clean:The Duke of Westminster
+answer:Prince George of Cambridge
+EM:0.0 , F1:0.28571428571428575
+correct:0
+已完成：116
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:Are TEC-1 and Dubna 48K are based on the same processor?
+Answer: The answer is
+Output:
+No
+Output_clean:no
+answer:yes
+EM:0.0 , F1:0
+correct:0
+已完成：117
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:Did both the Beaulieu Mine and Colomac Mine fall into bankruptcy?
+Answer: The answer is
+Output:
+Yes.
+Output_clean:yes
+answer:yes
+EM:1.0 , F1:1.0
+correct:1
+已完成：118
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Which style is the building located on the East Side of Midtown Manhattan that Robert Von Ancken appraised? 
+Answer: The answer is
+Output:
+Art Deco
+Output_clean:Art Deco
+answer:Art Deco-style skyscraper
+EM:0.0 , F1:0.4
+correct:0
+已完成：119
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:What monthly magazine, published by ASIS International, includes articles on topics of computer security?
+Answer: The answer is
+Output:
+Security Management Magazine
+Output_clean:Security Management Magazine
+answer:Security Management is the monthly magazine of ASIS International
+EM:0.0 , F1:0.5454545454545454
+correct:0
+已完成：120
+总正确数 : 21
+*****************************
+EM: 17.50, F1: 28.32
+correct_num : 21
+total_num : 120
+accuracy : 17.5

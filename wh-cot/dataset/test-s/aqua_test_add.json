@@ -1,0 +1,31 @@
+[
+    {
+        "cluster_id": 0,
+        "test_samples": [
+            {
+                "index": 136,
+                "question": "The population of a city is 5265526. If there are 4169516 adults in the city, how many children are there in the city? Answer Choices: (A) 1095961 (B) 1065961 (C) 1085961 (D) 1097961 (E) 1096061",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "E",
+                "cluster_dist": 0.8753374814987183
+            },
+            {
+                "index": 143,
+                "question": "Two friends are eating a jar full of candies. Had P eaten alone, it would have taken him 10 minutes to finish the candies in the jar. Had Q eaten alone, it would have taken her 5 minutes to finish half the jar. Since both of them are eating simultaneously, how many minutes would it take them to empty the jar? Answer Choices: (A) 4 (B) 5 (C) 6 (D) 7 (E) 8",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "B",
+                "cluster_dist": 0.8400004506111145
+            },
+            {
+                "index": 144,
+                "question": "It takes a worker 9 minutes to drive from home to work at an average rate of 20 kilometers per hour. How many minutes will it take the worker to cycle from home to work along the same route at an average rate of 6 kilometers per hour? Answer Choices: (A) 30 (B) 32 (C) 35 (D) 36 (E) 40",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "A",
+                "cluster_dist": 0.7291470766067505
+            }
+        ]
+    }
+]

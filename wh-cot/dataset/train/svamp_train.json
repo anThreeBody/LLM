@@ -1,0 +1,1002 @@
+[
+    {
+        "cluster_id": 0,
+        "train_samples": [
+            {
+                "index": 468,
+                "question": "3 birds and 2 storks were sitting on the fence. 5 more birds came to join them. How many birds and storks are sitting on the fence?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "10",
+                "cluster_dist": 0.6470901966094971
+            },
+            {
+                "index": 69,
+                "question": "2 children were riding on the bus. At the bus stop some more children got on the bus. Then there were 10 children altogether on the bus. How many more children are on the bus now than there were before the bus stop?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "8",
+                "cluster_dist": 0.6017081141471863
+            },
+            {
+                "index": 467,
+                "question": "In a school there are 315 girls and 309 boys. There are also 772 teachers How many people are there in that school?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1396",
+                "cluster_dist": 0.648163914680481
+            },
+            {
+                "index": 159,
+                "question": "Lawrence county has 898051 kids. During summer break 629424 kids go to camp and the rest stay home. How many kids stay home?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "268627",
+                "cluster_dist": 0.6514531373977661
+            },
+            {
+                "index": 518,
+                "question": "2 birds and 6 storks were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.6565380692481995
+            },
+            {
+                "index": 235,
+                "question": "In a school there are 732 girls and 761 boys. 682 more girls and 8 more boys joined the school. How many girls are there in the school now?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1414",
+                "cluster_dist": 0.5903518199920654
+            },
+            {
+                "index": 205,
+                "question": "In a school there are 308 girls and 318 boys. There are also 36 teachers How many pupils are there in that school?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "626",
+                "cluster_dist": 0.6515822410583496
+            },
+            {
+                "index": 254,
+                "question": "In a school there are 135 girls and 214 boys. 496 more girls and 910 more boys joined the school. How many boys are there in the school now?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1124",
+                "cluster_dist": 0.6206201314926147
+            },
+            {
+                "index": 143,
+                "question": "28 children were riding on the bus. At the bus stop 82 children got on the bus while some got off the bus. Then there were 30 children altogether on the bus. How many more children got on the bus than those that got off?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "2",
+                "cluster_dist": 0.5626140832901001
+            },
+            {
+                "index": 370,
+                "question": "Summer is almost here and most animals are migrating back to cooler countries. There are 87 bird families living near a mountain. If 18 new bird families joined them How many bird families live near the mountain now?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "105",
+                "cluster_dist": 0.7213078737258911
+            },
+            {
+                "index": 187,
+                "question": "The Ferris wheel in paradise park has 18 seats. Each seat can hold 15 people. If 10 seats are broken How many people can ride the Ferris wheel at the same time?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "120",
+                "cluster_dist": 0.7411446571350098
+            },
+            {
+                "index": 324,
+                "question": "Winter is almost here and most animals are migrating to warmer countries. 27 bird families flew away for the winter from near a mountain. If there were 41 bird families living near the mountain initially How many bird families were left near the mountain?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "14",
+                "cluster_dist": 0.7523768544197083
+            },
+            {
+                "index": 283,
+                "question": "A school has 485 pupils. There are 232 girls and the rest are boys. How many boys are there in that school?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "253",
+                "cluster_dist": 0.6076491475105286
+            },
+            {
+                "index": 116,
+                "question": "13 campers went rowing and 59 campers went hiking in the morning. 21 campers went rowing in the afternoon. How many campers went rowing in all?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "34",
+                "cluster_dist": 0.6406331062316895
+            },
+            {
+                "index": 446,
+                "question": "4 birds and 3 storks were sitting on the fence. 6 more storks came to join them. How many more storks than birds are sitting on the fence?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "5",
+                "cluster_dist": 0.6703801155090332
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "train_samples": [
+            {
+                "index": 296,
+                "question": "He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "143550",
+                "cluster_dist": 0.629116415977478
+            },
+            {
+                "index": 121,
+                "question": "Danny collects bottle caps. He found 30 bottle caps at the park while he threw away 63 old ones. Now he has 42 bottle caps in his collection. How many more bottle caps did danny throw away than those he found at the park?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "33",
+                "cluster_dist": 0.6164882779121399
+            },
+            {
+                "index": 237,
+                "question": "David did 36 more push-ups but 33 less crunches than Zachary in gym class today. If Zachary did 58 push-ups and 33 crunches How many more push-ups than crunches did Zachary do?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "25",
+                "cluster_dist": 0.6893849968910217
+            },
+            {
+                "index": 57,
+                "question": "Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "30",
+                "cluster_dist": 0.712937593460083
+            },
+            {
+                "index": 278,
+                "question": "Danny collects bottle caps. He threw away 6 of the old ones at the park while he found 50 bottle caps new ones. Now he has 60 bottle caps in his collection. How many more bottle caps did danny find at the park than those he threw away?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "44",
+                "cluster_dist": 0.6458307504653931
+            },
+            {
+                "index": 25,
+                "question": "The ring toss game at the carnival made the same amount of money each day. In total in 30 days they earned 420 dollars. Together with game they earned 22 dollars. How much did ring toss game make per day?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "14",
+                "cluster_dist": 0.7995433211326599
+            },
+            {
+                "index": 407,
+                "question": "Because of the decision Sofia asked the students to suggest specific types of food. If 408 students suggested adding mashed potatoes while 42 suggested adding bacon to the menu How many more students suggested mashed potatoes than those that suggested bacon?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "366",
+                "cluster_dist": 0.7457669377326965
+            },
+            {
+                "index": 288,
+                "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 235 of the pickers that they fill 100 drums of raspberries per day and 221 drums of grapes per day. How many drums of grapes would be filled in 77 days?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "17017",
+                "cluster_dist": 0.6982855796813965
+            },
+            {
+                "index": 307,
+                "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 94 of the pickers that they fill 90 drums of grapes in 6 days. How many drums of grapes would be filled per day?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "15",
+                "cluster_dist": 0.7124033570289612
+            },
+            {
+                "index": 308,
+                "question": "He then went to see the oranges being harvested. He found out that they harvest 82 sacks of ripe oranges and 61 sacks of unripe oranges per day. How many sacks of ripe oranges will they have after 25 days of harvest?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "2050",
+                "cluster_dist": 0.6620975732803345
+            },
+            {
+                "index": 386,
+                "question": "Each pack of dvds costs 107 dollars. If there is a discount of 106 dollars on each pack How many packs of dvds can you buy with 93 dollars?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "93",
+                "cluster_dist": 0.7420797348022461
+            },
+            {
+                "index": 30,
+                "question": "There are 384 oranges and 192 bananas in Philip's collection. If the bananas are organized into 345 groups and oranges are organized into 16 groups How big is each group of oranges?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "24",
+                "cluster_dist": 0.7216246128082275
+            },
+            {
+                "index": 433,
+                "question": "Danny collects bottle caps. He lost 66 bottle caps at the park. Now he has 25 bottle caps in his collection. How many bottle caps did danny have at first?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "91",
+                "cluster_dist": 0.6641773581504822
+            },
+            {
+                "index": 320,
+                "question": "He then went to see the oranges being harvested. He found out that they harvest 44 sacks of ripe oranges and 25 sacks of unripe oranges per day. How many more sacks of ripe oranges than unripe oranges are harvested per day?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "19",
+                "cluster_dist": 0.6557839512825012
+            },
+            {
+                "index": 97,
+                "question": "Lewis earns $ 368 every week during the 1359 weeks of harvest. If he has to pay $ 388 rent every week How much money does he pay as rent during the harvest season?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "527292",
+                "cluster_dist": 0.8324251174926758
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "train_samples": [
+            {
+                "index": 89,
+                "question": "A book has 2 chapters. The first chapter is 60 pages long. If there are a total of 93 pages in the book How many pages are in the second chapter?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "33",
+                "cluster_dist": 0.7577846050262451
+            },
+            {
+                "index": 18,
+                "question": "Rebecca wants to split a collection of eggs into groups of 5. Rebecca has 10 marbles and 15 eggs. How many groups will be created?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.7273285388946533
+            },
+            {
+                "index": 505,
+                "question": "There are 20 different books in the ' crazy silly school ' series. If you are yet to read 5 of the books How many books have you already read?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "15",
+                "cluster_dist": 0.8077681660652161
+            },
+            {
+                "index": 56,
+                "question": "After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 512 visitors came to the Buckingham palace that day. If there were 471 visitors the previous day and 808 visitors the day before that How many visited the Buckingham palace within the past 89 days?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1791",
+                "cluster_dist": 0.8284494876861572
+            },
+            {
+                "index": 234,
+                "question": "Rachel had to complete 9 pages of math homework, 2 pages of reading homework and 96 more pages of biology homework. How many more pages of math homework than reading homework did she have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "7",
+                "cluster_dist": 0.6375899910926819
+            },
+            {
+                "index": 335,
+                "question": "There are 14 different movies and 15 different books in the ' crazy silly school ' series. If you read 11 of the books and watched 40 of the movies How many more books than movies are there in the ' crazy silly school ' series?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.7650725841522217
+            },
+            {
+                "index": 217,
+                "question": "Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "72",
+                "cluster_dist": 0.760621190071106
+            },
+            {
+                "index": 400,
+                "question": "Allan brought 2 balloons and Jake brought 6 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Jake have than Allan in the park?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.6509371399879456
+            },
+            {
+                "index": 282,
+                "question": "Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "44",
+                "cluster_dist": 0.782484233379364
+            },
+            {
+                "index": 85,
+                "question": "There were 7 roses in the vase. Jessica cut some more roses from her flower garden which had a total of 59 roses. There are now 20 roses in the vase. How many roses did she cut?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "13",
+                "cluster_dist": 0.6688055396080017
+            },
+            {
+                "index": 171,
+                "question": "Julia played tag with 17 kids on monday, 15 kids on tuesday and 2 kids on wednesday. How many kids did she play with altogether?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "34",
+                "cluster_dist": 0.6737467646598816
+            },
+            {
+                "index": 52,
+                "question": "Haley grew 9 trees in her backyard. After a typhoon 4 died. Then she grew 5 more trees. How many trees does she have left?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "10",
+                "cluster_dist": 0.6802257299423218
+            },
+            {
+                "index": 164,
+                "question": "They decided to hold the party in their backyard. They have some sets of tables, each having the 3 chairs. If there are a total of 9 chairs in the backyard How many sets of tables do they have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.7452406287193298
+            },
+            {
+                "index": 535,
+                "question": "Julia played tag with 16 kids on monday. If she played tag with 12 more kids on monday than on tuesday How many kids did she play with on tuesday?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "4",
+                "cluster_dist": 0.6463007926940918
+            },
+            {
+                "index": 70,
+                "question": "Rachel had to complete 7 pages of math homework. If she had to complete 4 more pages of math homework than reading homework How many pages of reading homework did she have to complete?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.6163330674171448
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "train_samples": [
+            {
+                "index": 410,
+                "question": "Kelly has 20 nintendo games and 70 sony games. How many nintendo games does she need to give away so that she will have 12 nintendo games left?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "8",
+                "cluster_dist": 0.7549388408660889
+            },
+            {
+                "index": 406,
+                "question": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 197 chocolate chip cookies and 46 raisin cookies yesterday. And she baked 75 raisin cookies and 66 chocolate chip cookies this morning. How many more chocolate chip cookies did Helen bake yesterday compared to today?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "131",
+                "cluster_dist": 0.6873682737350464
+            },
+            {
+                "index": 317,
+                "question": "Paul got a box of some crayons for his birthday. During the school year he gave 52 crayons to his friends while he lost 535 crayons. If he only had 492 crayons left How many crayons had been lost or given away?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "587",
+                "cluster_dist": 0.5683019161224365
+            },
+            {
+                "index": 470,
+                "question": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 144 chocolate chip cookies and 397 raisin cookies yesterday. And she baked 85 raisin cookies and 403 chocolate chip cookies this morning. How many raisin cookies did Helen bake?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "482",
+                "cluster_dist": 0.673324465751648
+            },
+            {
+                "index": 298,
+                "question": "There were 3 dollars in Olivia's wallet. She collected 49 more dollars from an atm. After she visited a supermarket there were 49 dollars left. How much more money did she collect at the atm than she spent at the supermarket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "46",
+                "cluster_dist": 0.661449670791626
+            },
+            {
+                "index": 178,
+                "question": "Paul had 108 books. After selling some books in a garage sale and giving 35 books to his friend he had 62 books left. How many books did he sell in the garage sale?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "11",
+                "cluster_dist": 0.5958883762359619
+            },
+            {
+                "index": 16,
+                "question": "Frank had 33 pieces of candy. He lost 24 of them. If he put the remaining pieces into bags with 9 pieces in each bag How many bags would he have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.6292790174484253
+            },
+            {
+                "index": 136,
+                "question": "Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left. How many more baseball cards than Ace cards does Nell have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "123",
+                "cluster_dist": 0.6974128484725952
+            },
+            {
+                "index": 483,
+                "question": "Katie had 62 new games and 80 old games. Her friends had 73 new games and 41 old games. How many old games do they have 3",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "121",
+                "cluster_dist": 0.706171452999115
+            },
+            {
+                "index": 163,
+                "question": "Paul got a box of 531 crayons and 38 erasers for his birthday. At the end of the school year he only had 391 left while not having lost a single erasers. How many more crayons than erasers did he have left?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "353",
+                "cluster_dist": 0.5794702172279358
+            },
+            {
+                "index": 54,
+                "question": "Dave had 21 apps on his phone. He added 89 new apps. After deleting some he had 24 left. How many more apps did he add than he deleted?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.6815469264984131
+            },
+            {
+                "index": 95,
+                "question": "For Gwen's birthday she received 2 dollars from her mom. Her dad gave her 4 more dollars. If she spent 3 dollars. How much money did she still have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.7104870676994324
+            },
+            {
+                "index": 277,
+                "question": "Matthew had 23 crackers. He has 11 crackers left after he gave equal numbers of crackers to his 2 friends. How many crackers did each friend eat?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "6",
+                "cluster_dist": 0.597421407699585
+            },
+            {
+                "index": 65,
+                "question": "Luke played a trivia game and scored 154 points. If he gained the 11 points in each round How many rounds did he play?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "14",
+                "cluster_dist": 0.787438690662384
+            },
+            {
+                "index": 231,
+                "question": "For Gwen's birthday she received 7 dollars. She spent some money and has 5 dollars left with her. How much money did she spend?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "2",
+                "cluster_dist": 0.692272961139679
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "train_samples": [
+            {
+                "index": 295,
+                "question": "6 green peaches, 60 yellow peaches and 2 red peaches are in the basket. How many more green peaches than red peaches are in the basket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "4",
+                "cluster_dist": 0.5447332262992859
+            },
+            {
+                "index": 281,
+                "question": "Rachel picked 6 ripe apples from her tree. Now the tree has 2 ripe apples and 4 unripe apples. How many apples did the tree have to begin with?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "12",
+                "cluster_dist": 0.632642388343811
+            },
+            {
+                "index": 447,
+                "question": "Rachel picked 7 apples from her tree. Thereafter 2 new apples grew on the tree. Now the tree has 6 apples still on it. How many apples did the tree have to begin with?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "11",
+                "cluster_dist": 0.6281462907791138
+            },
+            {
+                "index": 274,
+                "question": "Each basket of peaches has 19 red peaches and 4 green peaches. If there are 15 such baskets How many peaches are in the baskets altogether?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "345",
+                "cluster_dist": 0.5309127569198608
+            },
+            {
+                "index": 165,
+                "question": "There are 6 baskets of peaches. Each basket has 16 red peaches and 18 green peaches. How many red peaches are in the baskets altogether?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "96",
+                "cluster_dist": 0.5333243012428284
+            },
+            {
+                "index": 264,
+                "question": "Jake has 3 fewer peaches and 4 more apples than Steven. Steven has 19 apples and 15 peaches. How many more apples than peaches does Steven have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "4",
+                "cluster_dist": 0.37795817852020264
+            },
+            {
+                "index": 228,
+                "question": "3 red peaches, and some more green peaches are in the basket. If there are 10 more green peaches than red peaches in the basket How many green peaches are in the basket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "13",
+                "cluster_dist": 0.530515193939209
+            },
+            {
+                "index": 364,
+                "question": "5 red peaches and 11 green peaches are in the basket. How many more green peaches than red peaches are in the basket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "6",
+                "cluster_dist": 0.5134772658348083
+            },
+            {
+                "index": 353,
+                "question": "7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "30",
+                "cluster_dist": 0.5102362632751465
+            },
+            {
+                "index": 61,
+                "question": "There are 896 skittles in Steven's skittles collection. Steven also has 517 erasers and 90 scales. If the skittles are organized into 8 groups How big is each group?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "112",
+                "cluster_dist": 0.8065237402915955
+            },
+            {
+                "index": 195,
+                "question": "5 red peaches, 14 yellow peaches and 6 green peaches are in the basket. How many green and yellow peaches are in the basket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "20",
+                "cluster_dist": 0.5148668885231018
+            },
+            {
+                "index": 368,
+                "question": "Jake has 16 fewer peaches than Steven. Steven has 15 more peaches than Jill. If Jill has 12 peaches How many more peaches does Jill have than Jake?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.4207262694835663
+            },
+            {
+                "index": 2,
+                "question": "There are 7 baskets of peaches. Each basket has 10 red peaches and 2 green peaches. How many green peaches are in the baskets altogether?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "14",
+                "cluster_dist": 0.48173362016677856
+            },
+            {
+                "index": 372,
+                "question": "Together Adam and Jackie have 12 apples. He has 9 apples more than Adam and Jackie together do. Adam has 8 more apples than Jackie. How many apples does He have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "21",
+                "cluster_dist": 0.5594943165779114
+            },
+            {
+                "index": 333,
+                "question": "2 red peaches, 6 yellow peaches and 14 green peaches are in the basket. How many more green peaches than yellow peaches are in the basket?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "8",
+                "cluster_dist": 0.4918570816516876
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "train_samples": [
+            {
+                "index": 96,
+                "question": "Marco and his dad went strawberry picking. Marco's strawberries weighed 30 pounds. If together their strawberries weighed 47 pounds. How much more did his strawberries weigh than his dad's?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "13",
+                "cluster_dist": 0.6454908847808838
+            },
+            {
+                "index": 197,
+                "question": "The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "66",
+                "cluster_dist": 0.591185450553894
+            },
+            {
+                "index": 387,
+                "question": "Jesse's room is 12 feet long and 11 feet wide. How much longer is her room than it is wide?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.7114189267158508
+            },
+            {
+                "index": 173,
+                "question": "Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 49 g of colors to paint them. If the feathers require 288 g of wax and right now he just needs 260 g How many grams of wax does he already have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "28",
+                "cluster_dist": 0.8651530742645264
+            },
+            {
+                "index": 290,
+                "question": "Marco and his dad went strawberry picking. Together their strawberries weighed 35 pounds. Marco's strawberries weighed 13 pounds. How much more did his dad's strawberries weigh than his?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "9",
+                "cluster_dist": 0.6372137069702148
+            },
+            {
+                "index": 207,
+                "question": "Jesse's room is 7 feet long. If she needs a carpet of size 14 square feet What is the width of her room?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "2",
+                "cluster_dist": 0.7531700134277344
+            },
+            {
+                "index": 185,
+                "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 25 inches. The frog jumped 18 inches farther than the grasshopper and the mouse jumped 2 inches farther than the frog. How far did the mouse jump?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "45",
+                "cluster_dist": 0.6272765398025513
+            },
+            {
+                "index": 319,
+                "question": "The grasshopper and the frog had a jumping contest. The frog jumped 39 inches and the grasshopper jumped 17 inches. How much farther did the frog jump than the grasshopper?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "22",
+                "cluster_dist": 0.567278265953064
+            },
+            {
+                "index": 448,
+                "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 39 inches farther than the grasshopper and the mouse jumped 94 inches lesser than the frog. How far did the frog jump?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "58",
+                "cluster_dist": 0.5952501893043518
+            },
+            {
+                "index": 134,
+                "question": "If they are already at 659 feet and the cave is 762 feet deep How much farther until they reach the end of the cave?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "103",
+                "cluster_dist": 0.7794896960258484
+            },
+            {
+                "index": 418,
+                "question": "Jessie weighed 92 kilograms. After she started to go jogging everyday she lost 56 kilograms in the first week and 99 kilograms in the second week. How much did she weigh after the first week of jogging?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "36",
+                "cluster_dist": 0.732760488986969
+            },
+            {
+                "index": 268,
+                "question": "Jesse needs a carpet of size 10 square feet to cover her room. If her room is 5 feet long What is the width of her room?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "2",
+                "cluster_dist": 0.7656934857368469
+            },
+            {
+                "index": 351,
+                "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "28",
+                "cluster_dist": 0.5885067582130432
+            },
+            {
+                "index": 503,
+                "question": "The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 14 inches. The mouse jumped 16 inches lesser than the frog who jumped 37 inches farther than the grasshopper. How much farther did the mouse jump than the grasshopper?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "21",
+                "cluster_dist": 0.577196478843689
+            },
+            {
+                "index": 225,
+                "question": "After resting they decided to go for a swim. The depth of the water is 15 times Dean's height. Dean is 4 feet taller than Ron. If Ron stands at 13 feet How deep was the water?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "255",
+                "cluster_dist": 0.7076112627983093
+            }
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "train_samples": [
+            {
+                "index": 139,
+                "question": "Baker made 54 cakes. He sold some of them. If he still has 13 cakes left How many cakes did baker sell?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "41",
+                "cluster_dist": 0.47750765085220337
+            },
+            {
+                "index": 215,
+                "question": "Baker made 157 cakes and 169 pastries. If he sold 158 cakes and 147 pastries How many more cakes than pastries did baker sell?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "11",
+                "cluster_dist": 0.5452026724815369
+            },
+            {
+                "index": 49,
+                "question": "Mary is baking a cake. The recipe calls for 3 cups of sugar 10 cups of flour and 15 cups of salt. She already put in 6 cups of flour. How many more cups of flour does she need to add?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "4",
+                "cluster_dist": 0.48433202505111694
+            },
+            {
+                "index": 209,
+                "question": "Baker made 99 cakes. He bought 167 new cakes and sold 89 cakes. How many more cakes did baker buy than those he sold?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "78",
+                "cluster_dist": 0.46723541617393494
+            },
+            {
+                "index": 77,
+                "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 5 cups of sugar. She already put in 3 cups of flour and 62 cups of sugar. How many more cups of flour does she need to add?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "6",
+                "cluster_dist": 0.4401036202907562
+            },
+            {
+                "index": 99,
+                "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 11 cups of sugar. She already put in 4 cups of flour. How many more cups of sugar than cups of flour does she need to add now?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "6",
+                "cluster_dist": 0.425766259431839
+            },
+            {
+                "index": 27,
+                "question": "Baker made 61 pastries and 167 cakes. If he sold 108 cakes and 44 pastries How many cakes would baker still have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "59",
+                "cluster_dist": 0.45536190271377563
+            },
+            {
+                "index": 306,
+                "question": "Baker made 170 cakes. He sold 78 of them and bought 31 new cakes. How many more cakes did baker sell than those he bought?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "47",
+                "cluster_dist": 0.44492045044898987
+            },
+            {
+                "index": 149,
+                "question": "Baker made 52 pastries and 84 cakes. If he sold 102 cakes and 94 pastries How many more cakes than pastries did baker make?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "32",
+                "cluster_dist": 0.48633450269699097
+            },
+            {
+                "index": 189,
+                "question": "Baker made 8 cakes. He bought 139 new cakes and sold 145 cakes. How many more cakes did baker sell than those he bought?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "6",
+                "cluster_dist": 0.4465106725692749
+            },
+            {
+                "index": 101,
+                "question": "Mary is baking a cake. The recipe calls for 11 cups of sugar 6 cups of flour and 9 cups of salt. She already put in 12 cups of flour. How many more cups of sugar than cups of salt does she need to add now?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "2",
+                "cluster_dist": 0.4745589792728424
+            },
+            {
+                "index": 219,
+                "question": "Baker sold 44 cakes. If he had made 48 cakes initially How many cakes would baker still have?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "4",
+                "cluster_dist": 0.4993542432785034
+            },
+            {
+                "index": 262,
+                "question": "Mary is baking a cake. The recipe calls for 6 cups of sugar and 9 cups of flour. She already put in 2 cups of flour. How many more cups of flour than cups of sugar does she need to add now?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.4405495226383209
+            },
+            {
+                "index": 208,
+                "question": "Baker made 54 cakes and 143 pastries. If he sold 68 cakes and 92 pastries How many more pastries than cakes did baker sell?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "24",
+                "cluster_dist": 0.5155237317085266
+            },
+            {
+                "index": 313,
+                "question": "Baker made 14 cakes and 153 pastries. If he sold 8 pastries and 97 cakes How many more cakes than pastries did baker sell?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "89",
+                "cluster_dist": 0.49191272258758545
+            }
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "train_samples": [
+            {
+                "index": 323,
+                "question": "Frank was reading through his favorite book. The book had 41 chapters, each with the same number of pages. It has a total of 450 pages. It took Frank 30 days to finish the book. How many pages did he read per day?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "15",
+                "cluster_dist": 0.5512462258338928
+            },
+            {
+                "index": 239,
+                "question": "Every day Ryan spends 6 hours on learning english 7 hours on learning chinese and 3 hours on learning spanish. How many hours does he spend on learning english, chinese and spanish in all?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "16",
+                "cluster_dist": 0.46013790369033813
+            },
+            {
+                "index": 500,
+                "question": "Olivia spent 38 dollars at a supermarket. If there were 128 dollars in her wallet initially How much money does she have left?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "90",
+                "cluster_dist": 0.6614168286323547
+            },
+            {
+                "index": 84,
+                "question": "Frank was reading through his favorite book. The book had 392 pages and he read 14 pages per day. How many days did he take to finish the book?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "28",
+                "cluster_dist": 0.5312580466270447
+            },
+            {
+                "index": 253,
+                "question": "Every day Ryan spends 7 hours on learning english, 2 hours on learning chinese and 4 hours on learning spanish. How many more hours does he spend on learning english than he does on learning spanish?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.47757023572921753
+            },
+            {
+                "index": 506,
+                "question": "Paul got a box of some crayons for his birthday. By the end of the school year he had either lost or given away 551 of them and only had 177 left. How many crayons did he get for his birthday?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "728",
+                "cluster_dist": 0.5864889025688171
+            },
+            {
+                "index": 248,
+                "question": "Every day Ryan spends 2 hours on learning english, 5 hours on learning chinese and 4 hours on learning spanish. How many more hours does he spend on learning chinese than he does on learning spanish?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.48521026968955994
+            },
+            {
+                "index": 330,
+                "question": "Frank was reading through his favorite book. The book had 3 chapters, each with the same number of pages. It has a total of 594 pages. It took Frank 607 days to finish the book. How many pages are in each chapter?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "198",
+                "cluster_dist": 0.6479588747024536
+            },
+            {
+                "index": 303,
+                "question": "Every day Ryan spends 4 hours on learning english and 6 hours on learning chinese. If he learns for 86 days How many hours does he spend on learning english and chinese each day?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "10",
+                "cluster_dist": 0.4319745600223541
+            },
+            {
+                "index": 437,
+                "question": "Every day Ryan spends 6 hours on learning english 3 hours on learning chinese and 58 hours on learning spanish. How many more hours does he spend on learning english than he does on learning chinese?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "3",
+                "cluster_dist": 0.45144689083099365
+            },
+            {
+                "index": 293,
+                "question": "Every day Ryan spends 6 hours on learning english and 7 hours on learning chinese. If he learns for 5 days How many hours does he spend on learning english and chinese in all?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "65",
+                "cluster_dist": 0.42326101660728455
+            },
+            {
+                "index": 499,
+                "question": "Olivia spent 78 dollars at a supermarket. If she has 33 dollars left with her How much money did she have initially?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "111",
+                "cluster_dist": 0.6847262382507324
+            },
+            {
+                "index": 128,
+                "question": "Every day Ryan spends 6 hours on learning english and 5 hours on learning chinese. If he learns for 2 days How many hours does he spend on learning english in all?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "12",
+                "cluster_dist": 0.42466315627098083
+            },
+            {
+                "index": 384,
+                "question": "Every day Ryan spends a total of 3 hours on learning english and chinese. If he spends 2 hours on learning english everyday How many hours does he spend on learning chinese?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "1",
+                "cluster_dist": 0.4584487974643707
+            },
+            {
+                "index": 148,
+                "question": "Every day Ryan spends 7 hours on learning english and some more hours on learning chinese. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning chinese?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "5",
+                "cluster_dist": 0.4514828324317932
+            }
+        ]
+    }
+]

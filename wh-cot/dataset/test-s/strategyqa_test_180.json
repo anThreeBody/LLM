@@ -1,0 +1,1472 @@
+[
+    {
+        "cluster_id": 0,
+        "test_samples": [
+            {
+                "index": 2065,
+                "question": "Is there a full Neptunian orbit between the first two burials of women in the Panth\u00e9on?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8320083022117615
+            },
+            {
+                "index": 1361,
+                "question": "Would King Leonidas have succeeded with an army the size of Mozart's compositions?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8347131013870239
+            },
+            {
+                "index": 1989,
+                "question": "Does Ukrainian Greek Catholic Church recognize Alexander Nevsky as a saint?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8963932394981384
+            },
+            {
+                "index": 1320,
+                "question": "Are seasons of Survivor surpassed by number of Ancient Greek letters?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.892504096031189
+            },
+            {
+                "index": 1221,
+                "question": "Was Dioskourides a lapidary?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8878749012947083
+            },
+            {
+                "index": 1360,
+                "question": "Would an Orthodox Presbyterian object to 1700s judge's attire?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8793467879295349
+            },
+            {
+                "index": 1148,
+                "question": "Do all of the African regions that participated in the Portugese Colonial War share an official language?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.972792387008667
+            },
+            {
+                "index": 1307,
+                "question": "Can a martyr saint have been excommunicated?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8621026277542114
+            },
+            {
+                "index": 1848,
+                "question": "Were the first missionaries required to attend mass on Sundays?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9092560410499573
+            },
+            {
+                "index": 1428,
+                "question": "Did Holy Saturday 2019 have special significance to pot smokers?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9091762900352478
+            },
+            {
+                "index": 1618,
+                "question": "Will a celibate cleric likely suffer a stoning in Somalia?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9070420265197754
+            },
+            {
+                "index": 1804,
+                "question": "Is Hermes equivalent to the Roman god Vulcan?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8589332103729248
+            },
+            {
+                "index": 2027,
+                "question": "Does ancient Olympics crown fail to hide tonsure?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9114190340042114
+            },
+            {
+                "index": 1403,
+                "question": "Is the language used in Saint Vincent and the Grenadines rooted in English?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9077544212341309
+            },
+            {
+                "index": 1498,
+                "question": "Would half muggle wizards fear Lord Voldemort?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8815586566925049
+            },
+            {
+                "index": 1558,
+                "question": "Would Gomer Pyle salute a lieutenant?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8865646123886108
+            },
+            {
+                "index": 1690,
+                "question": "Would a kindergarten teacher make a lesson of the New Testament?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8748140335083008
+            },
+            {
+                "index": 1332,
+                "question": "Did Alice's Adventures in Wonderland inspire Macbeth?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8404669761657715
+            },
+            {
+                "index": 1192,
+                "question": "Are all Wednesdays in a year enough to read Bible 15 times?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9147239327430725
+            },
+            {
+                "index": 2266,
+                "question": "Would a Rabbi celebrate Christmas?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8593294024467468
+            },
+            {
+                "index": 1092,
+                "question": "Would Lord Voldemort have been barred from Hogwarts under his own rules?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8890429139137268
+            },
+            {
+                "index": 1958,
+                "question": "Can you worship Ahura Mazda at a mosque?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8845475912094116
+            },
+            {
+                "index": 2008,
+                "question": "Was Moliere Queen Margot's ill fated lover?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.867685854434967
+            },
+            {
+                "index": 1407,
+                "question": "Are Scottish people descended from Mary, Queen of Scots part French?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.880894660949707
+            },
+            {
+                "index": 1195,
+                "question": "Karachi was a part of Alexander the Great's success?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8909932971000671
+            },
+            {
+                "index": 1546,
+                "question": "Did Paul the Apostle's cause of death violate the tenets of Ahimsa?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8759616017341614
+            },
+            {
+                "index": 2191,
+                "question": "Are multiple Christmas Carol's named after Saints?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9183026552200317
+            },
+            {
+                "index": 1411,
+                "question": "Could the Pope be on an episode of Pimp My Ride?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.872297465801239
+            },
+            {
+                "index": 1840,
+                "question": "Was King Arthur at the beheading of Anne Boleyn?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8392338156700134
+            },
+            {
+                "index": 2279,
+                "question": "Is Newspeak considered very straightforward?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9142194390296936
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "test_samples": [
+            {
+                "index": 1556,
+                "question": "Do some home remedies result in your skin color turning blue?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9671342372894287
+            },
+            {
+                "index": 1178,
+                "question": "Does Evander Holyfield eat pork products?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7992016673088074
+            },
+            {
+                "index": 1277,
+                "question": "Are slime lilies in a different scientific family than asparagus?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8646619915962219
+            },
+            {
+                "index": 1306,
+                "question": "Would a blooming onion be possible with a shallot?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8926330208778381
+            },
+            {
+                "index": 2018,
+                "question": "Does water have viscosity?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9011785984039307
+            },
+            {
+                "index": 1343,
+                "question": "Could Durian cause someone's stomach to feel unwell?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9111400842666626
+            },
+            {
+                "index": 1329,
+                "question": "Can chemicals in onion help create a thermonuclear bomb?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8923330903053284
+            },
+            {
+                "index": 2147,
+                "question": "Would a cattle farmer be useful to a drum maker?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9148732423782349
+            },
+            {
+                "index": 1607,
+                "question": "Are all cucumbers the same texture?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8729386329650879
+            },
+            {
+                "index": 2108,
+                "question": "Was King Kong (2005 film) solvent?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8902029395103455
+            },
+            {
+                "index": 2094,
+                "question": "Is it hard for Rahul Dravid to order food at a restaurant in Aurangabad?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9064285755157471
+            },
+            {
+                "index": 1836,
+                "question": "Would nickel boil in the outer core of the earth?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.908274233341217
+            },
+            {
+                "index": 1858,
+                "question": "Does parsley sink in milk?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8313412666320801
+            },
+            {
+                "index": 1872,
+                "question": "Is xenophobia hypothetically unimportant between Saladin and Ali Askari?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9041547775268555
+            },
+            {
+                "index": 1482,
+                "question": "If someone loves buffalo wings do they enjoy capsaicin?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8535399436950684
+            },
+            {
+                "index": 1487,
+                "question": "Should oysters be avoided by people with ADHD?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8841032981872559
+            },
+            {
+                "index": 1792,
+                "question": "Does the texture of leaves remain the same independent of their coloring changing?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9184596538543701
+            },
+            {
+                "index": 1742,
+                "question": "Do seven McDonald's hamburgers exceed USDA recommended fat allowance?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.884284257888794
+            },
+            {
+                "index": 2082,
+                "question": "Would Cuba Libre consumption help with insomnia?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9031406044960022
+            },
+            {
+                "index": 1295,
+                "question": "Would the operating system of a Samsung Galaxy 1 sound edible?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9194322824478149
+            },
+            {
+                "index": 1871,
+                "question": "Would 2019 Natalie Portman avoid a Snickers bar due to her diet?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8467328548431396
+            },
+            {
+                "index": 1548,
+                "question": "Would lumberjacks get full after eating three dosa?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8699248433113098
+            },
+            {
+                "index": 1359,
+                "question": "Is it dangerous to consume chlorine when mixed with sodium?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9111559987068176
+            },
+            {
+                "index": 1341,
+                "question": "Would a kaffir lime be a good ingredient for making a candle?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.914283812046051
+            },
+            {
+                "index": 2155,
+                "question": "Would a human following a hyena diet be unwelcome at a vegan festival?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8462908864021301
+            },
+            {
+                "index": 1801,
+                "question": "Are amoebas safe from breast cancer?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9409753084182739
+            },
+            {
+                "index": 1081,
+                "question": "Is clementine pith highly sought after?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8833595514297485
+            },
+            {
+                "index": 1521,
+                "question": "Would a cauliflower farmer prosper at a latitude of 75\u00b0 N?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8619952201843262
+            },
+            {
+                "index": 1143,
+                "question": "Can eating your weight in celery prevent diabetes?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8960434794425964
+            },
+            {
+                "index": 2001,
+                "question": "Was the amount of spinach Popeye ate unhealthy?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8202873468399048
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "test_samples": [
+            {
+                "index": 1713,
+                "question": "Did President William Howard Taft read DC Comics?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8516193628311157
+            },
+            {
+                "index": 2047,
+                "question": "Could Aretha Franklin vote for a president when her second child was born?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8347333073616028
+            },
+            {
+                "index": 2092,
+                "question": "Did the 23rd amendment give Puerto Ricans the right to vote for president?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.899547815322876
+            },
+            {
+                "index": 1729,
+                "question": "Did Andy Warhol influence Art Deco style?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8370556831359863
+            },
+            {
+                "index": 1335,
+                "question": "Did Barack Obama participate in the Reformation?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.814193069934845
+            },
+            {
+                "index": 2238,
+                "question": "Could George Washington's own speeches have been recorded live to a compact disc?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.836341917514801
+            },
+            {
+                "index": 1612,
+                "question": "Was Saudi Aramco started due to an assassination?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9082849621772766
+            },
+            {
+                "index": 1188,
+                "question": "Did Christopher Columbus go to Antarctica?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8137569427490234
+            },
+            {
+                "index": 1160,
+                "question": "Was Donald Trump the target of Islamophobia?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8637539744377136
+            },
+            {
+                "index": 2039,
+                "question": "Did George W. Bush grow up speaking Cantonese?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8514928221702576
+            },
+            {
+                "index": 1395,
+                "question": "Would Recep Tayyip Erdo\u011fan be unfamiliar with b\u00f6rek?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9019634127616882
+            },
+            {
+                "index": 1224,
+                "question": "Was the Peak of the Andes hidden from the view of the Colossus of Rhodes?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9227448105812073
+            },
+            {
+                "index": 1388,
+                "question": "Was Jackson Pollock straight edge?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8425852656364441
+            },
+            {
+                "index": 1374,
+                "question": "Did University of Pittsburgh founder have great deal in common with Judith Sheindlin?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8939743041992188
+            },
+            {
+                "index": 1291,
+                "question": "Is ABBA's 1970's genre still relevant today?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9076257348060608
+            },
+            {
+                "index": 1144,
+                "question": "Did Rumi spend his time in a state of euphoria?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8724860548973083
+            },
+            {
+                "index": 1833,
+                "question": "Did travelers sing sea shanties on the Oregon Trail?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9021304845809937
+            },
+            {
+                "index": 1527,
+                "question": "Did the Wehrmacht affect the outcome of the War to End All Wars?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8871188759803772
+            },
+            {
+                "index": 1920,
+                "question": "Was Woodrow Wilson sandwiched between two presidents from the opposing party?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8183149695396423
+            },
+            {
+                "index": 1640,
+                "question": "Could Moulin Rouge have been hypothetically used as Spain's Spanish American War triage center?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9085346460342407
+            },
+            {
+                "index": 1819,
+                "question": "Did people in Korea under Japanese Rule watch a lot of Iron Chef?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9330988526344299
+            },
+            {
+                "index": 1754,
+                "question": "Would Jean Harris's victim have avoided lentils?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.889159083366394
+            },
+            {
+                "index": 2283,
+                "question": "Did Benito Mussolini wear bigger shoes than Haf\u00fe\u00f3r Bj\u00f6rnsson?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8706786036491394
+            },
+            {
+                "index": 1911,
+                "question": "Was a woman Prime Minister directly before or after Stanley Baldwin?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9004461169242859
+            },
+            {
+                "index": 1700,
+                "question": "Were karaoke and the turtle power tiller patented in the same country?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9153003692626953
+            },
+            {
+                "index": 1604,
+                "question": "Has every astronaut survived their space journey?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8937179446220398
+            },
+            {
+                "index": 2119,
+                "question": "Were there greater landslides than 1980 United States presidential election?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9051133990287781
+            },
+            {
+                "index": 2255,
+                "question": "During the time immediately after 9/11, was don't ask don't tell still in place?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8552860617637634
+            },
+            {
+                "index": 1236,
+                "question": "Is the title of Shirley Bassey's 1971 diamond song a true statement?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8974569439888
+            },
+            {
+                "index": 2089,
+                "question": "Did Jane Austen suffer from middle child syndrome?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8726215958595276
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "test_samples": [
+            {
+                "index": 1568,
+                "question": "Will bumblebees derail the United States presidential election?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9149552583694458
+            },
+            {
+                "index": 1647,
+                "question": "Could an elephant easily defeat a male macaque?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7804144024848938
+            },
+            {
+                "index": 2175,
+                "question": "Is zoology unconcerned with strigoi?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8455443978309631
+            },
+            {
+                "index": 1430,
+                "question": "Can Arnold Schwarzenegger deadlift an adult Black rhinoceros?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8211047649383545
+            },
+            {
+                "index": 1353,
+                "question": "Would a crocodile survive longer in Great Salt Lake than alligator?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8169309496879578
+            },
+            {
+                "index": 2171,
+                "question": "Do all crustaceans live in the ocean?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.785832405090332
+            },
+            {
+                "index": 1325,
+                "question": "Has a baby ever had a moustache?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9087209105491638
+            },
+            {
+                "index": 1314,
+                "question": "Does bull shark bite hurt worse than crocodile bite?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8441880345344543
+            },
+            {
+                "index": 1893,
+                "question": "Are paratroopers good at mountain rescue?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8838537335395813
+            },
+            {
+                "index": 1847,
+                "question": "Are hippos dangerous to humans?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8645991683006287
+            },
+            {
+                "index": 1225,
+                "question": "Could a hamster experience two leap years?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8923214077949524
+            },
+            {
+                "index": 1182,
+                "question": "Can Clouded leopards chase down many Pronghorn antelopes?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.7929714322090149
+            },
+            {
+                "index": 1966,
+                "question": "Would a honey badger's dentures be different from a wolverine's?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8725792765617371
+            },
+            {
+                "index": 1990,
+                "question": "Can bottlenose dolphins hypothetically outbreed human women?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8290504217147827
+            },
+            {
+                "index": 1530,
+                "question": "Would a Rockette look odd with a moustache?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8992505073547363
+            },
+            {
+                "index": 2289,
+                "question": "Can lobster breathe in the desert?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.7832217812538147
+            },
+            {
+                "index": 1565,
+                "question": "Do spider wasps have eight legs?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8717774152755737
+            },
+            {
+                "index": 2164,
+                "question": "Do Koalas prefer Eucalyptus over meat?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.885171115398407
+            },
+            {
+                "index": 1741,
+                "question": "Do gorillas fight with panda bears?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.7914014458656311
+            },
+            {
+                "index": 1534,
+                "question": "Did Lamarck and Darwin agree about the origin of species diversity?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8973777294158936
+            },
+            {
+                "index": 1658,
+                "question": "Does the land in close proximity to beaver dams suffer?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8431677222251892
+            },
+            {
+                "index": 1512,
+                "question": "Do moths that live on sloths have family dinners?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8769021034240723
+            },
+            {
+                "index": 2267,
+                "question": "Would it be safe to have a jackfruit thrown at your head?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8553631901741028
+            },
+            {
+                "index": 2023,
+                "question": "Would it be common to find a penguin in Miami?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8139991760253906
+            },
+            {
+                "index": 2038,
+                "question": "Can a honey bee sting a human more than once?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8778826594352722
+            },
+            {
+                "index": 1387,
+                "question": "Are Leopard cats in less dire straits than Bornean Orangutan?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8142247200012207
+            },
+            {
+                "index": 1739,
+                "question": "Is an Eastern chipmunk likely to die before seeing two leap years?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8800284266471863
+            },
+            {
+                "index": 1912,
+                "question": "Is Central Park Zoo located on an island?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8361892104148865
+            },
+            {
+                "index": 1894,
+                "question": "In a hypothetical race between a Swallow and an American Woodcock, would the Swallow win?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8397213816642761
+            },
+            {
+                "index": 1951,
+                "question": "Would a jumping spider need over half a dozen contact lenses?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8985108733177185
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "test_samples": [
+            {
+                "index": 1725,
+                "question": "Is Mark Cuban able to visit Northern Mariana Islands without a passport?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9164658188819885
+            },
+            {
+                "index": 1656,
+                "question": "Would a Germaphobia be able to participate in Judo?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9170889258384705
+            },
+            {
+                "index": 1864,
+                "question": "Is a construction worker required to build a portfolio?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8978433609008789
+            },
+            {
+                "index": 1976,
+                "question": "Can cancer cause excess adrenaline production?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9905761480331421
+            },
+            {
+                "index": 1593,
+                "question": "Is a paraplegic suitable for conducting an orchestra?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9147320985794067
+            },
+            {
+                "index": 1413,
+                "question": "Could a student at the University of Houston see a caracal on campus?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.906739354133606
+            },
+            {
+                "index": 1691,
+                "question": "Could all of the people who pass through 30th Street Station every day fit in Dorton Arena?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9079648852348328
+            },
+            {
+                "index": 1825,
+                "question": "Is someone more likely to survive having breast cancer in Japan than in Sweden?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9231997132301331
+            },
+            {
+                "index": 2221,
+                "question": "Can Burundi's communicate with citizens of New Brunswick?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9048580527305603
+            },
+            {
+                "index": 1913,
+                "question": "Can binary numbers and standard alphabet satisfy criteria for a strong password?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9256309866905212
+            },
+            {
+                "index": 1405,
+                "question": "Could Amazon afford The Mona Lisa?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8932107090950012
+            },
+            {
+                "index": 1533,
+                "question": "Would 1943-S penny be good for making silverware?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9609054923057556
+            },
+            {
+                "index": 1955,
+                "question": "Do people with mood disorders need permanent institutionalization?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9793479442596436
+            },
+            {
+                "index": 1532,
+                "question": "Would a slingshot be improperly classified as artillery?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9305227398872375
+            },
+            {
+                "index": 1369,
+                "question": "Can Ford F-350 tow entire Yale University student body?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9249817728996277
+            },
+            {
+                "index": 1953,
+                "question": "Will a person survive a fever of NY's highest recorded temperature?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8953102827072144
+            },
+            {
+                "index": 2022,
+                "question": "Will Tokyo Tower be repainted only once during President Trump's first term?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8960431814193726
+            },
+            {
+                "index": 1634,
+                "question": "Is nickel dominant material in US 2020 nickels?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9470211863517761
+            },
+            {
+                "index": 2253,
+                "question": "Does a person need a college degree to become a bartender?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9443169236183167
+            },
+            {
+                "index": 2071,
+                "question": "Are the Great Lakes part of an international border?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9199470281600952
+            },
+            {
+                "index": 2003,
+                "question": "Does a person need to be a parent to become a grandparent?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9328649640083313
+            },
+            {
+                "index": 1649,
+                "question": "Can Amtrak's Acela Express break the sound barrier?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9153453707695007
+            },
+            {
+                "index": 2214,
+                "question": "Could the Great Wall of China connect the Dodgers to the White Sox?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.892065167427063
+            },
+            {
+                "index": 1514,
+                "question": "Would an expensive tailor use adhesive to create a shorter hem on slacks?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9401177167892456
+            },
+            {
+                "index": 1793,
+                "question": "Would a veteran of the Phillippine-American War come home craving SPAM?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9129489660263062
+            },
+            {
+                "index": 1267,
+                "question": "Could you drive from New England to a Sainsbury's?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.872094452381134
+            },
+            {
+                "index": 2165,
+                "question": "Are any of the words that CAPTCHA stands for palindromes?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9511005282402039
+            },
+            {
+                "index": 2136,
+                "question": "Are any minor league baseball teams named after felines?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9889874458312988
+            },
+            {
+                "index": 2115,
+                "question": "Could you brew beer from start to finish in the month of September?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9264302849769592
+            },
+            {
+                "index": 1918,
+                "question": "Can a Toyota Supra make a vlog?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9601442813873291
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "test_samples": [
+            {
+                "index": 1849,
+                "question": "Would a viewer of Monday Night Football be able to catch WWE Raw during commercial breaks?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9394176602363586
+            },
+            {
+                "index": 1146,
+                "question": "Does Ronda Rousey avoid BBQ restaraunts?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.888369083404541
+            },
+            {
+                "index": 1357,
+                "question": "Can Tame Impala's studio band play a proper game of Hot Potato?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8538044691085815
+            },
+            {
+                "index": 1168,
+                "question": "Could a two-year old win a Scrabble tournament?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9296374917030334
+            },
+            {
+                "index": 2157,
+                "question": "Can Josh Blue participate in Paralympics Games?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8694041967391968
+            },
+            {
+                "index": 2163,
+                "question": "Can Simon Cowell vote for the next Supreme Court judge?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8609722256660461
+            },
+            {
+                "index": 2170,
+                "question": "Would a responsible bartender make a drink for Millie Bobby Brown?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8460758924484253
+            },
+            {
+                "index": 1924,
+                "question": "Did Bruiser Brody wrestle on WWE Raw?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8983945250511169
+            },
+            {
+                "index": 2210,
+                "question": "Was Christina Aguilera born in the forgotten borough?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.878461480140686
+            },
+            {
+                "index": 1518,
+                "question": "Is Lionel Richie related to Sheila E?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8930214047431946
+            },
+            {
+                "index": 1551,
+                "question": "Are Brian Cranston and Saoirse Ronan's combined Emmy Awards a prime number?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9055625200271606
+            },
+            {
+                "index": 2069,
+                "question": "Was Snoop Dogg's debut studio album released on the weekend?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9186963438987732
+            },
+            {
+                "index": 2225,
+                "question": "Did brother of Goofy creator's employer commit an excommunicable offense?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8909009695053101
+            },
+            {
+                "index": 2148,
+                "question": "Would an Evander Holyfield 2020 boxing return set age record?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9088897705078125
+            },
+            {
+                "index": 1645,
+                "question": "Does Jerry Seinfeld hang out at the Budweiser Party Deck?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8590736985206604
+            },
+            {
+                "index": 1639,
+                "question": "Is there a popular Disney character made from living ice?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8820462822914124
+            },
+            {
+                "index": 1897,
+                "question": "Does Neville Longbottom have more courage as a child than as an adult?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9013177752494812
+            },
+            {
+                "index": 1273,
+                "question": "Could someone listen to the entire U2 debut studio album during an episode of Peppa Pig?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9034998416900635
+            },
+            {
+                "index": 1169,
+                "question": "Did the Coen brothers ever collaborate with the Brothers Grimm?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9140489101409912
+            },
+            {
+                "index": 1866,
+                "question": "Does Magnus Carlsen enjoy KFC?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8581065535545349
+            },
+            {
+                "index": 1219,
+                "question": "Would the crew of Apollo 15 have difficulty riding a unicycle?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9262825846672058
+            },
+            {
+                "index": 2054,
+                "question": "Could Eddie Murphy dial 911 in a car as a young child?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8622848391532898
+            },
+            {
+                "index": 2031,
+                "question": "Did villain that killed Superman murder Robin?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8629630208015442
+            },
+            {
+                "index": 2193,
+                "question": "Does Hades appear in a Disney Channel musical movie?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8468155264854431
+            },
+            {
+                "index": 1740,
+                "question": "Could Darth Vader hypothetically catch the Coronavirus?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9173868894577026
+            },
+            {
+                "index": 1263,
+                "question": "Did the original lead guitarist of Metallica fail after parting from the band?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8953400254249573
+            },
+            {
+                "index": 1655,
+                "question": "Will AC/DC album sales buy more B-52 bombers than Lil Wayne's?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.9280581474304199
+            },
+            {
+                "index": 2184,
+                "question": "Was Snoop Dogg an adult when Tickle Me Elmo was popular?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8357572555541992
+            },
+            {
+                "index": 1344,
+                "question": "Did Jackson 5 members exceed number in The Osmonds?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.9132353067398071
+            },
+            {
+                "index": 1491,
+                "question": "Will more people go in and out of Taco Bell than a Roy Rogers each year?",
+                "rationale": "",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8872377872467041
+            }
+        ]
+    }
+]

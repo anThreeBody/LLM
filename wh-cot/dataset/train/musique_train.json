@@ -1,0 +1,882 @@
+[
+    {
+        "cluster_id": 0,
+        "train_samples": [
+            {
+                "index": 90,
+                "question": "who has had the most hits in the league that includes the team that has played the most games of the type played just before the league MVP is awarded?",
+                "pred_ans": "",
+                "gold_ans": "Pete Rose",
+                "cluster_dist": 0.7543547749519348
+            },
+            {
+                "index": 327,
+                "question": "Who is the brother of the player who has won the most bbc sports personality of the year awards?",
+                "pred_ans": "",
+                "gold_ans": "Jamie Murray",
+                "cluster_dist": 0.8538964986801147
+            },
+            {
+                "index": 411,
+                "question": "When did Mark Crossley's team win the FA cup?",
+                "pred_ans": "",
+                "gold_ans": "1898 and 1959",
+                "cluster_dist": 0.7296718955039978
+            },
+            {
+                "index": 351,
+                "question": "Which professional sports team would you not see play a home game in where the Amateur Boxing Golden Gloves takes place?",
+                "pred_ans": "",
+                "gold_ans": "Brooklyn Nets NBA",
+                "cluster_dist": 0.8522578477859497
+            },
+            {
+                "index": 448,
+                "question": "What series of wins did the sports team that the all time highest goal scorer in spain national team was a member or achieve in 2009?",
+                "pred_ans": "",
+                "gold_ans": "continental treble",
+                "cluster_dist": 0.7596831917762756
+            },
+            {
+                "index": 319,
+                "question": "What is the sports team of the Premier League's top scorer last season?",
+                "pred_ans": "",
+                "gold_ans": "Egypt national football team",
+                "cluster_dist": 0.7178994417190552
+            },
+            {
+                "index": 249,
+                "question": "which professional sports team would you not see play a home game in the arena where the last place Cream performed?",
+                "pred_ans": "",
+                "gold_ans": "Brooklyn Nets NBA",
+                "cluster_dist": 0.862921416759491
+            },
+            {
+                "index": 385,
+                "question": "During British rule, what wood was mostly produced in the nation that's the boundary between the host of the 2020 AFC U-23 Championship qualification, and the nation containing A Don?",
+                "pred_ans": "",
+                "gold_ans": "75% of the world's teak",
+                "cluster_dist": 0.9604789614677429
+            },
+            {
+                "index": 377,
+                "question": "What league does the team that occupies the Rabat Ajax Football Ground belong to?",
+                "pred_ans": "",
+                "gold_ans": "Maltese Premier League",
+                "cluster_dist": 0.8464673161506653
+            },
+            {
+                "index": 148,
+                "question": "When was the last time Duane Courtney's team beat the winner of the 1894-95 FA Cup?",
+                "pred_ans": "",
+                "gold_ans": "1 December 2010",
+                "cluster_dist": 0.7669655680656433
+            },
+            {
+                "index": 284,
+                "question": "When was the all-star game played for the league that includes the team with the most titles won just before the mlb mvp is awarded?",
+                "pred_ans": "",
+                "gold_ans": "July 11, 2017",
+                "cluster_dist": 0.7505401968955994
+            },
+            {
+                "index": 191,
+                "question": "Who was picked before the player who has the most points in an NBA season in the NBA draft?",
+                "pred_ans": "",
+                "gold_ans": "Greg Oden",
+                "cluster_dist": 0.8594995737075806
+            },
+            {
+                "index": 454,
+                "question": "What is the league of the Carolina Panthers an example of?",
+                "pred_ans": "",
+                "gold_ans": "sports league",
+                "cluster_dist": 0.8614490032196045
+            },
+            {
+                "index": 369,
+                "question": "When is the opening day of the league in which the team with the most games in the series after which the MLB MVP is awarded plays?",
+                "pred_ans": "",
+                "gold_ans": "Thursday, March 29",
+                "cluster_dist": 0.7790760397911072
+            },
+            {
+                "index": 116,
+                "question": "The BBC Footballer of the Year is a member of which team?",
+                "pred_ans": "",
+                "gold_ans": "Egypt national football team",
+                "cluster_dist": 0.8570612668991089
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "train_samples": [
+            {
+                "index": 172,
+                "question": "In what county is the city that shares a border with the capital of the state where Levi Casey was born?",
+                "pred_ans": "",
+                "gold_ans": "Richland County",
+                "cluster_dist": 0.8437232375144958
+            },
+            {
+                "index": 41,
+                "question": "Among the top five largest urban areas in the state where Getting Away with Murder's performer was formed, where does Veoh's headquarters city rank?",
+                "pred_ans": "",
+                "gold_ans": "third-largest",
+                "cluster_dist": 0.8439401388168335
+            },
+            {
+                "index": 113,
+                "question": "Where did Katrina hit the hardest in the Toussaint performer's birthplace?",
+                "pred_ans": "",
+                "gold_ans": "the city of New Orleans",
+                "cluster_dist": 0.7920001745223999
+            },
+            {
+                "index": 27,
+                "question": "What is the name of the castle in the city where the performer of Fall was born?",
+                "pred_ans": "",
+                "gold_ans": "Casa Loma",
+                "cluster_dist": 0.8370141386985779
+            },
+            {
+                "index": 259,
+                "question": "What is the PBS station in the second largest city in the state where Oh Yeah's performer is from?",
+                "pred_ans": "",
+                "gold_ans": "KUAT-TV 6",
+                "cluster_dist": 0.8331986665725708
+            },
+            {
+                "index": 197,
+                "question": "What day is the Feast in the city where the headquarters of the only group larger than Desde El Principio's record label held on?",
+                "pred_ans": "",
+                "gold_ans": "May 4",
+                "cluster_dist": 0.8751685619354248
+            },
+            {
+                "index": 386,
+                "question": "When did the city where the headquarters of Barton Premium Blend's manufacturer is located elect its first black mayor?",
+                "pred_ans": "",
+                "gold_ans": "1970s",
+                "cluster_dist": 0.8795841336250305
+            },
+            {
+                "index": 95,
+                "question": "What is the population in 2010 of they city popular with tourists?",
+                "pred_ans": "",
+                "gold_ans": "8.005 million",
+                "cluster_dist": 0.872283935546875
+            },
+            {
+                "index": 163,
+                "question": "When did the city where Greenwood Laboratory School is located become capitol of the state where the screenwriter of The Poor Boob was born?",
+                "pred_ans": "",
+                "gold_ans": "1839",
+                "cluster_dist": 0.8060678839683533
+            },
+            {
+                "index": 159,
+                "question": "What county shares a border with the county where the performer of Change of Heart was born?",
+                "pred_ans": "",
+                "gold_ans": "Cabarrus County",
+                "cluster_dist": 0.8381215929985046
+            },
+            {
+                "index": 277,
+                "question": "How many people work in Susan Winchester's alma mater?",
+                "pred_ans": "",
+                "gold_ans": "11,900",
+                "cluster_dist": 0.9118990898132324
+            },
+            {
+                "index": 221,
+                "question": "When did the people who first imported slaves to New York, come to the country where Lord of the Rings was filmed?",
+                "pred_ans": "",
+                "gold_ans": "13 December 1642",
+                "cluster_dist": 0.912645697593689
+            },
+            {
+                "index": 360,
+                "question": "How many students attend the university that Edith Humphrey was educated?",
+                "pred_ans": "",
+                "gold_ans": "nearly 25,000",
+                "cluster_dist": 0.9313930869102478
+            },
+            {
+                "index": 431,
+                "question": "What is the public library system called in the place where the Cosbys live in New York?",
+                "pred_ans": "",
+                "gold_ans": "Brooklyn Public Library",
+                "cluster_dist": 0.8962933421134949
+            },
+            {
+                "index": 15,
+                "question": "An Indy car race was held in the capital of the state where the performer of Mingus Plays Piano was born. Who won the race?",
+                "pred_ans": "",
+                "gold_ans": "Mario Andretti",
+                "cluster_dist": 0.7992361187934875
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "train_samples": [
+            {
+                "index": 350,
+                "question": "What city shares a border with the city where a person went to work during the gold in the state that used the most geothermal energy in the US?",
+                "pred_ans": "",
+                "gold_ans": "Rio Linda",
+                "cluster_dist": 0.8008751273155212
+            },
+            {
+                "index": 141,
+                "question": "What shares a border with the city where the person who went to the state where the planes were originally going on 9/11 during the gold rush works?",
+                "pred_ans": "",
+                "gold_ans": "Rio Linda",
+                "cluster_dist": 0.8092925548553467
+            },
+            {
+                "index": 147,
+                "question": "In what region of the country where Lam Thao is located is the city where the Zone 5 Military Museum can be found?",
+                "pred_ans": "",
+                "gold_ans": "South Central Coast",
+                "cluster_dist": 0.8887960910797119
+            },
+            {
+                "index": 219,
+                "question": "Where does the body of water by the city that shares a border with Elizabeth Berg's birthplace and Ohio River meet?",
+                "pred_ans": "",
+                "gold_ans": "at the city of Cairo, Illinois",
+                "cluster_dist": 0.7810616493225098
+            },
+            {
+                "index": 274,
+                "question": "Which county shares a border with the county where the most populous city in the state where WSFN can be found is located?",
+                "pred_ans": "",
+                "gold_ans": "Presque Isle County",
+                "cluster_dist": 0.7637476325035095
+            },
+            {
+                "index": 323,
+                "question": "In what region of Florida is WMOP located?",
+                "pred_ans": "",
+                "gold_ans": "in Northern Florida",
+                "cluster_dist": 0.9128832817077637
+            },
+            {
+                "index": 486,
+                "question": "What is the average salary of a working person with the same nationality as the producer of The Wild Women of Chastity Gulch?",
+                "pred_ans": "",
+                "gold_ans": "$59,039",
+                "cluster_dist": 0.9679456353187561
+            },
+            {
+                "index": 480,
+                "question": "The Socialist Autonomous Province of the city where there were mass executions of Danube Swabian population are located in where?",
+                "pred_ans": "",
+                "gold_ans": "SR Serbia",
+                "cluster_dist": 0.911376416683197
+            },
+            {
+                "index": 65,
+                "question": "Which city shares border with the area having Bella Vista High School?",
+                "pred_ans": "",
+                "gold_ans": "Citrus Heights",
+                "cluster_dist": 0.8210657835006714
+            },
+            {
+                "index": 71,
+                "question": "What is the seat of the county sharing a border with the county whose seat is the city WAPL is licensed to broadcast to?",
+                "pred_ans": "",
+                "gold_ans": "Green Bay",
+                "cluster_dist": 0.7724890112876892
+            },
+            {
+                "index": 190,
+                "question": "In which county is the city sharing a border with the capitol of the first state to formally secede?",
+                "pred_ans": "",
+                "gold_ans": "Richland County",
+                "cluster_dist": 0.8270292282104492
+            },
+            {
+                "index": 475,
+                "question": "What is the administrative territorial entity of the administrative territorial entity Zuchang Gymnasium is located?",
+                "pred_ans": "",
+                "gold_ans": "Quanzhou",
+                "cluster_dist": 0.8825525641441345
+            },
+            {
+                "index": 131,
+                "question": "What shares a border with the administrative territorial entity Radwanice, Polkowice County is located in?",
+                "pred_ans": "",
+                "gold_ans": "Gmina Gaworzyce",
+                "cluster_dist": 0.8172734379768372
+            },
+            {
+                "index": 181,
+                "question": "What region is directly north of where Israel and the final destination of export crops is?",
+                "pred_ans": "",
+                "gold_ans": "Kingdom of Saudi Arabia",
+                "cluster_dist": 0.8575073480606079
+            },
+            {
+                "index": 472,
+                "question": "What was the capital of the state where WEKL operates, before the city where Blackberry Smoke was formed?",
+                "pred_ans": "",
+                "gold_ans": "Milledgeville",
+                "cluster_dist": 0.8257655501365662
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "train_samples": [
+            {
+                "index": 467,
+                "question": "Can foreign tourists cruise to the country between the nation that hosted 2020 AFC U-23 Championship qualification and the one that contains A Don.?",
+                "pred_ans": "",
+                "gold_ans": "It is not possible for foreigners to go to/from Myanmar by sea or river.",
+                "cluster_dist": 1.0198779106140137
+            },
+            {
+                "index": 447,
+                "question": "How were the same people who the Somali Muslim Ajuran Empire declared independence from expelled from the natural boundary between Thailand and the country where Nam Khan is found?",
+                "pred_ans": "",
+                "gold_ans": "The dynasty regrouped and defeated the Portuguese",
+                "cluster_dist": 0.7838611006736755
+            },
+            {
+                "index": 322,
+                "question": "When was the death penalty abolished in the country near the country where the writer of The Book Thief is a citizen of?",
+                "pred_ans": "",
+                "gold_ans": "1989",
+                "cluster_dist": 0.898749053478241
+            },
+            {
+                "index": 393,
+                "question": "How were the same people who the Somali Muslim Ajuran Empire declared independence from expelled from the natural boundary between Thailand and the country Setthathirath is a citizen of?",
+                "pred_ans": "",
+                "gold_ans": "The dynasty regrouped and defeated the Portuguese",
+                "cluster_dist": 0.7838687300682068
+            },
+            {
+                "index": 239,
+                "question": "What worldwide ranking does the university where Manuel Isa\u00edas L\u00f3pez was educated hold?",
+                "pred_ans": "",
+                "gold_ans": "74th",
+                "cluster_dist": 0.9454931020736694
+            },
+            {
+                "index": 222,
+                "question": "By 1931, what percentage of the world's Jews were the group that represents at least 70% of Jews worldwide?",
+                "pred_ans": "",
+                "gold_ans": "92 percent",
+                "cluster_dist": 0.9780285954475403
+            },
+            {
+                "index": 397,
+                "question": "When did the country that has the same co-official language as that of the movie about the city where Petar Trifunovi\u0107 died send an independent team to the Olympics?",
+                "pred_ans": "",
+                "gold_ans": "2016",
+                "cluster_dist": 0.8772752285003662
+            },
+            {
+                "index": 268,
+                "question": "How long had Mao Yushi's birthplace been the capitol city of Yaxing Coach's headquarters location?",
+                "pred_ans": "",
+                "gold_ans": "about 400 years",
+                "cluster_dist": 0.9021703600883484
+            },
+            {
+                "index": 270,
+                "question": "By how many votes did the person the organizers wanted to arrest survive impeachment?",
+                "pred_ans": "",
+                "gold_ans": "72",
+                "cluster_dist": 0.9625433087348938
+            },
+            {
+                "index": 355,
+                "question": "What does the US believe caused the country of the birthplace of Pao Sarasin to help Japan?",
+                "pred_ans": "",
+                "gold_ans": "blackmail",
+                "cluster_dist": 0.8281551003456116
+            },
+            {
+                "index": 53,
+                "question": "Arie Supriyatna's birth country was one participant in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+                "pred_ans": "",
+                "gold_ans": "Francisco Guterres",
+                "cluster_dist": 0.7888338565826416
+            },
+            {
+                "index": 395,
+                "question": "How many refugees emigrated to the nation that founded New Amsterdam?",
+                "pred_ans": "",
+                "gold_ans": "75,000 to 100,000",
+                "cluster_dist": 0.9022054076194763
+            },
+            {
+                "index": 245,
+                "question": "Where is the embassy in the only communist country whose military branch helping the Old West's inadequate local police was unprepared for invasion of the country conquered by the Pact?",
+                "pred_ans": "",
+                "gold_ans": "Alfredo Stroessner's Paraguay",
+                "cluster_dist": 0.8611971735954285
+            },
+            {
+                "index": 130,
+                "question": "How many ethnic minorities were looked at differently where the only group larger than the record label of The Lost Trident Sessions is headquartered?",
+                "pred_ans": "",
+                "gold_ans": "two",
+                "cluster_dist": 0.944258451461792
+            },
+            {
+                "index": 404,
+                "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+                "pred_ans": "",
+                "gold_ans": "Francisco Guterres",
+                "cluster_dist": 0.7463597059249878
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "train_samples": [
+            {
+                "index": 410,
+                "question": "Who sings Home Alone Tonight with the singer of Light It Up?",
+                "pred_ans": "",
+                "gold_ans": "Karen Fairchild",
+                "cluster_dist": 0.7784359455108643
+            },
+            {
+                "index": 269,
+                "question": "Who stars alongside the songwriter of \"No Tears Left to Cry\" in the music video for \"one last time\"?",
+                "pred_ans": "",
+                "gold_ans": "Matt Bennett",
+                "cluster_dist": 0.7792600989341736
+            },
+            {
+                "index": 226,
+                "question": "What song did Paul McCartney write for the performer of Valotte?",
+                "pred_ans": "",
+                "gold_ans": "``Hey Jude ''",
+                "cluster_dist": 0.8171722888946533
+            },
+            {
+                "index": 287,
+                "question": "What record label did the performer of The Place and the Time belong to?",
+                "pred_ans": "",
+                "gold_ans": "Columbia Records",
+                "cluster_dist": 0.7821372151374817
+            },
+            {
+                "index": 406,
+                "question": "What is the date of birth for the performer of Unbreakable?",
+                "pred_ans": "",
+                "gold_ans": "1 January 1986",
+                "cluster_dist": 0.8634422421455383
+            },
+            {
+                "index": 514,
+                "question": "Who does the Girlfriend performer play in The Wire?",
+                "pred_ans": "",
+                "gold_ans": "a Western District uniformed officer",
+                "cluster_dist": 0.7871175408363342
+            },
+            {
+                "index": 440,
+                "question": "What year did the Leone brothers start their band?",
+                "pred_ans": "",
+                "gold_ans": "2005",
+                "cluster_dist": 0.9007991552352905
+            },
+            {
+                "index": 174,
+                "question": "Who stars in the video \"One Last Time\" by the performer of Baby I?",
+                "pred_ans": "",
+                "gold_ans": "Matt Bennett",
+                "cluster_dist": 0.764386773109436
+            },
+            {
+                "index": 29,
+                "question": "Who does the performer of Don't Be Cruel play in the wire?",
+                "pred_ans": "",
+                "gold_ans": "a Western District uniformed officer",
+                "cluster_dist": 0.8234542012214661
+            },
+            {
+                "index": 102,
+                "question": "Which artist was featured on smooth jazz stations, along with Kenny G and the performer of Saxophonic?",
+                "pred_ans": "",
+                "gold_ans": "George Benson",
+                "cluster_dist": 0.8494608998298645
+            },
+            {
+                "index": 183,
+                "question": "who did the performer of Sings America play on young and restless?",
+                "pred_ans": "",
+                "gold_ans": "Snapper Foster",
+                "cluster_dist": 0.8076441884040833
+            },
+            {
+                "index": 21,
+                "question": "Who wrote \"Turn Me On\" by performer of \"Happy Pills\"?",
+                "pred_ans": "",
+                "gold_ans": "John D. Loudermilk",
+                "cluster_dist": 0.7974588871002197
+            },
+            {
+                "index": 312,
+                "question": "What award did the singer of Never Had a Friend Like Me in Aladdin receive?",
+                "pred_ans": "",
+                "gold_ans": "Academy Award for Best Supporting Actor",
+                "cluster_dist": 0.8629717826843262
+            },
+            {
+                "index": 76,
+                "question": "Who is the owner of the record label of the performer of What Kind of Love?",
+                "pred_ans": "",
+                "gold_ans": "Warner Music Group",
+                "cluster_dist": 0.6401694416999817
+            },
+            {
+                "index": 415,
+                "question": "Who duets with the singer of Someone Else Calling You Baby on the song Home Alone Tonight?",
+                "pred_ans": "",
+                "gold_ans": "Karen Fairchild",
+                "cluster_dist": 0.7601035833358765
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "train_samples": [
+            {
+                "index": 63,
+                "question": "When did the maker of Acura Legend, the company that makes Daihatsu Charmant, and Nissan open US assembly plants?",
+                "pred_ans": "",
+                "gold_ans": "1981",
+                "cluster_dist": 0.8322528600692749
+            },
+            {
+                "index": 58,
+                "question": "When did the country the top-ranking Warsaw Pact operatives came from, despite it being headquartered in the country where A Generation is set, agree to a unified Germany inside NATO?",
+                "pred_ans": "",
+                "gold_ans": "May 1990",
+                "cluster_dist": 0.9712742567062378
+            },
+            {
+                "index": 17,
+                "question": "What does the name of the topic that Eisenhower didn't discuss during the campaign stand for?",
+                "pred_ans": "",
+                "gold_ans": "North Atlantic Treaty Organization",
+                "cluster_dist": 0.9743674993515015
+            },
+            {
+                "index": 506,
+                "question": "What was Nintendo's limit on games per developer per year on the abbreviation of the platform of Star Voyager?",
+                "pred_ans": "",
+                "gold_ans": "five",
+                "cluster_dist": 0.8773378729820251
+            },
+            {
+                "index": 37,
+                "question": "When did the majority party in the House of Representatives gain control of the body which determines rules of the US House and US Senate?",
+                "pred_ans": "",
+                "gold_ans": "January 2015",
+                "cluster_dist": 0.8621771335601807
+            },
+            {
+                "index": 460,
+                "question": "When did the luxury division of the company that manufactures Toyopet Master change the body style of the RX 350?",
+                "pred_ans": "",
+                "gold_ans": "Sales began worldwide in April 2012",
+                "cluster_dist": 0.8575422763824463
+            },
+            {
+                "index": 205,
+                "question": "When did Nissan along with the creator of the Hino Dutro and the maker of the Acura Legend open US assembly plants?",
+                "pred_ans": "",
+                "gold_ans": "1981",
+                "cluster_dist": 0.8433104753494263
+            },
+            {
+                "index": 439,
+                "question": "What company is the college where Wolf V. Vishniac studied a part of?",
+                "pred_ans": "",
+                "gold_ans": "City University of New York",
+                "cluster_dist": 0.9447536468505859
+            },
+            {
+                "index": 178,
+                "question": "When did the party with majorities in Congress prior to the 1954 elections gain control of the body which determines rules of the US House and US Senate?",
+                "pred_ans": "",
+                "gold_ans": "January 2015",
+                "cluster_dist": 0.8788644671440125
+            },
+            {
+                "index": 523,
+                "question": "What were the Genesis' advantages over the platform of Colorful Dragon?",
+                "pred_ans": "",
+                "gold_ans": "built on 16-bit architectures and offered improved graphics and sound",
+                "cluster_dist": 0.9851821064949036
+            },
+            {
+                "index": 519,
+                "question": "What administrative territorial entity contains the place where KPRM is licensed to broadcast to?",
+                "pred_ans": "",
+                "gold_ans": "Hubbard County",
+                "cluster_dist": 0.9387444853782654
+            },
+            {
+                "index": 18,
+                "question": "What is the experimental satellite which was the forerunner to the communication satellite of the operator of GSAT-7 called?",
+                "pred_ans": "",
+                "gold_ans": "ATS - 6 (Applications Technology Satellite - 6)",
+                "cluster_dist": 0.9565314650535583
+            },
+            {
+                "index": 199,
+                "question": "When did the explorer reach the headquarters location of the only company larger than Langa natter's record label?",
+                "pred_ans": "",
+                "gold_ans": "August 3, 1769",
+                "cluster_dist": 0.9150006175041199
+            },
+            {
+                "index": 184,
+                "question": "Who did Hay work for after being hired by his other notable influence regarding resource distribution other than Max Weber?",
+                "pred_ans": "",
+                "gold_ans": "the Austrian government",
+                "cluster_dist": 0.962551474571228
+            },
+            {
+                "index": 255,
+                "question": "What does seal stand for in the division of the U.S. military branch that operates destroyer classes and the USS Chinquapin?",
+                "pred_ans": "",
+                "gold_ans": "Sea, Air, and Land",
+                "cluster_dist": 0.9094992280006409
+            }
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "train_samples": [
+            {
+                "index": 328,
+                "question": "Which university educated the scientist who developed an explanation for the photoelectric effect?",
+                "pred_ans": "",
+                "gold_ans": "Luitpold Gymnasium",
+                "cluster_dist": 0.9733308553695679
+            },
+            {
+                "index": 209,
+                "question": "Who is the father of the man who conceived of the 'new' police?",
+                "pred_ans": "",
+                "gold_ans": "Arthur Peel",
+                "cluster_dist": 0.9568780064582825
+            },
+            {
+                "index": 169,
+                "question": "How many miles of highways are in the city where the Yongle emperor greeted the person to whom the edict was addressed?",
+                "pred_ans": "",
+                "gold_ans": "140 mi",
+                "cluster_dist": 0.9144870042800903
+            },
+            {
+                "index": 56,
+                "question": "What year did the city were Hans-Joachim Merker was born end?",
+                "pred_ans": "",
+                "gold_ans": "1738",
+                "cluster_dist": 0.8863081932067871
+            },
+            {
+                "index": 231,
+                "question": "When did the person who launched the Bardoli Satyagraha on 4th february 1928 die?",
+                "pred_ans": "",
+                "gold_ans": "15 December 1950",
+                "cluster_dist": 0.9079765677452087
+            },
+            {
+                "index": 541,
+                "question": "What was Germany's goal in the Battle of the ocean adjacent to the city Herbert Saffir died in?",
+                "pred_ans": "",
+                "gold_ans": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+                "cluster_dist": 0.9274947047233582
+            },
+            {
+                "index": 257,
+                "question": "What month did the person with whom Henry fought a short war in 1183 go away from the holy land?",
+                "pred_ans": "",
+                "gold_ans": "October",
+                "cluster_dist": 0.8871625065803528
+            },
+            {
+                "index": 484,
+                "question": "How many times did the plague occur in the city where Flora's painter died?",
+                "pred_ans": "",
+                "gold_ans": "22",
+                "cluster_dist": 0.8862507939338684
+            },
+            {
+                "index": 344,
+                "question": "Who is the child of the creator of A Distinguished Member of the Humane Society?",
+                "pred_ans": "",
+                "gold_ans": "Edwin Landseer Lutyens",
+                "cluster_dist": 0.9179338216781616
+            },
+            {
+                "index": 434,
+                "question": "Besides areas of the country that gained control of Florida after the conflict Charles Edmund Nugent participated in, what other differences are there between Paco Godia's birthplace and Real Madrid?",
+                "pred_ans": "",
+                "gold_ans": "two cities",
+                "cluster_dist": 0.9167749881744385
+            },
+            {
+                "index": 6,
+                "question": "When is the date of birth of the creator of A Burial at Ornans?",
+                "pred_ans": "",
+                "gold_ans": "10 June 1819",
+                "cluster_dist": 0.8636088371276855
+            },
+            {
+                "index": 155,
+                "question": "Who is the mother of the founder of Mormonism?",
+                "pred_ans": "",
+                "gold_ans": "Lucy Mack Smith",
+                "cluster_dist": 0.9051493406295776
+            },
+            {
+                "index": 465,
+                "question": "What was the name of the law passed by who was featured in the film the 6th Day?",
+                "pred_ans": "",
+                "gold_ans": "\"Donda West Law\"",
+                "cluster_dist": 0.9835982918739319
+            },
+            {
+                "index": 99,
+                "question": "Why did Roncalli leave the city where the creator of The Entombment died?",
+                "pred_ans": "",
+                "gold_ans": "for the conclave in Rome",
+                "cluster_dist": 0.8103232383728027
+            },
+            {
+                "index": 364,
+                "question": "How many times did plague occur in the place where La Bella's artist died?",
+                "pred_ans": "",
+                "gold_ans": "22",
+                "cluster_dist": 0.8831498622894287
+            }
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "train_samples": [
+            {
+                "index": 419,
+                "question": "What was the cast member of Missing in Action's name in Walker, Texas Ranger?",
+                "pred_ans": "",
+                "gold_ans": "Cordell Walker",
+                "cluster_dist": 0.8526315093040466
+            },
+            {
+                "index": 368,
+                "question": "Who played the girlfriend of who plays marty mcfly's daughter in back to the future 2?",
+                "pred_ans": "",
+                "gold_ans": "Claudia Wells",
+                "cluster_dist": 0.8225534558296204
+            },
+            {
+                "index": 106,
+                "question": "In the movie A League of their Own, who played the husband of the person who also played Thelma in the movie Thelma and Louise?",
+                "pred_ans": "",
+                "gold_ans": "Bill Pullman",
+                "cluster_dist": 0.8606491088867188
+            },
+            {
+                "index": 146,
+                "question": "Who married the person telling the story in how i met your mother?",
+                "pred_ans": "",
+                "gold_ans": "Tracy Mosby",
+                "cluster_dist": 0.8064393997192383
+            },
+            {
+                "index": 417,
+                "question": "Who played Seether's performer in willy wonka and the chocolate factory?",
+                "pred_ans": "",
+                "gold_ans": "Julie Dawn Cole",
+                "cluster_dist": 0.8015927076339722
+            },
+            {
+                "index": 356,
+                "question": "Who is the child of the cast member of Green Ice?",
+                "pred_ans": "",
+                "gold_ans": "Tatum O'Neal",
+                "cluster_dist": 0.7999452352523804
+            },
+            {
+                "index": 365,
+                "question": "What other recognition did the Oscar winner for Best Actor in 2006 receive?",
+                "pred_ans": "",
+                "gold_ans": "nominated for an Academy Award for Best Supporting Actor",
+                "cluster_dist": 0.9297807216644287
+            },
+            {
+                "index": 271,
+                "question": "Who did the original voice for the character whose series Mickey's safari in Letterland is from?",
+                "pred_ans": "",
+                "gold_ans": "Walt Disney",
+                "cluster_dist": 0.8861412405967712
+            },
+            {
+                "index": 54,
+                "question": "Who was married to the creator of Ruby Loftus Screwing a Breech Ring?",
+                "pred_ans": "",
+                "gold_ans": "Harold Knight",
+                "cluster_dist": 0.8647322058677673
+            },
+            {
+                "index": 187,
+                "question": "What preity zinta and madhuri dixit movie had a cast member from U Me Aur Hum ?",
+                "pred_ans": "",
+                "gold_ans": "Yeh Raaste Hain Pyaar Ke",
+                "cluster_dist": 0.8322800397872925
+            },
+            {
+                "index": 82,
+                "question": "Who is the spouse of the other president Jenkins Orphanage played for that wasn't Taft?",
+                "pred_ans": "",
+                "gold_ans": "Edith Roosevelt",
+                "cluster_dist": 0.8326080441474915
+            },
+            {
+                "index": 453,
+                "question": "On The Drew Carey Show, who plays the character with the same name as the character who died in 47 Meters Down?",
+                "pred_ans": "",
+                "gold_ans": "Christa Miller",
+                "cluster_dist": 0.8683176636695862
+            },
+            {
+                "index": 67,
+                "question": "Who is the spouse of the actor who plays Vision in the new Avengers movie?",
+                "pred_ans": "",
+                "gold_ans": "Jennifer Connelly",
+                "cluster_dist": 0.7472508549690247
+            },
+            {
+                "index": 233,
+                "question": "Who is the mother of the screenwriter of WarGames?",
+                "pred_ans": "",
+                "gold_ans": "Jane Greer",
+                "cluster_dist": 0.7717801332473755
+            },
+            {
+                "index": 228,
+                "question": "What line by a cast member of Doing His Bit is believed to have started the archie nickname?",
+                "pred_ans": "",
+                "gold_ans": "\"Archibald, certainly not!\"",
+                "cluster_dist": 0.9008023738861084
+            }
+        ]
+    }
+]

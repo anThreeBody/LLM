@@ -1,0 +1,882 @@
+[
+    {
+        "cluster_id": 0,
+        "test_samples": [
+            {
+                "index": 606,
+                "question": "When was the footballer who decided not to be a torchbearer because of the controversy signed by Barcelona?",
+                "pred_ans": "",
+                "gold_ans": "June 1982",
+                "cluster_dist": 0.9091492891311646
+            },
+            {
+                "index": 936,
+                "question": "What does the acronym of the organization Danish Football Union is part of stand for?",
+                "pred_ans": "",
+                "gold_ans": "International Federation of Association Football",
+                "cluster_dist": 0.9551740288734436
+            },
+            {
+                "index": 924,
+                "question": "Who was picked over the player who has scored the most points in an NBA season in the draft?",
+                "pred_ans": "",
+                "gold_ans": "Greg Oden",
+                "cluster_dist": 0.8711715340614319
+            },
+            {
+                "index": 862,
+                "question": "When did the team that Jamie Ward is a member of win the FA Cup?",
+                "pred_ans": "",
+                "gold_ans": "1898 and 1959",
+                "cluster_dist": 0.7242074012756348
+            },
+            {
+                "index": 933,
+                "question": "Who has played for both West Ham Ajax and the team that Adam Hammill is on?",
+                "pred_ans": "",
+                "gold_ans": "Mido",
+                "cluster_dist": 0.8304242491722107
+            },
+            {
+                "index": 931,
+                "question": "The MLB MVP award is given out after a competition where a team has played the most games. What is the longest win streak in the history of league that team plays for?",
+                "pred_ans": "",
+                "gold_ans": "26",
+                "cluster_dist": 0.7859262228012085
+            },
+            {
+                "index": 649,
+                "question": "When was the last time the winner of the American League East in 2017 met the Dodgers in the event after which the MLB MVP award is given out?",
+                "pred_ans": "",
+                "gold_ans": "1981",
+                "cluster_dist": 0.8340994715690613
+            },
+            {
+                "index": 925,
+                "question": "What worldwide ranking does the university that Pedro Ramirez Vasquez attended hold?",
+                "pred_ans": "",
+                "gold_ans": "74th",
+                "cluster_dist": 0.8702809810638428
+            },
+            {
+                "index": 672,
+                "question": "When was the last time Krystian Pearce's sports team beat the winner of the 1894-95 FA Cup?",
+                "pred_ans": "",
+                "gold_ans": "1 December 2010",
+                "cluster_dist": 0.7646687626838684
+            },
+            {
+                "index": 720,
+                "question": "When was the last time the sports team Alan O'Neil was a member of beat the winner of the 1894-95 FA cup?",
+                "pred_ans": "",
+                "gold_ans": "1 December 2010",
+                "cluster_dist": 0.7719928026199341
+            },
+            {
+                "index": 756,
+                "question": "What is the current population in 2017 of the country being the defending champions of champions trophy?",
+                "pred_ans": "",
+                "gold_ans": "207.77 million people",
+                "cluster_dist": 0.8511825203895569
+            },
+            {
+                "index": 473,
+                "question": "When was the last time the team that Terry Twell was a member of beat the 194-95 winner of the FA Cup?",
+                "pred_ans": "",
+                "gold_ans": "1 December 2010",
+                "cluster_dist": 0.7172108888626099
+            },
+            {
+                "index": 721,
+                "question": "On what team was the player who hit the first home run at the new location of NY Yankees home games?",
+                "pred_ans": "",
+                "gold_ans": "New York Yankees",
+                "cluster_dist": 0.8543373346328735
+            },
+            {
+                "index": 507,
+                "question": "When was the last time the sports team that employs Joe Gallagher beat the winner of the 1894-95 FA Cup?",
+                "pred_ans": "",
+                "gold_ans": "1 December 2010",
+                "cluster_dist": 0.7311012744903564
+            },
+            {
+                "index": 906,
+                "question": "Who has played for West Ham Ajax and the team from the city where Malcolm Graham died?",
+                "pred_ans": "",
+                "gold_ans": "Mido",
+                "cluster_dist": 0.823433518409729
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "test_samples": [
+            {
+                "index": 787,
+                "question": "Who won the 1993 Indy Car Race in the largest city of the state containing the city where the performer of the album Mingus Three is from?",
+                "pred_ans": "",
+                "gold_ans": "Mario Andretti",
+                "cluster_dist": 0.804326593875885
+            },
+            {
+                "index": 536,
+                "question": "How many students attend Daniel Th\u00fcrer's university?",
+                "pred_ans": "",
+                "gold_ans": "nearly 25,000",
+                "cluster_dist": 0.9218912124633789
+            },
+            {
+                "index": 839,
+                "question": "Where in florida did Rosalie King die?",
+                "pred_ans": "",
+                "gold_ans": "in Northern Florida",
+                "cluster_dist": 0.8761399388313293
+            },
+            {
+                "index": 462,
+                "question": "Where is Chris Meffert's birth place in the state of Florida?",
+                "pred_ans": "",
+                "gold_ans": "in Northern Florida",
+                "cluster_dist": 0.7766480445861816
+            },
+            {
+                "index": 612,
+                "question": "Who won the Indy Car Race in the largest populated city of the state where the performer of Mingus Plays Piano is from?",
+                "pred_ans": "",
+                "gold_ans": "Mario Andretti",
+                "cluster_dist": 0.7637038826942444
+            },
+            {
+                "index": 680,
+                "question": "Who won the Indy car race in the largest populated city in the state where the Oh Yeah performer is from?",
+                "pred_ans": "",
+                "gold_ans": "Mario Andretti",
+                "cluster_dist": 0.7282217741012573
+            },
+            {
+                "index": 792,
+                "question": "Who burned down the city where Dunn Dunn's artist died in the war after which the government got involved in healthcare?",
+                "pred_ans": "",
+                "gold_ans": "Confederate Gen. John Bell Hood",
+                "cluster_dist": 0.8932182192802429
+            },
+            {
+                "index": 784,
+                "question": "Who is the Chief Judge of the Tebesa Nemine's birthplace?",
+                "pred_ans": "",
+                "gold_ans": "Honorable Justice Abiodun Smith",
+                "cluster_dist": 0.8378137946128845
+            },
+            {
+                "index": 692,
+                "question": "Who won the 1993 Indy Car race in the city with the largest population in the state where Poachie Range is located?",
+                "pred_ans": "",
+                "gold_ans": "Mario Andretti",
+                "cluster_dist": 0.8292040824890137
+            },
+            {
+                "index": 894,
+                "question": "Where does the city where Pathology was formed rank among the top five largest urban areas of the state where the performer of Getting Away With Murder was formed?",
+                "pred_ans": "",
+                "gold_ans": "third-largest",
+                "cluster_dist": 0.8235402703285217
+            },
+            {
+                "index": 895,
+                "question": "Who won the Indy Car Race in the largest city and state of the state where the performer of East Coasting is from?",
+                "pred_ans": "",
+                "gold_ans": "Mario Andretti",
+                "cluster_dist": 0.7710914611816406
+            },
+            {
+                "index": 944,
+                "question": "When did the city that headquarters the manufacturer of McAfee's benchmark elect its first black Mayor?",
+                "pred_ans": "",
+                "gold_ans": "1970s",
+                "cluster_dist": 0.8816759586334229
+            },
+            {
+                "index": 865,
+                "question": "What county was Ye Rongguang born in?",
+                "pred_ans": "",
+                "gold_ans": "Yongjia County",
+                "cluster_dist": 0.8372809290885925
+            },
+            {
+                "index": 623,
+                "question": "How many miles are there between Nashville and the place in Tennessee where Mark Day was born?",
+                "pred_ans": "",
+                "gold_ans": "45",
+                "cluster_dist": 0.8261793851852417
+            },
+            {
+                "index": 513,
+                "question": "What is the name of the castle in the city where the performers of Spirit If.. became a band?",
+                "pred_ans": "",
+                "gold_ans": "Casa Loma",
+                "cluster_dist": 0.8299553394317627
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "test_samples": [
+            {
+                "index": 982,
+                "question": "What treaty ceded territory to the US extending west to the body of water by the city Astronautalis is from?",
+                "pred_ans": "",
+                "gold_ans": "Treaty of Paris",
+                "cluster_dist": 0.8431330919265747
+            },
+            {
+                "index": 575,
+                "question": "How long had China Sunergy's headquarters location been the capitol city of the area where Guangling District was located?",
+                "pred_ans": "",
+                "gold_ans": "about 400 years",
+                "cluster_dist": 0.8831625580787659
+            },
+            {
+                "index": 786,
+                "question": "Who was in charge of the area where Pavilion Welgelegen is located?",
+                "pred_ans": "",
+                "gold_ans": "Johan Remkes",
+                "cluster_dist": 0.8964264988899231
+            },
+            {
+                "index": 879,
+                "question": "Where does the body of water by the city where Write This Down was formed and Ohio River meet?",
+                "pred_ans": "",
+                "gold_ans": "at the city of Cairo, Illinois",
+                "cluster_dist": 0.7940434813499451
+            },
+            {
+                "index": 769,
+                "question": "In which state is Vera Barbosa's place of birth located?",
+                "pred_ans": "",
+                "gold_ans": "Lisbon District",
+                "cluster_dist": 0.9045931100845337
+            },
+            {
+                "index": 990,
+                "question": "What is the average winter daytime temperature in the region where Richmond is found, in the state where the Battle of Fredericksburg was fought?",
+                "pred_ans": "",
+                "gold_ans": "upper 40s\u2013lower 50s \u00b0F",
+                "cluster_dist": 0.8769720792770386
+            },
+            {
+                "index": 799,
+                "question": "What mountains can you see from Portland, in the state containing the county where Cole's creek is located?",
+                "pred_ans": "",
+                "gold_ans": "Tualatin Mountains",
+                "cluster_dist": 0.8017489314079285
+            },
+            {
+                "index": 570,
+                "question": "What taxa is Ommatidae part of?",
+                "pred_ans": "",
+                "gold_ans": "Coleoptera",
+                "cluster_dist": 0.9840279817581177
+            },
+            {
+                "index": 607,
+                "question": "To what division does the language that comprises the standard pronunciation of Catalan belong?",
+                "pred_ans": "",
+                "gold_ans": "Eastern block",
+                "cluster_dist": 0.9924885034561157
+            },
+            {
+                "index": 866,
+                "question": "What county is the city that shares a border with the state capital of the state where Andrew Deveaux was born located in?",
+                "pred_ans": "",
+                "gold_ans": "Richland County",
+                "cluster_dist": 0.8324726819992065
+            },
+            {
+                "index": 659,
+                "question": "What is the capital of the county where Fort Deposit is located?",
+                "pred_ans": "",
+                "gold_ans": "Hayneville",
+                "cluster_dist": 0.8581541776657104
+            },
+            {
+                "index": 754,
+                "question": "What is the seat of the county sharing a border with the county where Tenement was founded?",
+                "pred_ans": "",
+                "gold_ans": "Green Bay",
+                "cluster_dist": 0.7279298305511475
+            },
+            {
+                "index": 860,
+                "question": "When was the region immediately north of the region of the country in Strangers No More and the Persian Gulf established?",
+                "pred_ans": "",
+                "gold_ans": "1932",
+                "cluster_dist": 0.8644494414329529
+            },
+            {
+                "index": 989,
+                "question": "What was the 1900 population of the city located within the county that also contains Helvetia?",
+                "pred_ans": "",
+                "gold_ans": "7,531",
+                "cluster_dist": 0.8566073179244995
+            },
+            {
+                "index": 848,
+                "question": "What is the capital of the county that Pine Springs is located in?",
+                "pred_ans": "",
+                "gold_ans": "Van Horn",
+                "cluster_dist": 0.8915333151817322
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "test_samples": [
+            {
+                "index": 830,
+                "question": "On November 22, who met with the Russian leader that visited the country where the Surzhyk dialect is spoken, when the protests were taking place?",
+                "pred_ans": "",
+                "gold_ans": "Pope John Paul II",
+                "cluster_dist": 0.9305137991905212
+            },
+            {
+                "index": 679,
+                "question": "Another world leader said that Vladimir Rapoport's country was imperialist. Where did that leader announce that he would intervene in the Korean conflict?",
+                "pred_ans": "",
+                "gold_ans": "the Politburo",
+                "cluster_dist": 0.8300052881240845
+            },
+            {
+                "index": 510,
+                "question": "What year did the country where Siddhi Savetsila was born form an alliance with Japan?",
+                "pred_ans": "",
+                "gold_ans": "1941",
+                "cluster_dist": 0.7802258729934692
+            },
+            {
+                "index": 616,
+                "question": "Who is the child of Obama's opponent in his first election?",
+                "pred_ans": "",
+                "gold_ans": "Meghan McCain",
+                "cluster_dist": 0.9371135234832764
+            },
+            {
+                "index": 476,
+                "question": "When did the winner of the Battle between Poras and Sikander die?",
+                "pred_ans": "",
+                "gold_ans": "323 BC",
+                "cluster_dist": 0.9122489094734192
+            },
+            {
+                "index": 560,
+                "question": "Where did the arguer that Yekaterina Fesenko's country of citizenship had become an imperialist power declare he would intervene in the Korean conflict?",
+                "pred_ans": "",
+                "gold_ans": "the Politburo",
+                "cluster_dist": 0.80357426404953
+            },
+            {
+                "index": 882,
+                "question": "How were the people that the Ajuran Empire declared independence from by minting coins expelled from Zaw Win Thet's country?",
+                "pred_ans": "",
+                "gold_ans": "The dynasty regrouped and defeated the Portuguese",
+                "cluster_dist": 0.7950392365455627
+            },
+            {
+                "index": 868,
+                "question": "In what region of the country of S-Fone is The place of birth of John Phan located?",
+                "pred_ans": "",
+                "gold_ans": "South Central Coast",
+                "cluster_dist": 0.9013064503669739
+            },
+            {
+                "index": 737,
+                "question": "The beautiful country used as a backdrop for the movie The Lord of the Rings was founded on what date?",
+                "pred_ans": "",
+                "gold_ans": "6 February 1840",
+                "cluster_dist": 0.8991066217422485
+            },
+            {
+                "index": 605,
+                "question": "How much did the Black Death reduce the population of the region offered aid by the marshall plan?",
+                "pred_ans": "",
+                "gold_ans": "30% to 65%",
+                "cluster_dist": 0.9475083947181702
+            },
+            {
+                "index": 686,
+                "question": "Hana Mandlikova was born in Country A that invaded Country B because the military branch that helped Old West's local police was unprepared. Country B was the only communist country to have an embassy where?",
+                "pred_ans": "",
+                "gold_ans": "Alfredo Stroessner's Paraguay",
+                "cluster_dist": 0.7784401178359985
+            },
+            {
+                "index": 977,
+                "question": "What is the position of the person impeached in England for acts committed as governor general of India?",
+                "pred_ans": "",
+                "gold_ans": "Governor-General of India",
+                "cluster_dist": 0.9248821139335632
+            },
+            {
+                "index": 748,
+                "question": "A country was in effective control of both political and military functions of the organization the People's Socialist Republic of Albania belonged to. When did this country agree to a unified Germany inside the organization that ran an annual event called Exercise Reforger?",
+                "pred_ans": "",
+                "gold_ans": "May 1990",
+                "cluster_dist": 0.9004001021385193
+            },
+            {
+                "index": 610,
+                "question": "What military overran much of Erich Zakowski's place of birth?",
+                "pred_ans": "",
+                "gold_ans": "Russian troops",
+                "cluster_dist": 0.9149710536003113
+            },
+            {
+                "index": 557,
+                "question": "How were the people that the Somali Muslim Ajuran Empire made coins to proclaim independence from, expelled from the country where Star Cola is produced?",
+                "pred_ans": "",
+                "gold_ans": "The dynasty regrouped and defeated the Portuguese",
+                "cluster_dist": 0.8533864617347717
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "test_samples": [
+            {
+                "index": 829,
+                "question": "Besides Kenny G and the artist behind A Smooth Jazz Christmas, who else had crossover hits played on smooth jazz stations?",
+                "pred_ans": "",
+                "gold_ans": "George Benson",
+                "cluster_dist": 0.7945442795753479
+            },
+            {
+                "index": 588,
+                "question": "When did the performer of Goosebumpz release best day ever?",
+                "pred_ans": "",
+                "gold_ans": "March 11, 2011",
+                "cluster_dist": 0.8209642767906189
+            },
+            {
+                "index": 742,
+                "question": "Who does the performer of Don't Be Cruel play in the wire?",
+                "pred_ans": "",
+                "gold_ans": "a Western District uniformed officer",
+                "cluster_dist": 0.8234542012214661
+            },
+            {
+                "index": 517,
+                "question": "What is the record label of the Thrill of a Lifetime performer?",
+                "pred_ans": "",
+                "gold_ans": "New Renaissance Records",
+                "cluster_dist": 0.7489952445030212
+            },
+            {
+                "index": 650,
+                "question": "What UK label was bought by the major broadcaster based in New York that is not ABC and did not broadcast Highway to Heaven?",
+                "pred_ans": "",
+                "gold_ans": "Oriole Records.",
+                "cluster_dist": 0.8446902632713318
+            },
+            {
+                "index": 677,
+                "question": "Who was the person who acquired the parent company of the music service Beyonce owns part of talking about in the song Cry?",
+                "pred_ans": "",
+                "gold_ans": "three different relationships he had in the past",
+                "cluster_dist": 0.8378475308418274
+            },
+            {
+                "index": 935,
+                "question": "What song did Paul McCartney write for Cynthia Lennon's kid?",
+                "pred_ans": "",
+                "gold_ans": "``Hey Jude ''",
+                "cluster_dist": 0.844575822353363
+            },
+            {
+                "index": 777,
+                "question": "Who owns the record label where the singer of All Right records?",
+                "pred_ans": "",
+                "gold_ans": "Warner Music Group",
+                "cluster_dist": 0.7295132279396057
+            },
+            {
+                "index": 896,
+                "question": "What company is the record label for Oh Woman, Oh Why a part of?",
+                "pred_ans": "",
+                "gold_ans": "Apple Corps",
+                "cluster_dist": 0.8141726851463318
+            },
+            {
+                "index": 713,
+                "question": "Who owns the record label that The Tri-Tone Fascination's performer belongs to?",
+                "pred_ans": "",
+                "gold_ans": "Warner Music Group",
+                "cluster_dist": 0.7720541954040527
+            },
+            {
+                "index": 841,
+                "question": "Who is the guy in the One Last Time video by the participant in The Listening Sessions?",
+                "pred_ans": "",
+                "gold_ans": "Matt Bennett",
+                "cluster_dist": 0.7950747609138489
+            },
+            {
+                "index": 824,
+                "question": "When did the performer of I Love Life, Thank You release Best Day Ever?",
+                "pred_ans": "",
+                "gold_ans": "March 11, 2011",
+                "cluster_dist": 0.8352664709091187
+            },
+            {
+                "index": 898,
+                "question": "Who wrote the song The Story that is sung by the performer of Rhapsody Originals?",
+                "pred_ans": "",
+                "gold_ans": "Phil Hanseroth",
+                "cluster_dist": 0.8402062654495239
+            },
+            {
+                "index": 681,
+                "question": "Who is the owner of the record label of the Please Remember Me performer?",
+                "pred_ans": "",
+                "gold_ans": "Warner Music Group",
+                "cluster_dist": 0.6790844202041626
+            },
+            {
+                "index": 653,
+                "question": "Who is the owner of the record label that the singer of I just got started lovin you belongs to?",
+                "pred_ans": "",
+                "gold_ans": "Warner Music Group",
+                "cluster_dist": 0.7142246961593628
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "test_samples": [
+            {
+                "index": 926,
+                "question": "What political party does the person that Adversary in the House is based on a member of?",
+                "pred_ans": "",
+                "gold_ans": "Socialist Party of America",
+                "cluster_dist": 0.9274936318397522
+            },
+            {
+                "index": 863,
+                "question": "Who is the chairman of the company that bought FleetBoston Financial?",
+                "pred_ans": "",
+                "gold_ans": "Brian Thomas Moynihan",
+                "cluster_dist": 0.8167234063148499
+            },
+            {
+                "index": 782,
+                "question": "When was the celestial body that transforms nuclear potential energy to other forms of energy discovered to be the center of the solar system?",
+                "pred_ans": "",
+                "gold_ans": "as early as the 3rd century BC",
+                "cluster_dist": 0.9628763198852539
+            },
+            {
+                "index": 762,
+                "question": "When did the majority party in the House of Representatives take control of the body which the President calls on for support in his USAF appointments?",
+                "pred_ans": "",
+                "gold_ans": "January 2015",
+                "cluster_dist": 0.8490468263626099
+            },
+            {
+                "index": 892,
+                "question": "What is the model of the vehicle of Mohammed Atta from the company that makes Datsun DC-3?",
+                "pred_ans": "",
+                "gold_ans": "Nissan Altima",
+                "cluster_dist": 0.9269536137580872
+            },
+            {
+                "index": 576,
+                "question": "There exists a country A that forms a boundary between the host of the 2020 AFC U-23 Championship and the country containing the village of A Don. What is the business that began trading stocks in the winter of 2014 in country A?",
+                "pred_ans": "",
+                "gold_ans": "Yangon Stock Exchange Joint Venture Co. Ltd",
+                "cluster_dist": 0.9292818307876587
+            },
+            {
+                "index": 663,
+                "question": "When did the party Oklahoma's US Senators come from take control of the body determining the rules of the US House and US Senate?",
+                "pred_ans": "",
+                "gold_ans": "January 2015",
+                "cluster_dist": 0.8930099606513977
+            },
+            {
+                "index": 694,
+                "question": "What is the manufacturer of the Kentucky Tavern headquarters location saints symbol called?",
+                "pred_ans": "",
+                "gold_ans": "fleur - de-lis",
+                "cluster_dist": 0.9023839235305786
+            },
+            {
+                "index": 941,
+                "question": "Which company followed the company that made AAM-N-4 Oriole?",
+                "pred_ans": "",
+                "gold_ans": "Martin Marietta",
+                "cluster_dist": 0.9025477766990662
+            },
+            {
+                "index": 987,
+                "question": "When did the manufacturer of VTEC, the owner of Scion, and Nissan open US assembly plants?",
+                "pred_ans": "",
+                "gold_ans": "1981",
+                "cluster_dist": 0.8291067481040955
+            },
+            {
+                "index": 961,
+                "question": "What does SEAL stand for in the branch of military that operates USS Mahan?",
+                "pred_ans": "",
+                "gold_ans": "Sea, Air, and Land",
+                "cluster_dist": 0.9175018668174744
+            },
+            {
+                "index": 592,
+                "question": "What does seal stand for in the branch of the U.S. military that operates a list of destroyer classes, as well as containing the rank O-1?",
+                "pred_ans": "",
+                "gold_ans": "Sea, Air, and Land",
+                "cluster_dist": 0.9460521340370178
+            },
+            {
+                "index": 939,
+                "question": "Which war did the operator of the Fabian Wrede-class training ship serve in?",
+                "pred_ans": "",
+                "gold_ans": "Winter War",
+                "cluster_dist": 0.9648964405059814
+            },
+            {
+                "index": 574,
+                "question": "What were the Genesis's advantages over the platform of the game Nightshade?",
+                "pred_ans": "",
+                "gold_ans": "built on 16-bit architectures and offered improved graphics and sound",
+                "cluster_dist": 0.9863008260726929
+            },
+            {
+                "index": 979,
+                "question": "During what era was the manufacturer of Agni-V founded?",
+                "pred_ans": "",
+                "gold_ans": "From the 1950s to the 1970s",
+                "cluster_dist": 0.9245792031288147
+            }
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "test_samples": [
+            {
+                "index": 705,
+                "question": "What was the language from which the last name Sylvester originated during the era of the person crowned emperor of the west in 800 CE later known as?",
+                "pred_ans": "",
+                "gold_ans": "Medieval Latin",
+                "cluster_dist": 0.870312511920929
+            },
+            {
+                "index": 655,
+                "question": "A participant of the Battle of Brechin is an instance of?",
+                "pred_ans": "",
+                "gold_ans": "Scottish clan",
+                "cluster_dist": 0.9098235368728638
+            },
+            {
+                "index": 683,
+                "question": "In what year did Taifa, of the birthplace of Ibn Abbad al-Rundi, cease to exist?",
+                "pred_ans": "",
+                "gold_ans": "1065",
+                "cluster_dist": 0.9606778621673584
+            },
+            {
+                "index": 835,
+                "question": "Who gives out the prize named after the author of The Wealth of Nations?",
+                "pred_ans": "",
+                "gold_ans": "University of Cambridge",
+                "cluster_dist": 0.9245839715003967
+            },
+            {
+                "index": 582,
+                "question": "What century did the author of \"Treatise Concerning the Principles of Human Knowldege\" live in?",
+                "pred_ans": "",
+                "gold_ans": "18th",
+                "cluster_dist": 0.8798649907112122
+            },
+            {
+                "index": 660,
+                "question": "What award was received by the person who authored Missing Person?",
+                "pred_ans": "",
+                "gold_ans": "Nobel Prize in Literature",
+                "cluster_dist": 0.9138580560684204
+            },
+            {
+                "index": 627,
+                "question": "When is the birthday of the creator of Le ruisseau noir?",
+                "pred_ans": "",
+                "gold_ans": "10 June 1819",
+                "cluster_dist": 0.886189877986908
+            },
+            {
+                "index": 984,
+                "question": "Whom is the birth place of Ravil Aryapov named after?",
+                "pred_ans": "",
+                "gold_ans": "Palmiro Togliatti",
+                "cluster_dist": 0.8778136968612671
+            },
+            {
+                "index": 806,
+                "question": "Which city of the sea linked to another sea that Theodoric was trying to gain access to by attacking Narbo Martius was the main port of Axum?",
+                "pred_ans": "",
+                "gold_ans": "Adulis",
+                "cluster_dist": 0.9287049174308777
+            },
+            {
+                "index": 798,
+                "question": "Over how many slaves ended up getting emancipated on the birth place of Francis Watson?",
+                "pred_ans": "",
+                "gold_ans": "800",
+                "cluster_dist": 0.9027159810066223
+            },
+            {
+                "index": 878,
+                "question": "Who did Hayek work for upon being hired by the author of Bureaucracy?",
+                "pred_ans": "",
+                "gold_ans": "the Austrian government",
+                "cluster_dist": 0.9620682001113892
+            },
+            {
+                "index": 585,
+                "question": "When did the location of the Basilica that is named after the same saint as the Schleswig Cathedral and the head of the catholic religion become its own country?",
+                "pred_ans": "",
+                "gold_ans": "11 February 1929",
+                "cluster_dist": 0.9330110549926758
+            },
+            {
+                "index": 643,
+                "question": "What was the form of the language where the last name Sylvester originates, used in the era of the man crowned Emperor of the Romans in 800, later known as?",
+                "pred_ans": "",
+                "gold_ans": "Medieval Latin",
+                "cluster_dist": 0.8779855370521545
+            },
+            {
+                "index": 794,
+                "question": "On what date did the creator of Peace Concluded die?",
+                "pred_ans": "",
+                "gold_ans": "13 August 1896",
+                "cluster_dist": 0.9067535400390625
+            },
+            {
+                "index": 870,
+                "question": "When was the father of Diego Sinagra signed by Barcelona?",
+                "pred_ans": "",
+                "gold_ans": "June 1982",
+                "cluster_dist": 0.9127084016799927
+            }
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "test_samples": [
+            {
+                "index": 972,
+                "question": "Who is the child of Caroline LeRoy's spouse?",
+                "pred_ans": "",
+                "gold_ans": "Fletcher Webster",
+                "cluster_dist": 0.7996099591255188
+            },
+            {
+                "index": 736,
+                "question": "Who is the host of Who Wants to be a Millionaire in the country that the producer of The Wild Women of Chastity Gulch is from?",
+                "pred_ans": "",
+                "gold_ans": "Chris Harrison",
+                "cluster_dist": 0.8396187424659729
+            },
+            {
+                "index": 711,
+                "question": "Who is the spouse of the first nominated African American presidential candidate?",
+                "pred_ans": "",
+                "gold_ans": "Helen Pitts Douglass",
+                "cluster_dist": 0.875537097454071
+            },
+            {
+                "index": 851,
+                "question": "Who is the spouse of the actor who voices Batman in the Lego Batman movie?",
+                "pred_ans": "",
+                "gold_ans": "Amy Poehler",
+                "cluster_dist": 0.7160007357597351
+            },
+            {
+                "index": 625,
+                "question": "Who is the spouse of the actor who played Zeb in How the West was Won?",
+                "pred_ans": "",
+                "gold_ans": "Sherry Boucher",
+                "cluster_dist": 0.7773007154464722
+            },
+            {
+                "index": 890,
+                "question": "Who is the spouse of the person who played Father in I Can Only Imagine?",
+                "pred_ans": "",
+                "gold_ans": "Meg Ryan",
+                "cluster_dist": 0.7053767442703247
+            },
+            {
+                "index": 626,
+                "question": "What film features Anil Devgan's sibling?",
+                "pred_ans": "",
+                "gold_ans": "Yeh Raaste Hain Pyaar Ke",
+                "cluster_dist": 0.8357148766517639
+            },
+            {
+                "index": 613,
+                "question": "Who was played by the creator of Push, Nevada in Dazed and Confused?",
+                "pred_ans": "",
+                "gold_ans": "Fred O'Bannion",
+                "cluster_dist": 0.8705841302871704
+            },
+            {
+                "index": 587,
+                "question": "Who is the spouse of the individual who lives in the houses in Windsor Castle?",
+                "pred_ans": "",
+                "gold_ans": "Philip Mountbatten",
+                "cluster_dist": 0.8577523827552795
+            },
+            {
+                "index": 528,
+                "question": "Who is the spouse of a cast member of Secrets of a Windmill Girl?",
+                "pred_ans": "",
+                "gold_ans": "John Alderton",
+                "cluster_dist": 0.7561498880386353
+            },
+            {
+                "index": 978,
+                "question": "What character does the actor who played Barney on How I Met Your Mother play in Batman Under the Red Hood?",
+                "pred_ans": "",
+                "gold_ans": "Nightwing / Dick Grayson",
+                "cluster_dist": 0.7840789556503296
+            },
+            {
+                "index": 596,
+                "question": "Who plays the wife of the Real Rob cast member in Grown Ups?",
+                "pred_ans": "",
+                "gold_ans": "Joyce Van Patten",
+                "cluster_dist": 0.7140169143676758
+            },
+            {
+                "index": 949,
+                "question": "Who is the spouse of Prince Edward, Earl of Wessex's mother?",
+                "pred_ans": "",
+                "gold_ans": "Philip Mountbatten",
+                "cluster_dist": 0.9199700951576233
+            },
+            {
+                "index": 468,
+                "question": "Who did Haran's sibling marry after the death of sarah?",
+                "pred_ans": "",
+                "gold_ans": "Keturah",
+                "cluster_dist": 0.8663724660873413
+            },
+            {
+                "index": 521,
+                "question": "What gun does Amy Madigan's spouse used in westworld?",
+                "pred_ans": "",
+                "gold_ans": "LeMat revolver",
+                "cluster_dist": 0.818846583366394
+            }
+        ]
+    }
+]

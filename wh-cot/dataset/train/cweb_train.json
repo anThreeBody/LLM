@@ -1,0 +1,1933 @@
+[
+    {
+        "cluster_id": 0,
+        "train_samples": [
+            {
+                "index": 225,
+                "question": "This US governmental jurisdiction, whose symbol was adapted in 1987, was the location of the Battle of Shiloh.?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Tennessee",
+                    "TN",
+                    "Tenn",
+                    "Volunteer State"
+                ],
+                "cluster_dist": 0.9493331909179688
+            },
+            {
+                "index": 199,
+                "question": "What building should I see in Dubai that has the fewest number of building floors?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Jumeirah Beach Hotel"
+                ],
+                "cluster_dist": 0.8788878321647644
+            },
+            {
+                "index": 196,
+                "question": "What zoo opened on May 20, 1977 in is a fun thing to do in Seattle, WA?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Woodland Park Zoo",
+                    "Woodland Park Zoo, Seattle"
+                ],
+                "cluster_dist": 0.841478168964386
+            },
+            {
+                "index": 247,
+                "question": "In what location of downtown Littleton is the Overlook Hotel found?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Colorado",
+                    "Centennial State",
+                    "Colo",
+                    "CO"
+                ],
+                "cluster_dist": 0.8410873413085938
+            },
+            {
+                "index": 250,
+                "question": "Which amusement park has the El Magatzem de les Bruixes i els Bruixots ride in Barcelona?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Tibidabo"
+                ],
+                "cluster_dist": 0.8598198890686035
+            },
+            {
+                "index": 203,
+                "question": "What attractions are located in the circulation area for El Liberal?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "El Escorial",
+                    "Museo Nacional Del Prado",
+                    "Museo Nacional Centro de Arte Reina Sof\u00eda",
+                    "Summercase",
+                    "Festimad",
+                    "Buen Retiro Park",
+                    "Royal Palace of Madrid",
+                    "Almudena Cathedral",
+                    "Sorolla Museum",
+                    "Plaza de Cibeles",
+                    "Madrid Arena",
+                    "Paseo del Prado",
+                    "Parque Warner Madrid",
+                    "Thyssen-Bornemisza Museum",
+                    "Temple of Debod",
+                    "Puerta del Sol",
+                    "Gran V\u00eda",
+                    "Madrid Marathon",
+                    "Plaza Mayor, Madrid",
+                    "La Vaguada",
+                    "Museum of L\u00e1zaro Galdiano",
+                    "Palace of la Bolsa de Madrid",
+                    "Royal Seat of San Lorenzo de El Escorial",
+                    "Museo del Prado, Madrid",
+                    "Prado Museum",
+                    "Museo Nacional Centro de Arte Reina Sofia",
+                    "Museo Nacional Centro de Arte Reina Sof\u00eda, Madrid",
+                    "Buen Retiro",
+                    "The Royal Palace of Madrid",
+                    "Museo Sorolla",
+                    "Sorolla",
+                    "Thyssen-Bornemisza",
+                    "Gran Via",
+                    "Museo de Lazaro Galdiano"
+                ],
+                "cluster_dist": 0.8616876602172852
+            },
+            {
+                "index": 221,
+                "question": "In the year 1984, landmarks were established in Sydney Australia, what are they?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Kamay Botany Bay National Park",
+                    "Kamay Botany Bay National"
+                ],
+                "cluster_dist": 0.8783068656921387
+            },
+            {
+                "index": 44,
+                "question": "In what location on a map would you find New York?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Contiguous United States",
+                    "Lower 48",
+                    "Conterminous United States"
+                ],
+                "cluster_dist": 0.8374387621879578
+            },
+            {
+                "index": 352,
+                "question": "Where is the sports team stadium whose spring training stadium is Citizens Bank Park?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Bright House Field"
+                ],
+                "cluster_dist": 0.8649114370346069
+            },
+            {
+                "index": 287,
+                "question": "What attraction has 38 floors and is located in Seattle?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Smith Tower",
+                    "L.C. Smith Building"
+                ],
+                "cluster_dist": 0.7857953906059265
+            },
+            {
+                "index": 521,
+                "question": "The visual artist that created the art series of Las Meninas, where do they live?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "M\u00e1laga",
+                    "Madrid",
+                    "France",
+                    "Malaga",
+                    "Madrid, Spain",
+                    "Villa de Madrid",
+                    "l'Hexagone",
+                    "R\u00e9publique fran\u00e7aise",
+                    "French Republic"
+                ],
+                "cluster_dist": 0.8736303448677063
+            },
+            {
+                "index": 495,
+                "question": "In which province, is the location where the movie, \"Saw V\" , occurs in Canada?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Ontario",
+                    "Province D' Ontario",
+                    "ON",
+                    "Province D\u2019 Ontario",
+                    "Province Of Ontario"
+                ],
+                "cluster_dist": 0.8993765711784363
+            },
+            {
+                "index": 356,
+                "question": "What's the capital city of the place where Kundun was filmed?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Rabat"
+                ],
+                "cluster_dist": 0.8549851179122925
+            },
+            {
+                "index": 493,
+                "question": "What Central European Time Zone sights are there to see in Madrid?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Museo Nacional Del Prado",
+                    "Parque Warner Madrid",
+                    "Plaza Mayor, Madrid",
+                    "Museo del Prado, Madrid",
+                    "Prado Museum"
+                ],
+                "cluster_dist": 0.8924890160560608
+            },
+            {
+                "index": 498,
+                "question": "What province does the movie \"District 9\" take place in?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Gauteng",
+                    "Pwv",
+                    "Province Of Pretoria-Witwatersrand-Vereeniging",
+                    "Gauteng, South Africa",
+                    "Provinceofpretoriawitwatersrandvereeniging",
+                    "Gauteng Province"
+                ],
+                "cluster_dist": 0.8612191081047058
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "train_samples": [
+            {
+                "index": 5,
+                "question": "Where in Georgia does the artist which recorded, At Ya Own Risk live?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Atlanta",
+                    "The A",
+                    "Atlanta, Georgia",
+                    "A-Town",
+                    "Atlanta, GA",
+                    "The ATL",
+                    "Fulton County / Atlanta city"
+                ],
+                "cluster_dist": 0.9186810851097107
+            },
+            {
+                "index": 71,
+                "question": "What state has official symbol of Spotted Salamander and University of South Carolina?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "South Carolina",
+                    "SC",
+                    "Palmetto State"
+                ],
+                "cluster_dist": 0.9092802405357361
+            },
+            {
+                "index": 417,
+                "question": "In what city was the person who went to education institution State Elementary School Menteng 01 supposedly born?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Honolulu",
+                    "Honolulu, Hawaii",
+                    "Honolulu County / Honolulu CDP",
+                    "Honolulu CDP"
+                ],
+                "cluster_dist": 0.7782164812088013
+            },
+            {
+                "index": 284,
+                "question": "What corporate was founded in 1979 and was owned by Rupert Murdoch as of the year 2012?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "News Corporation",
+                    "News Corp"
+                ],
+                "cluster_dist": 1.001670002937317
+            },
+            {
+                "index": 189,
+                "question": "Which college that has the smallest number of undergraduates did Bill Clinton attend?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "University College, Oxford",
+                    "University College, Oxford, main campus",
+                    "Univ.",
+                    "The Master and Fellows of the College of the Great Hall of the University of Oxford"
+                ],
+                "cluster_dist": 0.8439196944236755
+            },
+            {
+                "index": 438,
+                "question": "Who ran as the vice president for the president who spoke about education reform in 2012?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Joe Biden",
+                    "Vice President of the United States Joe Biden",
+                    "Senator Joseph Biden",
+                    "Joseph R. Biden, Jr.",
+                    "Joseph Biden",
+                    "Vice President Joe Biden",
+                    "Big-hearted Joe",
+                    "Sen Joseph Biden",
+                    "Sen. Joe Biden",
+                    "Sen Joe Biden",
+                    "Joseph Robinette Biden",
+                    "Joseph Robinette Biden Jr.",
+                    "Sen. Joseph Biden",
+                    "Senator Joe Biden"
+                ],
+                "cluster_dist": 0.8775287866592407
+            },
+            {
+                "index": 354,
+                "question": "Who was born on 1976-04-05 in the city where Roger Moore once llived?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "London",
+                    "the (big) smoke",
+                    "The Great Wen",
+                    "London, England",
+                    "Londres",
+                    "Capital of Great Britain"
+                ],
+                "cluster_dist": 0.8485097885131836
+            },
+            {
+                "index": 188,
+                "question": "What college did Bill Clinton attend that is in Eastern Time Zone?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Georgetown University",
+                    "Georgetown",
+                    "Georgetown University, main campus"
+                ],
+                "cluster_dist": 0.8148882389068604
+            },
+            {
+                "index": 29,
+                "question": "In the area where Alvaro Gil Cabral was born, what type of government was there that was also shared with Sparta?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Monarchy",
+                    "Kingdom"
+                ],
+                "cluster_dist": 0.9579322934150696
+            },
+            {
+                "index": 173,
+                "question": "Who shot the politician who had been the U.S. Attorney for the Northern District of Georgia?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "John Hinckley Jr."
+                ],
+                "cluster_dist": 0.8291330933570862
+            },
+            {
+                "index": 147,
+                "question": "What is the state slogan of the state that uses the Brachiopod as an official symbol?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "United we stand, divided we fall"
+                ],
+                "cluster_dist": 0.9438194632530212
+            },
+            {
+                "index": 358,
+                "question": "Who was the leader of the country that has the position title Secretary of State for Human Rights of France in 2012?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Nicolas Sarkozy",
+                    "Fran\u00e7ois Hollande",
+                    "Hyperpresident",
+                    "The Bling Bling President",
+                    "Sarko",
+                    "Nicolas Paul St\u00e9phane Sark\u00f6zy de Nagy-Bocsa",
+                    "Speedy",
+                    "Sarko l'Am\u00e9ricain",
+                    "Fran\u00e7ois G\u00e9rard Georges Hollande",
+                    "Mayor Fran\u00e7ois Hollande",
+                    "Francois Hollande"
+                ],
+                "cluster_dist": 0.9117270112037659
+            },
+            {
+                "index": 397,
+                "question": "What placed features a person with the birthdate of 1981-04-04 and is where USC is from?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Columbia",
+                    "Richland County / Columbia city",
+                    "Columbia, South Carolina",
+                    "Columbia, SC"
+                ],
+                "cluster_dist": 0.8435071110725403
+            },
+            {
+                "index": 373,
+                "question": "Which current Maryland Senators held their governmental position from January 1, 1987?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Barbara Mikulski",
+                    "Barbara A. Mikulski",
+                    "Barbara Ann Mikulski"
+                ],
+                "cluster_dist": 0.9391182065010071
+            },
+            {
+                "index": 335,
+                "question": "Where did Bob Dylan live where there is a population smaller than 388101?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Hibbing",
+                    "Duluth",
+                    "Malibu",
+                    "Minneapolis",
+                    "St. Louis County / Hibbing city",
+                    "Hibbing, Minnesota",
+                    "Los Angeles County / Malibu city",
+                    "Malibu, California",
+                    "Malibu Vista, California",
+                    "Malibu Vista",
+                    "Duluth, Minnesota",
+                    "St. Louis County / Duluth city",
+                    "Minneapolis, Minnesota",
+                    "Hennepin County / Minneapolis city"
+                ],
+                "cluster_dist": 0.8788867592811584
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "train_samples": [
+            {
+                "index": 70,
+                "question": "Who plays Saruman in the movie starring Thomas McGinty?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Christopher Lee",
+                    "Sir Christopher Frank Carandini Lee, CBE, CStJ",
+                    "Cristopher Lee",
+                    "Sir Christopher Frank Carandini Lee",
+                    "Chris Lee",
+                    "Chris",
+                    "Sir Christopher Lee",
+                    "Christopher Frank Carandini Lee"
+                ],
+                "cluster_dist": 0.8316322565078735
+            },
+            {
+                "index": 298,
+                "question": "What is the role played by Rodney Dangerfield which Seth Macfarlane also plays in Family Guy?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "God",
+                    "Jehovah",
+                    "Yahveh",
+                    "Father God",
+                    "God the Father",
+                    "Almighty",
+                    "The Lord",
+                    "The Almighty",
+                    "Voice of God",
+                    "Supreme Being",
+                    "God Almighty"
+                ],
+                "cluster_dist": 0.8988497257232666
+            },
+            {
+                "index": 450,
+                "question": "Which Jonas brother was nominated for a Teen Choice Award for TV Male Reality Star?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Kevin Jonas",
+                    "SOS dancer",
+                    "Jonas Brothers",
+                    "Paul Kevin Jonas",
+                    "Paul Kevin Jonas II",
+                    "Paul Jonas II",
+                    "K2",
+                    "the Jonas Brothers",
+                    "Kev",
+                    "Kevin Jonas II"
+                ],
+                "cluster_dist": 0.927821159362793
+            },
+            {
+                "index": 218,
+                "question": "In which city did Sam Shepard live, that the 2007 Gotham Screen Film Festival & Screenplay Contest, occurred?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Manhattan",
+                    "New York County"
+                ],
+                "cluster_dist": 0.9615206718444824
+            },
+            {
+                "index": 88,
+                "question": "What movies did the nominee of the World Music Award for the World's bestselling Barbadian Artist play in?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Battleship",
+                    "This Is the End",
+                    "Home",
+                    "The End of the World",
+                    "The Apocalypse",
+                    "Happy Smekday!"
+                ],
+                "cluster_dist": 0.8259444832801819
+            },
+            {
+                "index": 280,
+                "question": "What type of cancer did the woman who played Rachel Zachary die of?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Appendix cancer",
+                    "appendiceal cancer"
+                ],
+                "cluster_dist": 0.9159662127494812
+            },
+            {
+                "index": 34,
+                "question": "What is the name of the playwright who played Princess Leia in the Star Wars movies?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Carrie Fisher",
+                    "Mystery Woman",
+                    "Carrie Frances Fisher"
+                ],
+                "cluster_dist": 0.8387441039085388
+            },
+            {
+                "index": 274,
+                "question": "Which film, had music by John Dbney and featured Alyson Stoner as an actress.?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Cheaper by the Dozen 2"
+                ],
+                "cluster_dist": 0.7763856649398804
+            },
+            {
+                "index": 77,
+                "question": "Which films in the same genre as Sherlock Holmes and Little Chimney Sweeps has Lucy Hale acted in?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Tinker Bell: Secret of the Wings",
+                    "TinkerBell and the Secret of the Wings",
+                    "Tinker bell 4",
+                    "Tinker Bell and the Mysterious Winter Woods",
+                    "Secret of the Wings",
+                    "Tinker Bell: A Winter Story"
+                ],
+                "cluster_dist": 0.8247406482696533
+            },
+            {
+                "index": 92,
+                "question": "What film did Lucy Hale play in that was released after 2008-11-18?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "A Cinderella Story: Once Upon a Song",
+                    "Scream 4",
+                    "Tinker Bell: Secret of the Wings",
+                    "Killer in the Family",
+                    "Sorority Wars",
+                    "A Cinderella Story: Once Upon A Song",
+                    "A Cinderella Story 3",
+                    "TinkerBell and the Secret of the Wings",
+                    "Tinker bell 4",
+                    "Tinker Bell and the Mysterious Winter Woods",
+                    "Secret of the Wings",
+                    "Tinker Bell: A Winter Story",
+                    "Krzyk 4",
+                    "Klyksm4s",
+                    "Sikoly 4.",
+                    "Ciglik 4",
+                    "Kivili 4",
+                    "Skrik 4",
+                    "Vrisak 4",
+                    "Scream 4: Next Generation",
+                    "Tze'aka 4",
+                    "Vr\u00edskot 4",
+                    "\u00d6skri\u00f0 4",
+                    "Gritos 4",
+                    "Scre4m: Grita de Nuevo",
+                    "\u041a\u0440\u0438\u043a 4",
+                    "Klyksmas 4",
+                    "P\u00e2nico 4",
+                    "Scre4m"
+                ],
+                "cluster_dist": 0.7771555185317993
+            },
+            {
+                "index": 232,
+                "question": "Which movie did Rihanna play in that had cinematography by Brandon Trost?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "This Is the End",
+                    "The End of the World",
+                    "The Apocalypse"
+                ],
+                "cluster_dist": 0.7775487303733826
+            },
+            {
+                "index": 424,
+                "question": "What movies has Liam Hemsworth been in that has a Netflix ID greater than 70095135?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "The Expendables 2",
+                    "The Hunger Games",
+                    "Triangle",
+                    "The Last Song",
+                    "El \u00faltimo beso",
+                    "Son sarki",
+                    "La derni\u00e8re chanson",
+                    "La ultima canci\u00f3n",
+                    "Mit Dir an meiner Seite",
+                    "To teleftaio tragoudi",
+                    "A Melodia do Adeus",
+                    "Viimane laul",
+                    "The Last Song: Ostatnia piosenka",
+                    "A \u00daltima M\u00fasica",
+                    "Az utols\u00f3 dal",
+                    "La \u00faltima canci\u00f3n",
+                    "Untitled Miley Cyrus ProjectViimane laul",
+                    "Ghost Ship",
+                    "The Expendables II"
+                ],
+                "cluster_dist": 0.8076924085617065
+            },
+            {
+                "index": 474,
+                "question": "What high school did the actor who worked in the movie \"Moment of Truth: Stalking Back\" attend?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Shawnee Mission West High School",
+                    "Shawnee Mission West High"
+                ],
+                "cluster_dist": 0.7964795827865601
+            },
+            {
+                "index": 461,
+                "question": "In what city, where the 2011 Pan African Film Festival took place, does Joey King live?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Los Angeles",
+                    "Los Angeles, California, USA",
+                    "LA",
+                    "Los Angeles, California",
+                    "Los Angeles, USA",
+                    "City of Angels",
+                    "L.A.",
+                    "Los Angeles County / Los Angeles city",
+                    "Los Angeles, CA"
+                ],
+                "cluster_dist": 0.9318186640739441
+            },
+            {
+                "index": 254,
+                "question": "What genres of music were sung by the actor from \"Wiz on Down the Road?\"?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "New jack swing",
+                    "Contemporary R&B",
+                    "Disco",
+                    "Motown Sound",
+                    "Electronic music",
+                    "Dance-pop",
+                    "Adult contemporary music",
+                    "Funk",
+                    "Post-disco",
+                    "Pop rock",
+                    "Pop music",
+                    "Rock music",
+                    "Rhythm and blues",
+                    "Dance music",
+                    "Soul music",
+                    "R&B",
+                    "Modern R&B",
+                    "Disco music",
+                    "Electronic",
+                    "Adult contemporary",
+                    "Funk music",
+                    "Post Disco",
+                    "Pop",
+                    "pop",
+                    "\u05e8\u05d5\u05e7",
+                    "Rock",
+                    "R&B",
+                    "RnB",
+                    "Dance",
+                    "Soul"
+                ],
+                "cluster_dist": 0.8420802354812622
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "train_samples": [
+            {
+                "index": 180,
+                "question": "In The Tortall Universe what  language do native american indians speak?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "English Language",
+                    "Sekgoa",
+                    "Anglit",
+                    "English language",
+                    "English"
+                ],
+                "cluster_dist": 0.7557234764099121
+            },
+            {
+                "index": 175,
+                "question": "What language is spoken in the country that imports from Pakistan?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Farsi, Eastern Language",
+                    "Pashto language",
+                    "Madaglashti",
+                    "Badakhshi",
+                    "Farsi, Eastern",
+                    "Eastern Farsi",
+                    "Dari",
+                    "Persian",
+                    "Tajik",
+                    "Farsi",
+                    "Parsi",
+                    "Afghan Persian",
+                    "Pushto",
+                    "Pushto language",
+                    "Pashto",
+                    "Pukhto"
+                ],
+                "cluster_dist": 0.6942513585090637
+            },
+            {
+                "index": 391,
+                "question": "What language is spoken in the place that serves as the location for the film \"The Runaway Troupe of the Cartesian Theater\"?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Standard Chinese",
+                    "Mandarin Chinese",
+                    "Beifang Fangyan",
+                    "Standard Chinese",
+                    "Putonghua",
+                    "Northern Chinese",
+                    "Guoyu",
+                    "Hui",
+                    "Guanhua",
+                    "Hytad",
+                    "Kuoyu",
+                    "Huayu",
+                    "Hanyu",
+                    "Chinese, Mandarin",
+                    "Qotong",
+                    "Mandarin",
+                    "Chinese, Mandarin Language",
+                    "Standard Mandarin",
+                    "Xui",
+                    "Hui-zu",
+                    "Hoton"
+                ],
+                "cluster_dist": 0.8507095575332642
+            },
+            {
+                "index": 276,
+                "question": "What currency is used where Tsonga is spoken?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "South African rand",
+                    "Rand"
+                ],
+                "cluster_dist": 0.7598879933357239
+            },
+            {
+                "index": 263,
+                "question": "What is the spoken language in the country where the newspaper Fordulat is circulated?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Hungarian language",
+                    "Hungarian Language",
+                    "Magyar",
+                    "Hungarian"
+                ],
+                "cluster_dist": 0.6838924884796143
+            },
+            {
+                "index": 149,
+                "question": "Where is Arabic spoken and is also the place where a Peer Relationship was born?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Tunisia",
+                    "South Africa",
+                    "Republic of South Africa",
+                    "Republiek van Suid-Afrika"
+                ],
+                "cluster_dist": 0.8285866975784302
+            },
+            {
+                "index": 365,
+                "question": "What language is spoken in the country where the movie \"Noi the Albino\" was filmed?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Icelandic Language",
+                    "\u00cdslenska",
+                    "Icelandic",
+                    "Islenska"
+                ],
+                "cluster_dist": 0.7834616899490356
+            },
+            {
+                "index": 115,
+                "question": "Where do they speak Tibetan and and use the currency Renminbi?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "China",
+                    "People's Republic of China"
+                ],
+                "cluster_dist": 0.8253418803215027
+            },
+            {
+                "index": 309,
+                "question": "What language is spoken in Indonesia and is it found in The Tortall Universe fictional universe?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "English Language",
+                    "Sekgoa",
+                    "Anglit",
+                    "English language",
+                    "English"
+                ],
+                "cluster_dist": 0.729968249797821
+            },
+            {
+                "index": 129,
+                "question": "What location of the Giza Pyramids is the country in which Siwi is a spoken language?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Egypt",
+                    "Arab Republic of Egypt"
+                ],
+                "cluster_dist": 0.769911527633667
+            },
+            {
+                "index": 224,
+                "question": "What Kenosha language dialects that is spoken in the UK?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "English Language",
+                    "Sekgoa",
+                    "Anglit",
+                    "English language",
+                    "English"
+                ],
+                "cluster_dist": 0.7319656610488892
+            },
+            {
+                "index": 106,
+                "question": "What language is spoken in the country where the movie \"Holiday in the Sun\" was filmed?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Bahamas Creole English Language",
+                    "English Language",
+                    "Bahamian Dialect",
+                    "Bahamas Creole English",
+                    "Bahamian Creole English",
+                    "Sekgoa",
+                    "Anglit",
+                    "English language",
+                    "English"
+                ],
+                "cluster_dist": 0.7719911336898804
+            },
+            {
+                "index": 271,
+                "question": "Which two classes of currency does the country where Lucumi Language is spoken utilize?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Cuban peso",
+                    "Cuban convertible peso",
+                    "Chavito"
+                ],
+                "cluster_dist": 0.7458629608154297
+            },
+            {
+                "index": 179,
+                "question": "What currency is used in the country where Pur\u00c3\u00a9pecha is a spoken language?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Mexican peso"
+                ],
+                "cluster_dist": 0.679581880569458
+            },
+            {
+                "index": 275,
+                "question": "What other languages are spoke in the country where Scottish english is used?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "English Language",
+                    "Sekgoa",
+                    "Anglit",
+                    "English language",
+                    "English"
+                ],
+                "cluster_dist": 0.7488572001457214
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "train_samples": [
+            {
+                "index": 166,
+                "question": "What famous person insprired Antoni Gaudi and was around at the same time as Edward Burne-Jones?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "William Morris",
+                    "W. Morris"
+                ],
+                "cluster_dist": 0.8581579923629761
+            },
+            {
+                "index": 297,
+                "question": "Who influenced Roy Lichtenstein artwork, as well as John Ashbery?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Jasper Johns",
+                    "Jasper Johns, Jr."
+                ],
+                "cluster_dist": 0.8169297575950623
+            },
+            {
+                "index": 249,
+                "question": "Who was influenced by Joseph Cornell and also influenced Roy Lichtenstein?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Robert Rauschenberg",
+                    "Milton Ernest Rauschenberg"
+                ],
+                "cluster_dist": 0.8135188817977905
+            },
+            {
+                "index": 449,
+                "question": "Find the author who published The Leviathan, where did this person live?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Paris",
+                    "City of Light",
+                    "Lutetia Parisiorum",
+                    "La Ville-Lumi\u00e8re",
+                    "Lutetia",
+                    "Paris-France",
+                    "Paname",
+                    "La Ville des Lumi\u00e8res",
+                    "\u5df4\u9ece",
+                    "The City of Love",
+                    "Ville Lumi\u00e8re",
+                    "Lutetia of the Parisii",
+                    "Paris, France"
+                ],
+                "cluster_dist": 0.8972117900848389
+            },
+            {
+                "index": 78,
+                "question": "Where did the author of \"Tarantula\" live?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "New York City",
+                    "Minneapolis",
+                    "Duluth",
+                    "Malibu",
+                    "Hibbing",
+                    "The City that Never Sleeps",
+                    "New York, U.S.A.",
+                    "/m/02_286",
+                    "New Yrok City",
+                    "New York City, New York, USA",
+                    "Empire City",
+                    "City of New York",
+                    "New York City, New York",
+                    "New-York",
+                    "\u30cb\u30e5\u30fc\u30e8\u30fc\u30af\u5e02",
+                    "Gotham",
+                    "New York",
+                    "New York, NY",
+                    "The Melting Pot",
+                    "Richmond County / New York city",
+                    "NYC",
+                    "The Big Apple",
+                    "New York, N.Y.",
+                    "New York, New York",
+                    "The Capital of the World",
+                    "Minneapolis, Minnesota",
+                    "Hennepin County / Minneapolis city",
+                    "Duluth, Minnesota",
+                    "St. Louis County / Duluth city",
+                    "Los Angeles County / Malibu city",
+                    "Malibu, California",
+                    "Malibu Vista, California",
+                    "Malibu Vista",
+                    "St. Louis County / Hibbing city",
+                    "Hibbing, Minnesota"
+                ],
+                "cluster_dist": 0.8965029120445251
+            },
+            {
+                "index": 344,
+                "question": "Which books written by Emily Dickinson were published prior to October 1980?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Emily Dickinson's open folios",
+                    "Emily Dickinson's herbarium",
+                    "New poems of Emily Dickinson"
+                ],
+                "cluster_dist": 0.8719774484634399
+            },
+            {
+                "index": 169,
+                "question": "With what \"My Story\" author did John Kennedy have an affair?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Marilyn Monroe",
+                    "Marylin Monroe",
+                    "Marilyn Monroe Miller",
+                    "The Blonde Bombshell",
+                    "Norma Jeane DiMaggio",
+                    "MM",
+                    "Norma Jeane Baker",
+                    "Norma Jeane Dougherty",
+                    "Merilin Monro",
+                    "Marliyn Monroe",
+                    "Jean Norman",
+                    "Norma Jeane Mortenson",
+                    "Norma Jeane Mortensen"
+                ],
+                "cluster_dist": 0.9358227252960205
+            },
+            {
+                "index": 135,
+                "question": "What person notable with the medical condition Smallpox influenced Whitman's poetry?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Abraham Lincoln",
+                    "Long 'Un",
+                    "The Flatboat Man",
+                    "The Jester",
+                    "The Sage of Springfield",
+                    "The Buffoon",
+                    "Man of the People",
+                    "Father Abraham",
+                    "Ancient Abe",
+                    "The Railsplitter",
+                    "The Sectional President",
+                    "Abe Lincoln",
+                    "Uncle Abe",
+                    "Caesar",
+                    "The Tyrany",
+                    "The Tycoon",
+                    "The Illinois Baboon",
+                    "Honest Abe",
+                    "The Martyr President",
+                    "The Grand Wrestler",
+                    "The Great Emancipator"
+                ],
+                "cluster_dist": 0.7521514296531677
+            },
+            {
+                "index": 427,
+                "question": "What caused the death of the artist of \"My Baby Understands\"?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Lung cancer",
+                    "Cancer",
+                    "Malignant neoplasm"
+                ],
+                "cluster_dist": 0.8804302215576172
+            },
+            {
+                "index": 426,
+                "question": "Where did the author that published, The Definitive Bob Dylan Songbook, live?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "New York City",
+                    "Minneapolis",
+                    "Duluth",
+                    "Malibu",
+                    "Hibbing",
+                    "The City that Never Sleeps",
+                    "New York, U.S.A.",
+                    "/m/02_286",
+                    "New Yrok City",
+                    "New York City, New York, USA",
+                    "Empire City",
+                    "City of New York",
+                    "New York City, New York",
+                    "New-York",
+                    "\u30cb\u30e5\u30fc\u30e8\u30fc\u30af\u5e02",
+                    "Gotham",
+                    "New York",
+                    "New York, NY",
+                    "The Melting Pot",
+                    "Richmond County / New York city",
+                    "NYC",
+                    "The Big Apple",
+                    "New York, N.Y.",
+                    "New York, New York",
+                    "The Capital of the World",
+                    "Minneapolis, Minnesota",
+                    "Hennepin County / Minneapolis city",
+                    "Duluth, Minnesota",
+                    "St. Louis County / Duluth city",
+                    "Los Angeles County / Malibu city",
+                    "Malibu, California",
+                    "Malibu Vista, California",
+                    "Malibu Vista",
+                    "St. Louis County / Hibbing city",
+                    "Hibbing, Minnesota"
+                ],
+                "cluster_dist": 0.8813068866729736
+            },
+            {
+                "index": 132,
+                "question": "What influencer of Whitman's poetry is the politician who began his governmental position latest?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Abraham Lincoln",
+                    "Long 'Un",
+                    "The Flatboat Man",
+                    "The Jester",
+                    "The Sage of Springfield",
+                    "The Buffoon",
+                    "Man of the People",
+                    "Father Abraham",
+                    "Ancient Abe",
+                    "The Railsplitter",
+                    "The Sectional President",
+                    "Abe Lincoln",
+                    "Uncle Abe",
+                    "Caesar",
+                    "The Tyrany",
+                    "The Tycoon",
+                    "The Illinois Baboon",
+                    "Honest Abe",
+                    "The Martyr President",
+                    "The Grand Wrestler",
+                    "The Great Emancipator"
+                ],
+                "cluster_dist": 0.7146998047828674
+            },
+            {
+                "index": 336,
+                "question": "Who was born in Colonus and influential to Arthur Miller's work?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Sophocles",
+                    "Sofokles",
+                    "Sophokles",
+                    "Sophocles Dexion"
+                ],
+                "cluster_dist": 0.8823256492614746
+            },
+            {
+                "index": 22,
+                "question": "Who influenced the poetry of the person who said, \"I accept reality and dare not question it\"?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Edgar Allan Poe",
+                    "Georg Wilhelm Friedrich Hegel",
+                    "Oscar Wilde",
+                    "Ralph Waldo Emerson",
+                    "Walter Scott",
+                    "Henry David Thoreau",
+                    "Abraham Lincoln",
+                    "A bostonian",
+                    "Henri Le Rennet",
+                    "Edgar Allan Po\u00eb",
+                    "Edgar Allen Poe",
+                    "Edgar Poe",
+                    "Edgar A. Perry",
+                    "Edgar A. Po\u00eb",
+                    "E.A. Poe",
+                    "Poe",
+                    "Edgar A. Poe",
+                    "G.W.F. Hegel",
+                    "G W F Hegel",
+                    "Hegel",
+                    "G. W. F. Hegel",
+                    "O.FO.F.W.W.",
+                    "Wilde Oscar",
+                    "Oscar Fingal O'Flahertie Wills Wilde",
+                    "Oskar Uayld",
+                    "Wills Wilde",
+                    "Osc\u00e0r",
+                    "Grey Crow",
+                    "The infamous St. Oscar of Oxford",
+                    "Sebastian Melmoth",
+                    "Oscar Wilde ",
+                    "C.3.3.",
+                    "Fingal O'Flahertie Wills",
+                    "Oscar O'Flahertie Wills Wilde",
+                    "Waldo Emerson Ralph",
+                    "Waldo Ralph Emerson",
+                    "Jedediah Cleishbotham",
+                    "Malachi Malagrowther",
+                    "Scott, Sir Walter",
+                    "Henry Thoreau",
+                    "Thoreau, Henry David",
+                    "Thoreau",
+                    "Long 'Un",
+                    "The Flatboat Man",
+                    "The Jester",
+                    "The Sage of Springfield",
+                    "The Buffoon",
+                    "Man of the People",
+                    "Father Abraham",
+                    "Ancient Abe",
+                    "The Railsplitter",
+                    "The Sectional President",
+                    "Abe Lincoln",
+                    "Uncle Abe",
+                    "Caesar",
+                    "The Tyrany",
+                    "The Tycoon",
+                    "The Illinois Baboon",
+                    "Honest Abe",
+                    "The Martyr President",
+                    "The Grand Wrestler",
+                    "The Great Emancipator"
+                ],
+                "cluster_dist": 0.7271608710289001
+            },
+            {
+                "index": 329,
+                "question": "Which peer of Robert Rauschenberg influenced Andy Warhol's work?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Robert Rauschenberg",
+                    "Robert Rauschenberg",
+                    "Robert Rauschenberg",
+                    "Jasper Johns",
+                    "John Cage",
+                    "Milton Ernest Rauschenberg",
+                    "Milton Ernest Rauschenberg",
+                    "Milton Ernest Rauschenberg",
+                    "Jasper Johns, Jr.",
+                    "John Milton Cage",
+                    "John Milton Cage Jr."
+                ],
+                "cluster_dist": 0.7774733901023865
+            },
+            {
+                "index": 453,
+                "question": "What influencer of Whitnam's poetry is the person who said, \"I am not young enough to know everything\"?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Oscar Wilde",
+                    "O.FO.F.W.W.",
+                    "Wilde Oscar",
+                    "Oscar Fingal O'Flahertie Wills Wilde",
+                    "Oskar Uayld",
+                    "Wills Wilde",
+                    "Osc\u00e0r",
+                    "Grey Crow",
+                    "The infamous St. Oscar of Oxford",
+                    "Sebastian Melmoth",
+                    "Oscar Wilde ",
+                    "C.3.3.",
+                    "Fingal O'Flahertie Wills",
+                    "Oscar O'Flahertie Wills Wilde"
+                ],
+                "cluster_dist": 0.7903153896331787
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "train_samples": [
+            {
+                "index": 74,
+                "question": "Which religions are practiced by significant portions of the population in the Heard and McDonald islands time zone?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Buddhism",
+                    "Catholicism",
+                    "Islam",
+                    "Anglicanism",
+                    "Buddhist",
+                    "Roman Catholic convert",
+                    "Roman Catholic",
+                    "Anglican"
+                ],
+                "cluster_dist": 0.7869004607200623
+            },
+            {
+                "index": 124,
+                "question": "Who are the deities of the Progressive Dawoodi Bohra?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Mahdi",
+                    "Tawhid",
+                    "Prophets in Islam",
+                    "Predestination in Islam",
+                    "Entering Heaven alive",
+                    "Monotheism",
+                    "Islamic view of angels",
+                    "Qiyamah",
+                    "Sharia",
+                    "Masih ad-Dajjal",
+                    "Islamic holy books",
+                    "God in Islam",
+                    "\u1e6c\u016bb\u0101",
+                    "Imam Mahdi",
+                    "Muhammad",
+                    "Dajjal"
+                ],
+                "cluster_dist": 0.8032692074775696
+            },
+            {
+                "index": 7,
+                "question": "What Canadian religion has a religious organization named Heritage Netherlands Reformed Congregations?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Protestantism",
+                    "Protestant"
+                ],
+                "cluster_dist": 0.8110918402671814
+            },
+            {
+                "index": 156,
+                "question": "What holy book is used in the religion Zhuang Zhou?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Zhuang Zhou",
+                    "Tao Te Ching",
+                    "I Ching",
+                    "Daozang",
+                    "Master Chuang",
+                    "Chuang Tsu",
+                    "Zhuangzi.",
+                    "Chuang Tzu",
+                    "Zhuangzi",
+                    "Chuang Tse",
+                    "Zhuang Zhou",
+                    "Chouang-Dsi",
+                    "Tao Teh King",
+                    "Dao De Jing",
+                    "Y\u00ec J\u012bng",
+                    "Zhouyi",
+                    "Classic of Changes",
+                    "Book of Changes"
+                ],
+                "cluster_dist": 0.8197933435440063
+            },
+            {
+                "index": 326,
+                "question": "What Canadian religion has a sacred site named Mecca?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Islam"
+                ],
+                "cluster_dist": 0.7082356810569763
+            },
+            {
+                "index": 343,
+                "question": "What is the governmental type in the country where God Bless Fiji is recognized as the national anthem?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Military dictatorship",
+                    "Military junta",
+                    "Parliamentary republic",
+                    "Parliamentary"
+                ],
+                "cluster_dist": 0.8946821093559265
+            },
+            {
+                "index": 248,
+                "question": "At what place where Greek temples built, and is home to the fictional character Heraclitus?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Ephesus",
+                    "Ephesos"
+                ],
+                "cluster_dist": 0.9598643779754639
+            },
+            {
+                "index": 362,
+                "question": "What is the holy book in Taoism written by Fuxi?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "I Ching",
+                    "Y\u00ec J\u012bng",
+                    "Zhouyi",
+                    "Classic of Changes",
+                    "Book of Changes"
+                ],
+                "cluster_dist": 0.8584163784980774
+            },
+            {
+                "index": 327,
+                "question": "What does the religion who worships at Yavuz Sultan Selim Mosque believe in?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Mahdi",
+                    "Tawhid",
+                    "Prophets in Islam",
+                    "Predestination in Islam",
+                    "Entering Heaven alive",
+                    "Monotheism",
+                    "Islamic view of angels",
+                    "Qiyamah",
+                    "Sharia",
+                    "Masih ad-Dajjal",
+                    "Islamic holy books",
+                    "God in Islam",
+                    "\u1e6c\u016bb\u0101",
+                    "Imam Mahdi",
+                    "Muhammad",
+                    "Dajjal"
+                ],
+                "cluster_dist": 0.7347531914710999
+            },
+            {
+                "index": 37,
+                "question": "Since 11-6-2000 this country's leadership has had a religious background and is a member of the EU?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Estonia",
+                    "Estland",
+                    "Republic of Estonia"
+                ],
+                "cluster_dist": 0.8651227951049805
+            },
+            {
+                "index": 79,
+                "question": "What Canadian religion has a religious notable figure named Mary?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Catholicism",
+                    "Roman Catholic convert",
+                    "Roman Catholic"
+                ],
+                "cluster_dist": 0.7960933446884155
+            },
+            {
+                "index": 13,
+                "question": "Where were Greek Temples built in the Eastern European Time Zone?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Olympia",
+                    "Ku\u015fadas\u0131",
+                    "Athens",
+                    "Olympia, Pisa",
+                    "Olympia, Greece"
+                ],
+                "cluster_dist": 0.9270235300064087
+            },
+            {
+                "index": 97,
+                "question": "What Eastern Europe religion has places of worship named Churches?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Catholicism",
+                    "Roman Catholic convert",
+                    "Roman Catholic"
+                ],
+                "cluster_dist": 0.7346640229225159
+            },
+            {
+                "index": 170,
+                "question": "What is the holy book in Taoism that is about the Yellow River Map?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "I Ching",
+                    "Y\u00ec J\u012bng",
+                    "Zhouyi",
+                    "Classic of Changes",
+                    "Book of Changes"
+                ],
+                "cluster_dist": 0.8502983450889587
+            },
+            {
+                "index": 333,
+                "question": "What holy book in Taoism did Confucius inspire?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Zhuang Zhou",
+                    "Master Chuang",
+                    "Chuang Tsu",
+                    "Zhuangzi.",
+                    "Chuang Tzu",
+                    "Zhuangzi",
+                    "Chuang Tse",
+                    "Zhuang Zhou",
+                    "Chouang-Dsi"
+                ],
+                "cluster_dist": 0.8565815687179565
+            }
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "train_samples": [
+            {
+                "index": 242,
+                "question": "Who is the leader of the governmental jurisdiction where the 2012 legislative session of the Ayrault Government was held?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Nicolas Sarkozy",
+                    "Fran\u00e7ois Hollande",
+                    "Hyperpresident",
+                    "The Bling Bling President",
+                    "Sarko",
+                    "Nicolas Paul St\u00e9phane Sark\u00f6zy de Nagy-Bocsa",
+                    "Speedy",
+                    "Sarko l'Am\u00e9ricain",
+                    "Fran\u00e7ois G\u00e9rard Georges Hollande",
+                    "Mayor Fran\u00e7ois Hollande",
+                    "Francois Hollande"
+                ],
+                "cluster_dist": 0.8962753415107727
+            },
+            {
+                "index": 214,
+                "question": "Which countries does Russia border, which country has the capital of Baku?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Azerbaijan",
+                    "Republic of Azerbaijan",
+                    "Az\u0259rbaycan Respublikas\u0131"
+                ],
+                "cluster_dist": 0.8191425800323486
+            },
+            {
+                "index": 408,
+                "question": "What neighbors of Argentina have fewer than 319000 people in their army?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Brazil",
+                    "Paraguay",
+                    "Bolivia",
+                    "Chile",
+                    "Uruguay",
+                    "Republic of Chile",
+                    "The Plurinational State of Bolivia",
+                    "Corazon de America",
+                    "Heart of America",
+                    "Republic of Paraguay",
+                    "Coraz\u00f3n de Am\u00e9rica",
+                    "Brazilian ",
+                    "Rep\u00fablica Federativa do Brasil",
+                    "Brasil",
+                    "Federative Republic of Brazil",
+                    "Eastern Republic of the Uruguay",
+                    "Republic East of the Uruguay",
+                    "Eastern Republic of Uruguay",
+                    "Oriental Republic of Uruguay"
+                ],
+                "cluster_dist": 0.8564796447753906
+            },
+            {
+                "index": 262,
+                "question": "Which country is Mount McKinley in?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "United States of America",
+                    "U.S. of A.",
+                    "Estats Units d'Am\u00e8rica",
+                    "USA",
+                    "U.S.A.",
+                    "U.S.",
+                    "The States",
+                    "US",
+                    "United States",
+                    "America"
+                ],
+                "cluster_dist": 0.8973405361175537
+            },
+            {
+                "index": 289,
+                "question": "What borders Bolivia in the Brasilia Time Zone?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Brazil",
+                    "Brazilian ",
+                    "Rep\u00fablica Federativa do Brasil",
+                    "Brasil",
+                    "Federative Republic of Brazil"
+                ],
+                "cluster_dist": 0.8137822151184082
+            },
+            {
+                "index": 323,
+                "question": "What country that contains Friesland is a part of NATO?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Netherlands",
+                    "The Netherlands",
+                    "Nederlands",
+                    "Holland",
+                    "Nederland",
+                    "Hollanti"
+                ],
+                "cluster_dist": 0.8137785792350769
+            },
+            {
+                "index": 340,
+                "question": "What are European Union country used the Hungarian forint as its main currency?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Hungary",
+                    "Magyarorsz\u00e1g",
+                    "Hungary, Europe"
+                ],
+                "cluster_dist": 0.7778723239898682
+            },
+            {
+                "index": 306,
+                "question": "What countries border the country whose capital is Sucre?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Brazil",
+                    "Peru",
+                    "Chile",
+                    "Paraguay",
+                    "Argentina",
+                    "Brazilian ",
+                    "Rep\u00fablica Federativa do Brasil",
+                    "Brasil",
+                    "Federative Republic of Brazil",
+                    "Republic of Chile",
+                    "Corazon de America",
+                    "Heart of America",
+                    "Republic of Paraguay",
+                    "Coraz\u00f3n de Am\u00e9rica",
+                    "The Argentine",
+                    "Agrentina ",
+                    "Argentine Republic"
+                ],
+                "cluster_dist": 0.6798218488693237
+            },
+            {
+                "index": 385,
+                "question": "What continent includes the area which circulates the Berlingske newspaper?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Europe",
+                    "The Old Continent"
+                ],
+                "cluster_dist": 0.8873650431632996
+            },
+            {
+                "index": 281,
+                "question": "What country bordering Slovakia that produces the beer Lvivske?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Ukraine",
+                    "Ukraine Region"
+                ],
+                "cluster_dist": 0.8193261623382568
+            },
+            {
+                "index": 72,
+                "question": "What type of currency is used in the country with the capital named Tunis?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Tunisian dinar"
+                ],
+                "cluster_dist": 0.8541659116744995
+            },
+            {
+                "index": 291,
+                "question": "On which continent is Knesset a governmental body?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Asia"
+                ],
+                "cluster_dist": 0.9014196395874023
+            },
+            {
+                "index": 267,
+                "question": "What other country shares a border with china contains a disputed territory named the Republic of Crimea?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Russia",
+                    "Russian Federation",
+                    "\u0420\u043e\u0441\u0441\u0438\u044f"
+                ],
+                "cluster_dist": 0.7939181923866272
+            },
+            {
+                "index": 252,
+                "question": "What EU country has the calling code of 31?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Netherlands",
+                    "The Netherlands",
+                    "Nederlands",
+                    "Holland",
+                    "Nederland",
+                    "Hollanti"
+                ],
+                "cluster_dist": 0.8416671752929688
+            },
+            {
+                "index": 311,
+                "question": "On what continent would you find the nation in which you'd find the Northern District?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Asia"
+                ],
+                "cluster_dist": 0.8302174806594849
+            }
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "train_samples": [
+            {
+                "index": 24,
+                "question": "What was the name of the man who died of natural causes and was the first leader of the AFL?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Bud Adams"
+                ],
+                "cluster_dist": 0.8824141621589661
+            },
+            {
+                "index": 241,
+                "question": "Where does Joey King live that is also the place where the Hall of Fame induction was born?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Los Angeles",
+                    "Los Angeles, California, USA",
+                    "LA",
+                    "Los Angeles, California",
+                    "Los Angeles, USA",
+                    "City of Angels",
+                    "L.A.",
+                    "Los Angeles County / Los Angeles city",
+                    "Los Angeles, CA"
+                ],
+                "cluster_dist": 0.8598289489746094
+            },
+            {
+                "index": 205,
+                "question": "What organized sports are played in Canada?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Canada men's national junior ice hockey team",
+                    "Canada women's national under-18 ice hockey team",
+                    "Canada men's national junior ice hockey",
+                    "Canada national men's U-20 ice hockey team",
+                    "Canada national junior hockey team",
+                    "Canada national women\u2019s U-18 ice hockey team",
+                    "Canada women's national under-18 ice hockey"
+                ],
+                "cluster_dist": 0.863467812538147
+            },
+            {
+                "index": 91,
+                "question": "What famous athletes come from the country where Kenya Breweries Tusker Premium Lager beer is produced?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Vivian Cheruiyot",
+                    "Sylvia Jebiwott Kibet",
+                    "Caroline Kilel",
+                    "Linet Masai",
+                    "Moses Ndiema Masai",
+                    "Ezekiel Kemboi",
+                    "David Rudisha",
+                    "Mercy Cherono",
+                    "Abel Kirui",
+                    "Milcah Chemos Cheywa",
+                    "Emmanuel Kipchirchir Mutai",
+                    "Geoffrey Mutai",
+                    "Janeth Jepkosgei",
+                    "Alfred Kirwa Yego",
+                    "Richard Mateelong",
+                    "Josphat Bett Kipkoech",
+                    "Vivian Jepkemoi Cheruiyot",
+                    "Pocket Rocket",
+                    "Ezekiel Kemboi Cheboi",
+                    "David Lekuta Rudisha",
+                    "Eldoret Express",
+                    "Janeth Jepkosgei Busienei"
+                ],
+                "cluster_dist": 0.8513345122337341
+            },
+            {
+                "index": 172,
+                "question": "Organization leader Jeanie Buss won their first championship in what year?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "1949 BAA Finals"
+                ],
+                "cluster_dist": 0.8278575539588928
+            },
+            {
+                "index": 193,
+                "question": "Which football player was drafted by the Cleveland Browns and which completed less than 45 passings?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Brady Quinn",
+                    "Braylon Edwards",
+                    "Brayden Tyler Quinn",
+                    "brady_quinn",
+                    "Braylon Jamel Edwards"
+                ],
+                "cluster_dist": 0.7911958694458008
+            },
+            {
+                "index": 108,
+                "question": "Which Cleveland Browns draft pick completed 120 passes?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Brady Quinn",
+                    "Brayden Tyler Quinn",
+                    "brady_quinn"
+                ],
+                "cluster_dist": 0.8563829064369202
+            },
+            {
+                "index": 87,
+                "question": "Who did the Cleveland Browns draft, the player who has the smallest amount of passing attempts?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Braylon Edwards",
+                    "Braylon Jamel Edwards"
+                ],
+                "cluster_dist": 0.8108903765678406
+            },
+            {
+                "index": 64,
+                "question": "What is the oldest team Reggie Bush played for in 2011?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Miami Dolphins",
+                    "The Phins",
+                    "The Fish",
+                    "The Fins"
+                ],
+                "cluster_dist": 0.7018997669219971
+            },
+            {
+                "index": 39,
+                "question": "Which team from Old Trafford, Greater Manchester has won the most FA cups?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Manchester United F.C.",
+                    "Manchester United",
+                    "Manchester United Football Club",
+                    "Man Utd",
+                    "Manchester United FC",
+                    "Newton Heath LYR Football Club",
+                    "Man United",
+                    "The Red Devils"
+                ],
+                "cluster_dist": 0.8879904747009277
+            },
+            {
+                "index": 283,
+                "question": "Which players were drafted by the sports team whose fight song is Hi-O Hi-O for Cleveland?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Kellen Winslow II",
+                    "Braylon Edwards",
+                    "Trent Richardson",
+                    "Brady Quinn",
+                    "Jeff Faine",
+                    "Kamerion Wimbley",
+                    "Ryan Miller",
+                    "Joe Thomas",
+                    "Justin Gilbert",
+                    "Johnny Manziel",
+                    "Terrance West",
+                    "Kellen Boswell Winslow, Jr.",
+                    "Shash",
+                    "Kellen Boswell Winslow",
+                    "Kellen Winslow",
+                    "Braylon Jamel Edwards",
+                    "Brayden Tyler Quinn",
+                    "brady_quinn",
+                    "Jeffrey Kalei Faine",
+                    "Joseph Thomas",
+                    "Jonathan Paul Manziel",
+                    "Johnny Football",
+                    "Johnny Cleveland"
+                ],
+                "cluster_dist": 0.8011934161186218
+            },
+            {
+                "index": 187,
+                "question": "Which award nominee for the 1st Annual NFL Honors ceremony was the first leader of the AFL?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Bud Adams"
+                ],
+                "cluster_dist": 0.8783484697341919
+            },
+            {
+                "index": 137,
+                "question": "Which of the sports teams for whom Cristiano Ronaldo played was founded most recently?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Portugal national football team",
+                    "Portugal Mens Football Team",
+                    "Portugal National Soccer Team",
+                    "Portugal Men's Football Team",
+                    "A Sele\u00e7\u00e3o",
+                    "A Sele\u00e7\u00e3o das Quinas",
+                    "Portugal National Football Team",
+                    "Portugal Mens National Soccer Team",
+                    "Portugal's national football team",
+                    "Selec\u00e7\u00e3o das Quinas",
+                    "Os Navegadores",
+                    "Portugal Mens Soccer Team",
+                    "Portugal Men's National Soccer Team",
+                    "Portugal national football",
+                    "A Selec\u00e7\u00e3o",
+                    "A Seleccao das Quinas",
+                    "Portugal Men's Soccer Team",
+                    "Portugal Football Team",
+                    "Portugal Mens National Football Team",
+                    "Portugal Soccer Team",
+                    "The Navigators",
+                    "Portugal Men's National Football Team"
+                ],
+                "cluster_dist": 0.8356069922447205
+            },
+            {
+                "index": 81,
+                "question": "Where does the team owned by Paul G. Allen Family Foundation play?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "CenturyLink Field",
+                    "Qwest Field",
+                    "Qwest Field, Seattle"
+                ],
+                "cluster_dist": 0.8310688138008118
+            },
+            {
+                "index": 136,
+                "question": "What sports team founded before 1961 did Warren Moon play for?",
+                "pred_ans": "",
+                "gold_ans": [
+                    "Kansas City Chiefs"
+                ],
+                "cluster_dist": 0.8017849922180176
+            }
+        ]
+    }
+]

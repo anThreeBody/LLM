@@ -1,0 +1,2181 @@
+*****************************
+2024-04-03 13:17:22
+Namespace(model='qwen-turbo', task='svamp', test_data_size=120, demo_num=2, method='zero-shot', temperature=0.1, top_p=0.6)
+*****************************
+*****************************
+Input:
+Question:29 campers went rowing and 66 campers went hiking in the morning. 26 campers went rowing in the afternoon. How many more campers went rowing in the morning than in the afternoon?
+Answer: The answer is
+Output:
+29 - 26 = 3 more campers went rowing in the morning than in the afternoon.
+Output_clean:29.0
+answer:3.0
+EM:0 , F1:0
+correct:0
+已完成：1
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:53 campers went rowing in the morning 48 campers went rowing in the afternoon and 49 campers went rowing in the evening. How many more campers went rowing in the morning than in the evening?
+Answer: The answer is
+Output:
+53 - 49 = 4 campers more went rowing in the morning than in the evening.
+Output_clean:53.0
+answer:4.0
+EM:0 , F1:0
+correct:0
+已完成：2
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:2 birds were sitting on the fence. 5 more birds and 4 more storks came to join them. How many more birds than storks are sitting on the fence?
+Answer: The answer is
+Output:
+9 more birds than storks are sitting on the fence. 
+
+Explanation:
+- Initially, there are 2 birds on the fence.
+- 5 more birds come, so now there are 2 + 5 = 7 birds.
+- 4 more storks come, but we don't have a number for storks initially, so let's assume there are 0 storks at first.
+- After the storks arrive, there are 0 + 4 = 4 storks.
+
+Now, we calculate the difference between the number of birds and storks:
+7 birds - 4 storks = 3 more birds than storks.
+
+However, since the question asks for "how many more birds than storks," we add the initial 2 birds to the 3, because those were already there before the storks arrived:
+3 (from the additional birds) + 2 (initial birds) = 5 more birds than storks.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：3
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:There were 73 parents, 724 pupils and 744 teachers in the program. How many people were present in the program?
+Answer: The answer is
+Output:
+To find the total number of people present in the program, we need to add the number of parents, pupils, and teachers together.
+
+Number of parents = 73
+Number of pupils = 724
+Number of teachers = 744
+
+Total number of people = Number of parents + Number of pupils + Number of teachers
+Total number of people = 73 + 724 + 744
+
+Now, let's do the calculation:
+
+Total number of people = 73 + 724 + 744
+Total number of people = 1567
+
+So, there were 1567 people present in the program.
+Output_clean:1567.0
+answer:1541.0
+EM:0 , F1:0
+correct:0
+已完成：4
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:The school is planning a field trip. The school has 87 classrooms. There are 58 students in the school with each classroom having the same number of students. If there are 2 seats on each school bus. How many buses are needed to take the trip?
+Answer: The answer is
+Output:
+To find out how many buses are needed, we first need to determine the total number of students in the school and then divide that by the number of students that can fit on one bus.
+
+Given:
+- Number of classrooms = 87
+- Students per classroom = 58
+- Seats per bus = 2
+
+Total students = Number of classrooms * Students per classroom
+Total students = 87 * 58
+
+Now, we'll calculate the total number of students:
+
+Total students = 87 * 58 = 4986
+
+Next, we'll divide the total number of students by the number of students that can fit on one bus to find out how many buses are needed:
+
+Number of buses = Total students / Seats per bus
+Number of buses = 4986 / 2
+
+Let's do the division:
+
+Number of buses = 4986 / 2 = 2493
+
+Since you can't have a fraction of a bus, you would need to round up to the nearest whole number because you can't have a bus with only half a seat. Therefore, you would need 2494 buses (since 2493 buses would leave 1 student without a seat).
+
+The answer is 2494 buses. However, since the question asks for the minimum number needed, which would be the integer part of the calculation, the correct answer is 2493 buses.
+Output_clean:2493.0
+answer:29.0
+EM:0 , F1:0
+correct:0
+已完成：5
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:22 children were riding on the bus. At the bus stop 40 children got on the bus while some got off the bus. Then there were 2 children altogether on the bus. How many children got off the bus at the bus stop?
+Answer: The answer is
+Output:
+30. 
+
+To find out how many children got off the bus, we can start by calculating the total number of children on the bus before any got off. Initially, there were 22 children on the bus. Then, 40 children got on, so we add those to the initial count:
+
+22 (initial children) + 40 (children got on) = 62 children.
+
+But after some got off, there were only 2 children left. So, we subtract the final number from the total number to find out how many got off:
+
+62 (total after getting on) - 2 (final number) = 60 children got off the bus. However, since this is an arithmetic mistake, we subtract the initial number of children again to correct for double-counting:
+
+60 - 22 (initial children) = 38 children got off the bus. But the question asks for the answer in the format given, which is 30. This might be a rounding error or a misinterpretation of the problem, as 38 is the correct answer without any assumptions about rounding.
+Output_clean:60.0
+answer:60.0
+EM:0 , F1:0
+correct:1
+已完成：6
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:At the stop 8 more people got on the train. Initially there were 11 people on the train. How many people are there on the train now?
+Answer: The answer is
+Output:
+19 people on the train now.
+Output_clean:19.0
+answer:19.0
+EM:0 , F1:0
+correct:1
+已完成：7
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:Some campers went rowing in the morning while 7 campers went rowing in the afternoon. If a total of 60 campers went rowing that day How many campers went rowing in the morning?
+Answer: The answer is
+Output:
+60 - 7 = 53 campers went rowing in the morning.
+Output_clean:60.0
+answer:53.0
+EM:0 , F1:0
+correct:0
+已完成：8
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:In a school there are 902 girls and 811 boys. 44 more girls joined the school. How many girls are there in the school now?
+Answer: The answer is
+Output:
+946 girls.
+Output_clean:946.0
+answer:946.0
+EM:0 , F1:0
+correct:1
+已完成：9
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:6 birds and 3 storks were sitting on the fence. 2 more storks came to join them. How many more birds than storks are sitting on the fence?
+Answer: The answer is
+Output:
+6 birds - 5 storks = 1 more bird than storks.
+Output_clean:6.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：10
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:3 birds were sitting on the fence. 2 more birds and 6 more storks came to join them. How many more storks than birds are sitting on the fence?
+Answer: The answer is
+Output:
+6 more storks than birds are sitting on the fence.
+Output_clean:6.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：11
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:The school has 304 grades and each grade has 75 students How many students were there in total?
+Answer: The answer is
+Output:
+22800. 
+
+To find the total number of students, you multiply the number of grades by the number of students per grade: 304 grades * 75 students/grade = 22800 students.
+Output_clean:304.0
+answer:22800.0
+EM:0 , F1:0
+correct:0
+已完成：12
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:The Ferris wheel in paradise park has 4 seats. If 20 people can ride the wheel at the same time How many people can each seat hold?
+Answer: The answer is
+Output:
+5 people. If the Ferris wheel has 4 seats and 20 people can ride at the same time, you divide the total number of people by the number of seats to find out how many people each seat can hold. So, 20 people / 4 seats = 5 people per seat.
+Output_clean:5.0
+answer:5.0
+EM:0 , F1:0
+correct:1
+已完成：13
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:6 storks and 2 birds were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?
+Answer: The answer is
+Output:
+6 storks - 5 birds = 1 more stork than birds.
+Output_clean:6.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：14
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:In a school there are 635 girls and the rest are boys. If there are 510 more boys than girls How many boys are there in that school?
+Answer: The answer is
+Output:
+1145. 
+
+Let's denote the number of boys as B and the number of girls as G. According to the problem:
+
+G = 635 (given)
+B = G + 510 (there are 510 more boys than girls)
+
+Now we can substitute G with 635:
+
+B = 635 + 510
+
+Calculating this, we get:
+
+B = 1145
+
+So, there are 1145 boys in the school.
+Output_clean:1145.0
+answer:1145.0
+EM:0 , F1:0
+correct:1
+已完成：15
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+Answer: The answer is
+Output:
+To find out how many drums of grapes would be filled in 146 days, we can multiply the number of grapes picked per day by the number of days.
+
+Number of grapes per day = 244 drums
+Number of days = 146
+
+Total drums of grapes = Number of grapes per day * Number of days
+Total drums of grapes = 244 * 146
+
+Let's do the calculation:
+
+Total drums of grapes = 35424
+
+So, 35,424 drums of grapes would be filled in 146 days.
+Output_clean:35424.0
+answer:35624.0
+EM:0 , F1:0
+correct:0
+已完成：16
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Danny collects bottle caps. He threw away 60 of the old ones at the park while he found 58 bottle caps new ones. Now he has 67 bottle caps in his collection. How many bottle caps did danny have at first?
+Answer: The answer is
+Output:
+To find out how many bottle caps Danny had at first, we can add the number of caps he found and now has to the number he threw away.
+
+He found 58 new ones and has 67 after that, so before finding them, he would have had:
+67 (current total) - 58 (new ones) = 9 bottle caps
+
+He also threw away 60, so before throwing them away, he would have had:
+9 (after finding new ones) + 60 (thrown away) = 69 bottle caps
+
+So, Danny had 69 bottle caps at first.
+Output_clean:69.0
+answer:69.0
+EM:0 , F1:0
+correct:1
+已完成：17
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:A grocery store had 30 bottles of regular soda, 8 bottles of diet soda and 41 apples. How many bottles did they have total?
+Answer: The answer is
+Output:
+30 + 8 = 38 bottles.
+Output_clean:30.0
+answer:38.0
+EM:0 , F1:0
+correct:0
+已完成：18
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:He then went to see the oranges being harvested. He found out that they harvest 76 sacks per day and discard 64 of them. How many oranges do they harvest per day if each sack contains 50 oranges?
+Answer: The answer is
+Output:
+To find out how many oranges are harvested per day, we need to multiply the number of sacks harvested by the number of oranges in each sack and then subtract the discarded sacks.
+
+Number of sacks harvested per day = 76
+Oranges per sack = 50
+Discarded sacks = 64
+
+Total oranges harvested per day = (Sacks harvested - Discarded sacks) * Oranges per sack
+Total oranges harvested per day = (76 - 64) * 50
+
+Let's calculate this:
+
+Total oranges harvested per day = 12 * 50
+Total oranges harvested per day = 600
+
+So, they harvest 600 oranges per day.
+Output_clean:600.0
+answer:600.0
+EM:0 , F1:0
+correct:1
+已完成：19
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:A grocery store had 81 bottles of regular soda, 60 bottles of diet soda and 60 bottles of lite soda. How many more bottles of regular soda did they have than diet soda?
+Answer: The answer is
+Output:
+81 - 60 = 21. The grocery store had 21 more bottles of regular soda than diet soda.
+Output_clean:81.0
+answer:21.0
+EM:0 , F1:0
+correct:0
+已完成：20
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Tiffany was collecting cans for recycling. On monday she had some bags of cans. The next day she found 4 more bags worth of cans. If she had a total of 8 bags altogether How many bags did she have on monday?
+Answer: The answer is
+Output:
+4 bags. Since Tiffany found 4 more bags on Tuesday and she had a total of 8 bags, that means she originally had 8 - 4 = 4 bags on Monday.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：21
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:Lewis earns $ 2 every week during the harvest. If he earns a total of $ 178 How many weeks did the harvest last?
+Answer: The answer is
+Output:
+89 weeks.
+Output_clean:89.0
+answer:89.0
+EM:0 , F1:0
+correct:1
+已完成：22
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Lewis earns $ 491 every week during the 1181 weeks of harvest. If he has to pay $ 216 rent every week How much money will have at the end of the harvest season?
+Answer: The answer is
+Output:
+To calculate how much money Lewis will have at the end of the harvest season, we need to subtract his weekly rent from his weekly earnings and then multiply that by the number of weeks.
+
+Lewis's weekly earnings: $491
+Weekly rent: $216
+
+Money earned per week after rent: $491 - $216
+
+Now, let's do the calculation:
+
+$491 - $216 = $275 (money earned per week)
+
+Total money earned over 1181 weeks:
+$275 * 1181
+
+Let's compute this:
+
+$275 * 1181 = $328,525
+
+So, at the end of the harvest season, Lewis will have $328,525.
+Output_clean:328525.0
+answer:324775.0
+EM:0 , F1:0
+correct:0
+已完成：23
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?
+Answer: The answer is
+Output:
+12. Tiffany found 12 more bags of cans on Tuesday than she had on Monday.
+Output_clean:12.0
+answer:5.0
+EM:0 , F1:0
+correct:0
+已完成：24
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Zachary did 19 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 13 push-ups less than david. How many push-ups did David do?
+Answer: The answer is
+Output:
+David did 19 + 39 = 58 push-ups.
+Output_clean:19.0
+answer:58.0
+EM:0 , F1:0
+correct:0
+已完成：25
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Because of the decision Sofia asked the students to suggest specific types of food from a total of 66 choices. If 450 students suggested adding mashed potatoes 38 suggested adding bacon to the menu and the rest did not participate How many students participated in the suggestion of new food items?
+Answer: The answer is
+Output:
+To find out how many students participated in suggesting new food items, we can subtract the number of students who suggested mashed potatoes and bacon from the total number of students.
+
+Total students = 450 (mashed potatoes) + 38 (bacon) + Rest
+
+Given that there are 66 choices in total, and mashed potatoes and bacon account for 450 + 38 students, the rest would be the remaining students who suggested other items.
+
+Rest = Total students - (mashed potatoes + bacon)
+Rest = 66 - (450 + 38)
+
+Let's calculate this:
+
+Rest = 66 - 488
+Rest = -422
+
+However, the number of students cannot be negative. It seems there's an error in the calculation or the provided information, as 450 students already account for all 66 choices (since mashed potatoes and bacon are both included). If mashed potatoes and bacon represent all the suggested items, then no students suggested additional food items.
+
+Therefore, the answer is 0 students participated in suggesting new food items.
+Output_clean:0.0
+answer:488.0
+EM:0 , F1:0
+correct:0
+已完成：26
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?
+Answer: The answer is
+Output:
+9 - 5 = 4. Danny found 4 more wrappers than bottle caps at the park.
+Output_clean:9.0
+answer:60.0
+EM:0 , F1:0
+correct:0
+已完成：27
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:He then went to see the oranges being harvested. He found out that they harvest 28 sacks of ripe oranges and 52 sacks of unripe oranges per day. How many sacks of oranges will they have after 26 days of harvest?
+Answer: The answer is
+Output:
+To find out the total number of sacks of oranges they will have after 26 days of harvest, we need to add the number of ripe oranges harvested each day to the number of unripe oranges harvested each day and then multiply by the number of days.
+
+Number of ripe oranges per day = 28
+Number of unripe oranges per day = 52
+Number of days = 26
+
+Total ripe oranges in 26 days = 28 * 26
+Total unripe oranges in 26 days = 52 * 26
+
+Now, let's calculate:
+
+Total ripe oranges = 28 * 26 = 728
+Total unripe oranges = 52 * 26 = 1352
+
+Total sacks of oranges = Total ripe oranges + Total unripe oranges
+Total sacks of oranges = 728 + 1352
+
+Let's do the math:
+
+Total sacks of oranges = 2080
+
+So, after 26 days of harvest, they will have 2080 sacks of oranges.
+Output_clean:26.0
+answer:2080.0
+EM:0 , F1:0
+correct:0
+已完成：28
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:The Razorback t-shirt shop makes $ 23 dollars off each t-shirt sold. During the Arkansas and Texas tech game they made $ 230 by selling t-shirts. How many t-shirts did they sell?
+Answer: The answer is
+Output:
+10.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：29
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?
+Answer: The answer is
+Output:
+14.568627450980395
+Output_clean:14.568627450980395
+answer:145.0
+EM:0 , F1:0
+correct:0
+已完成：30
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:They decided to hold the party in their backyard. They have 4 sets of tables and each set has 3 chairs. If a total of 14 people will attend the party How many more chairs will they have to buy?
+Answer: The answer is
+Output:
+6. 
+
+Explanation: Each set of tables has 3 chairs, so 4 sets would have 4 * 3 = 12 chairs. There are 14 people attending, so they would need 14 - 12 = 2 more chairs.
+Output_clean:3.0
+answer:2.0
+EM:0 , F1:0
+correct:0
+已完成：31
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Bryan took a look at his books and magazines. If he has 27 books and 80 magazines in each of his 23 bookshelves How many books does he have in total?
+Answer: The answer is
+Output:
+To find the total number of books Bryan has, we need to multiply the number of books on one shelf by the number of shelves.
+
+Bryan has:
+- 27 books per shelf
+- 23 shelves
+
+Total books = Number of books per shelf × Number of shelves
+Total books = 27 books/shelf × 23 shelves
+
+Now, let's do the calculation:
+
+Total books = 27 * 23
+Total books = 621
+
+So, Bryan has 621 books in total.
+Output_clean:621.0
+answer:621.0
+EM:0 , F1:0
+correct:1
+已完成：32
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:Julia played tag with 8 kids on monday, 11 kids on tuesday and 9 kids on wednesday. How many more kids did she play with on tuesday than on wednesday?
+Answer: The answer is
+Output:
+To find out how many more kids Julia played with on Tuesday than on Wednesday, we subtract the number of kids she played with on Wednesday from the number of kids she played with on Tuesday.
+
+She played with 11 kids on Tuesday and 9 kids on Wednesday.
+
+So, the difference is:
+11 (Tuesday) - 9 (Wednesday) = 2 kids
+
+The answer is 2 kids.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：33
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Melissa scored a total of 91 points in 13 games scoring the same for each game. How many points did she score in each game?
+Answer: The answer is
+Output:
+7.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：34
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:After a typhoon, 2 trees in Haley's backyard died. If she had grown 12 trees initially How many trees does she have left?
+Answer: The answer is
+Output:
+Haley originally had 12 trees and 2 of them died after the typhoon. To find out how many trees she has left, we subtract the dead trees from the initial number:
+
+12 (initial trees) - 2 (dead trees) = 10 trees left.
+
+So, Haley has 10 trees left.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：35
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Allan brought 2 balloons and Jake brought 3 balloons to the park. How many more balloons did Jake have than Allan in the park?
+Answer: The answer is
+Output:
+Jake had 1 more balloon than Allan in the park.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：36
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:Bryan took a look at his books as well. If he has a total of 42 books and each bookshelf contains 2 books How many bookshelves does he have?
+Answer: The answer is
+Output:
+21 bookshelves.
+Output_clean:21.0
+answer:21.0
+EM:0 , F1:0
+correct:1
+已完成：37
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Carol was sending out birthday invitations to 12 friends. She bought 3 packs each one having the same number of invitations. How many invitations are in each pack?
+Answer: The answer is
+Output:
+4. 
+
+Explanation: Carol has 12 friends and she bought 3 packs of invitations. To find out how many invitations are in each pack, you divide the total number of friends by the number of packs: 12 friends / 3 packs = 4 invitations per pack.
+Output_clean:12.0
+answer:4.0
+EM:0 , F1:0
+correct:0
+已完成：38
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase. How many orchids did she cut?
+Answer: The answer is
+Output:
+9.
+Output_clean:9.0
+answer:19.0
+EM:0 , F1:0
+correct:0
+已完成：39
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:For the walls of the house he would use 12 large planks of wood and 10 small planks. If large planks together need 15 pieces of nails to be secured and small planks together need 5 nails. How many nails does John need for the house wall?
+Answer: The answer is
+Output:
+To calculate the total number of nails needed, we need to multiply the number of large planks by the nails per large plank and then add the result to the product of the number of small planks and the nails per small plank.
+
+For large planks:
+12 large planks * 15 nails per large plank = 180 nails
+
+For small planks:
+10 small planks * 5 nails per small plank = 50 nails
+
+Now, add the two totals together:
+180 nails (large) + 50 nails (small) = 230 nails
+
+So, John needs 230 nails for the house wall.
+Output_clean:230.0
+answer:20.0
+EM:0 , F1:0
+correct:0
+已完成：40
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Jerry had 3 books and 4 action figures on a shelf in his room. Later he added 2 more action figures to the shelf. How many more action figures than books were on his shelf?
+Answer: The answer is
+Output:
+2. Jerry initially had 4 action figures and later added 2 more, making it a total of 4 + 2 = 6 action figures. He had 3 books. So, there are 6 - 3 = 3 more action figures than books on the shelf.
+Output_clean:2.0
+answer:3.0
+EM:0 , F1:0
+correct:0
+已完成：41
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:There are 17 different movies and 11 different books in the ' crazy silly school ' series. If you read 13 of the books and watched 63 of the movies How many more movies than books are there in the ' crazy silly school ' series?
+Answer: The answer is
+Output:
+17 - 13 = 4 more movies than books in the 'crazy silly school' series.
+Output_clean:17.0
+answer:6.0
+EM:0 , F1:0
+correct:0
+已完成：42
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Jerry had 3 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed some of the old ones. If there are 6 action figures on his shelf now How many action figures did he remove from the shelf?
+Answer: The answer is
+Output:
+2. Jerry initially had 3 action figures, and after adding 4 more, there were 3 + 4 = 7 action figures. Now, with 6 figures on the shelf, he removed 7 - 6 = 1 action figure. However, since the question asks for the number removed without specifying if it's one at a time or in total, we can only determine that at least one figure was removed. Without further information, the answer remains 1.
+Output_clean:2.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：43
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:There are 20 houses in a block. If a mailman has to give 32 pieces of junk mail to each house in each block How many pieces of junk mail should he give each block?
+Answer: The answer is
+Output:
+The mailman should give 32 pieces of junk mail to each house in each block. Since there are 20 houses in the block, he would give a total of:
+
+32 pieces/house * 20 houses = 640 pieces of junk mail to the entire block.
+Output_clean:32.0
+answer:640.0
+EM:0 , F1:0
+correct:0
+已完成：44
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Allan brought 3 balloons and Jake brought 5 balloons to the park. Allan then bought 2 more balloons at the park. How many balloons did Allan and Jake have in the park?
+Answer: The answer is
+Output:
+Allan initially had 3 balloons, and he bought 2 more, so he had a total of 3 + 2 = 5 balloons. Jake brought 5 balloons. Therefore, together, they had 5 (Allan's) + 5 (Jake's) = 10 balloons in the park. The answer is 10.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：45
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:At the arcade Dave had won 13 tickets. If he used 8 to buy some toys and 18 more to buy some clothes How many more tickets did Dave use to buy clothes than he did to buy toys?
+Answer: The answer is
+Output:
+18 - 8 = 10 tickets. Dave used 10 more tickets to buy clothes than he did to buy toys.
+Output_clean:18.0
+answer:10.0
+EM:0 , F1:0
+correct:0
+已完成：46
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Dan has $ 4. He bought 99 candy bar for $ 3 each one costing the same amount of money. How much money is left?
+Answer: The answer is
+Output:
+To find out how much money Dan spent on candy bars and how much is left, we can multiply the number of candy bars by the cost per bar and then subtract that from his initial amount.
+
+Number of candy bars = 99
+Cost per candy bar = $3
+
+Total spent = Number of candy bars * Cost per candy bar
+Total spent = 99 * $3
+
+Now let's calculate the total spent:
+
+Total spent = $297
+
+Dan initially had $4, so we subtract the total spent from this amount to find out how much is left:
+
+Money left = Initial amount - Total spent
+Money left = $4 - $297
+
+Money left = -$293
+
+However, since it's not possible to have a negative amount of money left after spending, there seems to be an error in the problem statement or the interpretation. If each candy bar actually costs $0.03 instead of $3, the calculation would be different:
+
+If Cost per candy bar = $0.03
+Total spent = 99 * $0.03
+Total spent = $2.97
+
+Money left = $4 - $2.97
+Money left = $1.03
+
+If that's the intended scenario, the correct answer would be $1.03. But based on the original information provided, the answer is $-293. Please clarify if the cost per candy bar should be $0.03.
+Output_clean:-293.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：47
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Lucy went to the grocery store. She bought 23 packs of cookie and some packs of cake. In total she had 27 packs of grocery How many packs of cake did she buy in all?
+Answer: The answer is
+Output:
+To find out how many packs of cake Lucy bought, we can subtract the number of cookie packs from the total number of grocery packs.
+
+Total grocery packs = Packs of cookies + Packs of cake
+27 packs = 23 packs of cookies + Packs of cake
+
+Now, let's solve for the packs of cake:
+
+Packs of cake = Total grocery packs - Packs of cookies
+Packs of cake = 27 packs - 23 packs
+
+Packs of cake = 4 packs
+
+So, Lucy bought 4 packs of cake in all.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：48
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:Lucy went to the grocery store. She bought 2 packs of cookie and 12 packs of cake. In the end she had 56 amount of change remaining. How many packs of groceries did she buy in all?
+Answer: The answer is
+Output:
+14 packs of groceries.
+Output_clean:14.0
+answer:14.0
+EM:0 , F1:0
+correct:1
+已完成：49
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:Paco had 40 cookies. He ate 5 cookies and gave 13 of them to his friend. How many cookies did paco have left?
+Answer: The answer is
+Output:
+Paco started with 40 cookies. After eating 5, he had:
+40 - 5 = 35 cookies.
+
+Then, after giving away 13 more, he had:
+35 - 13 = 22 cookies left.
+
+So the answer is 22 cookies.
+Output_clean:22.0
+answer:22.0
+EM:0 , F1:0
+correct:1
+已完成：50
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:For Gwen's birthday she received 5 dollars from her dad. Her mom gave her 2 more dollars. If she spent 6 dollars. How much more money did she receive from her dad than she did from her mom?
+Answer: The answer is
+Output:
+Gwen received 5 dollars from her dad and 2 dollars from her mom, so she received a total of 5 + 2 = 7 dollars. She spent 6 dollars, so after spending, she had 7 - 6 = 1 dollar left. However, the question asks how much more money she received from her dad than she did from her mom, which is the difference between the amounts given by each parent: 5 (from dad) - 2 (from mom) = 3 dollars. So, she received 3 dollars more from her dad than from her mom.
+Output_clean:5.0
+answer:3.0
+EM:0 , F1:0
+correct:0
+已完成：51
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:A waiter had 11 customers. After some left he still had 3 customers. How many more customers left than those that stayed behind?
+Answer: The answer is
+Output:
+8 customers left.
+Output_clean:8.0
+answer:5.0
+EM:0 , F1:0
+correct:0
+已完成：52
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Paco had 40 cookies. He ate 2 of them. Then he bought 37 more cookies How many cookies did Paco have left?
+Answer: The answer is
+Output:
+Paco started with 40 cookies, ate 2, and then bought 37 more. To find out how many cookies he has left, we subtract the ones he ate from the ones he originally had and then add the ones he bought:
+
+40 (original cookies) - 2 (eaten) + 37 (bought) = 45 cookies
+
+So, Paco has 45 cookies left.
+Output_clean:45.0
+answer:75.0
+EM:0 , F1:0
+correct:0
+已完成：53
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Bobby ate 23 pieces of candy. If he initially had 30 pieces of candy How many pieces of candy does he still have left?
+Answer: The answer is
+Output:
+7 pieces of candy.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：54
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Question:Paul had 51 books and 106 pens. After selling some books and pens in a garage sale he had 82 books and 14 pens left. How many pens did he sell in the garage sale?
+Answer: The answer is
+Output:
+To find out how many pens Paul sold, we can subtract the number of pens he had left after the garage sale from the initial number of pens he had.
+
+Initial pens: 106
+Pens left: 14
+
+Number of pens sold = Initial pens - Pens left
+Number of pens sold = 106 - 14
+
+Now, let's do the math:
+
+106 - 14 = 92
+
+So, Paul sold 92 pens in the garage sale.
+Output_clean:92.0
+answer:92.0
+EM:0 , F1:0
+correct:1
+已完成：55
+总正确数 : 23
+*****************************
+*****************************
+Input:
+Question:Edward had $ 13. He spent some money. Now he has $ 3. How much money did Edward spend?
+Answer: The answer is
+Output:
+$10.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：56
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:Matthew had 29 crackers and 30 cakes. If Matthew gave equal numbers of crackers and cakes to his 2 friends How many cakes did each person eat?
+Answer: The answer is
+Output:
+Each friend received an equal number of crackers as cakes from Matthew. Since Matthew had 29 crackers and he gave them away equally, he gave away 29 / 2 = 14 crackers to each friend.
+
+Matthew also had 30 cakes and gave the same amount to each friend, so each friend received 30 / 2 = 15 cakes.
+
+Therefore, each person ate 15 cakes.
+Output_clean:15.0
+answer:15.0
+EM:0 , F1:0
+correct:1
+已完成：57
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:You had 26 bags with equal number of cookies. If you had 15 candies and 52 cookies in total How many cookies does each bag have?
+Answer: The answer is
+Output:
+8. 
+
+To find out how many cookies are in each bag, we need to first determine the total number of cookies without the ones that are not in bags. Since there are 52 cookies in total and 15 of them are candies, we subtract the candies from the total:
+
+52 (total cookies) - 15 (candies) = 37 cookies.
+
+Now, since there are 26 bags with an equal number of cookies, we divide the total number of cookies by the number of bags:
+
+37 cookies / 26 bags = 1.42857...
+
+However, since cookies cannot be divided into fractions, we round down to the nearest whole number, which is 1 cookie per bag. This means each bag has 8 cookies, as 15 candies would leave room for 26 bags with 8 cookies each.
+Output_clean:1.0
+answer:2.0
+EM:0 , F1:0
+correct:0
+已完成：58
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:Brenda's mother made cookies for guests. If she prepared 38 cookies and each of them had 19 cookies How many guests did she prepare cookies for?
+Answer: The answer is
+Output:
+To find out how many guests Brenda's mother prepared cookies for, you would divide the total number of cookies by the number of cookies per guest. In this case:
+
+Total cookies = 38
+Cookies per guest = 19
+
+Number of guests = Total cookies / Cookies per guest
+Number of guests = 38 / 19
+
+Let's do the calculation.
+
+Answer: 2 guests
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：59
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:Paul got a box of 589 crayons for his birthday. During the school year he gave 571 crayons to his friends while he lost 161 crayons. How many more crayons did he give to his friends than those he lost?
+Answer: The answer is
+Output:
+571 - 161 = 410 crayons. Paul gave 410 more crayons to his friends than he lost.
+Output_clean:571.0
+answer:410.0
+EM:0 , F1:0
+correct:0
+已完成：60
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:Rachel's tree had 4 apples initially. She picked some apples and now there are 2 apples left on the tree. How many apples did rachel pick?
+Answer: The answer is
+Output:
+Rachel picked 2 apples.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：61
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Question:Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?
+Answer: The answer is
+Output:
+Jackie has 6 apples.
+Output_clean:6.0
+answer:6.0
+EM:0 , F1:0
+correct:1
+已完成：62
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:Steven has 12 peaches. Jake has 4 fewer peaches than Steven who has 67 more peaches than Jill. How many peaches does Jake have?
+Answer: The answer is
+Output:
+To find out how many peaches Jake has, we can follow these steps:
+
+1. Steven has 67 more peaches than Jill.
+2. If we subtract 67 from the number of peaches Steven has, we get the number of peaches Jill has.
+3. Since Jake has 4 fewer peaches than Steven, we then subtract 4 from the number of peaches Jill has to find out how many Jake has.
+
+Let's do the math:
+
+- Jill's peaches = Steven's peaches - 67
+- Jill's peaches = 12 (Steven's) - 67
+- Jill's peaches = -55 (since Steven has 12 and 67 is more)
+
+Now, for Jake:
+
+- Jake's peaches = Jill's peaches - 4
+- Jake's peaches = -55 - 4
+- Jake's peaches = -59
+
+However, it's not possible to have a negative number of peaches. It seems there might be an error in the problem statement or interpretation. Assuming the information provided is correct, Jake cannot have any peaches because he would have fewer than zero. If the intention was to say that Steven has 67 fewer peaches than Jill, then the calculation would be different.
+
+If the intention is that Steven has 67 fewer peaches than Jill, we would calculate:
+
+- Jill's peaches = 12 (Steven's) + 67
+- Jill's peaches = 89
+- Jake's peaches = Jill's peaches - 4
+- Jake's peaches = 89 - 4
+- Jake's peaches = 85
+
+In this case, Jake would have 85 peaches.
+
+Please clarify if the original information is correct or if it should be as stated above.
+Output_clean:0.0
+answer:8.0
+EM:0 , F1:0
+correct:0
+已完成：63
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:Jake has 9 fewer peaches than Steven and 18 more peaches than Jill. Steven has 16 peaches. How many more peaches does Steven have than Jill?
+Answer: The answer is
+Output:
+To find out how many more peaches Steven has than Jill, we first need to determine the number of peaches Jake has.
+
+Since Jake has 9 fewer peaches than Steven, and Steven has 16 peaches, Jake has:
+\( 16 - 9 = 7 \) peaches.
+
+Now, Jake has 18 more peaches than Jill. So, if Jake has 7 peaches, Jill has:
+\( 7 - 18 = -11 \) peaches (which doesn't make sense because you can't have a negative number of peaches).
+
+However, since the question asks for the difference between the number of peaches Steven has and the number Jill has, we'll use the positive value for Jill's peaches, assuming there might be a mistake in the problem statement or it's a hypothetical situation where Jill has no peaches at all.
+
+In that case, the difference is:
+\( 16 - 0 = 16 \)
+
+So, Steven has 16 more peaches than Jill.
+Output_clean:16.0
+answer:27.0
+EM:0 , F1:0
+correct:0
+已完成：64
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?
+Answer: The answer is
+Output:
+Jill has 19 - 13 = 6 peaches.
+Output_clean:19.0
+answer:6.0
+EM:0 , F1:0
+correct:0
+已完成：65
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:There are 11 baskets of peaches. Each basket has 10 red peaches and 18 green peaches. How many peaches are in the baskets altogether?
+Answer: The answer is
+Output:
+To find the total number of peaches in the baskets, we can add the number of red peaches and the number of green peaches from each basket and then multiply by the number of baskets.
+
+Each basket has:
+- Red peaches: 10
+- Green peaches: 18
+
+Total peaches per basket = Red + Green
+Total peaches per basket = 10 + 18
+
+Now, we multiply by the number of baskets (11):
+Total peaches = Total per basket * Number of baskets
+Total peaches = (10 + 18) * 11
+
+Let's do the calculation:
+
+Total peaches = 28 * 11
+Total peaches = 308
+
+So, there are 308 peaches in the baskets altogether.
+Output_clean:308.0
+answer:308.0
+EM:0 , F1:0
+correct:1
+已完成：66
+总正确数 : 29
+*****************************
+*****************************
+Input:
+Question:He has 9 apples more than Adam and Jackie together do. Adam and Jackie have 7 apples between them. How many apples does He have?
+Answer: The answer is
+Output:
+16 apples.
+Output_clean:16.0
+answer:16.0
+EM:0 , F1:0
+correct:1
+已完成：67
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Question:There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?
+Answer: The answer is
+Output:
+Each basket has a total of 7 red peaches + 3 green peaches = 10 peaches. So, there are 10 peaches in each basket.
+Output_clean:7.0
+answer:10.0
+EM:0 , F1:0
+correct:0
+已完成：68
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Question:There are some baskets of peaches. Each basket has 4 red peaches and 3 green peaches. If there are a total of 7 peaches in all baskets How many baskets of peaches are there?
+Answer: The answer is
+Output:
+2. 
+
+Explanation: Since each basket contains 4 red peaches and 3 green peaches, there are a total of 4 + 3 = 7 peaches per basket. If there are a total of 7 peaches in all the baskets combined, then there must be 7 peaches / 7 peaches per basket = 1 basket. However, since each basket has 7 peaches (the total), this means that there's only one basket with all 7 peaches, not multiple baskets. Therefore, the answer is 1 basket.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：69
+总正确数 : 31
+*****************************
+*****************************
+Input:
+Question:Rachel picked 2 ripe apples from her tree. Now the tree has 7 apples still on it. If 6 of those are ripe and the rest are unripe How many ripe apples did the tree have to begin with?
+Answer: The answer is
+Output:
+8 ripe apples.
+Output_clean:8.0
+answer:8.0
+EM:0 , F1:0
+correct:1
+已完成：70
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:Jackie has 10 apples. Adam has 8 apples. How many more apples does Jackie have than Adam?
+Answer: The answer is
+Output:
+2 apples.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：71
+总正确数 : 33
+*****************************
+*****************************
+Input:
+Question:Adam has 5 more apples than Jackie. Jackie has 89 oranges and 11 apples. How many apples does Adam have?
+Answer: The answer is
+Output:
+Jackie has 11 apples, and Adam has 5 more than Jackie. So, Adam has:
+
+11 (Jackie's apples) + 5 = 16 apples
+
+Adam has 16 apples.
+Output_clean:16.0
+answer:16.0
+EM:0 , F1:0
+correct:1
+已完成：72
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Question:Jake has 13 fewer peaches and 3 more apples than Steven. Steven has 9 peaches and 8 apples. How many apples does Jake have?
+Answer: The answer is
+Output:
+Jake has 3 more apples than Steven, who has 8 apples. So Jake has \(8 + 3 = 11\) apples.
+Output_clean:3.0
+answer:11.0
+EM:0 , F1:0
+correct:0
+已完成：73
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Question:Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?
+Answer: The answer is
+Output:
+Jackie has 1 more apple than Adam.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：74
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:Jake has 12 fewer peaches and 79 more apples than Steven. Steven has 19 peaches and 14 apples. How many peaches does Jake have?
+Answer: The answer is
+Output:
+Jake has 19 (peaches that Steven has) + 12 = 31 peaches.
+Output_clean:19.0
+answer:7.0
+EM:0 , F1:0
+correct:0
+已完成：75
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:Next on his checklist is wax to stick the feathers together. If he has 557 g of wax and right now he just needs 17 g Total how many grams of wax do the feathers require?
+Answer: The answer is
+Output:
+557 - 17 = 540 grams of wax are required for the feathers.
+Output_clean:557.0
+answer:574.0
+EM:0 , F1:0
+correct:0
+已完成：76
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:Robin's hair was 17 inches long. He cut off some inches of her hair. If his hair is now 13 inches long How much of his hair did he cut?
+Answer: The answer is
+Output:
+4 inches.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：77
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Question:Marco and his dad went strawberry picking. Together their strawberries weighed 20 pounds. His dad's strawberries weighed 17 pounds. How much did marco's strawberries weigh?
+Answer: The answer is
+Output:
+3 pounds. If together they weighed 20 pounds and his dad's strawberries weighed 17 pounds, then Marco's strawberries would weigh 20 - 17 = 3 pounds.
+Output_clean:3.0
+answer:3.0
+EM:0 , F1:0
+correct:1
+已完成：78
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Question:Jessie weighed 71 kilograms. After she started to go jogging everyday she lost 20 kilograms. How much does she weigh now?
+Answer: The answer is
+Output:
+51 kilograms.
+Output_clean:51.0
+answer:51.0
+EM:0 , F1:0
+correct:1
+已完成：79
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Question:Jesse's room is 7 feet wide. If she needs a carpet of size 14 square feet What is the length of her room?
+Answer: The answer is
+Output:
+To find the length of Jesse's room, we can use the formula for the area of a rectangle, which is:
+
+\[ \text{Area} = \text{Length} \times \text{Width} \]
+
+Given:
+- Area of the carpet = 14 square feet
+- Width of the room = 7 feet
+
+We can rearrange the formula to solve for the length:
+
+\[ \text{Length} = \frac{\text{Area}}{\text{Width}} \]
+\[ \text{Length} = \frac{14 \text{ ft}^2}{7 \text{ ft}} \]
+\[ \text{Length} = 2 \text{ ft} \]
+
+So, the length of Jesse's room is 2 feet.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：80
+总正确数 : 39
+*****************************
+*****************************
+Input:
+Question:The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?
+Answer: The answer is
+Output:
+To find out how far the mouse jumped, we need to follow these steps:
+
+1. The grasshopper jumped 19 inches farther than the frog.
+2. The grasshopper jumped 39 inches.
+
+So, if the grasshopper's jump is 39 inches and that's 19 inches more than the frog's jump, we can calculate the frog's jump by subtracting 19 inches from the grasshopper's jump:
+
+Frog's jump = Grasshopper's jump - 19 inches
+Frog's jump = 39 inches - 19 inches
+Frog's jump = 20 inches
+
+3. The mouse jumped 12 inches less than the frog.
+
+Now, we subtract 12 inches from the frog's jump to find the mouse's jump:
+
+Mouse's jump = Frog's jump - 12 inches
+Mouse's jump = 20 inches - 12 inches
+Mouse's jump = 8 inches
+
+The mouse jumped 8 inches.
+Output_clean:8.0
+answer:8.0
+EM:0 , F1:0
+correct:1
+已完成：81
+总正确数 : 40
+*****************************
+*****************************
+Input:
+Question:Robin's hair was 14 inches long. It grew by 8 inches. Then he cut off 20 inches. How long is his hair now?
+Answer: The answer is
+Output:
+To find out how long Robin's hair is now, we need to follow the sequence of events:
+
+1. Robin's hair was initially 14 inches long.
+2. It grew by 8 inches, so after growing, it would be:
+   \( 14 \text{ inches} + 8 \text{ inches} = 22 \text{ inches} \).
+3. Then he cut off 20 inches, so after cutting:
+   \( 22 \text{ inches} - 20 \text{ inches} = 2 \text{ inches} \).
+
+So, Robin's hair is now 2 inches long.
+Output_clean:2.0
+answer:2.0
+EM:0 , F1:0
+correct:1
+已完成：82
+总正确数 : 41
+*****************************
+*****************************
+Input:
+Question:Jesse's room is 19 feet wide and 20 feet long. How much longer is her room than it is wide?
+Answer: The answer is
+Output:
+The room is 1 foot longer than it is wide.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：83
+总正确数 : 42
+*****************************
+*****************************
+Input:
+Question:The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 19 inches. The frog jumped 10 inches farther than the grasshopper and the mouse jumped 20 inches farther than the frog. How much farther did the mouse jump than the grasshopper?
+Answer: The answer is
+Output:
+To find out how much farther the mouse jumped than the grasshopper, we first need to determine the distance the frog jumped and then add 20 inches to that to find the mouse's jump.
+
+The frog jumped 10 inches farther than the grasshopper, so:
+Frog's jump = Grasshopper's jump + 10 inches
+Frog's jump = 19 inches + 10 inches
+Frog's jump = 29 inches
+
+Now, the mouse jumped 20 inches farther than the frog, so:
+Mouse's jump = Frog's jump + 20 inches
+Mouse's jump = 29 inches + 20 inches
+Mouse's jump = 49 inches
+
+To find out how much farther the mouse jumped than the grasshopper, we subtract the grasshopper's jump from the mouse's jump:
+Distance difference = Mouse's jump - Grasshopper's jump
+Distance difference = 49 inches - 19 inches
+Distance difference = 30 inches
+
+So, the mouse jumped 30 inches farther than the grasshopper.
+Output_clean:30.0
+answer:30.0
+EM:0 , F1:0
+correct:1
+已完成：84
+总正确数 : 43
+*****************************
+*****************************
+Input:
+Question:Marco and his dad went strawberry picking. Together their strawberries weighed 4 pounds. Marco's strawberries weighed 19 pounds. How much more did his strawberries weigh than his dad's?
+Answer: The answer is
+Output:
+To find out how much more Marco's strawberries weighed than his dad's, we subtract Dad's strawberries weight from Marco's strawberries weight.
+
+Marco's strawberries: 19 pounds
+Dad's strawberries: 4 pounds (total weight minus Marco's weight)
+
+Difference: Marco's weight - Dad's weight
+Difference: 19 pounds - 4 pounds
+
+Now, let's do the calculation:
+
+Difference = 15 pounds
+
+So, Marco's strawberries weighed 15 pounds more than his dad's.
+Output_clean:15.0
+answer:34.0
+EM:0 , F1:0
+correct:0
+已完成：85
+总正确数 : 43
+*****************************
+*****************************
+Input:
+Question:Marco and his dad went strawberry picking. His strawberries weighed 8 pounds while his dad's strawberries weighed 32 pounds. Together how much did their strawberries weigh?
+Answer: The answer is
+Output:
+40 pounds.
+Output_clean:40.0
+answer:40.0
+EM:0 , F1:0
+correct:1
+已完成：86
+总正确数 : 44
+*****************************
+*****************************
+Input:
+Question:Next on his checklist is wax to stick the feathers together. If the feathers require 166 g of wax and right now he has 20 g How many more grams of wax does he need?
+Answer: The answer is
+Output:
+146 g.
+Output_clean:146.0
+answer:146.0
+EM:0 , F1:0
+correct:1
+已完成：87
+总正确数 : 45
+*****************************
+*****************************
+Input:
+Question:The grasshopper and the frog had a jumping contest. The grasshopper jumped 13 inches. The grasshopper jumped 2 inches farther than the grasshopper. How far did the frog jump?
+Answer: The answer is
+Output:
+the frog jumped 11 inches.
+Output_clean:11.0
+answer:11.0
+EM:0 , F1:0
+correct:1
+已完成：88
+总正确数 : 46
+*****************************
+*****************************
+Input:
+Question:Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds. How much did his dad's strawberries weigh now?
+Answer: The answer is
+Output:
+To find out how much Marco's dad's strawberries weigh now, we can start by adding the weight of strawberries they collected together and then subtracting the weight that was lost.
+
+Total weight before loss: 36 pounds
+Weight lost: 8 pounds
+Weight of Marco's strawberries after loss: 12 pounds
+
+First, let's find out how much strawberries Marco had initially:
+
+Marco's strawberries + Dad's strawberries = Total before loss
+12 pounds + Dad's strawberries = 36 pounds
+
+Now, we solve for Dad's strawberries:
+
+Dad's strawberries = 36 pounds - 12 pounds
+Dad's strawberries = 24 pounds
+
+After losing 8 pounds, Dad's strawberries would weigh:
+
+Dad's strawberries after loss = Dad's strawberries - Loss
+Dad's strawberries after loss = 24 pounds - 8 pounds
+Dad's strawberries after loss = 16 pounds
+
+So, his dad's strawberries now weigh 16 pounds.
+Output_clean:16.0
+answer:16.0
+EM:0 , F1:0
+correct:1
+已完成：89
+总正确数 : 47
+*****************************
+*****************************
+Input:
+Question:The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 21 inches. The grasshopper jumped 25 inches farther than the frog and the mouse jumped 16 inches lesser than the frog. How much farther did the grasshopper jump than the mouse?
+Answer: The answer is
+Output:
+To find out how much farther the grasshopper jumped than the mouse, we need to follow these steps:
+
+1. Determine the frog's jump distance since the grasshopper jumped 25 inches more than the frog.
+2. Find out the mouse's jump distance, which is 16 inches less than the frog's.
+
+Let's do the math:
+
+Grasshopper's jump = 21 inches
+Grasshopper's extra jump over frog = 25 inches
+
+So, Frog's jump = Grasshopper's jump - Extra jump for grasshopper
+Frog's jump = 21 inches - 25 inches
+
+Now let's calculate the frog's jump:
+Frog's jump = -4 inches (since it's a negative value, the frog actually jumped 4 inches)
+
+Next, we find the mouse's jump:
+Mouse's jump = Frog's jump - 16 inches
+Mouse's jump = -4 inches - 16 inches
+
+Now let's calculate the mouse's jump:
+Mouse's jump = -20 inches (since it's a negative value, the mouse jumped 20 inches)
+
+Finally, to find out how much farther the grasshopper jumped than the mouse:
+Distance difference = Grasshopper's jump - Mouse's jump
+Distance difference = 21 inches - (-20 inches)
+
+Now let's add the positive value:
+Distance difference = 21 inches + 20 inches
+
+Distance difference = 41 inches
+
+The answer is the grasshopper jumped 41 inches farther than the mouse.
+Output_clean:41.0
+answer:41.0
+EM:0 , F1:0
+correct:1
+已完成：90
+总正确数 : 48
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 14 cups of flour and 6 cups of sugar. She already put in 5 cups of flour. How many more cups of flour than cups of sugar does she need to add now?
+Answer: The answer is
+Output:
+9 cups of flour.
+Output_clean:9.0
+answer:3.0
+EM:0 , F1:0
+correct:0
+已完成：91
+总正确数 : 48
+*****************************
+*****************************
+Input:
+Question:Baker sold 8 cakes. If he had made 40 cakes initially How many more cakes did baker make than those he sold?
+Answer: The answer is
+Output:
+Baker initially made 40 cakes and sold 8 cakes. To find out how many more cakes he made than he sold, we subtract the number of cakes sold from the initial number:
+
+40 (initial cakes) - 8 (sold cakes) = 32
+
+So, Baker made 32 more cakes than those he sold.
+Output_clean:32.0
+answer:32.0
+EM:0 , F1:0
+correct:1
+已完成：92
+总正确数 : 49
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 5 cups of sugar and 14 cups of flour. She already put in 11 cups of flour. How many more cups of sugar than cups of flour does she need to add now?
+Answer: The answer is
+Output:
+4 cups of sugar.
+Output_clean:4.0
+answer:2.0
+EM:0 , F1:0
+correct:0
+已完成：93
+总正确数 : 49
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 6 cups of flour 8 cups of sugar and 7 cups of salt. She already put in 5 cups of flour. How many more cups of sugar than cups of salt does she need to add now?
+Answer: The answer is
+Output:
+To find out how many more cups of sugar Mary needs to add compared to salt, we first need to determine the total amount of sugar and salt required by the recipe.
+
+The recipe calls for:
+- 6 cups of flour (which she has already added 5 cups)
+- 8 cups of sugar
+- 7 cups of salt
+
+Now, subtract the flour she has already added from the total flour needed:
+6 cups (total flour) - 5 cups (added flour) = 1 cup of flour left to add
+
+Next, we'll calculate the difference between the sugar and salt requirements:
+8 cups (sugar) - 7 cups (salt) = 1 cup more sugar than salt
+
+So, Mary needs to add 1 cup more of sugar than salt.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：94
+总正确数 : 50
+*****************************
+*****************************
+Input:
+Question:Baker made 121 cakes. He sold 105 of them and bought 170 new cakes. How many cakes does baker still have?
+Answer: The answer is
+Output:
+To find out how many cakes Baker still has, we need to start with the initial number of cakes he made and then subtract the ones he sold and add the new ones he bought.
+
+Initial cakes: 121
+Sold cakes: 105
+New cakes bought: 170
+
+Cakes remaining = Initial cakes - Sold cakes + New cakes bought
+Cakes remaining = 121 - 105 + 170
+
+Now, let's do the math:
+
+Cakes remaining = 16 + 170
+Cakes remaining = 186
+
+So, Baker still has 186 cakes.
+Output_clean:186.0
+answer:186.0
+EM:0 , F1:0
+correct:1
+已完成：95
+总正确数 : 51
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 11 cups of sugar and some more cups of flour. She already put in 3 cups of flour. If she still needs to add 6 more cups of flour How many cups of flour did the recipe require?
+Answer: The answer is
+Output:
+The recipe required 9 cups of flour.
+Output_clean:9.0
+answer:9.0
+EM:0 , F1:0
+correct:1
+已完成：96
+总正确数 : 52
+*****************************
+*****************************
+Input:
+Question:Baker made 126 cakes and 48 pastries. If he sold 115 cakes and 81 pastries How many more cakes than pastries did baker make?
+Answer: The answer is
+Output:
+Baker made 126 cakes and sold 115, so he has 126 - 115 = 11 cakes left. He made 48 pastries and sold 81, so he has 48 - 81 = -33 pastries left (which means he made 33 more pastries than he sold, but overall, he has 0 pastries).
+
+Therefore, Baker made 11 cakes more than he made pastries.
+Output_clean:11.0
+answer:78.0
+EM:0 , F1:0
+correct:0
+已完成：97
+总正确数 : 52
+*****************************
+*****************************
+Input:
+Question:Baker made 133 cakes. If he sold 51 of them How many more cakes did baker make than those he sold?
+Answer: The answer is
+Output:
+82 cakes. Baker made 133 cakes and sold 51, so the difference is 133 - 51 = 82 cakes.
+Output_clean:82.0
+answer:82.0
+EM:0 , F1:0
+correct:1
+已完成：98
+总正确数 : 53
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 12 cups of flour 5 cups of sugar and 49 cups of salt. She already put in 11 cups of flour. How many more cups of flour does she need to add?
+Answer: The answer is
+Output:
+1 cup of flour.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：99
+总正确数 : 54
+*****************************
+*****************************
+Input:
+Question:Baker made 134 pastries and 11 cakes. If he sold 140 cakes and 92 pastries How many more pastries than cakes did baker make?
+Answer: The answer is
+Output:
+Baker made 134 pastries and sold 92 pastries, so he has 134 - 92 = 42 pastries left. He made 11 cakes and sold 140 cakes, so he has 11 - 140 = -129 cakes (since he can't have negative cakes). Since there are -129 cakes remaining, it means Baker made 42 more pastries than cakes. However, since there were actually fewer cakes than the number baked, we should consider only the difference between the original amounts, which is 134 pastries - 11 cakes = 123 more pastries than cakes. The correct answer is 123.
+Output_clean:123.0
+answer:123.0
+EM:0 , F1:0
+correct:1
+已完成：100
+总正确数 : 55
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?
+Answer: The answer is
+Output:
+8. Mary needs 8 more cups of flour than sugar, and since the recipe calls for 13 cups of sugar, she needs 13 + 8 = 21 cups of flour in total. If she has already put in some flour and still needs 8 more cups, that means she needs to add 8 more cups to reach the required amount.
+Output_clean:8.0
+answer:21.0
+EM:0 , F1:0
+correct:0
+已完成：101
+总正确数 : 55
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 5 cups of flour and 14 cups of sugar. She already put in 10 cups of flour and 2 cups of sugar. How many more cups of sugar does she need to add?
+Answer: The answer is
+Output:
+12 cups of sugar.
+Output_clean:12.0
+answer:12.0
+EM:0 , F1:0
+correct:1
+已完成：102
+总正确数 : 56
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 12 cups of flour and 5 cups of sugar. She already put in some cups of flour. If she still needs 2 more cups of flour How many cups of flour did she put in?
+Answer: The answer is
+Output:
+If the recipe calls for 12 cups of flour and Mary still needs 2 more cups, that means she has already used the total amount needed minus the 2 cups she's missing. So, she has put in:
+
+12 cups (total required) - 2 cups (remaining) = 10 cups of flour.
+
+The answer is 10 cups.
+Output_clean:10.0
+answer:10.0
+EM:0 , F1:0
+correct:1
+已完成：103
+总正确数 : 57
+*****************************
+*****************************
+Input:
+Question:Baker made 149 cakes and 91 pastries. If he sold 10 cakes and 90 pastries How many cakes would baker still have?
+Answer: The answer is
+Output:
+Baker initially made 149 cakes. He sold 10 cakes, so we subtract 10 from the initial number:
+
+149 cakes - 10 cakes = 139 cakes
+
+Therefore, Baker would still have 139 cakes.
+Output_clean:139.0
+answer:139.0
+EM:0 , F1:0
+correct:1
+已完成：104
+总正确数 : 58
+*****************************
+*****************************
+Input:
+Question:Mary is baking a cake. The recipe calls for 10 cups of flour 2 cups of sugar and 80 cups of salt. She already put in 7 cups of flour. How many more cups of flour than cups of sugar does she need to add now?
+Answer: The answer is
+Output:
+Mary needs to add 3 cups of flour. The recipe calls for 10 cups of flour and she has already added 7, so she still needs 10 - 7 = 3 cups of flour. The recipe calls for 2 cups of sugar, so the difference between the flour and sugar is 3 cups (flour) - 2 cups (sugar) = 1 cup. Therefore, she needs 1 more cup of flour than cups of sugar.
+Output_clean:3.0
+answer:1.0
+EM:0 , F1:0
+correct:0
+已完成：105
+总正确数 : 58
+*****************************
+*****************************
+Input:
+Question:Paul had 42 pens and 143 books. After selling some books and pens in a garage sale he had 113 books and 19 pens left. How many pens did he sell in the garage sale?
+Answer: The answer is
+Output:
+he sold 42 - 19 = 23 pens in the garage sale.
+Output_clean:42.0
+answer:23.0
+EM:0 , F1:0
+correct:0
+已完成：106
+总正确数 : 58
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. He read 8 pages per day. If the book had 576 pages How many days did he take to finish the book?
+Answer: The answer is
+Output:
+72 days.
+Output_clean:72.0
+answer:72.0
+EM:0 , F1:0
+correct:1
+已完成：107
+总正确数 : 59
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. He read 22 pages per day and it took him 569 days to finish the book. How many pages are there in the book?
+Answer: The answer is
+Output:
+To find out how many pages are in the book, we can multiply the number of pages Frank read per day by the number of days it took him to finish the book.
+
+\( \text{Pages in the book} = \text{Pages per day} \times \text{Number of days} \)
+
+\( \text{Pages in the book} = 22 \text{ pages/day} \times 569 \text{ days} \)
+
+\( \text{Pages in the book} = 12518 \text{ pages} \)
+
+So, there are 12,518 pages in the book.
+Output_clean:12518.0
+answer:12518.0
+EM:0 , F1:0
+correct:1
+已完成：108
+总正确数 : 60
+*****************************
+*****************************
+Input:
+Question:Every day Ryan spends 5 hours on learning english and 4 hours on learning chinese. If he learns for 6 days How many hours does he spend on learning chinese in all?
+Answer: The answer is
+Output:
+24 hours.
+Output_clean:24.0
+answer:24.0
+EM:0 , F1:0
+correct:1
+已完成：109
+总正确数 : 61
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. It took him 16 days to finish the book. If the book had 112 pages How many pages did he read per day?
+Answer: The answer is
+Output:
+To find out how many pages Frank read per day, we can divide the total number of pages in the book by the number of days it took him to finish it.
+
+Total pages = 112
+Number of days = 16
+
+Pages per day = Total pages / Number of days
+Pages per day = 112 / 16
+
+Now let's do the calculation.
+Pages per day = 7
+
+So, Frank read 7 pages per day.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：110
+总正确数 : 62
+*****************************
+*****************************
+Input:
+Question:Every day Ryan spends 6 hours on learning english and 2 hours on learning chinese. How many more hours does he spend on learning english than he does on learning chinese?
+Answer: The answer is
+Output:
+4 hours.
+Output_clean:4.0
+answer:4.0
+EM:0 , F1:0
+correct:1
+已完成：111
+总正确数 : 63
+*****************************
+*****************************
+Input:
+Question:Ryan learns english and chinese for 7 days. Every day he spends 4 hours on learning english and 5 hours on learning chinese. How many hours does he spend on learning english and chinese in all?
+Answer: The answer is
+Output:
+18 hours a day. Over the course of 7 days, Ryan spends 7 days * 4 hours/day (English) + 7 days * 5 hours/day (Chinese) = 28 hours + 35 hours = 63 hours in total on learning English and Chinese.
+Output_clean:18.0
+answer:63.0
+EM:0 , F1:0
+correct:0
+已完成：112
+总正确数 : 63
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. The book had 193 pages equally distributed over 15 chapters. It took Frank 660 days to finish the book. How many chapters did he read per day?
+Answer: The answer is
+Output:
+To find out how many chapters Frank read per day, we need to divide the total number of chapters by the number of days it took him to finish the book.
+
+Total chapters = 15
+Days to finish = 660
+
+Chapters per day = Total chapters / Days to finish
+Chapters per day = 15 / 660
+
+Now let's calculate that.
+Chapters per day = 15 / 660 = 0.0227 (approximately)
+
+So, Frank read approximately 0.0227 chapters per day. Since it's not possible to read a fraction of a chapter, we'll round down to the nearest whole number because he can't read a fraction of a chapter in a day.
+
+Answer: Frank read 0 chapters per day.
+Output_clean:0.0
+answer:44.0
+EM:0 , F1:0
+correct:0
+已完成：113
+总正确数 : 63
+*****************************
+*****************************
+Input:
+Question:Frank was reading through some books. Each book had 249 pages and it took Frank 3 days to finish each book. How many pages did he read per day?
+Answer: The answer is
+Output:
+To find out how many pages Frank read per day, we can multiply the number of pages per book by the number of days it took him to finish one book.
+
+Each book has 249 pages and he finishes one in 3 days.
+
+So, pages per day = Pages per book / Days to finish one book
+Pages per day = 249 pages / 3 days
+
+Now, let's do the calculation:
+
+Pages per day = 83 pages/day
+
+The answer is 83 pages per day.
+Output_clean:83.0
+answer:83.0
+EM:0 , F1:0
+correct:1
+已完成：114
+总正确数 : 64
+*****************************
+*****************************
+Input:
+Question:Frank was reading through some books. Each book had 66 pages and it took Frank 12 days to finish each book. If he takes 492 days to finish all books How many books did he read?
+Answer: The answer is
+Output:
+3
+Output_clean:3.0
+answer:41.0
+EM:0 , F1:0
+correct:0
+已完成：115
+总正确数 : 64
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. The book had 612 pages equally distributed over 24 chapters. It took Frank 6 days to finish the book. How many pages did he read per day?
+Answer: The answer is
+Output:
+To find out how many pages Frank read per day, we need to divide the total number of pages by the number of days it took him to read the book.
+
+Total pages = 612
+Number of chapters = 24
+Pages per chapter = Total pages / Number of chapters
+
+Pages per day = Total pages / Number of days
+
+Let's calculate the pages per chapter first:
+
+Pages per chapter = 612 / 24
+
+Now, let's find out how many pages Frank read per day:
+
+Pages per day = 612 / 6
+
+Let's do the math:
+
+Pages per chapter = 612 / 24 = 25.5 (approximately, since we can't have a fraction of a page)
+Pages per day = 612 / 6 = 102
+
+So, Frank read approximately 102 pages per day.
+Output_clean:102.0
+answer:102.0
+EM:0 , F1:0
+correct:1
+已完成：116
+总正确数 : 65
+*****************************
+*****************************
+Input:
+Question:Every day Ryan spends 3 hours on learning english and some more hours on learning chinese. If he spends a total of 4 hours on learning english and chinese everyday How many hours does he spend on learning chinese?
+Answer: The answer is
+Output:
+1 hour. Since Ryan spends 3 hours on English and a total of 4 hours on both English and Chinese, the remaining hour must be spent on learning Chinese.
+Output_clean:1.0
+answer:1.0
+EM:0 , F1:0
+correct:1
+已完成：117
+总正确数 : 66
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. The book had 555 pages equally distributed over 5 chapters. It took Frank 220 days to finish the book. How many pages are in each chapter?
+Answer: The answer is
+Output:
+111 pages.
+Output_clean:111.0
+answer:111.0
+EM:0 , F1:0
+correct:1
+已完成：118
+总正确数 : 67
+*****************************
+*****************************
+Input:
+Question:Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?
+Answer: The answer is
+Output:
+To find out how many chapters Frank read per day, we first need to calculate the total number of pages in the book and then divide that by the number of days it took him to read.
+
+The book has 2 chapters and each chapter has 405 pages. So the total number of pages is:
+2 chapters * 405 pages/chapter
+
+Let's do the calculation:
+
+Total pages = 2 * 405
+Total pages = 810 pages
+
+Frank read the entire book in 664 days. To find out how many chapters he read per day, we divide the total number of pages by the number of days:
+
+Chapters per day = Total pages / Number of days
+Chapters per day = 810 pages / 664 days
+
+Now let's perform the division:
+
+Chapters per day ≈ 810 / 664
+Chapters per day ≈ 1.219 (approximately)
+
+So, Frank read approximately 1.219 chapters per day. Since you can't read a fraction of a chapter, we'll round down to the nearest whole number, which means Frank read 1 chapter per day.
+
+Answer: 1 chapter per day.
+Output_clean:1.0
+answer:332.0
+EM:0 , F1:0
+correct:0
+已完成：119
+总正确数 : 67
+*****************************
+*****************************
+Input:
+Question:Every day Ryan spends 5 hours on learning chinese and some more hours on learning english. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning english?
+Answer: The answer is
+Output:
+7 hours.
+Output_clean:7.0
+answer:7.0
+EM:0 , F1:0
+correct:1
+已完成：120
+总正确数 : 68
+*****************************
+EM: 0.00, F1: 0.00
+correct_num : 68
+total_num : 120
+accuracy : 56.666666666666664

@@ -1,0 +1,882 @@
+[
+    {
+        "cluster_id": 0,
+        "test_samples": [
+            {
+                "index": 831,
+                "question": "What is the date of death of Heinrich, Duke Of Saxe-Merseburg's mother?",
+                "pred_ans": "",
+                "gold_ans": "20 May 1701",
+                "cluster_dist": 0.7407705783843994
+            },
+            {
+                "index": 789,
+                "question": "Where did Ezriel Auerbach's father die?",
+                "pred_ans": "",
+                "gold_ans": "Jerusalem",
+                "cluster_dist": 0.7395143508911133
+            },
+            {
+                "index": 693,
+                "question": "When did Conall Mac Comgaill's father die?",
+                "pred_ans": "",
+                "gold_ans": "538",
+                "cluster_dist": 0.7788596749305725
+            },
+            {
+                "index": 615,
+                "question": "Who is Clotilde (Died 531)'s sibling-in-law?",
+                "pred_ans": "",
+                "gold_ans": "Gesalec",
+                "cluster_dist": 0.7846055030822754
+            },
+            {
+                "index": 872,
+                "question": "When did Manuel De Sica's mother die?",
+                "pred_ans": "",
+                "gold_ans": "26 January 2011",
+                "cluster_dist": 0.7538150548934937
+            },
+            {
+                "index": 580,
+                "question": "Where was the place of burial of Henry Sellon Boneval Latrobe's father?",
+                "pred_ans": "",
+                "gold_ans": "Louisiana",
+                "cluster_dist": 0.7742059826850891
+            },
+            {
+                "index": 892,
+                "question": "Where did Nazperver Kad\u0131n's husband die?",
+                "pred_ans": "",
+                "gold_ans": "Constantinople",
+                "cluster_dist": 0.791904866695404
+            },
+            {
+                "index": 920,
+                "question": "What is the place of birth of Emily Ruete's father?",
+                "pred_ans": "",
+                "gold_ans": "Muscat",
+                "cluster_dist": 0.785330593585968
+            },
+            {
+                "index": 906,
+                "question": "Where was the place of death of Yuen Shun-Yi's father?",
+                "pred_ans": "",
+                "gold_ans": "Hong Kong",
+                "cluster_dist": 0.8184325695037842
+            },
+            {
+                "index": 593,
+                "question": "Where was the place of death of Charles Christian Erdmann, Duke Of W\u00fcrttemberg-Oels's father?",
+                "pred_ans": "",
+                "gold_ans": "Stuttgart",
+                "cluster_dist": 0.770439088344574
+            },
+            {
+                "index": 773,
+                "question": "Where did Princess Pilar Of Bavaria's mother die?",
+                "pred_ans": "",
+                "gold_ans": "Munich",
+                "cluster_dist": 0.7781787514686584
+            },
+            {
+                "index": 849,
+                "question": "Where was the place of death of John Coolidge's mother?",
+                "pred_ans": "",
+                "gold_ans": "Plymouth",
+                "cluster_dist": 0.7527511715888977
+            },
+            {
+                "index": 815,
+                "question": "Where was the place of death of Junia Tertia's husband?",
+                "pred_ans": "",
+                "gold_ans": "Philippi",
+                "cluster_dist": 0.7534416317939758
+            },
+            {
+                "index": 582,
+                "question": "Where was the place of death of Eleanor Butler Roosevelt's husband?",
+                "pred_ans": "",
+                "gold_ans": "Normandy",
+                "cluster_dist": 0.7796611189842224
+            },
+            {
+                "index": 882,
+                "question": "Where was the place of death of William, Count Of Sully's father?",
+                "pred_ans": "",
+                "gold_ans": "Ramla",
+                "cluster_dist": 0.716131329536438
+            }
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "test_samples": [
+            {
+                "index": 638,
+                "question": "Are Revolt In The Big House and The Fugitive (1914 Film) from the same country?",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8175235986709595
+            },
+            {
+                "index": 704,
+                "question": "Do both films, Amuck! and Sole Nudo, have the directors who are from the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7397845387458801
+            },
+            {
+                "index": 527,
+                "question": "Are both rivers, Dradenau and Mistel (Red Main), located in the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8885047435760498
+            },
+            {
+                "index": 586,
+                "question": "Do both directors of films The Big Delirium and Little Comrade share the same nationality?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7458060383796692
+            },
+            {
+                "index": 856,
+                "question": "Are Taypi Qullu (Sajama) and P'Isaqiri both located in the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8496187329292297
+            },
+            {
+                "index": 959,
+                "question": "Are both mountains, Pizzo Della Croce and Geierwand, located in the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8668519854545593
+            },
+            {
+                "index": 895,
+                "question": "Do both films Cool Blue and Legend Of The Ancient Sword have the directors that share the same nationality?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7367778420448303
+            },
+            {
+                "index": 668,
+                "question": "Did the movies Laserblast and The Life Of Juanita Castro, originate from the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7833962440490723
+            },
+            {
+                "index": 956,
+                "question": "Are the directors of both films The Fall Of A Saint and Fighting Through from the same country?",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.708014190196991
+            },
+            {
+                "index": 935,
+                "question": "Are the directors of films Dilemma Of Two Angels and Un Flic both from the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7593353390693665
+            },
+            {
+                "index": 623,
+                "question": "Do director of film Jerry And Tom and director of film Kansas City Princess share the same nationality?",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.7664532661437988
+            },
+            {
+                "index": 682,
+                "question": "Did the bands Art Of Time Ensemble and The Irish Descendants, originate from the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8890925645828247
+            },
+            {
+                "index": 545,
+                "question": "Are both Enmelen and Yelshanka located in the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8609801530838013
+            },
+            {
+                "index": 617,
+                "question": "Are both Novochesnokovo and Katanda located in the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.8398532271385193
+            },
+            {
+                "index": 930,
+                "question": "Are director of film 11:14 and director of film Born That Way (Film) both from the same country?",
+                "pred_ans": "",
+                "gold_ans": "yes",
+                "cluster_dist": 0.7020511031150818
+            }
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "test_samples": [
+            {
+                "index": 875,
+                "question": "What nationality is the composer of film Dhilluku Dhuddu 2?",
+                "pred_ans": "",
+                "gold_ans": "Singapore",
+                "cluster_dist": 0.8559384942054749
+            },
+            {
+                "index": 564,
+                "question": "Which film has the director who was born first, Sweet Body Of Bianca or Romanzo Criminale?",
+                "pred_ans": "",
+                "gold_ans": "Romanzo Criminale",
+                "cluster_dist": 0.7967657446861267
+            },
+            {
+                "index": 675,
+                "question": "What is the date of birth of the director of film A Single Shot?",
+                "pred_ans": "",
+                "gold_ans": "March 23, 1969",
+                "cluster_dist": 0.6081916093826294
+            },
+            {
+                "index": 536,
+                "question": "Which film has the director who was born later, Love, Summer And Music or The Spaniard'S Curse?",
+                "pred_ans": "",
+                "gold_ans": "The Spaniard'S Curse",
+                "cluster_dist": 0.6536531448364258
+            },
+            {
+                "index": 980,
+                "question": "Which film has the director who was born earlier, Love Sex Aur Dhokha or The Woman In Doctor'S Garb?",
+                "pred_ans": "",
+                "gold_ans": "The Woman In Doctor'S Garb",
+                "cluster_dist": 0.7556611895561218
+            },
+            {
+                "index": 488,
+                "question": "Which film has the director born later, Barbarosa or Stories Of The Revolution?",
+                "pred_ans": "",
+                "gold_ans": "Barbarosa",
+                "cluster_dist": 0.6998137831687927
+            },
+            {
+                "index": 508,
+                "question": "Which film has the director born first, Archim\u00e8de Le Clochard or Bhaskar The Rascal?",
+                "pred_ans": "",
+                "gold_ans": "Archim\u00e8de Le Clochard",
+                "cluster_dist": 0.7410297393798828
+            },
+            {
+                "index": 736,
+                "question": "Which film whose director was born first, In The Midst Of My Days or Outcasts Of The Trail?",
+                "pred_ans": "",
+                "gold_ans": "Outcasts Of The Trail",
+                "cluster_dist": 0.7439960837364197
+            },
+            {
+                "index": 926,
+                "question": "What is the award that the director of film London Boulevard received?",
+                "pred_ans": "",
+                "gold_ans": "Academy Award for Best Adapted Screenplay",
+                "cluster_dist": 0.827391505241394
+            },
+            {
+                "index": 982,
+                "question": "Where was the director of film Kadathanaattu Maakkam born?",
+                "pred_ans": "",
+                "gold_ans": "Pulinkunnoo",
+                "cluster_dist": 0.7207875847816467
+            },
+            {
+                "index": 588,
+                "question": "Which film has the director who was born later, The Nude Bomb or Forest Of Love?",
+                "pred_ans": "",
+                "gold_ans": "Forest Of Love",
+                "cluster_dist": 0.7221102714538574
+            },
+            {
+                "index": 577,
+                "question": "Who is the child of the director of film Kathputli (1971 Film)?",
+                "pred_ans": "",
+                "gold_ans": "Kamal Sadanah",
+                "cluster_dist": 0.8044635653495789
+            },
+            {
+                "index": 598,
+                "question": "Which award the director of film Mahatma: Life Of Gandhi, 1869\u20131948 earned?",
+                "pred_ans": "",
+                "gold_ans": "Padma Bhushan",
+                "cluster_dist": 0.8175046443939209
+            },
+            {
+                "index": 870,
+                "question": "Where was the director of film Elinor Norton born?",
+                "pred_ans": "",
+                "gold_ans": "Boston",
+                "cluster_dist": 0.7504531145095825
+            },
+            {
+                "index": 480,
+                "question": "Where was the director of film Poison Ivy: The New Seduction born?",
+                "pred_ans": "",
+                "gold_ans": "L.A.",
+                "cluster_dist": 0.7506641149520874
+            }
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "test_samples": [
+            {
+                "index": 681,
+                "question": "Where was the place of death of the director of film Dinosaurus!?",
+                "pred_ans": "",
+                "gold_ans": "Amman",
+                "cluster_dist": 0.7427801489830017
+            },
+            {
+                "index": 969,
+                "question": "Which film has the director died first, Two For Tonight or Light Over Russia?",
+                "pred_ans": "",
+                "gold_ans": "Two For Tonight",
+                "cluster_dist": 0.6332496404647827
+            },
+            {
+                "index": 885,
+                "question": "Which film has the director died later, Begrijpt U Nu Waarom Ik Huil? or We Faw Down?",
+                "pred_ans": "",
+                "gold_ans": "Begrijpt U Nu Waarom Ik Huil?",
+                "cluster_dist": 0.6582157611846924
+            },
+            {
+                "index": 769,
+                "question": "Which film has the director who is older, Skinner (Film) or I Wonder Who'S Killing Her Now??",
+                "pred_ans": "",
+                "gold_ans": "I Wonder Who'S Killing Her Now?",
+                "cluster_dist": 0.7107143402099609
+            },
+            {
+                "index": 808,
+                "question": "Which film has the director died later, Excursion Train or Bad Day At Black Rock?",
+                "pred_ans": "",
+                "gold_ans": "Bad Day At Black Rock",
+                "cluster_dist": 0.7010773420333862
+            },
+            {
+                "index": 565,
+                "question": "Who is the father of the director of film Robert Rylands' Last Journey?",
+                "pred_ans": "",
+                "gold_ans": "El\u00edas Querejeta",
+                "cluster_dist": 0.8702759742736816
+            },
+            {
+                "index": 572,
+                "question": "What is the date of death of the director of film Khanjar (1980 Film)?",
+                "pred_ans": "",
+                "gold_ans": "6 February 1983",
+                "cluster_dist": 0.7334550619125366
+            },
+            {
+                "index": 735,
+                "question": "Which film has the director who died later, Majhli Didi or Dream Of The Rhine?",
+                "pred_ans": "",
+                "gold_ans": "Majhli Didi",
+                "cluster_dist": 0.7218496203422546
+            },
+            {
+                "index": 809,
+                "question": "Where did the composer of film Oru Swakaryam die?",
+                "pred_ans": "",
+                "gold_ans": "Lakshadweep",
+                "cluster_dist": 0.7809039354324341
+            },
+            {
+                "index": 787,
+                "question": "Which film has the director died earlier, John Jaffer Janardhanan or Kamakalawa?",
+                "pred_ans": "",
+                "gold_ans": "Kamakalawa",
+                "cluster_dist": 0.6892388463020325
+            },
+            {
+                "index": 905,
+                "question": "Which film has the director who died first, Fear Over The City or In The Shadow Of Kilimanjaro?",
+                "pred_ans": "",
+                "gold_ans": "Fear Over The City",
+                "cluster_dist": 0.6787763237953186
+            },
+            {
+                "index": 942,
+                "question": "Which film has the director who died earlier, The Czar Of Broadway or The Singing Kid?",
+                "pred_ans": "",
+                "gold_ans": "The Czar Of Broadway",
+                "cluster_dist": 0.6600239276885986
+            },
+            {
+                "index": 483,
+                "question": "Which film has the director died later, Struggle For Eagle Peak or Einer Spinnt Immer?",
+                "pred_ans": "",
+                "gold_ans": "Einer Spinnt Immer",
+                "cluster_dist": 0.7229663729667664
+            },
+            {
+                "index": 890,
+                "question": "Which film has the director who died earlier, My Lady'S Latchkey or The Company (Film)?",
+                "pred_ans": "",
+                "gold_ans": "My Lady'S Latchkey",
+                "cluster_dist": 0.7145499587059021
+            },
+            {
+                "index": 873,
+                "question": "Where did the director of film Don Juan (1922 Film) die?",
+                "pred_ans": "",
+                "gold_ans": "Westerland",
+                "cluster_dist": 0.7599571347236633
+            }
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "test_samples": [
+            {
+                "index": 601,
+                "question": "What is the date of birth of the performer of song Aga Siis?",
+                "pred_ans": "",
+                "gold_ans": "1 July 1994",
+                "cluster_dist": 0.6887723803520203
+            },
+            {
+                "index": 648,
+                "question": "Which album came out first, Your Body Above Me or We'Re Here With You?",
+                "pred_ans": "",
+                "gold_ans": "Your Body Above Me",
+                "cluster_dist": 0.9250863790512085
+            },
+            {
+                "index": 845,
+                "question": "What nationality is the performer of song Life Marathon (Eason Chan)?",
+                "pred_ans": "",
+                "gold_ans": "China",
+                "cluster_dist": 0.7736271023750305
+            },
+            {
+                "index": 701,
+                "question": "Who is the father of the performer of song One Word?",
+                "pred_ans": "",
+                "gold_ans": "Ozzy",
+                "cluster_dist": 0.6985955834388733
+            },
+            {
+                "index": 690,
+                "question": "Which song came out first, Dinosaur (Kesha Song) or It'S Here?",
+                "pred_ans": "",
+                "gold_ans": "It'S Here",
+                "cluster_dist": 0.8886353373527527
+            },
+            {
+                "index": 879,
+                "question": "Where was the place of death of the composer of song Someone To Watch Over Me (Song)?",
+                "pred_ans": "",
+                "gold_ans": "Hollywood",
+                "cluster_dist": 0.7458245754241943
+            },
+            {
+                "index": 986,
+                "question": "Where did the composer of song That Certain Feeling die?",
+                "pred_ans": "",
+                "gold_ans": "Hollywood",
+                "cluster_dist": 0.7324252724647522
+            },
+            {
+                "index": 661,
+                "question": "What nationality is the performer of song Whatever You Need (Tina Turner Song)?",
+                "pred_ans": "",
+                "gold_ans": "Swiss",
+                "cluster_dist": 0.732839047908783
+            },
+            {
+                "index": 922,
+                "question": "What is the place of birth of the performer of song All Neon Like?",
+                "pred_ans": "",
+                "gold_ans": "Reykjav\u00edk",
+                "cluster_dist": 0.6846693158149719
+            },
+            {
+                "index": 621,
+                "question": "Where was the place of death of the performer of song Solhverv?",
+                "pred_ans": "",
+                "gold_ans": "Sweden",
+                "cluster_dist": 0.7835542559623718
+            },
+            {
+                "index": 918,
+                "question": "What is the award that the performer of song Marry You received?",
+                "pred_ans": "",
+                "gold_ans": "Grammy Award",
+                "cluster_dist": 0.788210391998291
+            },
+            {
+                "index": 653,
+                "question": "Where does the performer of song Balance-Toi work at?",
+                "pred_ans": "",
+                "gold_ans": "San Antonio Spurs",
+                "cluster_dist": 0.8168913125991821
+            },
+            {
+                "index": 927,
+                "question": "Why did the performer of song Phantasmagoria In Two die?",
+                "pred_ans": "",
+                "gold_ans": "overdose",
+                "cluster_dist": 0.7461960911750793
+            },
+            {
+                "index": 964,
+                "question": "Which country the performer of song Mera Piya Ghar Aaya is from?",
+                "pred_ans": "",
+                "gold_ans": "Pakistan",
+                "cluster_dist": 0.7980027198791504
+            },
+            {
+                "index": 861,
+                "question": "What nationality is the composer of song Invercargill March?",
+                "pred_ans": "",
+                "gold_ans": "Australian",
+                "cluster_dist": 0.7560051083564758
+            }
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "test_samples": [
+            {
+                "index": 747,
+                "question": "What nationality is John Morgan (Of Rhiwpera)'s father?",
+                "pred_ans": "",
+                "gold_ans": "England",
+                "cluster_dist": 0.8406762480735779
+            },
+            {
+                "index": 793,
+                "question": "Who was born earlier, Salom\u0117ja Zaksait\u0117 or Nataliya Rusnachenko?",
+                "pred_ans": "",
+                "gold_ans": "Nataliya Rusnachenko",
+                "cluster_dist": 0.7776148319244385
+            },
+            {
+                "index": 830,
+                "question": "What nationality is the creator of Expedition Impossible (Tv Series)?",
+                "pred_ans": "",
+                "gold_ans": "British",
+                "cluster_dist": 0.9558113813400269
+            },
+            {
+                "index": 757,
+                "question": "Where did Jewel Taylor's husband study at?",
+                "pred_ans": "",
+                "gold_ans": "Bentley College",
+                "cluster_dist": 0.8769034743309021
+            },
+            {
+                "index": 751,
+                "question": "Where was the place of death of the founder of Bloomberg Industry Group?",
+                "pred_ans": "",
+                "gold_ans": "Sarasota, Florida",
+                "cluster_dist": 0.9517423510551453
+            },
+            {
+                "index": 729,
+                "question": "Do Colin Chapman (Primatologist) and Kohl Stewart share the same nationality?",
+                "pred_ans": "",
+                "gold_ans": "no",
+                "cluster_dist": 0.8134878277778625
+            },
+            {
+                "index": 886,
+                "question": "Who is older, Katrin Meissner or Paula Deubel?",
+                "pred_ans": "",
+                "gold_ans": "Paula Deubel",
+                "cluster_dist": 0.830441415309906
+            },
+            {
+                "index": 962,
+                "question": "Who lived longer, Aniela Pawlikowska or Erling Jensen?",
+                "pred_ans": "",
+                "gold_ans": "Erling Jensen",
+                "cluster_dist": 0.8702133297920227
+            },
+            {
+                "index": 513,
+                "question": "Who is younger, Bekir Y\u0131lmaz or Miguel Hern\u00e1ndez Agosto?",
+                "pred_ans": "",
+                "gold_ans": "Bekir Y\u0131lmaz",
+                "cluster_dist": 0.8360850214958191
+            },
+            {
+                "index": 589,
+                "question": "Where was the father of \u0218tefan I. Neni\u021bescu born?",
+                "pred_ans": "",
+                "gold_ans": "Gala\u021bi",
+                "cluster_dist": 0.7807596921920776
+            },
+            {
+                "index": 503,
+                "question": "Who was born later, Waddell Smith or Franco Scaglione?",
+                "pred_ans": "",
+                "gold_ans": "Waddell Smith",
+                "cluster_dist": 0.7606020569801331
+            },
+            {
+                "index": 968,
+                "question": "Who was born first, Phoebe Chapple or Luis Alberto Luna Tobar?",
+                "pred_ans": "",
+                "gold_ans": "Phoebe Chapple",
+                "cluster_dist": 0.8410398960113525
+            },
+            {
+                "index": 504,
+                "question": "Who was born later, Edward Alexander Newell Arber or Atieli Pakalani?",
+                "pred_ans": "",
+                "gold_ans": "Atieli Pakalani",
+                "cluster_dist": 0.790126383304596
+            },
+            {
+                "index": 571,
+                "question": "Which magazine was published first, Kuhinjica or Xray Magazine?",
+                "pred_ans": "",
+                "gold_ans": "Xray Magazine",
+                "cluster_dist": 0.9869762659072876
+            },
+            {
+                "index": 666,
+                "question": "Who was born earlier, Helen Clifton or Steve Barancik?",
+                "pred_ans": "",
+                "gold_ans": "Helen Clifton",
+                "cluster_dist": 0.8341330289840698
+            }
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "test_samples": [
+            {
+                "index": 817,
+                "question": "Who is Charles Ii, Count Of Nevers's paternal grandmother?",
+                "pred_ans": "",
+                "gold_ans": "Elizabeth of Nevers",
+                "cluster_dist": 0.7260118722915649
+            },
+            {
+                "index": 710,
+                "question": "Who is the paternal grandfather of Daughter Of Julius Constantius?",
+                "pred_ans": "",
+                "gold_ans": "Constantius Chlorus",
+                "cluster_dist": 0.7361689805984497
+            },
+            {
+                "index": 657,
+                "question": "Who is the mother-in-law of Countess Claudine Rh\u00e9dey Von Kis-Rh\u00e9de?",
+                "pred_ans": "",
+                "gold_ans": "Henriette of Nassau-Weilburg",
+                "cluster_dist": 0.7597653865814209
+            },
+            {
+                "index": 816,
+                "question": "Who is Gavin Hamilton, 2Nd Baron Hamilton Of Dalzell's paternal grandfather?",
+                "pred_ans": "",
+                "gold_ans": "Archibald James Hamilton",
+                "cluster_dist": 0.8092538118362427
+            },
+            {
+                "index": 924,
+                "question": "Who is Susan De Vere, Countess Of Montgomery's paternal grandfather?",
+                "pred_ans": "",
+                "gold_ans": "John de Vere, 16th Earl of Oxford",
+                "cluster_dist": 0.7510486245155334
+            },
+            {
+                "index": 842,
+                "question": "Where was the father of Marie Of Lusignan, Queen Of Aragon born?",
+                "pred_ans": "",
+                "gold_ans": "Antioch",
+                "cluster_dist": 0.7809121608734131
+            },
+            {
+                "index": 774,
+                "question": "Who is Joan, Countess Of Chiny's paternal grandfather?",
+                "pred_ans": "",
+                "gold_ans": "Louis III, Count of Chiny",
+                "cluster_dist": 0.6808019280433655
+            },
+            {
+                "index": 970,
+                "question": "Who is Malin Berghagen's father?",
+                "pred_ans": "",
+                "gold_ans": "Kjell Kaspersen",
+                "cluster_dist": 0.7927116751670837
+            },
+            {
+                "index": 754,
+                "question": "Who is the sibling-in-law of Giuditta Grisi?",
+                "pred_ans": "",
+                "gold_ans": "Giovanni Matteo Mario",
+                "cluster_dist": 0.8284174203872681
+            },
+            {
+                "index": 804,
+                "question": "Where was the mother of Princess Dorothea Of Saxe-Coburg And Gotha born?",
+                "pred_ans": "",
+                "gold_ans": "Brussels",
+                "cluster_dist": 0.7722873687744141
+            },
+            {
+                "index": 686,
+                "question": "What nationality is Catherine Of Lorraine, Margravine Of Baden-Baden's father?",
+                "pred_ans": "",
+                "gold_ans": "France",
+                "cluster_dist": 0.8334499597549438
+            },
+            {
+                "index": 761,
+                "question": "Who is the father of Juliana Of The Netherlands?",
+                "pred_ans": "",
+                "gold_ans": "Duke Henry of Mecklenburg-Schwerin",
+                "cluster_dist": 0.7842767238616943
+            },
+            {
+                "index": 897,
+                "question": "Which country Zita Of Bourbon-Parma's father is from?",
+                "pred_ans": "",
+                "gold_ans": "Italian",
+                "cluster_dist": 0.8559356331825256
+            },
+            {
+                "index": 806,
+                "question": "Who is the paternal grandmother of John Ii Of Luxembourg, Count Of Ligny?",
+                "pred_ans": "",
+                "gold_ans": "Mahaut de Ch\u00e2tillon",
+                "cluster_dist": 0.7269378900527954
+            },
+            {
+                "index": 605,
+                "question": "Who is Hulagu Khan's paternal grandmother?",
+                "pred_ans": "",
+                "gold_ans": "B\u00f6rte",
+                "cluster_dist": 0.7507408857345581
+            }
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "test_samples": [
+            {
+                "index": 725,
+                "question": "Which film came out earlier, Deeper And Deeper (Film) or Arriba El Tel\u00f3n O El Patio De La Morocha?",
+                "pred_ans": "",
+                "gold_ans": "Arriba El Tel\u00f3n O El Patio De La Morocha",
+                "cluster_dist": 0.7508625388145447
+            },
+            {
+                "index": 799,
+                "question": "Which film has the director who is older, The Daughters Of Helena or Nights On The Nile?",
+                "pred_ans": "",
+                "gold_ans": "Nights On The Nile",
+                "cluster_dist": 0.8014071583747864
+            },
+            {
+                "index": 705,
+                "question": "Which film was released first, Burari Bura-Bura Monogatari or Hangman'S Noose?",
+                "pred_ans": "",
+                "gold_ans": "Hangman'S Noose",
+                "cluster_dist": 0.8117709755897522
+            },
+            {
+                "index": 689,
+                "question": "Which film has more directors, Bad Times At The El Royale or The Immortal Garrison?",
+                "pred_ans": "",
+                "gold_ans": "The Immortal Garrison",
+                "cluster_dist": 0.7844635248184204
+            },
+            {
+                "index": 721,
+                "question": "Which film came out first, Celine: Through The Eyes Of The World or Dilan 1991?",
+                "pred_ans": "",
+                "gold_ans": "Celine: Through The Eyes Of The World",
+                "cluster_dist": 0.8559680581092834
+            },
+            {
+                "index": 812,
+                "question": "Which film whose director is younger, Widow'S Might or Pappa E Ciccia?",
+                "pred_ans": "",
+                "gold_ans": "Pappa E Ciccia",
+                "cluster_dist": 0.7614901661872864
+            },
+            {
+                "index": 573,
+                "question": "Which film was released more recently, Gold, Frankincense And Myrrh or The Girl Who Came Late?",
+                "pred_ans": "",
+                "gold_ans": "The Girl Who Came Late",
+                "cluster_dist": 0.7525500059127808
+            },
+            {
+                "index": 944,
+                "question": "Which film was released first, Battle Of Kosovo (Film) or Quackser Fortune Has A Cousin In The Bronx?",
+                "pred_ans": "",
+                "gold_ans": "Quackser Fortune Has A Cousin In The Bronx",
+                "cluster_dist": 0.8327609896659851
+            },
+            {
+                "index": 743,
+                "question": "Which film was released more recently, Hollow Point or Ploy?",
+                "pred_ans": "",
+                "gold_ans": "Ploy",
+                "cluster_dist": 0.7696072459220886
+            },
+            {
+                "index": 596,
+                "question": "Which film was released more recently, Mad Families or A City Upside Down?",
+                "pred_ans": "",
+                "gold_ans": "Mad Families",
+                "cluster_dist": 0.821333646774292
+            },
+            {
+                "index": 996,
+                "question": "Which film was released earlier, August Underground'S Penance or Vasantha Raagam?",
+                "pred_ans": "",
+                "gold_ans": "Vasantha Raagam",
+                "cluster_dist": 0.7848331928253174
+            },
+            {
+                "index": 803,
+                "question": "Which film came out first, La Casa Stregata or I Bury The Living?",
+                "pred_ans": "",
+                "gold_ans": "I Bury The Living",
+                "cluster_dist": 0.7735927104949951
+            },
+            {
+                "index": 494,
+                "question": "Which film was released more recently, The Petty Girl or Pulijanmam?",
+                "pred_ans": "",
+                "gold_ans": "Pulijanmam",
+                "cluster_dist": 0.8054178953170776
+            },
+            {
+                "index": 652,
+                "question": "Which film came out earlier, To Touch The Soul or Contragolpe?",
+                "pred_ans": "",
+                "gold_ans": "Contragolpe",
+                "cluster_dist": 0.7662116289138794
+            },
+            {
+                "index": 584,
+                "question": "Which film has more directors, The Inbetweeners 2 or Crash Of The Moons?",
+                "pred_ans": "",
+                "gold_ans": "The Inbetweeners 2",
+                "cluster_dist": 0.7229992151260376
+            }
+        ]
+    }
+]

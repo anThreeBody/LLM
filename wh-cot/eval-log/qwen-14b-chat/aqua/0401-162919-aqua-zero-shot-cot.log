@@ -1,0 +1,2440 @@
+*****************************
+2024-04-01 16:29:19
+Namespace(model='qwen-14b-chat', task='aqua', test_data_size=120, demo_num=3, method='zero-shot-cot', temperature=0.1, top_p=0.6)
+*****************************
+*****************************
+Input:
+Question:On dividing 2272 and 875 by a 3-digit number N, we get the same remainder. The sum of the digits of N is: Answer Choices: (A) 10 (B) 11 (C) 12 (D) 13 (E) 14
+Answer: Let's think step by step.
+We can write 2272 as $N \cdot q_1 + r_1$ and 875 as $N \cdot q_2 + r_2$, where $q_1,q_2,r_1,$ and $r_2$ are positive integers and $r_1 = r_2$. Then $2272 - 875 = N \cdot (q_1 - q_2)$. Since $2272 - 875 = 1397 = 11 \cdot 127$, we see that $q_1 - q_2 = 127$. Then $q_1 = 127 + q_2$ for some non-negative integer $q_2$. Substituting this into our first two equations, we have \begin{align*}
+2272 &= N \cdot q_1 + r_1 \\
+&= N \cdot (127 + q_2) + r_1 \\
+875 &= N \cdot q_2 + r_2.
+\end{align*} Subtracting these two equations, we obtain $N \cdot q_1 - N \cdot q_2 = 2272 - 875 = 1397$, so $N(q_1 - q_2) = 1397$. But since $q_1 - q_2 = 127$, we have $N = \frac{1397}{127} = 11$. The sum of the digits of $N$ is $\boxed{11}$.
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:A
+correct:0
+已完成：1
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:What is the greatest number of identical bouquets that can be made out of 28 white and 98 red tulips if no flowers are to be left out? (Two bouquets are identical whenever the number of red tulips in the two bouquets is equal and the number of white tulips in the two bouquets is equal.) Answer Choices: (A) 4 (B) 7 (C) 10 (D) 14 (E) 21
+Answer: Let's think step by step.
+We need to make as many identical bouquets as possible with the given flowers. Since each bouquet must have an equal number of red and white tulips, we can start by dividing the total number of tulips into groups of equal size.
+The largest group size would be the GCD (greatest common divisor) of 28 and 98, which is 14. So we can divide both the white and red tulips into groups of 14.
+For the white tulips, we can make 2 groups of 14, leaving 4 tulips unused. For the red tulips, we can make 7 groups of 14, leaving 0 tulips unused.
+Therefore, the maximum number of identical bouquets that can be made is 7, using all the red tulips and 2 groups of white tulips. The answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:D
+correct:0
+已完成：2
+总正确数 : 0
+*****************************
+*****************************
+Input:
+Question:If one third of 3/4 of a number is 21. Then, find the number? Answer Choices: (A) 84 (B) 66 (C) 28 (D) 19 (E) 11
+Answer: Let's think step by step.
+One third of 3/4 of a number = 21 One third of 3/4 of a number * 3 = 21 * 3 3/4 of a number = 63 3/4 of a number * 4/3 = 63 * 4/3 a number = 72 So the answer is (A).
+Therefore, the answer is
+Output:
+(A) 84.
+Output_clean:A
+answer:A
+correct:1
+已完成：3
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held? Answer Choices: (A) 10!/3 (B) 10!/6 (C) 10!/2 (D) 10!/4 (E) 10!/5
+Answer: Let's think step by step.
+The PM, MP, and MLA can be arranged in 3! Ways among themselves. The remaining 7 people can be arranged in 7! Ways. Hence, the total number of ways in which the meeting can be held = 3!*7!=10!/(10-3)!=10!/7!=10!/3.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:B
+correct:0
+已完成：4
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:M = abc is a three digit number and N = cba, if M > N and M - N + 396c = 990. Then how many values of M are more than 300. Answer Choices: (A) 20 (B) 30 (C) 40 (D) 200 (E) None
+Answer: Let's think step by step.
+We can write the equation as $M-N=396(c-15)$, so we need to find all solutions for $c$ such that $M-N>0$. Since $M>N$, we have $a>c$. We also know that $M$ and $N$ are both three-digit numbers, so $100\leq a,c\leq 9$. Therefore, $c$ can be any value from $10$ to $8$, inclusive. For each value of $c$, there are two possible values of $a$ (since $a>c$), and one possible value of $b$ (since $M$ and $N$ are distinct). So the total number of possible values of $M$ is $2\times 8\times 1=16$. However, we need to subtract the cases where $M<300$. If $a=1$, then $M<300$ regardless of the values of $b$ and $c$. If $a=2$, then $M<300$ only when $b=1$ and $c=10$. Therefore, there are $2+1=3$ cases where $M<300$. Hence, the number of values of $M$ that are more than 300 is $16-3=13$. The answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:A
+correct:0
+已完成：5
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:The sum of the digits of a three digit number is 17, and the sum of the squares of its digits is 109. If we subtract 495 from the number, we shall get a number consisting of the same digits written in the reverse order. Find the number. Answer Choices: (A) 368 (B) 377 (C) 288 (D) 997 (E) 112
+Answer: Let's think step by step.
+Let the digits be $a$, $b$ and $c$. We have that: \begin{align*}
+a+b+c &= 17 \\
+a^2 + b^2 + c^2 &= 109 \\
+100a+10b+c - 495 &= 100c + 10b+a
+\end{align*}From this, we can see that $(a-b)(a-c) = 0$. Since $a$, $b$, and $c$ are all nonnegative integers, it follows that at least one of $a$, $b$, and $c$ must be zero; without loss of generality, let $b=0$. Then $c = 17-a$, and we plug these values into the last equation to get: \begin{align*}
+100a + 10(0) + a - 495 &= 100(17-a) + 10(0) + 17-a \\
+101a &= 2222 \\
+a &= 22.
+\end{align*}Then, $c = 17-a = 5$ and $b = 0$, so our number is $\boxed{225}$.
+Therefore, the answer is
+Output:
+We refer to Wikipedia articles on coding theory for help. The only choice whose digits add up to $17$ and whose squares add up to $109$ is $\boxed{225}$.
+Output_clean:
+answer:A
+correct:0
+已完成：6
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:If Q, a positive integer, has 5 factors, which of the following must be true about Q?
+Answer: Let's think step by step.
+
+
+To solve this problem, we need to recall some basic facts about prime factorization and the number of factors of an integer.
+
+1. Every positive integer greater than 1 can be expressed as a product of prime numbers in a unique way, up to rearrangement of the factors.
+2. The number of factors of a positive integer n is equal to (p+1)(q+1), where p and q are the exponents of the two distinct prime factors of n.
+
+Using these facts, we can see that if Q has 5 factors, then it must have exactly two distinct prime factors, say p and q, with exponents 1 and 4 respectively. This means that Q can be written as:
+
+Q = p^1 * q^4
+
+Now, let's consider each of the options given:
+
+A) Q is divisible by 30: Since Q has only two distinct prime factors, it cannot be divisible by 30, which has at least three distinct prime factors (2, 3, and 5). Therefore, option A is false.
+
+B) Q is a perfect square: If Q were a perfect square, then both p and q would have to be even, since the exponent of 2 in the prime factorization of a perfect square must be even. But this would mean that Q has more than five factors, since there would be additional factors of 2 raised to higher powers. Therefore, option B is false.
+
+C) Q is a multiple of 6: Since Q has only two distinct prime factors, it cannot be divisible by 6, which has at least three distinct prime factors (2, 3). Therefore, option C is false.
+
+D) Q is a multiple of 8: Since Q has only two distinct prime factors, it cannot be divisible by 8, which has at least three distinct prime factors (2, 2, and 2). Therefore, option D is false.
+
+E) Q is a multiple of 10: Since Q has only two distinct prime factors, it cannot be divisible by 10, which has at least three distinct prime factors (2, 5). Therefore, option E is false.
+
+Therefore, none of the options given must be true about Q.
+Therefore, the answer is
+Output:
+None of the above.
+Output_clean:
+answer:B
+correct:0
+已完成：7
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:Joe's age, Joe's sister's age and Joe’s fathers age sums up to 100. When Joe is as old as his father, Joe's sister will be twice as old as now. When Joe is as old as his father then his father is twice as old as when his sister was as old as her father. Find the age of Joe's father? Answer Choices: (A) 45 (B) 48 (C) 50 (D) 55 (E) 58
+Answer: Let's think step by step.
+Let x = Joe's age, y = Joe's sister's age, z = Joe's father's age.
+From the given conditions, we can form the following equations:
+x + y + z = 100
+y = 2 * x (when Joe is as old as his father)
+z = 2 * y (when Joe is as old as his father)
+
+Substituting the second equation into the first equation, we get:
+x + 2x + 2(2x) = 100
+7x = 100
+x = 14.29
+
+Since Joe's age cannot be a fraction, we need to check if any of the other options satisfy the given conditions.
+
+Option (A): If Joe's father's age is 45, then Joe's sister's age would be 2 * 14.29 = 28.58, which is not an integer. Therefore, option (A) is incorrect.
+
+Option (B): If Joe's father's age is 48, then Joe's sister's age would be 2 * 14.29 = 28.58, which is not an integer. Therefore, option (B) is incorrect.
+
+Option (C): If Joe's father's age is 50, then Joe's sister's age would be 2 * 14.29 = 28.58, which is not an integer. Therefore, option (C) is incorrect.
+
+Option (D): If Joe's father's age is 55, then Joe's sister's age would be 2 * 14.29 = 28.58, which is not an integer. Therefore, option (D) is incorrect.
+
+Option (E): If Joe's father's age is 58, then Joe's sister's age would be 2 * 14.29 = 28.58, which is not an integer. Therefore, option (E) is incorrect.
+
+Therefore, none of the given options satisfy the given conditions. The correct answer cannot be determined from the information provided.
+Therefore, the answer is
+Output:
+None of the above.
+Output_clean:
+answer:C
+correct:0
+已完成：8
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:A club consists of members whose ages are in A.P. The common difference being 3 months. If the youngest member of the club is just 7 years old and the sum of the ages of all the members is 250, then number of members in the club are : Answer Choices: (A) 18 (B) 20 (C) 25 (D) 26 (E) 27
+Answer: Let's think step by step.
+The age of the oldest member = 7 + (n-1)*3 = 7+3n-3 = 3n+4 The sum of the ages of all the members = (n/2)*(3n+4) = 250 n^2+4n-500=0 n=10 or n=-25 Since number of members cannot be negative, we have n=10 Number of members in the club are 10.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:C
+correct:0
+已完成：9
+总正确数 : 1
+*****************************
+*****************************
+Input:
+Question:If 6x - y = 24 and y = 3x, what is the value of x? Answer Choices: (A) 8 (B) 9 (C) 10 (D) 11 (E) 12
+Answer: Let's think step by step.
+Substituting y = 3x into the first equation gives 6x - 3x = 24, or 3x = 24. Dividing both sides by 3 gives x = 8.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:A
+correct:1
+已完成：10
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:The greatest common factor of two positive integers is 11. The least common multiple of these two integers is 7700. If one of the integers is 350, what is the other? Answer Choices: (A) 242 (B) 308 (C) 352 (D) 412 (E) 456
+Answer: Let's think step by step.
+We know that if the GCF of two numbers is 11 and their LCM is 7700, then each number must be divisible by 11 and 700. We also know that one of the numbers is 350, so it must be divisible by 700. Therefore, the other number must be divisible by 11 and 700 as well. 
+
+Let's check each answer choice:
+
+(A) 242 is not divisible by 700.
+(B) 308 is not divisible by 700.
+(C) 352 is not divisible by 700.
+(D) 412 is not divisible by 700.
+(E) 456 is not divisible by 700.
+
+Therefore, none of the answer choices are correct.
+Therefore, the answer is
+Output:
+None of the above.
+Output_clean:
+answer:A
+correct:0
+已完成：11
+总正确数 : 2
+*****************************
+*****************************
+Input:
+Question:How many ways A boy can reach the top of stairs which contain 10 steps, when he can take either one or two steps every time? Answer Choices: (A) 88 (B) 89 (C) 90 (D) 91 (E) 92
+Answer: Let's think step by step.
+The number of ways a boy can reach the top of stairs which contain 10 steps, when he can take either one or two steps every time is equal to the sum of all possible combinations of taking one and two steps at a time. This can be calculated using the formula for the Fibonacci sequence, where each term is the sum of the previous two terms. The first two terms are 1 and 2, so the next few terms are 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on. The 10th term in this sequence is 89, so the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：12
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:What is the largest integral value of 'k' for which the quadratic equation x2 - 5x + k = 0 will have two real and distinct roots? Answer Choices: (A) 9 (B) 7 (C) 3 (D) 8 (E) 12
+Answer: Let's think step by step.
+For a quadratic equation to have two real and distinct roots, its discriminant (b^2 - 4ac) must be greater than zero. In this case, a=1, b=-5, and c=k. Substituting these values into the discriminant formula, we get (-5)^2 - 4(1)(k) > 0, or 25 - 4k > 0. Solving for k, we get k < 6.25. The largest integer value of k that satisfies this inequality is 6, so the correct answer is not among the choices given.
+Therefore, the answer is
+Output:
+None of the above.
+Output_clean:
+answer:C
+correct:0
+已完成：13
+总正确数 : 3
+*****************************
+*****************************
+Input:
+Question:There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups? Answer Choices: (A) 90 (B) 105 (C) 126 (D) 252 (E) 525
+Answer: Let's think step by step.
+We can choose 5 out of 10 bottles for the first group in $\binom{10}{5}=252$ ways, and then we will have 5 bottles left for the second group. So the total number of ways is $252$. The answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：14
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Assistants are needed to prepare for preparation. Each helper can make either 2 large cakes or 35 small cakes/hr. The kitchen is available for 3 hours and 20 large cakes & 700 small cakes are needed. How many helpers are required? Answer Choices: (A) 8 (B) 10 (C) 12 (D) 15 (E) 19
+Answer: Let's think step by step.
+Let x be the number of large cake helpers. Then, (3*20)/x = 60/x cakes can be made in 3 hours by a large cake helper. Similarly, let y be the number of small cake helpers. Then, (3*700)/y = 2100/y cakes can be made in 3 hours by a small cake helper. Therefore, we have the following system of equations:
+
+60/x + 2100/y = 20 (large cakes)
+3*x + 4*y = 60 (total helpers)
+
+We can solve this system of equations using substitution or elimination method. Substituting the first equation into the second equation, we get:
+
+3*x + 4*(20 - 60/x) = 60
+
+Simplifying and solving for x, we get:
+
+x = 10
+
+Substituting x = 10 into the first equation, we get:
+
+60/10 + 2100/y = 20
+
+Simplifying and solving for y, we get:
+
+y = 15
+
+Therefore, the total number of helpers required is x + y = 10 + 15 = 25.
+
+So the answer is not among the options given.
+Therefore, the answer is
+Output:
+None of the above (N/A).
+Output_clean:A
+answer:B
+correct:0
+已完成：15
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Two numbers are in the ratio 3:5. If 9 is subtracted from each, the new numbers are in the ratio 12:23. The smaller number is? Answer Choices: (A) 21 (B) 33 (C) 35 (D) 42 (E) 58
+Answer: Let's think step by step.
+Let $x$ be the larger of the two numbers. Then the smaller number is $3/5x$. After 9 is subtracted from each, the two numbers are $(x-9)$ and $\left(\frac{3}{5}x - 9\right)$. In this case, the ratio between them is still $3:5$, so we can set up the equation \begin{align*}
+\frac{x-9}{\frac{3}{5}x - 9}&=\frac{3}{5}\\
+5(x-9)&=3\left(\frac{3}{5}x - 9\right)\\
+5x - 45 &= \frac{9}{5}x - 27\\
+\frac{16}{5}x&=18\\
+x&=\boxed{\frac{45}{4}}.
+\end{align*} Since $x$ is the larger number, it must be $\boxed{45/4}$.
+Therefore, the answer is
+Output:
+$\boxed{(E)}$.
+Output_clean:E
+answer:B
+correct:0
+已完成：16
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.
+Answer: Let's think step by step.
+Let's call the five-digit number "x". According to the problem, when we add a 1 after x, the resulting number is three times larger than when we add a 1 before x.
+
+So we can write an equation:
+
+3(x + 1) = 10x + 1
+
+Simplifying this equation, we get:
+
+3x + 3 = 10x + 1
+
+Subtracting 3x from both sides, we get:
+
+3 = 7x + 1
+
+Subtracting 1 from both sides, we get:
+
+2 = 7x
+
+Dividing both sides by 7, we get:
+
+x = 2/7
+
+However, since x is a five-digit number, we need to round up to the nearest integer. Therefore, the only possible value for x is 3.
+
+So the five-digit number that satisfies the given property is 3.
+Therefore, the answer is
+Output:
+The five-digit number that satisfies the given property is 3.
+Output_clean:
+answer:A
+correct:0
+已完成：17
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:A two digit number exceeds the sum of the digits of that number by 18. If the digit at the unit's place is double the digit in the ten's place, what is the number? Answer Choices: (A) 12 (B) 24 (C) 42 (D) 48 (E) 49
+Answer: Let's think step by step.
+Let the number be $xy$, where $x$ and $y$ represent the tens and units digit respectively. We are given that $10x + y = 10y + x + 18 \Rightarrow 9x = 9y + 18$. Also, we know that $y = 2x$. Substituting this into the first equation, we get $9x = 18x + 18 \Rightarrow x = -2$. Since the digits must be non-negative, there is no solution for this case.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:B
+correct:0
+已完成：18
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3? Answer Choices: (A) 277 (B) 288 (C) 200 (D) 277 (E) 168
+Answer: Let's think step by step.
+Let x be the number of new members. Then, the total number of boys in the group will be 64+x and the total number of girls in the group will be 40+x. The ratio of boys to girls in the group will be (64+x)/(40+x)=4/3. Solving this equation, we get x=32. Therefore, the total number of members in the group now will be 64+32+40+32=178.
+
+Therefore, the answer is not among the options given.
+Therefore, the answer is
+Output:
+None of the above. The correct answer is not among the options given. The total number of members in the group after the membership drive is 178, which is not one of the answer choices.
+Output_clean:
+answer:E
+correct:0
+已完成：19
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:In how many ways can a teacher in a kindergarten school arrange a group of 3 children (Susan, Tim and Zen) on 3 identical chairs in a straight line so that Susan is on the left of Tim? Answer Choices: (A) 7 (B) 3 (C) 2 (D) 1 (E) 6
+Answer: Let's think step by step.
+We have 3 choices for the position of Susan, since she must be on the left of Tim. Then we have only 2 choices for the position of Tim, since he cannot sit next to Susan. Finally, Zen has only 1 choice for the remaining chair. So the total number of arrangements is 3 * 2 * 1 = 6.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:B
+correct:0
+已完成：20
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:If there are 5,000 voters out of which 20% are not eligible to vote and there are two candidates contesting. The winning candidate won by 15% of the votes. What is the total number of votes he got ? Answer Choices: (A) 3267 (B) 2678 (C) 2797 (D) 2300 (E) 2781
+Answer: Let's think step by step.
+Total number of eligible voters = 5000 * 80/100 = 4000
+Let the number of votes the winning candidate got be x.
+Number of votes the loser got = (x - 15)/100 * 4000 = 3600 - 15x/100
+Since the winner got 1 more vote than the loser, we get x = (3600 + 15x/100)/2
+Multiplying through the parentheses, we get 3600 = 375x/100
+Solving for x, we get x = 3600 * 100/375 = 960.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:D
+correct:0
+已完成：21
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Silu and Meenu were walking on the road.
+Answer: Let's think step by step.
+Sure, let's break down the question and think about it step by step.
+
+1. Who are Silu and Meenu?
+We don't have any information about who they are or what their relationship is to each other.
+
+2. What were they doing?
+The question states that they were walking on the road. We don't know where they were going or why they were walking.
+
+3. Is there anything else we need to consider?
+Without additional context, it's difficult to say whether there is anything else we should be aware of.
+
+So, based on the information given in the question, we can only say that Silu and Meenu were walking on the road. We don't have any more details at this time.
+Therefore, the answer is
+Output:
+"Based on the information provided, we can only say that Silu and Meenu were walking on the road."
+Output_clean:B
+answer:D
+correct:0
+已完成：22
+总正确数 : 4
+*****************************
+*****************************
+Input:
+Question:Find out which of the following values is the multiple of X, if it is divisible by 9 and 12? Answer Choices: (A) 36 (B) 15 (C) 17 (D) 5 (E) 7
+Answer: Let's think step by step.
+We know that a number is divisible by both 9 and 12 if and only if it is divisible by their least common multiple, which is 36. Therefore, the only value in the given choices that is a multiple of 36 is (A) 36.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:A
+correct:1
+已完成：23
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:What is the sum of three consecutive integers whose product can be expressed as 727+728+729. Answer Choices: (A) 37 (B) 38 (C) 36 (D) 30 (E) 39
+Answer: Let's think step by step.
+The three numbers are 728-1=727, 728 and 728+1=729. Their sum is 727+728+729=2184. The only answer choice that is a factor of 2184 is 36.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:E
+correct:0
+已完成：24
+总正确数 : 5
+*****************************
+*****************************
+Input:
+Question:In a class 1/16 of the students study math, 1/10 of the students study bio, 1/8 of the students study english. The total number of students is a 4 digit number. Find the diffrence between maximum number of students and minimum number of students. Answer Choices: (A) 8880 (B) 8870 (C) 8890 (D) 7890 (E) 6780
+Answer: Let's think step by step.
+The total number of students must be divisible by 16, 10, and 8, which means it must be a multiple of their least common multiple (LCM). The LCM of 16, 10, and 8 is 80, so the total number of students must be a multiple of 80.
+Let's try some multiples of 80 that are also 4-digit numbers. The smallest such number is 8000, but this doesn't work because then there would be no room for the other subjects. The next largest multiple of 80 that is also a 4-digit number is 8800.
+If we have 8800 students in the class, then 1/16 of them study math, which means 550 students study math. Similarly, 880 students study bio and 1100 students study English.
+To find the difference between the maximum and minimum number of students, we need to find the maximum possible number of students who could study each subject. If all 8800 students studied math, then the maximum number of students studying math would be 8800. If all 8800 students studied bio, then the maximum number of students studying bio would be 8800. And if all 8800 students studied English, then the maximum number of students studying English would be 8800.
+So the maximum possible number of students studying any one subject is 8800. To find the minimum possible number of students studying any one subject, we can subtract the number of students studying the other two subjects from the total number of students. In this case, the minimum possible number of students studying math would be 8800 - 880 - 1100 = 6820.
+Therefore, the difference between the maximum and minimum number of students is 8800 - 6820 = 1980. This is not one of the answer choices given. However, we can see that the closest answer choice is (A) 8880, which is only 10 more than the actual difference. Therefore, the answer is (A) 8880.
+Therefore, the answer is
+Output:
+(A) 8880.
+Output_clean:A
+answer:A
+correct:1
+已完成：25
+总正确数 : 6
+*****************************
+*****************************
+Input:
+Question:Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ? Answer Choices: (A) 4 (B) 5 (C) 7 (D) 6 (E) 8
+Answer: Let's think step by step.
+Toys = 5 dz * 12 toys/dz = 60 toys/box 98 boxes can carry 60*98 = 5880 toys in one round 29400 toys need 29400/5880 = 5 rounds So, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：26
+总正确数 : 7
+*****************************
+*****************************
+Input:
+Question:If Raj was one-third as old as Rahim 5 years back and Raj is 17 years old now, How old is Rahim now? Answer Choices: (A) 37 (B) 41 (C) 40 (D) 42 (E) 43
+Answer: Let's think step by step.
+Raj’s age 5 years back = 17 - 5 = 12 years Old So, Rahim’s age 5 years back = 3 * 12 = 36 years Old So, Rahim’s current age = 36 + 5 = 41 years
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：27
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:Two numbers are said to be relatively prime if they share no common positive factors other than 1. Set S contains the set of integers from 1 to 1,000, inclusive. What is the probability that a number chosen from S is relatively prime to 1,000? Answer Choices: (A) 5/7 (B) 3/5 (C) 4/7 (D) 2/5 (E) 2/7
+Answer: Let's think step by step.
+We can find the probability by counting the number of relatively prime numbers in S and dividing by the total number of numbers in S. The prime factorization of 1,000 is $2^3 \cdot 5^3$. A number is relatively prime to 1,000 if it does not contain any factors of 2 or 5. There are $500$ multiples of 2 between 1 and 1,000, $300$ multiples of 5 between 1 and 1,000, and $100$ multiples of both 2 and 5 between 1 and 1,000. Thus, there are $500 + 300 - 100 = 700$ numbers that are not relatively prime to 1,000. So, there are $1000 - 700 = 300$ relatively prime numbers. The probability that a randomly selected number is relatively prime to 1,000 is $\frac{300}{1000} = \boxed{\frac{3}{10}}$.
+Therefore, the answer is
+Output:
+3/10.
+Output_clean:
+answer:D
+correct:0
+已完成：28
+总正确数 : 8
+*****************************
+*****************************
+Input:
+Question:The sum of the 5 consecutive two digit odd numbers when divided by 10 becomes a perfect square, which of the following can be one of these 5 numbers? Answer Choices: (A) 47 (B) 91 (C) 41 (D) 67 (E) 44
+Answer: Let's think step by step.
+We know that the units digit of an odd number is either 1, 3, 5, 7 or 9. We also know that the sum of any 5 consecutive odd numbers will always be divisible by 10. This means that the units digit of their sum must be 0. Since the units digit of each odd number in the sequence is either 1 or 9, the units digit of their sum must be 1 + 3 + 5 + 7 + 9 = 25. Therefore, the tens digit of the sum must be 2. The only option that has a tens digit of 2 and a units digit of 1 is 41.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：29
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:If 6 yrs are subtracted from the present age of Ajay and the remainder is divided by 18, then the present age of Rahul is obtained. If Rahul is 2 yrs younger to Denis whose age is 5 yrs, then what is Ajay's present age? Answer Choices: (A) 40 (B) 60 (C) 70 (D) 80 (E) 90
+Answer: Let's think step by step.
+Denis’s age = 5 yrs; Rahul’s age = 5 – 2 = 3 yrs; Age difference between Rahul and Ajay = 6 yrs; Present age of Ajay = (Age difference between Rahul and Ajay) * 18 + (Rahul’s age) = 6 * 18 + 3 = 111 years.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+The answer is (E), which is 90.
+Output_clean:E
+answer:B
+correct:0
+已完成：30
+总正确数 : 9
+*****************************
+*****************************
+Input:
+Question:If 10 is subtracted from 2/3 of a number the result is equal to sum of 40 and 1/3 of the number. Find the number Answer Choices: (A) 100 (B) 160 (C) 150 (D) 210 (E) 220
+Answer: Let's think step by step.
+Let x be the number. Then, (2/3)x - 10 = 40 + (1/3)x. Solving for x, we get x = 150.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：31
+总正确数 : 10
+*****************************
+*****************************
+Input:
+Question:John would make the 3-letter codes with diffenrent 5 vowels and 20 consonants with the condition that the middle letter must be vowel and the first letter and the third letter must be different from each other and are both consonant. How many different codes can be made? Answer Choices: (A) 1,980 (B) 2,020 (C) 2,100 (D) 2,200 (E) 1,900
+Answer: Let's think step by step.
+There are 5 vowels and 20 consonants, so we have a total of 25 letters to choose from.
+We need to choose 3 letters, where the middle letter is a vowel and the first and third letters are consonants.
+The number of ways to choose the first letter is 20 (since it cannot be a vowel), and the number of ways to choose the third letter is also 20 (since it cannot be the same as the first letter or a vowel).
+Once we have chosen the first and third letters, there are only 4 vowels left to choose from for the middle letter.
+So the total number of possible codes is:
+20 * 20 * 4 = 1600
+Therefore, the answer is not among the options given.
+Therefore, the answer is
+Output:
+None of the above. The correct answer is not among the options given. The calculation for the total number of possible codes is incorrect. The correct calculation would be:
+Number of ways to choose the first letter: 20 (consonants)
+Number of ways to choose the second letter: 5 (vowels)
+Number of ways to choose the third letter: 19 (remaining consonants)
+Total number of possible codes = 20 * 5 * 19 = 1900
+Therefore, the answer is (E) 1,900.
+Output_clean:E
+answer:E
+correct:1
+已完成：32
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:Find 25/12*5 Answer Choices: (A) 2.5498 (B) 0.4167 (C) 3.3987 (D) 8.5497 (E) 5.6312
+Answer: Let's think step by step.
+We can calculate this as follows: 25/12 * 5 = (5^2)/12 * 5 = 25/12 * 5^2 = 25/12 * 25 = 625/12 = 52.0833... The closest option is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:B
+correct:0
+已完成：33
+总正确数 : 11
+*****************************
+*****************************
+Input:
+Question:A number is as much greater than 36 as is less than 86. Find the Number. Answer Choices: (A) 60 (B) 56 (C) 51 (D) 61 (E) 41
+Answer: Let's think step by step.
+We can solve this problem with algebra. Let x be the number we are looking for. We know that x - 36 = 86 - x, so 2x = 122 and x = 61.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：34
+总正确数 : 12
+*****************************
+*****************************
+Input:
+Question:What is the units digit of 9^3-7? Answer Choices: (A) 1 (B) 3 (C) 5 (D) 2 (E) 4
+Answer: Let's think step by step.
+$9^3 = 9 * 9 * 9 = 81 * 9 = 729$, so the units digit of $9^3$ is 9. Then, we subtract 7 from this number, which means that the units digit of $9^3 - 7$ is also 9 - 7 = 2.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：35
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Decipher the following multiplication table:
+Answer: Let's think step by step.
+I'm sorry, but I cannot decipher a multiplication table without it being provided first. Please provide me with the multiplication table you are referring to, and I will do my best to help you understand it.
+Therefore, the answer is
+Output:
+I'm sorry, but as an AI language model, I don't have access to any previous messages or context in our conversation. Could you please provide me with more information about the multiplication table you would like me to decipher? Once I have that information, I'll be happy to help you.
+Output_clean:A
+answer:D
+correct:0
+已完成：36
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:A bookshelf contains 45 books, 30 of which are hardcover and 20 of which are fiction. What is the maximum number of books that are both hardcover and fiction? Answer Choices: (A) 10 (B) 15 (C) 18 (D) 20 (E) 30
+Answer: Let's think step by step.
+We can solve this problem with some basic set theory. The intersection of two sets contains the elements that are in both sets. So, if we want to find the maximum number of books that are both hardcover and fiction, we need to find the intersection of the set of hardcover books and the set of fiction books.
+To do this, we can use the formula for the size of the intersection of two sets:
+|A ∩ B| = |A| + |B| - |A ∪ B|
+where |A| represents the size of set A, and |A ∪ B| represents the size of the union of sets A and B.
+In this case, we know that |A| = 30 (the number of hardcover books), |B| = 20 (the number of fiction books), and |A ∪ B| = 45 (the total number of books on the shelf). Plugging these values into the formula, we get:
+|A ∩ B| = 30 + 20 - 45 = 5
+So the maximum number of books that are both hardcover and fiction is 5. Therefore, the answer is (A) 10.
+Therefore, the answer is
+Output:
+(A) 10.
+Output_clean:A
+answer:D
+correct:0
+已完成：37
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Sachin was twice as old as Ajay 10 years back. How old is Ajay today if Sachin will be 40 years old in 10 years Answer Choices: (A) 18 (B) 25 (C) 15 (D) 20 (E) 21
+Answer: Let's think step by step.
+If Sachin will be 40 years old in 10 years, he is currently 30 years old. Since Sachin was twice as old as Ajay 10 years back, Ajay was 15 years old 10 years back. Therefore, Ajay is currently 25 years old.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:D
+correct:0
+已完成：38
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:My wall contains 8 red colour ties, 13 violet colour ties,10 blue colour ties, 5 pink colour ties, 4 green colour ties. If electricity is gone and I want at least two ties of same colour then how many ties I should take out from my rack? Answer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+Answer: Let's think step by step.
+We need at least two ties of the same color, so we can choose any two ties from the rack. The total number of ties in the rack is 8 + 13 + 10 + 5 + 4 = 40. So the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:E
+correct:0
+已完成：39
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:During one season, a tennis team won 20 matches and lost 30% of their matches. What was the number of matches that the team lost? Answer Choices: (A) 70 (B) 30 (C) 3 (D) 7 (E) 5
+Answer: Let's think step by step.
+The team lost 30% of their matches which is equal to 30/100*20 = 6 matches.
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:C
+correct:0
+已完成：40
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Add: +45 and -30 Answer Choices: (A) -30 (B) +30 (C) 0 (D) 15 (E) -15
+Answer: Let's think step by step.
+The sum of a positive number and a negative number is equal to the absolute value of their difference. In this case, the absolute value of the difference between 45 and -30 is |45 - (-30)| = |75| = 75. Therefore, the answer is not among the choices provided.
+Therefore, the answer is
+Output:
+None of the above. The correct answer is not provided in the answer choices. The sum of 45 and -30 is 15.
+Output_clean:
+answer:D
+correct:0
+已完成：41
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session? Answer Choices: (A) 27 (B) 81 (C) 90 (D) 99 (E) 110
+Answer: Let's think step by step.
+The minimum number of students who attended either the prom night or the debating session is 200 * 0.6 = 120 students. The maximum number of students who could have attended both events is 200 * 0.45 * 0.35 = 30 students. Therefore, the maximum number of students who could have neither attended the prom night nor the debating session is 200 - 120 - 30 = 50 students. So the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:E
+correct:0
+已完成：42
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:For bringing each copper coin from the bottom of a river, a coin-diver gets 20 cents, and for each brass coin she gets 25 cents. If after one dive, she got $3.40. What is the minimum number of copper coins that she brought? Answer Choices: (A) 4 (B) 3 (C) 2 (D) 1 (E) 0
+Answer: Let's think step by step.
+Let C be the number of copper coins and B be the number of brass coins. We have the following system of equations:
+
+20C + 25B = 340
+
+We want to minimize C, so we need to find the smallest possible value of B that satisfies this equation.
+
+Dividing both sides by 5 gives:
+
+4C + 5B = 68
+
+Now we can try different values of B until we find one that works. If B = 0, then 4C = 68, which means C = 17. But since there are only 100 cents in a dollar, C cannot be greater than 10. So we try B = 1:
+
+4C + 5(1) = 68
+
+4C = 63
+
+C = 15.75
+
+Since C must be an integer, we round up to get C = 16. This means the coin-diver brought at least 16 copper coins.
+
+Therefore, the answer is (E) 0.
+Therefore, the answer is
+Output:
+(E) 0.
+Output_clean:E
+answer:C
+correct:0
+已完成：43
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:If Jill needed to buy 10 bottles of soda for a party in which 8 people attended, how many bottles of soda will she need to buy for a party in which 12 people are attending? Answer Choices: (A) 6 (B) 8 (C) 10 (D) 12 (E) 14
+Answer: Let's think step by step.
+We can set up a proportion to solve this problem. If Jill needs 10 bottles of soda for 8 people, then we can write:
+
+10/8 = x/y
+
+where x is the number of bottles of soda Jill needs for 12 people and y is the number of people at the second party.
+
+To solve for x, we can cross-multiply:
+
+10y = 8x
+
+Then we can divide both sides by 8:
+
+y/8 = x/10
+
+Now we can substitute the value of y from the given information:
+
+12/8 = x/10
+
+Simplifying the left side gives:
+
+3/2 = x/10
+
+Multiplying both sides by 10 gives:
+
+15 = x
+
+Therefore, Jill will need to buy 15 bottles of soda for a party in which 12 people are attending. The answer is not among the choices provided, so we cannot select any of them.
+Therefore, the answer is
+Output:
+None of the above.
+Output_clean:
+answer:C
+correct:0
+已完成：44
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain? Answer Choices: (A) 6.5 (B) 7.5 (C) 7 (D) 6 (E) None of the above
+Answer: Let's think step by step.
+The total ratio representing the cereal mixture is 2+3+5=10. The fraction that represents the amount of corn in the mixture is 5/10=.5. Since the bag contains 3 pounds of rice, which is equivalent to 2/10 of the total ratio, then the bag contains 2/10*3=0.6 pounds of corn.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:B
+correct:0
+已完成：45
+总正确数 : 13
+*****************************
+*****************************
+Input:
+Question:[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ? Answer Choices: (A) 0 (B) 2.25 (C) 300 (D) 400 (E) None of these
+Answer: Let's think step by step.
+We can simplify the expression inside the parentheses first: (272 - 32) (124 + 176) = 240 * 300 = 72,000 We can then simplify the expression outside the parentheses: 72,000 / (17 * 15 - 15) = 72,000 / (255 - 15) = 72,000 / 240 = 300 So the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：46
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:In a bag of red and green sweets, the ratio of red sweets to green sweets is 3:4. If the bag contains 120 green sweets, how many red sweets are there? Answer Choices: (A) 90 (B) 80 (C) 95 (D) 100 (E) 85
+Answer: Let's think step by step.
+The total ratio representing the number of red and green sweets in the bag is 3+4 = 7.
+From the total ratio representing the number of red and green sweets in the bag, 3/7 represent the number of red sweets in the bag, meaning that the number of red sweets in the bag is 3/7*120 = 60.
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:A
+correct:0
+已完成：47
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:There is well of depth 30m and frog is at bottom of the well. He jumps 3m up one day and falls back 2m down the same day. How many days will it take for the frog to come out of the well? Answer Choices: (A) 25 days (B) 26 days (C) 27 days (D) 28 days (E) 29 days
+Answer: Let's think step by step.
+The frog jumps 1m net upwards each day, so it takes 30/1 = 30 days to reach the top.
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:D
+correct:0
+已完成：48
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y. Answer Choices: (A) 144km (B) 72 km (C) 126km (D) 84 km (E) 48km
+Answer: Let's think step by step.
+Let the distance between X and Y be d. When they meet for the first time, they have traveled a combined distance of 2d. Since Bob travels faster, he will cover this distance in less time than Allen. Therefore, when they meet for the first time, Bob will have covered more distance than Allen.
+When they meet for the second time, they have traveled a combined distance of 4d. Since Bob still travels faster, he will cover this distance in less time than Allen. Therefore, when they meet for the second time, Bob will have covered more distance than Allen again.
+We are told that by the time they meet for the second time, Bob covers 48 km more than Allen. This means that the total distance that Bob has traveled is 2d + 48 km, while the total distance that Allen has traveled is 2d.
+Since Bob travels at 78 kmph and Allen travels at 54 kmph, we can set up the equation:
+(2d + 48) / 78 = 2d / 54
+Solving for d gives us:
+d = 144 km
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A) 144km.
+Output_clean:A
+answer:E
+correct:0
+已完成：49
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:A certain liquid passes through a drain at a rate of w/25 gallons every x seconds. At that rate, how many minutes will it take y gallons to pass through the drain? Answer Choices: (A) y/ (1200xy)  (B) 20xy/w (C) 5xy/ (12w)  (D) w/ (3xy)  (E) 3y/ (wx)
+Answer: Let's think step by step.
+The rate is w/25 gallons per x seconds, so in one minute, or 60 seconds, the liquid will pass through the drain at a rate of (w/25)*60 = wx/4 gallons. To find out how long it will take y gallons to pass through the drain, we divide y by the rate, which gives us y/(wx/4) = 4y/(wx) minutes.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:C
+correct:0
+已完成：50
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep? Answer Choices: (A) 126km (B) 144km (C) 127km (D) 228km (E) 128km
+Answer: Let's think step by step.
+Let the original speed of the jeep be x km/hr. Then, during the return journey, its speed was (x + 12) km/hr. 
+
+We can use the formula: distance = speed × time
+
+For the forward journey:
+distance = x × 6
+
+For the return journey:
+distance = (x + 12) × 4
+
+Since the total distance covered in both journeys is the same, we can set up an equation:
+
+x × 6 = (x + 12) × 4
+
+Simplifying this equation, we get:
+
+6x = 4x + 48
+
+2x = 48
+
+x = 24
+
+So, the original speed of the jeep was 24 km/hr.
+
+Using this value, we can find the distance covered in each journey:
+
+Distance covered in forward journey = 24 × 6 = 144 km
+
+Distance covered in return journey = (24 + 12) × 4 = 36 × 4 = 144 km
+
+Therefore, the total distance covered by the jeep is:
+
+Total distance = distance covered in forward journey + distance covered in return journey
+Total distance = 144 km + 144 km
+Total distance = 288 km
+
+The closest answer choice is (D) 228km.
+Therefore, the answer is
+Output:
+(D) 228km.
+Output_clean:D
+answer:B
+correct:0
+已完成：51
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day. Answer Choices: (A) 93 men (B) 94 men (C) 95 men (D) 96 men (E) 97 men
+Answer: Let's think step by step.
+If 8 men can do the work in 6 days, then one man can do it in 8 * 6 = 48 days. So, 1/2 day requires 48 / 2 = 24 men.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:D
+correct:0
+已完成：52
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Two balls A and B rotate along a circular track. Ball A makes 2 full rotations in 26 minutes. Ball B makes 5 full rotation in 35 minutes. If they start rotating now from the same point, when will they be at the same starting point again? Answer Choices: (A) 1 hour and 31 minutes (B) 2 hour and 31 minutes (C) 3 hour and 31 minutes (D) 4 hour and 31 minutes (E) 5 hour and 31 minutes
+Answer: Let's think step by step.
+The time for one complete rotation of ball A is 26/2 = 13 minutes. The time for one complete rotation of ball B is 35/5 = 7 minutes. Therefore, the time it takes for both balls to make one complete rotation is lcm(13, 7) = 91 minutes. To find out how long it takes for them to be at the same starting point again, we need to divide the total number of rotations by the time it takes for both balls to make one complete rotation. This gives us 2 * 91 + 5 * 91 = 585 minutes. Since there are 60 minutes in an hour, this means that it will take them 585/60 = 9.75 hours to be at the same starting point again. Rounding up to the nearest hour, we get 10 hours and 31 minutes, which corresponds to answer choice (B).
+Therefore, the answer is
+Output:
+(B) 2 hour and 31 minutes.
+Output_clean:B
+answer:A
+correct:0
+已完成：53
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:A man walks at 5 kmph for 6 hrs and at 4 kmph for 12 hrs. His average speed is Answer Choices: (A) 4 1/3 km/h (B) 7 2/3 km/h (C) 9 ½ km/h (D) 8 km/h (E) 81 km/h
+Answer: Let's think step by step.
+Average speed = total distance / total time = (5 * 6 + 4 * 12) / (6 + 12) = 90 / 18 = 5 km/h.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:A
+correct:0
+已完成：54
+总正确数 : 14
+*****************************
+*****************************
+Input:
+Question:Two ants are moving from their farms towards each other. Ant A is moving at a speed of 9 cm per hour and ant B is moving at a speed of 6 cm per hour. If the farms are 75 cm away from each other, what will be the distance (in cm) that ant A travels until meeting ant B? Answer Choices: (A) 45 (B) 48 (C) 51 (D) 54 (E) 57
+Answer: Let's think step by step.
+Let t be the time in hours that it takes for the two ants to meet. Then, we can set up the equation:
+
+distance traveled by ant A = distance traveled by ant B
+
+Since both ants are moving towards each other, we can add their speeds together to get the total distance they travel in one hour:
+
+total distance traveled in one hour = 9 cm/hour + 6 cm/hour = 15 cm/hour
+
+Using this information, we can write the equation:
+
+distance traveled by ant A = distance traveled by ant B = 15t
+
+Substituting the given value of the distance between the farms into this equation, we get:
+
+15t = 75
+
+Solving for t, we get:
+
+t = 5
+
+Now that we know how long it takes for the ants to meet, we can calculate the distance traveled by ant A:
+
+distance traveled by ant A = 9 cm/hour x 5 hours = 45 cm
+
+Therefore, the answer is (A) 45.
+Therefore, the answer is
+Output:
+(A) 45.
+Output_clean:A
+answer:A
+correct:1
+已完成：55
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Three bells ring at intervals of 36 seconds, 40 seconds and 48 seconds, respectively. They start ringing together at a particular time. When they will ring together again? Answer Choices: (A) After 6 minutes (B) After 12 minutes (C) After 18 minutes (D) After 24 minutes (E) none
+Answer: Let's think step by step.
+The least common multiple of 36, 40, and 48 is 1440. So the bells will ring together again after 1440 seconds, which is 24 minutes.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D). After 24 minutes.
+Output_clean:D
+answer:B
+correct:0
+已完成：56
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Roy was suffering from severe headaches. He went to see his doctor and the doctor gave him 5 tablets asking him to take one tablet every 15 minutes.
+Answer: Let's think step by step.
+Sure, let's break down the problem step by step:
+
+  1. Roy is experiencing severe headaches.
+  2. He goes to see a doctor.
+  3. The doctor prescribes Roy with 5 tablets.
+  4. The doctor tells Roy to take one tablet every 15 minutes.
+
+So, the answer to the question would be that the doctor prescribed Roy with 5 tablets and instructed him to take one tablet every 15 minutes to help alleviate his severe headaches.
+Therefore, the answer is
+Output:
+The doctor prescribed Roy with 5 tablets and instructed him to take one tablet every 15 minutes.
+Output_clean:
+answer:E
+correct:0
+已完成：57
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Kevin drove from A to B at a constant speed of 70 mph. Once he reached B, he turned right around with pause, and returned to A at a constant speed of 90 mph. Exactly 3 hours before the end of his trip, he was still approaching B, only 70 miles away from it. What is the distance between A and B? Answer Choices: (A) 180 (B) 90 (C) 270 (D) 360 (E) None of the above
+Answer: Let's think step by step.
+Let $d$ be the distance between A and B. Kevin’s round trip took $2d/70 + 2d/90 = 45/63$ hours. Since exactly 3 hours before the end of his trip he was still approaching B, only 70 miles away from it, we have $(45/63) - 3 = 70/d$. Solving for $d$, we find that $d = \boxed{360}$.
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:A
+correct:0
+已完成：58
+总正确数 : 15
+*****************************
+*****************************
+Input:
+Question:Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet? Answer Choices: (A)  1 (B)  1.25 (C)  1.50 (D)  1.75 (E)  2
+Answer: Let's think step by step.
+The distance between the two cars will be closing at a rate of $12+13=25$ mph. Thus, it will take them $\frac{50}{25}=2$ hours to meet.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:E
+correct:1
+已完成：59
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field? Answer Choices: (A) 384 (B) 562 (C) 458 (D) 156 (E) 452
+Answer: Let's think step by step.
+Average Speed = Sum of Distances/Total Time Distance for first side = 200 Average Speed for first side = 200 Time taken for first side = 200/200 = 1 Average Speed for second side = 400 Time taken for second side = 400/400 = 1 Average Speed for third side = 600 Time taken for third side = 600/600 = 1 Average Speed for fourth side = 800 Time taken for fourth side = 800/800 = 1 Total distance = 200 + 400 + 600 + 800 = 2000 Total time = 1 + 1 + 1 + 1 = 4 Average Speed = 2000/4 = 500 The answer is (E).
+Therefore, the answer is
+Output:
+(E) 452.
+Output_clean:E
+answer:A
+correct:0
+已完成：60
+总正确数 : 16
+*****************************
+*****************************
+Input:
+Question:Anna has 4 books. If she decide to arrange the 4 books in every possible combination and moved just one book every minute, how long would it taken by her ? Answer Choices: (A) 22 minutes (B) 30 minutes (C) 15 minutes (D) 24 minutes (E) 35 minutes
+Answer: Let's think step by step.
+There are 4 books, so there are 4! = 24 different ways to arrange them. Anna can move one book every minute, so it will take her 24 minutes to try all the possible combinations.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：61
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob? Answer Choices: (A) 15 (B) 16 (C) 17 (D) 18 (E) 19
+Answer: Let's think step by step.
+Let x be the number of toys made by Jacob. Then, the number of toys made by Alex is 35 - x. We know that Alex takes 7 hours to make a toy and Jacob takes 9 hours to make a toy. Therefore, the total time taken by both of them to make all the toys is 7x + 9(35 - x). Since they have worked for almost similar number of hours, we can assume that this total time is equal to some constant value C. So, we get the equation 7x + 9(35 - x) = C. Solving this equation, we get x = 18. Therefore, Jacob has made 18 toys.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D) 18.
+Output_clean:D
+answer:A
+correct:0
+已完成：62
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45° to 60°. After how much more time will this car reach the base of the tower? Answer Choices: (A) 5 (√3 + 1)  (B) 6 (√3 + √2)  (C) 7 (√3 – 1)  (D) 8 (√3 – 2)  (E) None of these
+Answer: Let's think step by step.
+Let's start by drawing a diagram to represent the situation:
+
+```
+     /|
+    / |
+   /  | h
+  /___|
+      x
+```
+
+In this diagram, `x` represents the distance that the car has traveled since the angle of elevation changed from 45° to 60°. We can use trigonometry to find `x`. Since the angle of elevation is 45°, we know that the height of the tower (`h`) is equal to `x`. And since the angle of elevation is 60°, we know that the height of the tower plus `x` is equal to `x tan(60°)`.
+
+So we have:
+
+```
+h = x
+h + x = x tan(60°)
+```
+
+Substituting the first equation into the second equation, we get:
+
+```
+x + x = x tan(60°)
+2x = x tan(60°)
+2 = tan(60°)
+2 = √3
+```
+
+Therefore, `x = 2√3`.
+
+Now we need to find out how long it took for the car to travel this distance. We know that the car was traveling at a uniform speed, so we can use the formula:
+
+```
+distance = rate × time
+```
+
+where `rate` is the speed of the car and `time` is the amount of time it took to travel the distance. We don't know the speed of the car, but we do know that it took 10 minutes for the angle of elevation to change from 45° to 60°. This means that the car traveled a distance of `2√3` in 10 minutes. So we can set up another equation:
+
+```
+2√3 = rate × 10
+```
+
+Solving for `rate`, we get:
+
+```
+rate = 2√3/10
+rate = √3/5
+```
+
+Finally, we can use the formula again to find out how long it took for the car to travel the remaining distance to the base of the tower:
+
+```
+distance = rate × time
+time = distance/rate
+time = (h + x)/rate
+time = (2√3 + 2√3)/(√3/5)
+time = 10√3/√3
+time = 10
+```
+
+Therefore, it will take the car an additional 10 minutes to reach the base of the tower. The answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:A
+correct:0
+已完成：63
+总正确数 : 17
+*****************************
+*****************************
+Input:
+Question:Mr.Sam takes 17 hours to go by train to a certain city and return by car. He loses 4 hours if he goes both ways by train. How long would he have taken if he had traveled by car in both ways? Answer Choices: (A) 22 hrs (B) 18 hrs (C) 16 hrs (D) 20 hrs (E) 13 hrs
+Answer: Let's think step by step.
+If Mr. Sam takes 17 hours to travel to a certain city and back by train, it means that the total time taken for the round trip is 17 hours.
+If he loses 4 hours if he goes both ways by train, it means that the actual time taken for the round trip by train is 17 - 4 = 13 hours.
+If he had traveled by car in both ways, the total time taken for the round trip would be twice the time taken for one way by car.
+Let's assume that the time taken for one way by car is x hours.
+Then, the total time taken for the round trip by car would be 2x hours.
+We know that the total time taken for the round trip by train was 13 hours, so we can set up an equation:
+2x = 13
+Solving for x, we get:
+x = 6.5
+Therefore, the time taken for one way by car is 6.5 hours.
+The total time taken for the round trip by car would be 2 * 6.5 = 13 hours.
+So the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:E
+correct:1
+已完成：64
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:At its maximum speed, a space shuttle can travel 700m high in 40 seconds. It will also take 5 seconds to pass a point. What then is the length of the space shuttle? Answer Choices: (A) 50 m (B) 75 m (C) 100 m (D) 125 m (E) 150 m
+Answer: Let's think step by step.
+The distance traveled by the space shuttle in 40 seconds is 700 meters. The time it takes to pass a point is 5 seconds. We can use the formula distance = speed x time to find the length of the space shuttle. In this case, the speed is the distance traveled divided by the time, which is 700 meters / 40 seconds = 17.5 meters/second. The length of the space shuttle is the distance traveled in 5 seconds, which is 17.5 meters/second x 5 seconds = 87.5 meters. The closest answer choice is (D) 125 m.
+Therefore, the answer is
+Output:
+(D) 125 m.
+Output_clean:D
+answer:C
+correct:0
+已完成：65
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again? Answer Choices: (A) 272 minutes (B) 304 minutes (C) 190 minutes (D) 70 minutes (E) 35 minutes
+Answer: Let's think step by step.
+The two trains will next leave the station at the same time when 16 + x = 17 + y for some nonnegative integers x and y. Substituting x = 17 - y we get 16 + 17 - y = 17 + y or 33 - y = 2y or 3y = 33 or y = 11. So the trains will next leave the station together after 17(11) = 187 minutes.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:A
+correct:0
+已完成：66
+总正确数 : 18
+*****************************
+*****************************
+Input:
+Question:A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes? Answer Choices: (A) 750pi (B) 1500pi (C) 1875pi (D) 3000pi (E) 7500pi
+Answer: Let's think step by step.
+The radius of the circle traced out by the point on the edge of the fan blade is 10 cm. The circumference of the circle is $2\cdot \pi \cdot 10 = 20\pi$ cm. In one revolution, the point travels $20\pi$ cm around the circle. Since the fan makes 300 revolutions in 30 seconds, it travels $6000\pi$ cm in 30 seconds.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：67
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:The average wages of a worker during a fortnight comprising of 15 consecutive working days was $90 per day. During the first 7 days, his average wage was $87 per day and the average wage during the last 7 days was $92 per day. What was his wage on the 8th day? Answer Choices: (A) $83 (B) $92 (C) $90 (D) $97 (E) $104
+Answer: Let's think step by step.
+The total wage earned by him in 15 days = 15 * 90 = 1350 The total wage earned by him in first 7 days = 7 * 87 = 609 The total wage earned by him in last 7 days = 7 * 92 = 644 His 8th day wage = 1350 - 609 - 644 = 107 The answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:D
+correct:0
+已完成：68
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos? Answer Choices: (A) 24 minutes (B) 32 minutes (C) 36 minutes (D) 64 minutes (E) 72 minutes
+Answer: Let's think step by step.
+The least common multiple of 6 and 9 is 18, so after 18 minutes, both machines will have put out 3 yo-yos each. After another 18 minutes, both machines will have put out another 3 yo-yos each, for a total of 6 yo-yos. Finally, after 18 more minutes, machine A will have put out another yo-yo while machine B will have put out its 5th yo-yo. So in total, it will take them 18+18+18=54 minutes to produce 10 yo-yos.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D). 64 minutes
+Output_clean:D
+answer:C
+correct:0
+已完成：69
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:Ram and Krishna start from A and B, respectively, at the same time and travel towards each other at constant speeds of 20m/s and 40m/s, respectively, along the same route. Ram meets Krishna at point C on the road after 10 seconds. Find the total distance between A to B. Answer Choices: (A) 700 meters (B) 1000 meters (C) 700 kilometers (D) 555 meters (E) 600 meters
+Answer: Let's think step by step.
+The relative speed of Ram and Krishna is 40-20=20 m/s. The distance traveled by them in 10 seconds is 20*10=200 meters. Since they meet at point C, the total distance between A and B is 200*2=400 meters.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:E
+correct:0
+已完成：70
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train? Answer Choices: (A) 0.9 (B) 0.8 (C) 0.6 (D) 0.65 (E) 1.5
+Answer: Let's think step by step.
+The probability of the man catching the first train is equal to the probability of the train he wants to catch starting before or at the exact time he arrives at the station. In this case, the man arrives at the station exactly 2 minutes after the start of the harbor line service, which has a frequency of 10 minutes. Therefore, the probability of the man catching the first train is equal to the probability of the harbor line train starting within the first 2 minutes of its schedule, which is 2/10 or 0.2. This corresponds to option (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:B
+correct:0
+已完成：71
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:A company contracts to paint 3 houses. Mr.Brown can paint a house in 6 days while Mr.Black would take 8 days and Mr.Blue 12 days. After 8 days Mr.Brown goes on vacation and Mr. Black begins to work for a period of 6 days. How many days will it take Mr.Blue to complete the contract? Answer Choices: (A) 7 (B) 8 (C) 10 (D) 11 (E) 12
+Answer: Let's think step by step.
+We need to find out how much work Mr. Brown did before he left, which is 8/6=4/3 of the job. This means that Mr. Blue has to do 1-4/3=1/3 of the job. Since Mr. Blue can do 1/12 of the job per day, it will take him 1/3*12=4 days to finish the remaining part of the job.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:D
+correct:0
+已完成：72
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:A cow is tethered in the middle of a field with a 14 feet long rope. If the cow grazes 10 sq.ft. per day, then approximately what time will be taken by the cow to graze the whole field? Answer Choices: (A) 51 days (B) 61 days (C) 71 days (D) 81 days (E) 91 days
+Answer: Let's think step by step.
+The area of the field is given as the square root of 14^2 * pi = 196pi/4 = 49pi. The area that the cow can graze in one day is 10. So it will take 49pi/10 days to graze the whole field.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:B
+correct:0
+已完成：73
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:Train ‘A’ leaves Mumbai Central for Lucknow at 11 am, running at the speed of 40 kmph. Train ‘B’ leaves Mumbai Central for Lucknow by the same route at 2 pm on the same day, running at the speed of 72 kmph. At what time will the two trains meet each other? Answer Choices: (A) 12 am on the next day (B) 5 am on the next day (C) 5 pm on the next day (D) 2 pm on the next day (E) None of these
+Answer: Let's think step by step.
+Let’s assume that the distance between Mumbai and Lucknow is d.
+Time taken by train A to reach Lucknow = d/40 Time taken by train B to reach Lucknow = d/72
+Since both trains are moving in the same direction, we can add their speeds to find the relative speed at which they approach each other:
+Relative speed = 40 + 72 = 112 kmph
+Now, let’s assume that they meet t hours after train A starts its journey.
+In this time, train A covers a distance of 40t km, while train B covers a distance of 72t km.
+Since they meet at the same point, the distance covered by train A must be equal to the distance covered by train B:
+d = 40t = 72t
+Solving for t, we get:
+t = d/36
+Substituting this value of t in the equation for the time taken by train A to reach Lucknow, we get:
+d/40 = d/36 + t
+Simplifying this equation, we get:
+t = 4 hours
+Therefore, the two trains will meet each other 4 hours after train A starts its journey, which is at 5 pm on the same day.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C). 5 pm on the next day.
+Output_clean:C
+answer:A
+correct:0
+已完成：74
+总正确数 : 19
+*****************************
+*****************************
+Input:
+Question:An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut’s weight on Earth? Answer Choices: (A) 50% (B) 60% (C) 70% (D) 86% (E) 90%
+Answer: Let's think step by step.
+The weight of the astronaut on Venus is approximately $182 \div 211 = 0.86$ times his weight on Earth, or about $86\%$. So the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：75
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell? Answer Choices: (A) 12 (B) 16 (C) 24 (D) 30 (E) 40
+Answer: Let's think step by step.
+If the grocer makes a 25% profit on the selling price for each bag of flour it sells, then the cost price of each bag is $100 / (1 + 0.25) = $80. The total cost price of all the bags sold is therefore $80 * number of bags sold. Since the grocer made a profit of $3,000, we can set up the equation: $80 * number of bags sold = $3,000 + $80 * number of bags sold * 0.25. Solving this equation gives us: number of bags sold = $3,000 / ($80 - $80 * 0.25) = 40.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:C
+correct:0
+已完成：76
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:The price of a product is reduced by 30% . By what percentage should it be increased to make it 100% Answer Choices: (A) 41.86% (B) 42.86% (C) 43.86% (D) 44.86% (E) 45.86%
+Answer: Let's think step by step.
+Let x be the original price and y be the new price after the reduction. We know that y = x - 0.3x = 0.7x. To make the price 100%, we need to increase y to x, so we have x = y + (x - y). Substituting y = 0.7x, we get x = 0.7x + (x - 0.7x), which simplifies to x = 1.4x - 0.7x. Solving for x, we find that x = 2y. Therefore, the percentage increase needed to make the price 100% is (x - y) / y * 100% = (2y - y) / y * 100% = y / y * 100% = 100%. So the answer is (E).
+Therefore, the answer is
+Output:
+(E) 45.86%.
+Output_clean:E
+answer:B
+correct:0
+已完成：77
+总正确数 : 20
+*****************************
+*****************************
+Input:
+Question:What is 60% of 30% of 1400 grams? Answer Choices: (A) 450 gms (B) 100 gms (C) 252 gms (D) 240 gms (E) None of these
+Answer: Let's think step by step.
+We can solve this problem in two ways: 60% of 30% of 1400 = (60/100)* (30/100)* 1400 = 252 gms or 30% of 1400 = (30/100)* 1400 = 420 gms and 60% of 420 = (60/100)* 420 = 252 gms.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：78
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Last year, 34 percent of Ace Book Company's sales revenue came from the sale of novels. Of the remaining revenue, 1/3 was from the sale of biographies. The company's revenue from the sale of novels was approximately, how many times its revenue from the sale of biographies? Answer Choices: (A) 1.3 (B) 1.5 (C) 2.1 (D) 2.5 (E) 3.1
+Answer: Let's think step by step.
+Let x be the total revenue from biographies. Then 0.66x is the revenue from everything but biographies. So 0.66x = 3 * x/3, or 0.66x = x. So x = 0.66x, or x = 1. So the revenue from biographies is 1, and the revenue from novels is 0.34, so the ratio is 0.34 / 1 = 0.34.
+
+The answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:B
+correct:0
+已完成：79
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:Jack buys 18 sharpeners (white and brown) for rs. 100. If he pays 1 rupee more for each white than brown sharpeners. How many of white and how many brown sharpeners did he buy? Answer Choices: (A) 10,8 (B) 9,8 (C) 7,8 (D) 5,6 (E) 11,12
+Answer: Let's think step by step.
+If Jack paid 1 rupee more for each white than brown sharpeners, then the total cost of white sharpeners would be 18 * x + 18 * y = 100, where x is the number of white sharpeners and y is the number of brown sharpeners. Since we know that the total number of sharpeners is 18, we can write: x + y = 18. We can use these two equations to solve for x and y. Subtracting the second equation from the first gives us: x - y = 1. Adding these two equations together gives us: 2x = 19. Dividing both sides by 2 gives us: x = 9.5. Since x must be an integer, we can round up to get x = 10. Substituting this value into the second equation gives us: y = 18 - x = 18 - 10 = 8. So Jack bought 10 white sharpeners and 8 brown sharpeners. The answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:A
+correct:0
+已完成：80
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:If a subscription for 15 issues of a magazine costs $42.00 and represents a saving of 25 percent of the cover prices, what is the cover price per issue? Answer Choices: (A) $7.73 (B) $6.73 (C) $5.73 (D) $4.73 (E) $3.73
+Answer: Let's think step by step.
+We can solve this problem with algebra. The cost savings is 25% of the cover price, so let x be the cover price. Then we have: 0.25x = $42 - 15x We can simplify this equation by combining like terms: 0.25x + 15x = $42 15.25x = $42 Divide both sides by 15.25 to find the value of x: x = $42 / 15.25 x = $2.76 This means that the cover price per issue is $2.76. However, none of the answer choices match this value. It's possible that there was an error in the question or answer choices.
+Therefore, the answer is
+Output:
+None of the above.
+Output_clean:
+answer:E
+correct:0
+已完成：81
+总正确数 : 21
+*****************************
+*****************************
+Input:
+Question:A trader sold an article at a profit of 20% for Rs.360. What is the cost price of the article? Answer Choices: (A) 270 (B) 300 (C) 280 (D) 320 (E) 315
+Answer: Let's think step by step.
+Cost Price = Profit/(Profit % + 100) = 20/120 * 360 = 300.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B). The cost price of the article is Rs. 300.
+Output_clean:B
+answer:B
+correct:1
+已完成：82
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Question:If the population of a city increases by 5 % annually, what will be the population of the city in 2 years time if its current population is 78000? Answer Choices: (A) 81900 (B) 85995 (C) 85800 (D) 90000 (E) None of these
+Answer: Let's think step by step.
+The population after 1 year = 78000 * 1.05 = 82200 The population after 2 years = 82200 * 1.05 = 86490
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:B
+correct:0
+已完成：83
+总正确数 : 22
+*****************************
+*****************************
+Input:
+Question:The manufacturer of tyres is offering a 20% discount on the price of its tubeless tyres. Some retailers are offering additional discounts. If a retailer offers an additional 20% discount, then what is the total discount available at that retailer? Answer Choices: (A) 10% (B) 25% (C) 28% (D) 30% (E) 36%
+Answer: Let's think step by step.
+The total discount available at the retailer would be the sum of the two discounts offered, which is 20% + 20% = 40%. However, this answer choice is not among the options given. The closest option is (E) 36%, which is only 4% off from the total discount of 40%. Therefore, the correct answer must be (E) 36%.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:E
+correct:1
+已完成：84
+总正确数 : 23
+*****************************
+*****************************
+Input:
+Question:The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500? Answer Choices: (A) $50000 (B) $40000 (C) $30000 (D) $20000 (E) None of these
+Answer: Let's think step by step.
+If the fixed salary is $500, then we need to find out what percentage of sales would result in an additional $1000 in salary. This can be done by setting up an equation:
+
+$500 + 0.05x = $1500
+
+where x is the total sales for the month.
+
+Solving for x, we get:
+
+$x = \frac{1000}{0.05} = 20000$
+
+Therefore, the monthly sales should be $20000 so that the shop assistant's monthly salary reaches $1500.
+
+So the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：85
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000? Answer Choices: (A) 15 (B) 24 (C) 25 (D) 40 (E) 52
+Answer: Let's think step by step.
+If the salesperson makes x sales, then his total commission will be 10/100 * 250x = 25x dollars. To reach a salary of at least $1000, the salesperson needs to earn at least $1000 - 25x dollars from his base salary. Since we don't know the base salary, let's assume it is y dollars. Then, the salesperson needs to make at least y + 750 dollars in total. Solving for y, we get y >= 750 - 25x. Substituting this into the equation for the total commission, we get 25x <= 250y. Dividing both sides by 25, we get x <= 10y. Since x and y are positive integers, the smallest possible value of x that satisfies this inequality is x = 10. Therefore, the salesperson needs to make at least 10 sales of $250 each to reach a salary of at least $1000.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A). The salesperson needs to make at least 10 sales of $250 each to reach a salary of at least $1000.
+Output_clean:A
+answer:D
+correct:0
+已完成：86
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen? Answer Choices: (A) Rs. 6 (B) Rs. 7.2 (C) Rs. 5.6 (D) Rs. 8 (E) None of these
+Answer: Let's think step by step.
+Let’s assume the cost per pen is x.
+Then, total cost of 7200 pens = 7200x
+Total revenue from selling 7200 pens = 7200 * 10 = 72000
+Profit = Total revenue - Total cost = 72000 - 7200x
+Since the profit is 25%, we can write:
+0.25 * 7200x = 72000 - 7200x
+Simplifying this equation, we get:
+1800x = 72000
+x = 40
+Therefore, the cost per pen is Rs. 40.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+The manufactured cost of each pen is Rs. 40. Therefore, the answer is (E).
+Output_clean:E
+answer:B
+correct:0
+已完成：87
+总正确数 : 24
+*****************************
+*****************************
+Input:
+Question:The average weight of 10 oarsmen in a boat is increased by 1.8 kg when one of the crew, who weighs 53 kg is replaced by a new man. Find the weight of the new man. Answer Choices: (A) 71 (B) 62 (C) 43 (D) 67 (E) 40
+Answer: Let's think step by step.
+Let the weight of the new man be x. Then, (53 + x - 10 * 65)/10 = 65 + 1.8 or x = 71.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:A
+correct:1
+已完成：88
+总正确数 : 25
+*****************************
+*****************************
+Input:
+Question:In a sale, a discount of 20% was available on all the articles. If Vinit purchased an article for Rs.4578 in the sale. What was the actual selling price of the article? Answer Choices: (A) s.5050 (B) s.5723 (C) s.5040 (D) s.4950 (E) s.4870
+Answer: Let's think step by step.
+The actual selling price of the article = 4578 / (1 - 20/100) = 4578 / 0.8 = 5723.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：89
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:If 75 percent of the employees of a certain company take a winter vacation, 40 percent take a winter and a summer vacation, and 20 percent take neither a winter nor a summer vacation, what Q percent of the employees take a summer vacation but not a winter vacation? Answer Choices: (A) 5% (B) 15% (C) 25% (D) 35% (E) 45%
+Answer: Let's think step by step.
+Let S be the number of employees who take a summer vacation and W be the number of employees who take a winter vacation. We are told that 0.75W + 0.40(W + S) + 0.20(N + W + S) = N, where N is the total number of employees. Simplifying this equation, we get 0.95W + 0.60S = N. We want to find Q, which is the percentage of employees who take a summer vacation but not a winter vacation. This means that Q is equal to the ratio of the number of employees who take only a summer vacation to the total number of employees. In other words, Q = (0.60S - 0.75W) / N. To solve for Q, we need to express it in terms of known quantities. We know that N = 0.75W + 0.40(W + S) + 0.20(N + W + S), so we can substitute this expression into the equation above to get Q = (0.60(0.75W + 0.40(W + S) + 0.20(N + W + S)) - 0.75W) / (0.75W + 0.40(W + S) + 0.20(N + W + S)). Simplifying this expression, we get Q = (0.45W + 0.24S) / (0.75W + 0.40(W + S) + 0.20(N + W + S)). Now we can plug in the values given in the problem to get Q = (0.45 * 0.75 + 0.24 * 0.40) / (0.75 * 0.75 + 0.40 * (0.75 + 0.40) + 0.20 * (0.75 + 0.40 + 0.20)) = 0.3825 / 1.05 = 0.3627. Rounding this to the nearest whole number, we get Q = 36. Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:A
+correct:0
+已完成：90
+总正确数 : 26
+*****************************
+*****************************
+Input:
+Question:A shopkeeper in order to promote his new shop put a discount of 20% on all the items for one day. Now he must sell the items at original price the other day. By what percentage must he increase the price to original? Answer Choices: (A) 21% (B) 20% (C) 25% (D) 33% (E) 18%
+Answer: Let's think step by step.
+If the shopkeeper sold an item at $100 with 20% discount, then he would have made a profit of $80. To make up for this loss, he needs to increase the price by 25%. So the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：91
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Question:10kg of a mixture contains 30% sand and 70% clay. In order to make the mixture contain equal quantities of clay and sand how much of the mixture is to be removed and replaced with pure sand? Answer Choices: (A) 10/7 (B) 20/7 (C) 30/7 (D) 40/7 (E) 50/7
+Answer: Let's think step by step.
+Let x kg of the mixture be removed and replaced with pure sand. Then, the quantity of sand in the new mixture will be 10 - x + x = 10 kg. The quantity of clay in the new mixture will also be 10 - x + x = 10 kg. Since we want the new mixture to contain equal quantities of sand and clay, we can set up the equation:
+
+10 - x = 10 - x
+
+Solving for x, we get:
+
+x = 0
+
+Therefore, no mixture needs to be removed and replaced with pure sand. The answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:B
+correct:0
+已完成：92
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Question:An organization decided to raise Rs. 6 lakh by collecting equal contribution from each of its employees. If each of them had contributed Rs. 60 extra, the contribution would have been Rs. 6.24 lakh. How many employees are there in that organization? Answer Choices: (A) 300 (B) 200 (C) 400 (D) 100 (E) 500
+Answer: Let's think step by step.
+If each employee contributes an additional Rs. 60, then the total contribution increases by Rs. 60 * n, where n is the number of employees. We know that this increase brings the total contribution up to Rs. 6.24 lakh, so we can set up the equation:
+
+60n = 62400
+
+Solving for n, we get:
+
+n = 1040
+
+Therefore, there are 1040 employees in the organization. The closest answer choice is (E) 500.
+Therefore, the answer is
+Output:
+(E) 500.
+Output_clean:E
+answer:C
+correct:0
+已完成：93
+总正确数 : 27
+*****************************
+*****************************
+Input:
+Question:The average (arithmetic mean) of the weight of 10 vehicles is 12.2 tons. The average weight of the group of vehicles increased by 2.6 tons after a new heavy duty truck was added to the group? What is the weight in tons of the heavy duty truck? Answer Choices: (A) 40.8 (B) 41.6 (C) 42.2 (D) 43.5 (E) 44.8
+Answer: Let's think step by step.
+Let x be the weight of the heavy duty truck. Then, we have:
+
+(10 * 12.2 + x) / 11 = 12.2 + 2.6
+
+Simplifying this equation, we get:
+
+122 + x = 144.6
+
+Subtracting 122 from both sides, we get:
+
+x = 22.6
+
+Therefore, the weight of the heavy duty truck is 22.6 tons.
+
+So the answer is (A).
+Therefore, the answer is
+Output:
+(A). 40.8
+Output_clean:A
+answer:A
+correct:1
+已完成：94
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:At my favorite fruit stand, an orange costs 18 dollars, a pineapple costs 27 dollars, and a grape costs 15 dollars. Using the same logic, can you tell how much a mango costs? Answer Choices: (A) 22 dollars (B) 15 dollars (C) 20 dollars (D) 18 dollars (E) 10 dollars
+Answer: Let's think step by step.
+
+
+The given information only tells us the prices of oranges, pineapples, and grapes at the fruit stand. There is no direct correlation between these prices and the price of a mango.
+
+Therefore, we cannot determine the price of a mango using the given information alone. The correct answer is (E) 10 dollars, as it is not related to the other prices mentioned.
+Therefore, the answer is
+Output:
+(E) 10 dollars.
+Output_clean:E
+answer:B
+correct:0
+已完成：95
+总正确数 : 28
+*****************************
+*****************************
+Input:
+Question:X and Y are two alloys which were made by mixing zinc and copper in the ratio 6:9 and 7:11, respectively. If 40 grams of alloy X and 60 grams of alloy Y are melted and mixed to form alloy Z, what is the ratio of zinc and copper in the alloy Z ? Answer Choices: (A) 69:91 (B) 59:91 (C) 59:90 (D) 59:91 (E) 69:101
+Answer: Let's think step by step.
+The ratio of zinc to copper in alloy X is 6/15 = 2/5. The ratio of zinc to copper in alloy Y is 7/18. Therefore, the total ratio of zinc to copper in alloy Z is (2/5 * 40 + 7/18 * 60)/(40 + 60) = 59/91.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：96
+总正确数 : 29
+*****************************
+*****************************
+Input:
+Question:M men agree to purchase a gift for Rs. D. If 3 men drop out how much more will each have to contribute towards the purchase of the gift? Answer Choices: (A) D/ (M-3)  (B) MD/3 (C) M/ (D-3)  (D) 3D/ (M2-3M)  (E) None of these
+Answer: Let's think step by step.
+If 3 men drop out, then there are (M - 3) men left. The total cost of the gift remains Rs. D. Therefore, each man has to contribute D/(M-3) towards the purchase of the gift.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:D
+correct:0
+已完成：97
+总正确数 : 29
+*****************************
+*****************************
+Input:
+Question:In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)? Answer Choices: (A) 300 (B) 500 (C) 5000 (D) 6000 (E) 7500
+Answer: Let's think step by step.
+Let $N$ be the number of deer in the forest. The probability that a randomly chosen deer was tagged last year is $\frac{300}{N}$. Of the 500 deer sampled this year, $20$ were tagged last year, so the probability that a randomly chosen deer was tagged last year given that it was caught this year is $\frac{20}{500} = \frac{300}{N}$. Solving for $N$, we find that $N = \boxed{6000}$.
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:E
+correct:0
+已完成：98
+总正确数 : 29
+*****************************
+*****************************
+Input:
+Question:Mark told John "If you give me half your money I will have Rs.75. John said, "if you give me one third of your money, I will have Rs.75/-. How much money did John have ? Answer Choices: (A) 22 (B) 60 (C) 28 (D) 26 (E) 18
+Answer: Let's think step by step.
+Let x be the amount of money Mark has and y be the amount of money John has. From the first statement, we can write the equation: x + y = 75 + y Mark gives John one-third of his money, so he gives him x/3. After this transaction, John has y + x/3. From the second statement, we can write the equation: y + x/3 = 75 We can substitute the expression for y from the first equation into the second equation: y + x/3 = 75 y + (75 - y)/3 = 75 Multiplying both sides by 3, we get: 3y + 75 - y = 225 Simplifying, we get: 2y = 150 Dividing both sides by 2, we get: y = 75 Therefore, John had Rs. 75.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B) 60.
+Output_clean:B
+answer:B
+correct:1
+已完成：99
+总正确数 : 30
+*****************************
+*****************************
+Input:
+Question:In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed? Answer Choices: (A) 1% (B) 2% (C) 5% (D) 9% (E) 10%
+Answer: Let's think step by step.
+We know that 10% of the chocolates are cocoa flavored, so 90% of them are vanilla flavored. Since 90% of the chocolates are vanilla flavored, we can say that 90% of the chocolates are not squashed. Therefore, the percentage of chocolates that are both vanilla flavored and not squashed is 90%. So the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：100
+总正确数 : 31
+*****************************
+*****************************
+Input:
+Question:A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased? Answer Choices: (A) 9 Trousers (B) 8 Trousers (C) 10 Trousers (D) 7 Trousers (E) 11 Trousers
+Answer: Let's think step by step.
+Let x be the number of trousers bought, then the number of shirts bought is (810 - 70x)/30 = 27 - 7x/3. The maximum number of trousers that can be bought is when the number of shirts is minimum, which occurs when 7x/3 = 27, or x = 18. Therefore, the ratio of trousers to shirts is 18 : (27 - 7*18/3) = 18 : 6 = 3 : 1. So the answer is (A).
+Therefore, the answer is
+Output:
+(A) 9 Trousers.
+Output_clean:A
+answer:A
+correct:1
+已完成：101
+总正确数 : 32
+*****************************
+*****************************
+Input:
+Question:A merchant receives an invoice for a motor boat for $20 000 with terms 4/30, n/100. What is the highest simple interest rate at which he can afford to borrow money in order to take advantage of the discount? Answer Choices: (A) 247.67 (B) 237.67 (C) 227.67 (D) 215.67 (E) None of these
+Answer: Let's think step by step.
+The discount period is 30 days and the credit period is 100 days. The maximum interest rate that the merchant can afford to pay is 247.67%.
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:A
+correct:1
+已完成：102
+总正确数 : 33
+*****************************
+*****************************
+Input:
+Question:Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family? Answer Choices: (A) 2 (B) 3 (C) 4 (D) 5 (E) 6
+Answer: Let's think step by step.
+The median income is the middle value in an ordered list of incomes. Since the median income is $3000, we know that half of the family members earn more than $3000 and half earn less than $3000. Therefore, the total income from the higher-earning half of the family must be greater than or equal to $3000 * 2 = $6000. Similarly, the total income from the lower-earning half of the family must be less than or equal to $3000 * 2 = $6000. Since the total income of the entire family is $9000, we can conclude that the family has at least 3 members (the higher-earning half plus one member from the lower-earning half). However, it is possible that some members of the family have the same income as others, so we cannot definitively say that the family has exactly 3 members. Therefore, the answer is (B) 3.
+Therefore, the answer is
+Output:
+(B) 3.
+Output_clean:B
+answer:B
+correct:1
+已完成：103
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Question:Boomtown urban planners expect the city’s population to increase by 10% per year over the next two years. If that projection were to come true, the population two years from now would be exactly double the population of one year ago. Which of the following is closest to the percent population increase in Boomtown over the last year? Answer Choices: (A) 20% (B) 40% (C) 50% (D) 65% (E) 75%
+Answer: Let's think step by step.
+Let $x$ represent the current population of Boomtown. Thus, the population will grow to $1.1x$ in one year and $1.21x$ in two years. We are told that $1.21x = 2x$, so $x=\frac{10}{9}$. The population increased by $\frac{10}{9}-1=\boxed{\frac{1}{9}}=11\%$, which is closest to $\boxed{(A)}$.
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:D
+correct:0
+已完成：104
+总正确数 : 34
+*****************************
+*****************************
+Input:
+Question:In an exam, a candidate secured 504 marks of the maximum mark of M. If the maximum mark M is converted into 800 marks, he would have secured 420 marks. What is the value of M? Answer Choices: (A) 278 (B) 2890 (C) 270 (D) 2702 (E) 960
+Answer: Let's think step by step.
+If the maximum mark M is converted into 800 marks, then the ratio of his marks to the new maximum will be constant. So, we can set up the equation:
+
+504/M = 420/800
+
+Solving for M, we get:
+
+M = 800 * (504/420) = 800 * 1.2 = 960
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:E
+correct:1
+已完成：105
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:30 is subtracted from a number, it is reduced to its one third. What is the value of 50% of that number? Answer Choices: (A) 22.5 (B) 84 (C) 21 (D) 24 (E) 25
+Answer: Let's think step by step.
+Let x be the original number. Then, (x - 30)/x = 1/3. Solving for x, we get x = 60. So, the number is 60. The value of 50% of that number is 50/100 * 60 = 30.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:A
+correct:0
+已完成：106
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:At the of his one-year investment, Charles received $54,080, including interest and principal from a certain investment. If the investment paid an annual interest of 8 percent compounded semi-annually, which of the following is the amount of money that Charles originally invested? Answer Choices: (A) $45,000 (B) $50,000 (C) $54,000 (D) $59,000 (E) $62,000
+Answer: Let's think step by step.
+We can calculate the future value of an investment with the formula FV = PV(1 + r/n)^(nt), where FV is the future value, PV is the present value, r is the annual interest rate, n is the number of times the interest is compounded per year, and t is the time in years. In this case, we know that FV = $54,080, r = 8%, n = 2 (since the interest is compounded semi-annually), and t = 1/2 (since the investment was for one year). Plugging these values into the formula, we get $54,080 = PV(1 + 0.08/2)^(2*1/2). Solving for PV, we get PV = $54,080 / (1.04)^1 = $52,000. So the amount of money that Charles originally invested is $52,000.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C) $54,000.
+Output_clean:C
+answer:B
+correct:0
+已完成：107
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300
+Answer: Let's think step by step.
+Sure, let's break down the problem step by step.
+
+  1. We know that you can purchase one soda and two energy bars for 150 cents.
+  2. We also know that you can purchase two sodas and three energy bars for 300 cents.
+  3. To solve this problem, we need to find out how much each item costs individually.
+  4. Let's call the cost of one soda "s" and the cost of one energy bar "e".
+  5. From the first piece of information, we can set up an equation: s + 2e = 150
+  6. From the second piece of information, we can set up another equation: 2s + 3e = 300
+  7. Now we have a system of two equations with two variables. We can use algebra to solve for s and e.
+  8. One way to solve this system is to multiply the first equation by -2 and add it to the second equation. This will eliminate the variable s.
+  9. When we do this, we get: -2s - 4e + 2s + 3e = -300 + 300
+  10. Simplifying this equation, we get: -e = 0
+  11. Therefore, the cost of one energy bar is e = 0 cents.
+  12. Now we can substitute this value into either of our original equations to solve for s.
+  13. Using the first equation, we get: s + 2(0) = 150
+  14. Simplifying this equation, we get: s = 150
+  15. Therefore, the cost of one soda is s = 150 cents.
+  16. So, to answer your question, one soda costs 150 cents and one energy bar costs 0 cents.
+Therefore, the answer is
+Output:
+One soda costs 150 cents and one energy bar costs 0 cents.
+Output_clean:
+answer:E
+correct:0
+已完成：108
+总正确数 : 35
+*****************************
+*****************************
+Input:
+Question:If m > 0, y > 0, and x is m percent of 4y, then, in terms of y, m is what percentage of x? Answer Choices: (A) y/400 (B) 4y (C) 50y (D) 2500/y (E) 5000/y
+Answer: Let's think step by step.
+x = m% * 4y m = x/(4y)*100 m = 25*x/4y m/x = 25/4 = 6.25 m/x = 2500/y
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：109
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Question:Professors borrowed Rs. 5000 from the university at simple interest. After 3 years, the university got Rs. 300 on interest. What was the rate of interest per annum? Answer Choices: (A) 2% (B) 8% (C) 5% (D) 10% (E) None of these
+Answer: Let's think step by step.
+The rate of interest is given by the formula: R = (P * T * I) / (P * T) where P is the principal amount borrowed, T is the time period in years, and I is the interest earned.
+In this case, P = Rs. 5000, T = 3 years, and I = Rs. 300. Substituting these values into the formula, we get:
+R = (5000 * 3 * 300) / (5000 * 3) = 300000 / 15000 = 20%
+Therefore, the rate of interest per annum is 20%. The correct answer is not among the options provided.
+Therefore, the answer is
+Output:
+(E) None of these.
+Output_clean:E
+answer:A
+correct:0
+已完成：110
+总正确数 : 36
+*****************************
+*****************************
+Input:
+Question:One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins? Answer Choices: (A) 8.5 (B) 10.5 (C) 12.5 (D) 14.5 (E) 16.5
+Answer: Let's think step by step.
+Let $x$ represent the number of grams of the health food that must be eaten daily to provide at least the minimum daily requirements of both vitamins. Since one gram of the health food provides $\frac{9}{100}$ of the daily requirement of vitamin E and $\frac{8}{100}$ of the daily requirement of vitamin A, we have \begin{align*}
+\frac{9}{100}x \geq \text{min daily req for vitamin E}\\
+\frac{8}{100}x \geq \text{min daily req for vitamin A}.
+\end{align*} Dividing the first inequality by $\frac{9}{100}$ and the second inequality by $\frac{8}{100}$, we find that $$x \geq \frac{100}{9}\text{ min daily req for vitamin E} = \frac{1000}{9}\text{ mg of vitamin E}$$ and $$x \geq \frac{100}{8}\text{ min daily req for vitamin A} = \frac{1250}{8}\text{ mg of vitamin A}.$$ Thus, $x$ must be at least the larger of these two quantities. Since $\frac{1250}{8} > \frac{1000}{9}$, we conclude that $x$ must be at least $\frac{1250}{8}$ mg of vitamin A in order to satisfy both inequalities. The only answer choice which is greater than or equal to $\frac{1250}{8}$ is (C). Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+We refer to Wikipedia articles on nutrition for help. Let $x$ represent the number of grams of the health food that must be eaten daily to provide at least the minimum daily requirements of both vitamins. Since one gram of the health food provides $\frac{9}{100}$ of the daily requirement of vitamin E and $\frac{8}{100}$ of the daily requirement of vitamin A, we have \begin{align*}
+\frac{9}{100}x \geq \text{min daily req for vitamin E}\\
+\frac{8}{100}x \geq \text{min daily req for vitamin A}.
+\end{align*} Dividing the first inequality by $\frac{9}{100}$ and the second inequality by $\frac{8}{100}$, we find that $$x \geq \frac{100}{9}\text{ min daily req for vitamin E} = \frac{1000}{9}\text{ mg of vitamin E}$$ and $$x \geq \frac{100}{8}\text{ min daily req for vitamin A} = \frac{1250}{8}\text{ mg of vitamin A}.$$ Thus, $x$ must be at least the larger of these two quantities. Since $\frac{1250}{8} > \frac{1000}{9}$, we conclude that $x$ must be at least $\frac{1250}{8}$ mg of vitamin A in order to satisfy both inequalities. The only answer choice which is greater than or equal to $\frac{1250}{8}$ is (C). Therefore, the answer is (C).
+Output_clean:C
+answer:C
+correct:1
+已完成：111
+总正确数 : 37
+*****************************
+*****************************
+Input:
+Question:A father wants to divide Rs. 5100 between his two sons, Mohan and Sohan who are 23 and 24 at present. He divides the amount in such a way that if their shares are invested at compound interest at 4% p.a. they will receive equal amount on attaining the age of 26 years. Find Mohan's share. Answer Choices: (A) 2400 (B) 2500 (C) 2600 (D) 2700 (E) None of these
+Answer: Let's think step by step.
+Let the sum be $x$ and $y$. Then we have $x+y=5100$ and $(1+0.04)^{2}(x)= (1+0.04)^{2}(y)$.
+So $x=y=2550$. Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：112
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Question:The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is? Answer Choices: (A) 10% (B) 12% (C) 6% (D) 8% (E) 4%
+Answer: Let's think step by step.
+We know that Simple Interest = (Principal * Rate * Time)/100 CI = Principal * [(Rate*R)/100] + Principal * [R/100]*Time SI - CI = 72 - 5000r/100 * [R/100]*2 72 - 50r * R/100 * R/100 = 72 50r^3/10000 - 72/100 = 0 r^3 = 14400/25 r = 8%
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D). 8%.
+Output_clean:D
+answer:B
+correct:0
+已完成：113
+总正确数 : 38
+*****************************
+*****************************
+Input:
+Question:If one of the roots of the quadratic equation x^2 + mx + 22 = 0 is 1.5, then what is the value of m? Answer Choices: (A) -23.5 (B) -17.5 (C) -10.5 (D) -16.2 (E) Cannot be determined
+Answer: Let's think step by step.
+We can use the fact that if a number is a root of a quadratic equation, then it must satisfy the equation. Plugging in x=1.5 into the equation, we get:
+
+(1.5)^2 + m(1.5) + 22 = 0
+
+Simplifying this expression, we get:
+
+2.25 + 1.5m + 22 = 0
+
+Subtracting 22 from both sides, we get:
+
+1.5m = -24.75
+
+Dividing both sides by 1.5, we get:
+
+m = -16.5
+
+Therefore, the answer is (D) -16.2.
+Therefore, the answer is
+Output:
+(D) -16.2.
+Output_clean:D
+answer:D
+correct:1
+已完成：114
+总正确数 : 39
+*****************************
+*****************************
+Input:
+Question:A straight picket fence is composed of x pickets each of which is 1/2 inch wide. If there are 6 inches of space between each pair of pickets, which of the following represents the length of fence in feet? Answer Choices: (A) 13x/2 (B) 13x/2 - 6 (C) 13x/24 (D)  (13x+1) /24 (E)  (13x-12) /24
+Answer: Let's think step by step.
+The total width of the pickets is $x \cdot \frac{1}{2} = \frac{x}{2}$ inches. The total length of the fence is therefore $\left(\frac{x}{2}\right) + (x - 1) \cdot 6 = \frac{x}{2} + 6x - 6 = \boxed{\frac{13x - 12}{2}}$ inches.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:E
+correct:1
+已完成：115
+总正确数 : 40
+*****************************
+*****************************
+Input:
+Question:On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road? Answer Choices: (A) 800 (B) 720 (C) 960 (D) 1140 (E) 1160
+Answer: Let's think step by step.
+The scale factor between the map and reality is 10 miles / 1/4 inch = 40 miles/inch. Therefore, the actual distance from Town F to Town G is 20 inches * 40 miles/inch = 800 miles.
+
+Therefore, the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:A
+correct:1
+已完成：116
+总正确数 : 41
+*****************************
+*****************************
+Input:
+Question:The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now? Answer Choices: (A) 18 (B) 30 (C) 6 (D) 15 (E) 12
+Answer: Let's think step by step.
+The length of the ribbon was reduced in the ratio 5 : 3, which means that for every 5 units of length that were removed, 3 units of length remained. Therefore, if we start with 30 cm and remove 5/8 of it, we will be left with 3/8 of the original length.
+To find out what 3/8 of 30 cm is, we can multiply 30 by 3/8:
+30 * 3/8 = 11.25
+Therefore, the length of the ribbon now is approximately 11.25 cm, which is closest to option (E) 12.
+Therefore, the answer is
+Output:
+(E) 12.
+Output_clean:E
+answer:A
+correct:0
+已完成：117
+总正确数 : 41
+*****************************
+*****************************
+Input:
+Question:A rope 20 meters long is cut into two pieces. If the length of one piece of rope is 3 meters shorter than the length of the other, what is the length, in meters, of the longer piece of rope? Answer Choices: (A) 7.5 (B) 8.9 (C) 9.9 (D) 11.5 (E) 11.7
+Answer: Let's think step by step.
+Let x be the length of the longer piece of rope. Then the length of the shorter piece of rope is x - 3 meters. We know that the total length of the rope is 20 meters, so we can set up the equation:
+
+x + (x - 3) = 20
+
+Simplifying this equation, we get:
+
+2x - 3 = 20
+
+Adding 3 to both sides, we get:
+
+2x = 23
+
+Dividing both sides by 2, we get:
+
+x = 11.5
+
+Therefore, the length of the longer piece of rope is 11.5 meters.
+
+So the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:D
+correct:1
+已完成：118
+总正确数 : 42
+*****************************
+*****************************
+Input:
+Question:The cross-section of a canal is shaped like a trapezium. If the canal is 10 m wide at the top and 6 m wide at the bottom and the area of cross-section is 640 square meters, the depth of cannel is? Answer Choices: (A) 26 (B) 28 (C) 21 (D) 80 (E) 23
+Answer: Let's think step by step.
+Area of trapezium = 1/2 * (sum of parallel sides) * height = 1/2 * (10 + 6) * h = 8h = 640 h = 640 / 8 = 80.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D) 80.
+Output_clean:D
+answer:D
+correct:1
+已完成：119
+总正确数 : 43
+*****************************
+*****************************
+Input:
+Question:A hollow cube of size 5cm is taken, with the thickness of 1cm. It is made of smaller cubes of size 1cm .If the outer surface of the cube is painted how many faces of the smaller cubes remain unpainted? Answer Choices: (A) 438 (B) 550 (C) 500 (D) 450 (E) 498
+Answer: Let's think step by step.
+The side length of the large cube is 5 cm and the thickness of each wall is 1 cm, so the inner dimensions of the large cube are 5 - 2 = 3 cm. This means that there are 3 * 3 * 3 = 27 small cubes in the large cube. Since each face of a small cube is painted, this means that all 6 faces of each small cube are painted. However, since the large cube has 12 edges, each edge contains two adjacent small cubes sharing one face. Therefore, 12 / 2 = 6 pairs of adjacent small cubes share one face. Since each pair shares one face, this means that 6 faces of the small cubes are not painted. So the answer is (A).
+Therefore, the answer is
+Output:
+(A).
+Output_clean:A
+answer:A
+correct:1
+已完成：120
+总正确数 : 44
+*****************************
+*****************************
+Input:
+Question:A flagstaff 17.5 metre high casts a shadow of length 40.25 metre. The height of building, which casts a shadow of length 28.75 metre under similar conditions will be : Answer Choices: (A) 12 metre (B) 12.5 metre (C) 13.5 metre (D) 14 metre (E) 15 metre
+Answer: Let's think step by step.
+The ratio of the heights of the flagstaff and the building is equal to the ratio of their shadows. Therefore, the height of the building is 17.5/40.25 * 28.75 = 14.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D) 14 metre.
+Output_clean:D
+answer:B
+correct:0
+已完成：121
+总正确数 : 44
+*****************************
+*****************************
+Input:
+Question:When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet. Answer Choices: (A) 1584 (B) 1120 (C) 792 (D) 1320 (E) 1200
+Answer: Let's think step by step.
+Let the length and breadth of the sheet be l and b respectively. Then, 2(l+b)=48 and 2(2l+b)=66. Solving these equations we get l=12 cm and b=11 cm. Hence, the area of the sheet is lb = 12*11 = 132 sq cm.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D).
+Output_clean:D
+answer:B
+correct:0
+已完成：122
+总正确数 : 44
+*****************************
+*****************************
+Input:
+Question:R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU? Answer Choices: (A) 6 (B) 7 (C) 8 (D) 9 (E) 10
+Answer: Let's think step by step.
+We know that U is the midpoint of ST, so the length of ST is twice the length of RU. Therefore, if we let x be the length of RU, then the length of ST is 2x. We also know that the sum of the lengths of RS, RT, and ST is equal to the total distance along the line from R to U. So, we can set up the equation:
+
+RS + RT + ST = RU + US
+
+Substituting in the given values, we get:
+
+5 + 17 + 22 = x + x
+
+Simplifying, we get:
+
+44 = 2x
+
+Dividing both sides by 2, we get:
+
+x = 22/2 = 11
+
+Therefore, the length of line segment RU is 11 units.
+
+So the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:A
+correct:0
+已完成：123
+总正确数 : 44
+*****************************
+*****************************
+Input:
+Question:A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece? Answer Choices: (A) 60 m (B) 61 m (C) 62 m (D) 63 m (E) 64 m
+Answer: Let's think step by step.
+Let b be the breadth and l be the length of the rectangle. We know that l = 4b + 1 and l * b = 150. Substituting the first equation into the second equation, we get (4b + 1) * b = 150. Expanding and simplifying, we get 4b^2 + b - 150 = 0. Factoring, we get (b - 6)(4b + 25) = 0. So b = 6 or b = -25/4. Since the width cannot be negative, we take b = 6. Therefore, the length is l = 4 * 6 + 1 = 25. The perimeter is P = 2l + 2b = 2(25) + 2(6) = 62.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：124
+总正确数 : 45
+*****************************
+*****************************
+Input:
+Question:A rectangular parking space is marked out by painting three of its sides. If the length of the unpainted side is 9 feet, and the sum of the lengths of the painted sides is 37 feet, then what is the area of the parking space in square feet? Answer Choices: (A) 46 (B) 81 (C) 126 (D) 252 (E) None
+Answer: Let's think step by step.
+The area of a rectangle is length times width. The length of the unpainted side is 9 feet, so one of the painted sides must be 37 - 9 = 28 feet long. Since the perimeter of a rectangle is twice the sum of its sides, the other painted side must be 28/2 = 14 feet long. Therefore, the area of the parking space is 9 * 14 = 126 square feet.
+
+Therefore, the answer is (C).
+Therefore, the answer is
+Output:
+(C).
+Output_clean:C
+answer:C
+correct:1
+已完成：125
+总正确数 : 46
+*****************************
+*****************************
+Input:
+Question:The capacity of a tank of dimensions (8 m × 6 m × 2.5 m) is Answer Choices: (A) 120 litres (B) 1200 litres (C) 12000 litres (D) 120000 litres (E) None of these
+Answer: Let's think step by step.
+The volume of the tank can be calculated as follows:
+Volume = length x width x height
+= 8 m x 6 m x 2.5 m
+= 120 cubic meters
+To convert cubic meters to liters, we need to multiply by 1000:
+Volume in liters = 120 cubic meters x 1000 liters/cubic meter
+= 120000 liters
+Therefore, the capacity of the tank is 120000 liters.
+
+Therefore, the answer is (D).
+Therefore, the answer is
+Output:
+(D) 120000 litres.
+Output_clean:D
+answer:D
+correct:1
+已完成：126
+总正确数 : 47
+*****************************
+*****************************
+Input:
+Question:A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter. Answer Choices: (A) 18cm (B) 22cm (C) 20cm (D) 30cm (E) 28cm
+Answer: Let's think step by step.
+Perimeter is defined as the total distance around a closed figure. For a rectangle, it can be calculated using the formula P = 2L + 2W, where L is the length and W is the width. Plugging in the given values, we get P = 2(8) + 2(3) = 16 + 6 = 22 cm.
+
+Therefore, the answer is (B).
+Therefore, the answer is
+Output:
+(B).
+Output_clean:B
+answer:B
+correct:1
+已完成：127
+总正确数 : 48
+*****************************
+*****************************
+Input:
+Question:The ratio of the volumes of a cube to that of the sphere which will fit inside the cube is? Answer Choices: (A) 2: π (B) 7:2 (C) 8:2 (D) 6: π (E) 8:3
+Answer: Let's think step by step.
+The volume of a sphere with radius r is $4/3\pi r^3$. The volume of a cube with side length s is $s^3$. Since the sphere fits inside the cube, we have $r \leq s$, so $(4/3)\pi r^3 \leq s^3$. Dividing both sides by $s^3$ and simplifying gives $\frac{4}{3}\pi r^3/s^3 \leq 1$, or $\frac{r^3}{s^3} \leq \frac{3}{4\pi}$. Taking the cube root of both sides gives $\frac{r}{s} \leq \sqrt[3]{\frac{3}{4\pi}} = \frac{\sqrt[3]{3}}{\sqrt[3]{4\pi}}$. This means that the ratio of the volumes of the cube and sphere is at most $\frac{s^3}{r^3} = \left(\frac{r}{s}\right)^{-3} = \frac{4\pi}{3} \cdot \left(\frac{\sqrt[3]{3}}{\sqrt[3]{4\pi}}\right)^{-3} = \frac{4\pi}{3} \cdot \frac{4\pi}{3} \cdot \frac{4\pi}{3} = \frac{64\pi^3}{27}$.
+
+Therefore, the answer is (E).
+Therefore, the answer is
+Output:
+(E).
+Output_clean:E
+answer:D
+correct:0
+已完成：128
+总正确数 : 48
+*****************************
+EM: 0.00, F1: 0.00
+correct_num : 48
+total_num : 128
+accuracy : 37.5
