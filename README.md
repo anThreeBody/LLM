@@ -9,4 +9,5 @@
 WH-CoT将人类策略与机器智能进一步相结合，对不同规模的大语言模型，均能有效地提升了其在算术推理和多跳推理任务上的推理性能。
 
 运行评估代码：（需先设置自己的qwen的api-key）
+
 python eval.py --model qwen-turbo  --task gsm8k --demo_num 3 --method wh-cot --sample cluster
