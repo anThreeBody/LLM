@@ -14,12 +14,7 @@ from sentence_transformers import SentenceTransformer, util
 from utils import *
 
 import numpy as np
-# os.environ["OPENAI_API_BASE"] = 'm.gptapi.us'
-#"https://api.gptapi.us/v1"
-#'https://www.gptapi.us'
-# os.environ["OPENAI_API_KEY"] = "sk-VLeMdB2cyr0p6BIO8aEa2fA1466e46739fF03d4b320939Fe"
-# os.environ["OPENAI_API_KEY"] = "sk-7lDeR2hYGD3VwH2P509c67Bb0093478eA790641c19073964"
-# os.environ["OPENAI_API_BASE"] = 'https://api.gptapi.us/v1'
+
 
 def decoder_for_gpt3(model,input):
     # GPT-3 API allows each users execute the API within 60 times in a minute ...
@@ -76,10 +71,6 @@ def get_qwen_response(
         prompt: str,
         max_length: int
 ):
-    # system:
-    # "You should use your knowledge to answer the question to the best of your ability, not refuse to answer, even though you think you don't have the knowledge about the question. "
-    # "Try to answer the question rather than requesting further information. "
-    # "Refer to the example provided below to answer the question. "
     message = [
             {
                 "role": "system",
@@ -91,40 +82,21 @@ def get_qwen_response(
         ]
     
     try:
-        #dashscope.Generation.call
-            client = openai.OpenAI(
-            api_key="0",
-            base_url="http://192.168.0.35:8000/v1",
+        response = dashscope.Generation.call(
+            model= model,
+            messages=message,
+            result_format='message',
+            max_tokens  = max_length,
+            api_key = "api-key",
+        
+            temperature=0.1,
+            top_p=0.6
         )
-            response = client.chat.completions.create(
-                model= model,
-                messages=message,
-                #result_format='message',
-                max_tokens  = max_length,
-
-                #api_key = "sk-dcdfae8650244eb0ab76e7d3f00d9d18",
-                #api_key = "sk-7f460a7b8caa40fda3a3440fa8bbb95a",
-                #api_key = "sk-a7ab97a6fdde4679b26ea5a4931c8d81",
-                
-
-                #jj
-                #api_key = "sk-0f4b10ac2ec04411a5d8740ec6f4467b",
-                ##hjj
-                #api_key = "sk-d4c5d79466aa4713adab206f77e75212",
-                #zkw：
-                #api_key = "sk-4cecd5e8603a458c8f106cca62e66092",
-                #api_key = "sk-2a511609d85d4ca5aba830ca9e8350a3",
-                #api_key = "sk-dd53979160dc43b0ad7bd1fccbb4f8f6",
-                temperature=0.1,
-                top_p=0.6
-        )
-            #return response.output.choices[0]['message']['content']
-            return response.choices[0].message.content
+        return response.output.choices[0]['message']['content']
     except:
-        return 'error'
-            # return ('Request id: %s, Status code: %s, error code: %s, error message: %s' % (
-            # response.request_id, response.status_code,
-            # response.code, response.message))
+        return ('Request id: %s, Status code: %s, error code: %s, error message: %s' % (
+        response.request_id, response.status_code,
+        response.code, response.message))
 
 
 def get_sentence_encoder():
@@ -436,7 +408,7 @@ def main():
     #获取模型、任务和数据集大小
     model = args.model
     task = args.task
-    test_data_size = args.test_data_size
+    #test_data_size = args.test_data_size
     demo_num = args.demo_num
     method = args.method
 
@@ -631,11 +603,11 @@ def parse_arguments():
     parser.add_argument("--model", type=str, default="qwen-turbo",choices=["qwen-max-0403","qwen-7b-chat","qwen-14b-chat",'qwen-72b-chat','qwen-turbo'], help="select model")
     #parser.add_argument("--random_seed", type=int, default=1, help="random seed")
     parser.add_argument("--task", type=str, default="hotpot", choices=["svamp", "2wikim","musique","hotpot","aqua","triviaqa","multiarith","gsm8k","strategyqa","coin_flip", "last_letters"], help="")
-    parser.add_argument("--test_data_size", type=int, default=120, help="the number of test data")
+    #parser.add_argument("--test_data_size", type=int, default=120, help="the number of test data")
     parser.add_argument("--demo_num", type=int, default=3, help="the demo number of each question")
     parser.add_argument("--method", type=str, default="zero_shot", choices=["few-shot", "few-shot-cot","zero-shot","wh-cot","zero-shot-cot"], help="the method")
-    parser.add_argument("--temperature", type=float, default=0.1, help="model temperature")
-    parser.add_argument("--top-p", type=float, default=0.6, help="model top-p")
+    #parser.add_argument("--temperature", type=float, default=0.1, help="model temperature")
+    #parser.add_argument("--top-p", type=float, default=0.6, help="model top-p")
     parser.add_argument("--sample", type=str, default="clusterRandom", choices=["clusterRandom", "cluster","similar","Random"], help="the method")
     args = parser.parse_args()
 

@@ -66,39 +66,6 @@ def cluster_and_split_dataset(train_data_path,test_data_path):
     gold_ans = []
     pred_ans = []
 
-    # 这里打开的文件是推理结果文件，经过Zero-shot-CoT推理后的结果,也是就kojima他们的log文件
-    # with open(pred_file, "r", encoding="utf-8") as fp:
-    #     answer_seg = ""
-    #     for line in fp:
-    #         if "Q: " in line:
-    #             # 提取问题
-    #             c_question = line.strip()
-    #         if "A: " in line:
-    #             # 提取答案
-    #             answer_seg = line
-    #         elif "Therefore" in line and "the answer" in line:
-    #             # 提取思维链
-    #             c_rationale = answer_seg
-
-    #         elif answer_seg != "":
-    #             answer_seg += line
-    #         if "pred_mode" in line:
-    #             c_pred_ans = line.split(":")[1].strip()
-    #         if "GT :" in line:
-    #             c_gold_ans = line.split(":")[1].strip()
-    #             # 为了方便后续处理，将A: Let's think step by step.替换，去掉A:
-    #             c_rationale = c_rationale.replace("A: Let's think step by step.", "Let's think step by step.")
-    #             # 把A:加载到问题最后
-    #             c_question = c_question + "\nA:"
-
-    #             # 将问题添加到corpus中
-    #             corpus.append(c_question)
-    #             question.append(c_question)
-    #             rationale.append(c_rationale)
-    #             pred_ans.append(c_pred_ans)
-    #             if args.debug:
-    #                 gold_ans.append(c_gold_ans)
-    #             answer_seg = ""
     data = []
     with open (pred_file, "r", encoding="utf-8") as f:
         data=json.load(f)
@@ -111,11 +78,6 @@ def cluster_and_split_dataset(train_data_path,test_data_path):
         question.append(c_question)
         #rationale.append(c_rationale)
         gold_ans.append(c_gold_ans)
-
-    # print(corpus)
-    # print("========================")
-    # print(question)
-    # print("========================")
 
     # 利用sentence-transformer对corpus进行编码
     corpus_embeddings = encoder.encode(corpus)
@@ -144,8 +106,6 @@ def cluster_and_split_dataset(train_data_path,test_data_path):
         clustered_dists[cluster_id].append(dist[sentence_id][cluster_id])
         clustered_idx[cluster_id].append(sentence_id)
 
-    # print(question[clustered_idx[0][1]])
-
     # 将一半数据作为训练集，一半数据作为测试集，并保存在json文件中
     with open(train_data_path, "w", encoding="utf-8") as train_file:
         with open(test_data_path, "w", encoding="utf-8") as test_file:
@@ -161,7 +121,6 @@ def cluster_and_split_dataset(train_data_path,test_data_path):
                 tmp_array_test = []
                 # 取前一半作为训练集
                 for j in range(len(clustered_sentences[i]) // 2):
-                    # 我只要question
                     temp = {}
                     temp["index"] = clustered_idx[i][j]
                     temp["question"] = question[clustered_idx[i][j]]
@@ -188,8 +147,4 @@ def cluster_and_split_dataset(train_data_path,test_data_path):
             json.dump(test_data, test_file, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
-    # args = argparse.ArgumentParser()
-
-    cluster_and_split_dataset("./new-dataset/train/musique_train.json","./new-dataset/test/musique_test.json")
-
-# 没用，在negprompt里面
+    cluster_and_split_dataset("./dataset/train/musique_train.json","./dataset/test/musique_test.json")
